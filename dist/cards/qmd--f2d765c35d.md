@@ -1,0 +1,34 @@
+# qmd
+
+Search personal markdown knowledge bases, notes, meeting transcripts, and documentation using QMD - a local hybrid search engine. Combines BM25 keyword search, vector semantic search, and LLM re-ranking. Use when users ask to search notes, find documents, look up information in their knowledge base, retrieve meeting notes, or search documentation. Triggers on "search markdown files", "search my...
+
+## Quick Facts
+- id: `qmd--f2d765c35d`
+- worth_using_score: `75/100`
+- tags: `mcp, github, ci, docs`
+- source: `codex_skills`
+- source_path: `/home/wolvend/.codex/skills/qmd/SKILL.md`
+
+## Use When
+- User asks to search their notes, documents, or knowledge base
+- User needs to find information in their markdown files
+- User wants to retrieve specific documents or search across collections
+- User asks "what did I write about X" or "find my notes on Y"
+- User needs semantic search (conceptual similarity) not just keyword matching
+- User mentions meeting notes, transcripts, or documentation lookup
+
+## Workflow / Steps
+- **Check what's available**: `qmd status`
+- **Start with keyword search**: `qmd search "topic" -n 10`
+- **Try semantic if needed**: `qmd vsearch "describe the concept"`
+- **Use hybrid for best results**: `qmd query "question" --min-score 0.4`
+- **Retrieve full documents**: `qmd get "#docid" --full`
+
+## Signal Summary
+- has_description: `True`
+- has_use_when: `True`
+- has_workflow: `True`
+- code_examples: `6`
+- has_scripts: `False`
+- has_references: `True`
+- has_assets: `False`

@@ -10,6 +10,7 @@ python -m py_compile awesome_skills/*.py
 python -m awesome_skills build \
   --root /home/wolvend/codex/agent_playground \
   --root /home/wolvend/.codex/skills \
+  --root /home/wolvend/.agents/skills \
   --out "$OUT_DIR" >/dev/null
 
 python - <<PY
@@ -24,7 +25,7 @@ assert isinstance(skills, list) and skills, "skills.json missing skills[]"
 # Ensure block-scalar frontmatter gets parsed (description: | ...).
 python_skill = None
 for s in skills:
-    if s.get("source_path") == "/home/wolvend/codex/agent_playground/.agents/skills/python/SKILL.md":
+    if s.get("source_path") == "/home/wolvend/.codex/skills/python/SKILL.md":
         python_skill = s
         break
 assert python_skill is not None, "expected python SKILL.md to be indexed"

@@ -3,4 +3,5 @@ __pycache__/
 .pytest_cache/
 .venv/
 .smoke_dist/
-
+dist/*.backup
+dist/*_backup

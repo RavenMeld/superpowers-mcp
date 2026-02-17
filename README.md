@@ -16,7 +16,8 @@ Build from the two common roots in this workspace:
 cd projects/awesome-skills-database
 python -m awesome_skills build \
   --root /home/wolvend/codex/agent_playground \
-  --root /home/wolvend/.codex/skills
+  --root /home/wolvend/.codex/skills \
+  --root /home/wolvend/.agents/skills
 ```
 
 Search:
@@ -71,11 +72,14 @@ Example:
 cd /home/wolvend/codex/agent_playground
 smithery skills search "mcp" --limit 10
 smithery skills install -a codex mrgoonie/mcp-management
+# Or install "globally" (lands in ~/.agents/skills, which is indexed by default).
+smithery skills install -a codex -g mrgoonie/mcp-management
 
 cd projects/awesome-skills-database
 python -m awesome_skills build \
   --root /home/wolvend/codex/agent_playground \
-  --root /home/wolvend/.codex/skills
+  --root /home/wolvend/.codex/skills \
+  --root /home/wolvend/.agents/skills
 ```
 
 Security note: always inspect installed skills before use; they can include scripts that run with agent permissions.

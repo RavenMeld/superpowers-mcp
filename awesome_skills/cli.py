@@ -16,6 +16,7 @@ def _default_roots() -> list[str]:
     return [
         "/home/wolvend/codex/agent_playground",
         "/home/wolvend/.codex/skills",
+        "/home/wolvend/.agents/skills",
     ]
 
 
@@ -25,6 +26,8 @@ def _label_for_root(root: Path) -> str:
         return "agent_playground"
     if p.endswith("/.codex/skills") or "/.codex/skills" in p:
         return "codex_skills"
+    if p.endswith("/.agents/skills") or "/.agents/skills" in p:
+        return "agents_skills"
     return slugify(root.name).replace("-", "_")
 
 
