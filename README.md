@@ -41,6 +41,9 @@ Generated outputs land in `dist/`:
 - `dist/awesome_skills.sqlite` (SQLite + FTS index)
 - `dist/AWESOME_SKILLS.md` (browse by tag + top “worth using”)
 
+Convenience:
+- `AWESOME_SKILLS.md` (links into `dist/cards/*`)
+
 ## Notes
 
 - No network calls.

@@ -82,6 +82,17 @@ def cmd_build(args: argparse.Namespace) -> int:
 
     # Human-friendly generated index.
     _write_index_md(out_dir, records)
+    if out_dir.name == "dist":
+        # Convenience for GitHub browsing (keep a top-level entrypoint).
+        src = out_dir / "AWESOME_SKILLS.md"
+        dst = out_dir.parent / "AWESOME_SKILLS.md"
+        try:
+            text = src.read_text(encoding="utf-8")
+            # Fix relative links when mirrored to repo root.
+            text = text.replace("(cards/", "(dist/cards/")
+            dst.write_text(text, encoding="utf-8")
+        except OSError:
+            pass
 
     if not args.no_sqlite:
         db_path = out_dir / "awesome_skills.sqlite"
