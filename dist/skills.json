@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 462,
+  "count": 466,
   "roots": [
     {
       "label": "agent_playground",
@@ -5655,6 +5655,41 @@
       ]
     },
     {
+      "id": "github-mcp-server--d6b1680539",
+      "name": "github-mcp-server",
+      "description": "GitHub MCP Server Documentation",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/githubnext-github-mcp-server/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/githubnext-github-mcp-server",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 7,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1787
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "docker",
+        "security",
+        "ci",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": [
+        "**Identify tools in use**: Review your current `allowed:` list",
+        "**Map to toolsets**: Use the table above to find corresponding toolsets",
+        "**Replace configuration**: Change `allowed:` to `toolsets:`",
+        "**Test**: Run `gh aw mcp inspect <workflow>` to verify tools are available",
+        "**Compile**: Run `gh aw compile` to update the lock file"
+      ]
+    },
+    {
       "id": "github-pr-query--f86c65d93a",
       "name": "github-pr-query",
       "description": "Query GitHub pull requests efficiently with jq argument support for filtering",
@@ -7610,6 +7645,94 @@
         "**Test** - Verify protocol compliance, performance, error handling",
         "**Deploy** - Package, configure, monitor in production"
       ]
+    },
+    {
+      "id": "mcp-management--5e36ea09dd",
+      "name": "mcp-management",
+      "description": "Manage Model Context Protocol (MCP) servers - discover, analyze, and execute tools/prompts/resources from configured MCP servers. Use when working with MCP integrations, need to discover available MCP capabilities, filter MCP tools for specific tasks, execute MCP tools programmatically, access MCP prompts/resources, or implement MCP client functionality. Supports intelligent tool selection, mul...",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/mrgoonie-mcp-management/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/mrgoonie-mcp-management",
+      "worth_score": 78,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 7,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": true,
+        "word_count": 739
+      },
+      "tags": [
+        "mcp",
+        "ci"
+      ],
+      "use_when": [
+        "**Discovering MCP Capabilities**: Need to list available tools/prompts/resources from configured servers",
+        "**Task-Based Tool Selection**: Analyzing which MCP tools are relevant for a specific task",
+        "**Executing MCP Tools**: Calling MCP tools programmatically with proper parameter handling",
+        "**MCP Integration**: Building or debugging MCP client implementations",
+        "**Context Management**: Avoiding context pollution by delegating MCP operations to subagents"
+      ],
+      "workflow": []
+    },
+    {
+      "id": "mcp-scripts--8ee1a3d322",
+      "name": "mcp-scripts",
+      "description": "MCP Script Rules",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/parcadei-mcp-scripts/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/parcadei-mcp-scripts",
+      "worth_score": 20,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 101
+      },
+      "tags": [
+        "mcp",
+        "python",
+        "testing",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "mcp-standards--08e0146597",
+      "name": "mcp-standards",
+      "description": "MCP server standardization patterns for Claude Code plugins. Use when implementing MCP servers, designing tool interfaces, configuring MCP transports, or standardizing MCP naming conventions. Trigger keywords - \"MCP\", \"MCP server\", \"MCP tools\", \"MCP transport\", \"tool naming\", \"MCP configuration\".",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/madappgang-mcp-standards/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/madappgang-mcp-standards",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 30,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 3083
+      },
+      "tags": [
+        "mcp",
+        "typescript",
+        "node",
+        "security",
+        "testing",
+        "ci",
+        "figma"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "mcporter--89be46339f",

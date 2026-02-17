@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `462`
+- total_skills: `466`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -18,6 +18,7 @@
 - [speech (`80/100`)](cards/speech--8f24bf6cc3.md)
 - [sqlite-inspector (`80/100`)](cards/sqlite-inspector--1ea7e91f18.md)
 - [content-creator (`78/100`)](cards/content-creator--b657ebe201.md)
+- [mcp-management (`78/100`)](cards/mcp-management--5e36ea09dd.md)
 - [azure-deployment-preflight (`75/100`)](cards/azure-deployment-preflight--e86f904041.md)
 - [paper-2-web (`75/100`)](cards/paper-2-web--c0bcf01c7e.md)
 - [qmd (`75/100`)](cards/qmd--c437a36408.md)
@@ -52,7 +53,6 @@
 - [exploring-data (`65/100`)](cards/exploring-data--97dc227dc0.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
 - [pdf (`65/100`)](cards/pdf--b17d45eba8.md)
-- [pdf (`65/100`)](cards/pdf--eff8a191ba.md)
 
 ## By Tag
 ### aws
@@ -118,6 +118,7 @@
 - [speech (`80/100`)](cards/speech--8f24bf6cc3.md)
 - [sqlite-inspector (`80/100`)](cards/sqlite-inspector--1ea7e91f18.md)
 - [content-creator (`78/100`)](cards/content-creator--b657ebe201.md)
+- [mcp-management (`78/100`)](cards/mcp-management--5e36ea09dd.md)
 - [azure-deployment-preflight (`75/100`)](cards/azure-deployment-preflight--e86f904041.md)
 - [paper-2-web (`75/100`)](cards/paper-2-web--c0bcf01c7e.md)
 - [qmd (`75/100`)](cards/qmd--c437a36408.md)
@@ -133,7 +134,6 @@
 - [content-research-writer (`70/100`)](cards/content-research-writer--b0e2626a35.md)
 - [cto-advisor (`70/100`)](cards/cto-advisor--1727d247f6.md)
 - [markdown-to-html (`70/100`)](cards/markdown-to-html--d6a05a10fb.md)
-- [mem-search (`70/100`)](cards/mem-search--dd99791d0c.md)
 
 ### comfyui
 - [generate-with-comfyui (`80/100`)](cards/generate-with-comfyui--19820f6659.md)
@@ -175,6 +175,7 @@
 - [dotnet-core-expert (`55/100`)](cards/dotnet-core-expert--122f6b182b.md)
 - [fullstack-guardian (`55/100`)](cards/fullstack-guardian--50d59bb75a.md)
 - [github-mcp-server (`55/100`)](cards/github-mcp-server--9c96c52d21.md)
+- [github-mcp-server (`55/100`)](cards/github-mcp-server--d6b1680539.md)
 - [ml-pipeline (`55/100`)](cards/ml-pipeline--27f26a262f.md)
 - [nextjs-developer (`55/100`)](cards/nextjs-developer--fbd9ff29bc.md)
 - [skills (`55/100`)](cards/skills--d6fe596dbe.md)
@@ -225,6 +226,7 @@
 - [orchestrating-swarms (`50/100`)](cards/orchestrating-swarms--2e4f2be931.md)
 - [figma-implement-design (`48/100`)](cards/figma-implement-design--77ac3a40d2.md)
 - [kubernetes (`40/100`)](cards/kubernetes--4f11484c4a.md)
+- [mcp-standards (`40/100`)](cards/mcp-standards--08e0146597.md)
 - [figma (`33/100`)](cards/figma--3a7ebbbd67.md)
 
 ### gcp
@@ -295,6 +297,7 @@
 
 ### mcp
 - [obsidian-skill (`88/100`)](cards/obsidian-skill--9ff25aae8e.md)
+- [mcp-management (`78/100`)](cards/mcp-management--5e36ea09dd.md)
 - [azure-deployment-preflight (`75/100`)](cards/azure-deployment-preflight--e86f904041.md)
 - [qmd (`75/100`)](cards/qmd--c437a36408.md)
 - [release-note-generation (`75/100`)](cards/release-note-generation--201fb004f0.md)
@@ -316,14 +319,13 @@
 - [github-copilot-agent-tips-and-tricks (`55/100`)](cards/github-copilot-agent-tips-and-tricks--155c788ac1.md)
 - [github-issues (`55/100`)](cards/github-issues--3dcbcfee8e.md)
 - [github-mcp-server (`55/100`)](cards/github-mcp-server--9c96c52d21.md)
+- [github-mcp-server (`55/100`)](cards/github-mcp-server--d6b1680539.md)
 - [mcp-builder (`55/100`)](cards/mcp-builder--96f90931e1.md)
 - [mcp-developer (`55/100`)](cards/mcp-developer--030185cdff.md)
 - [n8n-node-configuration (`55/100`)](cards/n8n-node-configuration--29bc215f0d.md)
 - [playwright-mcp (`55/100`)](cards/playwright-mcp--b4cf09bd8f.md)
 - [Skill Development (`55/100`)](cards/skill-development--0e9643a221.md)
 - [skills (`55/100`)](cards/skills--d6fe596dbe.md)
-- [custom-agents (`50/100`)](cards/custom-agents--bb5fead61d.md)
-- [developer (`50/100`)](cards/developer--e52395e767.md)
 
 ### node
 - [generate-with-comfyui (`80/100`)](cards/generate-with-comfyui--19820f6659.md)
