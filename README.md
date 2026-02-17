@@ -27,6 +27,17 @@ python -m awesome_skills search "write a professional email"
 python -m awesome_skills search "playwright e2e test"
 ```
 
+Python (common queries):
+
+```bash
+python -m awesome_skills search "ruff"
+python -m awesome_skills search "pyright"
+python -m awesome_skills search "uv package manager"
+python -m awesome_skills search "pytest advanced"
+python -m awesome_skills search "polars"
+python -m awesome_skills search "duckdb parquet"
+```
+
 Show a specific skill card:
 
 ```bash
