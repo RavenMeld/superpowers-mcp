@@ -49,3 +49,22 @@ Convenience:
 - No network calls.
 - Condensation is extractive and heuristic (reproducible), not LLM-generated.
 - The “worth using” score is a heuristic. Treat it as a ranking hint, not truth.
+
+## Optional: Add More Skills (Smithery)
+
+If you want to expand the local corpus, you can install additional skills from Smithery into this workspace, then rebuild.
+
+Example:
+
+```bash
+cd /home/wolvend/codex/agent_playground
+smithery skills search "mcp" --limit 10
+smithery skills install -a codex mrgoonie/mcp-management
+
+cd projects/awesome-skills-database
+python -m awesome_skills build \
+  --root /home/wolvend/codex/agent_playground \
+  --root /home/wolvend/.codex/skills
+```
+
+Security note: always inspect installed skills before use; they can include scripts that run with agent permissions.
