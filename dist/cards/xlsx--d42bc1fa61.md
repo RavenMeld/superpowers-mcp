@@ -4,7 +4,7 @@ Comprehensive spreadsheet creation, editing, and analysis with support for formu
 
 ## Quick Facts
 - id: `xlsx--d42bc1fa61`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `python, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/xlsx/SKILL.md`

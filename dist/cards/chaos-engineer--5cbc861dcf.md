@@ -4,7 +4,7 @@ Use when designing chaos experiments, implementing failure injection frameworks,
 
 ## Quick Facts
 - id: `chaos-engineer--5cbc861dcf`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `node, kubernetes, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/chaos-engineer/SKILL.md`

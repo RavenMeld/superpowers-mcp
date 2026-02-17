@@ -4,7 +4,7 @@ This skill should be used when writing Ruby gems following Andrew Kane's proven 
 
 ## Quick Facts
 - id: `andrew-kane-gem-writer--3e0ccb1669`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/andrew-kane-gem-writer/SKILL.md`

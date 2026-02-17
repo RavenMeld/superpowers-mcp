@@ -4,7 +4,7 @@ Comprehensive Python coding standards - naming, layout, typing, logging, configu
 
 ## Quick Facts
 - id: `python-standards--baa70c6d9a`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `github, python, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/python-standards/SKILL.md`

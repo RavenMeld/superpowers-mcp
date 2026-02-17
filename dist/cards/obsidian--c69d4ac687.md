@@ -4,7 +4,7 @@ Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.
 
 ## Quick Facts
 - id: `obsidian--c69d4ac687`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `obsidian`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/obsidian/SKILL.md`

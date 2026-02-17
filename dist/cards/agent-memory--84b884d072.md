@@ -4,7 +4,7 @@ Use this skill when the user asks to save, remember, recall, or organize memorie
 
 ## Quick Facts
 - id: `agent-memory--84b884d072`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/platforms/repomix/.claude/skills/agent-memory/SKILL.md`

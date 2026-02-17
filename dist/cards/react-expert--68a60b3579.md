@@ -4,7 +4,7 @@ Use when building React 18+ applications requiring component architecture, hooks
 
 ## Quick Facts
 - id: `react-expert--68a60b3579`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/react-expert/SKILL.md`

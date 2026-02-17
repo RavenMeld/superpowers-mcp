@@ -4,7 +4,7 @@ Explain a configuration file and its key options. Use when a junior developer is
 
 ## Quick Facts
 - id: `config-file-explainer--cc7d521825`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/config-file-explainer/SKILL.md`

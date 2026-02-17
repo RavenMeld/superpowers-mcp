@@ -4,7 +4,7 @@ Comprehensive Docker best practices for images, containers, and production deplo
 
 ## Quick Facts
 - id: `docker-best-practices--5c4f53367d`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `python, node, docker, security, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/docker-best-practices/SKILL.md`

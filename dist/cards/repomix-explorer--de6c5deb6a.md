@@ -4,7 +4,7 @@ Use this skill when the user wants to analyze or explore a codebase (remote repo
 
 ## Quick Facts
 - id: `repomix-explorer--de6c5deb6a`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, typescript, security, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/platforms/repomix/.claude/skills/repomix-explorer/SKILL.md`

@@ -4,7 +4,7 @@ OpenClaw usage expert: Helps you install, deploy, configure, and use OpenClaw pe
 
 ## Quick Facts
 - id: `openclaw-setup--9a01913338`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `github, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/openclaw-setup/SKILL.md`

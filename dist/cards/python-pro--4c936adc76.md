@@ -4,7 +4,7 @@ Use when building Python 3.11+ applications requiring type safety, async program
 
 ## Quick Facts
 - id: `python-pro--4c936adc76`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `python, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/python-pro/SKILL.md`

@@ -4,7 +4,7 @@ Use when implementation is complete, all tests pass, and you need to decide how 
 
 ## Quick Facts
 - id: `finishing-a-development-branch--e8b9e24939`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/finishing-a-development-branch/SKILL.md`

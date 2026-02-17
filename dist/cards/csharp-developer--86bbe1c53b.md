@@ -4,7 +4,7 @@ Use when building C# applications with .NET 8+, ASP.NET Core APIs, or Blazor web
 
 ## Quick Facts
 - id: `csharp-developer--86bbe1c53b`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `azure, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/csharp-developer/SKILL.md`

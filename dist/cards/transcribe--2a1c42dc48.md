@@ -4,7 +4,7 @@ Transcribe audio files to text with optional diarization and known-speaker hints
 
 ## Quick Facts
 - id: `transcribe--2a1c42dc48`
-- worth_using_score: `58/100`
+- worth_using_score: `73/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/transcribe/SKILL.md`

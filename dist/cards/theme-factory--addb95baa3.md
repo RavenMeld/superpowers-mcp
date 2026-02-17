@@ -4,7 +4,7 @@ Toolkit for styling artifacts with a theme. These artifacts can be slides, docs,
 
 ## Quick Facts
 - id: `theme-factory--addb95baa3`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/theme-factory/SKILL.md`

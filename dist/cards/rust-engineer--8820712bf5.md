@@ -4,7 +4,7 @@ Use when building Rust applications requiring memory safety, systems programming
 
 ## Quick Facts
 - id: `rust-engineer--8820712bf5`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/rust-engineer/SKILL.md`

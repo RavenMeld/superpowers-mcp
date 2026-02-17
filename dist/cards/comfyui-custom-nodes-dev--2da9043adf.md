@@ -4,7 +4,7 @@ Build, package, document, and safely ship ComfyUI custom node packs. Use when cr
 
 ## Quick Facts
 - id: `comfyui-custom-nodes-dev--2da9043adf`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `comfyui, python, node, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-custom-nodes-dev/SKILL.md`

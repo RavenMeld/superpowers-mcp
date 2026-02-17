@@ -4,7 +4,7 @@ Use comfy-cli to install, launch, update, snapshot/restore, and safely manage Co
 
 ## Quick Facts
 - id: `comfyui-cli--4ad1e6601e`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `comfyui, node, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-cli/SKILL.md`

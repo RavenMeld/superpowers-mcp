@@ -4,7 +4,7 @@ Comprehensive fullstack development skill for building complete web applications
 
 ## Quick Facts
 - id: `senior-fullstack--8b8cef9473`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `github, python, typescript, node, docker, kubernetes, aws, azure, gcp, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/senior-fullstack/SKILL.md`

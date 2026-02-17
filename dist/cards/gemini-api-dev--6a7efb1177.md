@@ -4,7 +4,7 @@ Use this skill when building applications with Gemini models, Gemini API, workin
 
 ## Quick Facts
 - id: `gemini-api-dev--6a7efb1177`
-- worth_using_score: `25/100`
+- worth_using_score: `40/100`
 - tags: `python, typescript, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/gemini-skills/skills/gemini-api-dev/SKILL.md`

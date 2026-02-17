@@ -4,7 +4,7 @@ Use when implementing features across frontend and backend, building APIs with U
 
 ## Quick Facts
 - id: `fullstack-guardian--50d59bb75a`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `docker, security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/fullstack-guardian/SKILL.md`

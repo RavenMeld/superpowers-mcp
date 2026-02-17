@@ -4,7 +4,7 @@ Prepare meeting materials with Notion context and Codex research; use when gathe
 
 ## Quick Facts
 - id: `notion-meeting-intelligence--019aaa3424`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `mcp, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/notion-meeting-intelligence/SKILL.md`

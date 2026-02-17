@@ -4,7 +4,7 @@ Summarize or extract text/transcripts from URLs, podcasts, and local files (grea
 
 ## Quick Facts
 - id: `summarize--8e218adb64`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/summarize/SKILL.md`
 

@@ -4,7 +4,7 @@ Reorder Foodora orders + track ETA/status with ordercli. Never confirm without e
 
 ## Quick Facts
 - id: `food-order--dda534b4c4`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/food-order/SKILL.md`

@@ -4,7 +4,7 @@ This skill should be used when managing the file-based todo tracking system in t
 
 ## Quick Facts
 - id: `file-todos--054156fe07`
-- worth_using_score: `43/100`
+- worth_using_score: `58/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/file-todos/SKILL.md`

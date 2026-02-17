@@ -4,7 +4,7 @@ Summarize noisy logs into likely causes and next steps. Use when a junior develo
 
 ## Quick Facts
 - id: `log-summarizer--bacd8bd1c6`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/log-summarizer/SKILL.md`
 

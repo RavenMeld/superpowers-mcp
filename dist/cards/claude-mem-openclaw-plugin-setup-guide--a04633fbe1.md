@@ -4,7 +4,7 @@ This guide walks through setting up the claude-mem plugin on an OpenClaw gateway
 
 ## Quick Facts
 - id: `claude-mem-openclaw-plugin-setup-guide--a04633fbe1`
-- worth_using_score: `30/100`
+- worth_using_score: `40/100`
 - tags: `github`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-mem/openclaw/SKILL.md`

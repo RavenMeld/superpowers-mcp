@@ -4,7 +4,7 @@ Deploy applications to Render by analyzing codebases, generating render.yaml Blu
 
 ## Quick Facts
 - id: `render-deploy--ca3d146899`
-- worth_using_score: `63/100`
+- worth_using_score: `73/100`
 - tags: `mcp, github, node, docker, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/render-deploy/SKILL.md`

@@ -4,7 +4,7 @@
 
 ## Quick Facts
 - id: `xiaohongshu-recruiter--5165cea6e4`
-- worth_using_score: `38/100`
+- worth_using_score: `48/100`
 - tags: `playwright, python, node`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/xiaohongshu-recruiter/SKILL.md`

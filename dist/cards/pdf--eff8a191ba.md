@@ -4,7 +4,7 @@ Comprehensive PDF manipulation toolkit for extracting text and tables, creating 
 
 ## Quick Facts
 - id: `pdf--eff8a191ba`
-- worth_using_score: `50/100`
+- worth_using_score: `65/100`
 - tags: `python, aws, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/pdf/SKILL.md`

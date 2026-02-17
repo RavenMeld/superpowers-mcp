@@ -4,7 +4,7 @@ Use when building Angular 17+ applications with standalone components or signals
 
 ## Quick Facts
 - id: `angular-architect--43c4af54e5`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/angular-architect/SKILL.md`

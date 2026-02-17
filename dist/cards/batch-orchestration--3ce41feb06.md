@@ -4,7 +4,7 @@ Batch execution patterns for ComfyUI workflows (queue usage, logging, and reprod
 
 ## Quick Facts
 - id: `batch-orchestration--3ce41feb06`
-- worth_using_score: `10/100`
+- worth_using_score: `20/100`
 - tags: `comfyui, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/batch-orchestration/SKILL.md`

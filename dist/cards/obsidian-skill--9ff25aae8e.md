@@ -4,7 +4,7 @@ Expert guidance for working with Obsidian vaults including Obsidian Flavored Mar
 
 ## Quick Facts
 - id: `obsidian-skill--9ff25aae8e`
-- worth_using_score: `73/100`
+- worth_using_score: `88/100`
 - tags: `mcp, python, ci, obsidian`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/obsidian-skill/SKILL.md`

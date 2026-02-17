@@ -4,7 +4,7 @@
 
 ## Quick Facts
 - id: `x-recruiter--fdd6db9b61`
-- worth_using_score: `33/100`
+- worth_using_score: `43/100`
 - tags: `playwright, python, node`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/x-recruiter/SKILL.md`

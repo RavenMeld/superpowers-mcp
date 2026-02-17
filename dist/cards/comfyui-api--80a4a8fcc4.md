@@ -4,7 +4,7 @@ Headless and automated execution of ComfyUI workflows via HTTP and WebSocket: pr
 
 ## Quick Facts
 - id: `comfyui-api--80a4a8fcc4`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `comfyui, python, node, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-api/SKILL.md`

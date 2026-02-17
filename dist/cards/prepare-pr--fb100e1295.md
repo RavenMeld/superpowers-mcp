@@ -4,7 +4,7 @@ Prepare a GitHub PR for merge by rebasing onto main, fixing review findings, run
 
 ## Quick Facts
 - id: `prepare-pr--fb100e1295`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, node, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/.agents/archive/prepare-pr-v1/SKILL.md`

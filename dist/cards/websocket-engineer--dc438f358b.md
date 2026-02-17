@@ -4,7 +4,7 @@ Use when building real-time communication systems with WebSockets or Socket.IO. 
 
 ## Quick Facts
 - id: `websocket-engineer--dc438f358b`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/websocket-engineer/SKILL.md`

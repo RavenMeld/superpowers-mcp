@@ -4,7 +4,7 @@ Create engaging X (Twitter) posts and threads that drive engagement and grow aud
 
 ## Quick Facts
 - id: `writing-x-posts--a37008e8e8`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/writing-x-posts/SKILL.md`

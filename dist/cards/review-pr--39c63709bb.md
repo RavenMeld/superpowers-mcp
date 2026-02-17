@@ -4,7 +4,7 @@ Review-only GitHub pull request analysis with the gh CLI. Use when asked to revi
 
 ## Quick Facts
 - id: `review-pr--39c63709bb`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, node, security, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/.agents/archive/review-pr-v1/SKILL.md`

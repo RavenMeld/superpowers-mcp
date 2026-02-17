@@ -4,7 +4,7 @@ Improve a README for clarity and completeness. Use when a junior developer needs
 
 ## Quick Facts
 - id: `readme-polish--dccacc9b0f`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/readme-polish/SKILL.md`

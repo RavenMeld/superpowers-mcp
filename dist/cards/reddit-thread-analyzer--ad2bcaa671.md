@@ -4,7 +4,7 @@ Analyze Reddit threads for sentiment, consensus opinions, top arguments, and dis
 
 ## Quick Facts
 - id: `reddit-thread-analyzer--ad2bcaa671`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/reddit-thread-analyzer/SKILL.md`

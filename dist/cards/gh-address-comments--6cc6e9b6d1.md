@@ -4,7 +4,7 @@ Help address review/issue comments on the open GitHub PR for the current branch 
 
 ## Quick Facts
 - id: `gh-address-comments--6cc6e9b6d1`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `github`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/gh-address-comments/SKILL.md`

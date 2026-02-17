@@ -4,7 +4,7 @@ Use when the task requires automating a real browser from the terminal (navigati
 
 ## Quick Facts
 - id: `playwright--cce2795d85`
-- worth_using_score: `58/100`
+- worth_using_score: `73/100`
 - tags: `mcp, playwright, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/playwright/SKILL.md`

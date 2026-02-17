@@ -4,7 +4,7 @@ Plan integration tests across modules or services. Use when a mid-level develope
 
 ## Quick Facts
 - id: `integration-test-planner--7650440850`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/integration-test-planner/SKILL.md`

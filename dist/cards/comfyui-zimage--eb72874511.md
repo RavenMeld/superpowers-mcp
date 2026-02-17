@@ -1,10 +1,11 @@
 # comfyui-zimage
 
-|
+Z-Image Manga/Illustration Generation. Local scripts, no ToolSearch needed.
+Trigger words: Hojo, Satoshi, manga, generate image, portrait.
 
 ## Quick Facts
 - id: `comfyui-zimage--eb72874511`
-- worth_using_score: `25/100`
+- worth_using_score: `40/100`
 - tags: `comfyui, python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-zimage/SKILL.md`

@@ -4,7 +4,7 @@ This skill is for interface design — dashboards, admin panels, apps, tools, an
 
 ## Quick Facts
 - id: `interface-design--3b4e3b1a94`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/interface-design/.claude/skills/interface-design/SKILL.md`

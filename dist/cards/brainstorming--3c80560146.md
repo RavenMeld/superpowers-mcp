@@ -4,7 +4,7 @@ This skill should be used before implementing features, building components, or 
 
 ## Quick Facts
 - id: `brainstorming--3c80560146`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/brainstorming/SKILL.md`

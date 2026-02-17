@@ -4,7 +4,7 @@ UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 
 
 ## Quick Facts
 - id: `ui-ux-pro-max--20633323ec`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/ui-ux-pro-max/SKILL.md`

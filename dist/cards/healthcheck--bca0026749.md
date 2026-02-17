@@ -4,7 +4,7 @@ Host security hardening and risk-tolerance configuration for OpenClaw deployment
 
 ## Quick Facts
 - id: `healthcheck--bca0026749`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `security, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/healthcheck/SKILL.md`

@@ -4,7 +4,7 @@ Advanced TypeScript patterns and best practices for 2025
 
 ## Quick Facts
 - id: `typescript-core--627655f6c9`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `mcp, typescript, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/typescript-core/SKILL.md`

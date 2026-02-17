@@ -4,7 +4,7 @@ Use when building Vue 3 applications with JavaScript only (no TypeScript). Invok
 
 ## Quick Facts
 - id: `vue-expert-js--d4892391f7`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/vue-expert-js/SKILL.md`

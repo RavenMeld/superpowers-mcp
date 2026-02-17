@@ -4,7 +4,7 @@ Cross-platform runner lifecycle for Hylab (server start/stop, process trees, tim
 
 ## Quick Facts
 - id: `hylab-core-runner--f4b2a7acf6`
-- worth_using_score: `25/100`
+- worth_using_score: `40/100`
 - tags: `github, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-core-runner/SKILL.md`

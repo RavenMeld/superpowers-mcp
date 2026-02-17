@@ -4,7 +4,7 @@ Manage Trello boards, lists, and cards via the Trello REST API.
 
 ## Quick Facts
 - id: `trello--e6343da4f0`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/trello/SKILL.md`

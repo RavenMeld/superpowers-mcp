@@ -4,7 +4,7 @@ ComfyUI settings and state management (user directory, config files, portability
 
 ## Quick Facts
 - id: `comfyui-settings--0d218c1ed6`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `comfyui, python, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-settings/SKILL.md`

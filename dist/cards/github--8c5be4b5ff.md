@@ -4,7 +4,7 @@ Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and 
 
 ## Quick Facts
 - id: `github--8c5be4b5ff`
-- worth_using_score: `30/100`
+- worth_using_score: `40/100`
 - tags: `github, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/new/hybrid-assistant/runtime/skills/github/SKILL.md`

@@ -4,7 +4,7 @@ A set of resources to help me write all kinds of internal communications, using 
 
 ## Quick Facts
 - id: `internal-comms--86c9fe9a88`
-- worth_using_score: `25/100`
+- worth_using_score: `35/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/internal-comms/SKILL.md`

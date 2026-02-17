@@ -4,7 +4,7 @@ Use when investigating errors, analyzing stack traces, or finding root causes of
 
 ## Quick Facts
 - id: `debugging-wizard--8074f9d713`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/debugging-wizard/SKILL.md`

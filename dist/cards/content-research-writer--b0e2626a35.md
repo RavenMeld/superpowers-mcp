@@ -4,7 +4,7 @@ Assists in writing high-quality content by conducting research, adding citations
 
 ## Quick Facts
 - id: `content-research-writer--b0e2626a35`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/content-research-writer/SKILL.md`

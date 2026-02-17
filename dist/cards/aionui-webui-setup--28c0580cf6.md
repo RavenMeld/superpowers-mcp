@@ -4,7 +4,7 @@ AionUi WebUI configuration expert: Helps users configure AionUi WebUI mode for r
 
 ## Quick Facts
 - id: `aionui-webui-setup--28c0580cf6`
-- worth_using_score: `15/100`
+- worth_using_score: `30/100`
 - tags: `github`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/aionui-webui-setup/SKILL.md`

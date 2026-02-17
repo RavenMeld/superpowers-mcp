@@ -4,7 +4,7 @@ Extract subtitles/transcripts from YouTube videos. Triggers: "youtube transcript
 
 ## Quick Facts
 - id: `youtube-transcribe-skill--67203b38d7`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `mcp, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/youtube-transcribe-skill/SKILL.md`

@@ -4,7 +4,7 @@ Use when building RAG systems, vector databases, or knowledge-grounded AI applic
 
 ## Quick Facts
 - id: `rag-architect--ae2109b22e`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/rag-architect/SKILL.md`

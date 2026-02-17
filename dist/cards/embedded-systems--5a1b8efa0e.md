@@ -4,7 +4,7 @@ Use when developing firmware for microcontrollers, implementing RTOS application
 
 ## Quick Facts
 - id: `embedded-systems--5a1b8efa0e`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/embedded-systems/SKILL.md`

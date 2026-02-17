@@ -4,7 +4,7 @@ Asset library hygiene for ComfyUI inputs/outputs (naming, layout, retention, and
 
 ## Quick Facts
 - id: `asset-library--ca24244eac`
-- worth_using_score: `10/100`
+- worth_using_score: `20/100`
 - tags: `comfyui, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/asset-library/SKILL.md`

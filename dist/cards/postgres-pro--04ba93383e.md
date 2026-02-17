@@ -4,7 +4,7 @@ Use when optimizing PostgreSQL queries, configuring replication, or implementing
 
 ## Quick Facts
 - id: `postgres-pro--04ba93383e`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/postgres-pro/SKILL.md`

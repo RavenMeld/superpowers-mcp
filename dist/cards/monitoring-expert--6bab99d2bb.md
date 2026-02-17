@@ -4,7 +4,7 @@ Use when setting up monitoring systems, logging, metrics, tracing, or alerting. 
 
 ## Quick Facts
 - id: `monitoring-expert--6bab99d2bb`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/monitoring-expert/SKILL.md`

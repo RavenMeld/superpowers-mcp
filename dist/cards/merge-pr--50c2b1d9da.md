@@ -4,7 +4,7 @@ Merge a GitHub PR via squash after /prepare-pr. Use when asked to merge a ready 
 
 ## Quick Facts
 - id: `merge-pr--50c2b1d9da`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/.agents/archive/merge-pr-v1/SKILL.md`

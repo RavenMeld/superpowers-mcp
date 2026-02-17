@@ -4,7 +4,7 @@ Creates GitHub pull requests with properly formatted titles that pass the check-
 
 ## Quick Facts
 - id: `create-pr--11574b9b85`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, node, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/platforms/n8n/.claude/skills/create-pr/SKILL.md`

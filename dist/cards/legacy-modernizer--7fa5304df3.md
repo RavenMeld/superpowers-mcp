@@ -4,7 +4,7 @@ Use when modernizing legacy systems, implementing incremental migration strategi
 
 ## Quick Facts
 - id: `legacy-modernizer--7fa5304df3`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/legacy-modernizer/SKILL.md`

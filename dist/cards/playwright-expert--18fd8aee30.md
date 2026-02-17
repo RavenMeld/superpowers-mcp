@@ -4,7 +4,7 @@ Use when writing E2E tests with Playwright, setting up test infrastructure, or d
 
 ## Quick Facts
 - id: `playwright-expert--18fd8aee30`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `playwright, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/playwright-expert/SKILL.md`

@@ -4,7 +4,7 @@ Use when building Vue 3 applications with Composition API, Nuxt 3, or Quasar. In
 
 ## Quick Facts
 - id: `vue-expert--192c05809c`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/vue-expert/SKILL.md`

@@ -4,7 +4,7 @@ Use when building enterprise Java applications with Spring Boot 3.x, microservic
 
 ## Quick Facts
 - id: `java-architect--c8dfed9f16`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/java-architect/SKILL.md`

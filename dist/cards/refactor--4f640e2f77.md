@@ -4,7 +4,7 @@ Surgical code refactoring to improve maintainability without changing behavior. 
 
 ## Quick Facts
 - id: `refactor--4f640e2f77`
-- worth_using_score: `55/100`
+- worth_using_score: `65/100`
 - tags: `testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/refactor/SKILL.md`

@@ -4,7 +4,7 @@ Use when designing new system architecture, reviewing existing designs, or makin
 
 ## Quick Facts
 - id: `architecture-designer--97d5b33afc`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `kubernetes, aws, azure, gcp, security, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/architecture-designer/SKILL.md`

@@ -4,7 +4,7 @@ Improve a README for clarity and completeness. Use when a junior developer needs
 
 ## Quick Facts
 - id: `readme-polish--6294c8ae97`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/readme-polish/SKILL.md`

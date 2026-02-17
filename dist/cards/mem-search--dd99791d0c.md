@@ -4,7 +4,7 @@ Search claude-mem's persistent cross-session memory database. Use when user asks
 
 ## Quick Facts
 - id: `mem-search--dd99791d0c`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `mcp, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-mem/plugin/skills/mem-search/SKILL.md`

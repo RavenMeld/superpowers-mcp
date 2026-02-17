@@ -4,7 +4,7 @@ Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL
 
 ## Quick Facts
 - id: `things-mac--c83380de21`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `github`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/things-mac/SKILL.md`

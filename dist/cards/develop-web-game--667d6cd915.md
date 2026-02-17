@@ -4,7 +4,7 @@ Use when Codex is building or iterating on a web game (HTML/JS) and needs a reli
 
 ## Quick Facts
 - id: `develop-web-game--667d6cd915`
-- worth_using_score: `53/100`
+- worth_using_score: `68/100`
 - tags: `mcp, playwright, node, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/develop-web-game/SKILL.md`

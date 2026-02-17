@@ -4,7 +4,7 @@ Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub rep
 
 ## Quick Facts
 - id: `skill-installer--ce5b69c20a`
-- worth_using_score: `23/100`
+- worth_using_score: `38/100`
 - tags: `github, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/.system/skill-installer/SKILL.md`

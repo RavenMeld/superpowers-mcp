@@ -4,7 +4,7 @@ Proven workflow architectural patterns from real n8n workflows. Use when buildin
 
 ## Quick Facts
 - id: `n8n-workflow-patterns--77b98183f5`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `mcp, github, python, node, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/n8n-workflow-patterns/SKILL.md`

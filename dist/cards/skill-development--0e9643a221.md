@@ -4,7 +4,7 @@ This skill should be used when the user wants to "create a skill", "add a skill 
 
 ## Quick Facts
 - id: `skill-development--0e9643a221`
-- worth_using_score: `45/100`
+- worth_using_score: `55/100`
 - tags: `mcp, python, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/skill-development/SKILL.md`

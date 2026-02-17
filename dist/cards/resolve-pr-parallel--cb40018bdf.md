@@ -4,7 +4,7 @@ Resolve all PR comments using parallel processing. Use when addressing PR review
 
 ## Quick Facts
 - id: `resolve-pr-parallel--cb40018bdf`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `github, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/resolve-pr-parallel/SKILL.md`

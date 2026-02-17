@@ -4,7 +4,7 @@ Discover, connect and use over 100K+ MCP tools and skills from the Smithery mark
 
 ## Quick Facts
 - id: `smithery--6be0ab2fd2`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `mcp, github, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cli/SKILL.md`

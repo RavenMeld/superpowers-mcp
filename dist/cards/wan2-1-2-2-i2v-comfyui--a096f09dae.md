@@ -4,7 +4,7 @@ This skill should be used when the user asks to "implement Wan I2V", "set up Wan
 
 ## Quick Facts
 - id: `wan2-1-2-2-i2v-comfyui--a096f09dae`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, comfyui, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/wan2122-i2v-comfyui/SKILL.md`

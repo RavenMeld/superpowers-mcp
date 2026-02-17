@@ -4,7 +4,7 @@ Use when defining SLIs/SLOs, managing error budgets, or building reliable system
 
 ## Quick Facts
 - id: `sre-engineer--b757a7d31e`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `python, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/sre-engineer/SKILL.md`

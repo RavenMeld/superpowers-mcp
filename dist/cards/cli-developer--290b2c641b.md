@@ -4,7 +4,7 @@ Use when building CLI tools, implementing argument parsing, or adding interactiv
 
 ## Quick Facts
 - id: `cli-developer--290b2c641b`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `python, node, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/cli-developer/SKILL.md`

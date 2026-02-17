@@ -4,7 +4,7 @@ World-class data engineering skill for building scalable data pipelines, ETL/ELT
 
 ## Quick Facts
 - id: `senior-data-engineer--8877198b88`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `python, docker, kubernetes, aws, azure, gcp, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/senior-data-engineer/SKILL.md`

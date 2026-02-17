@@ -4,7 +4,7 @@ Documentation Brief description for SEO and navigation
 
 ## Quick Facts
 - id: `documentation--3ea64091e3`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/gh-aw/.github/skills/documentation/SKILL.md`

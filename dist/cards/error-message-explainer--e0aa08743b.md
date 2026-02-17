@@ -4,7 +4,7 @@ Explain compiler/runtime errors in plain language. Use when a junior developer n
 
 ## Quick Facts
 - id: `error-message-explainer--e0aa08743b`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/error-message-explainer/SKILL.md`

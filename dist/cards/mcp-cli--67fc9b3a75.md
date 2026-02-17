@@ -4,7 +4,7 @@ Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to
 
 ## Quick Facts
 - id: `mcp-cli--67fc9b3a75`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `mcp, github, typescript, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/mcp-cli/SKILL.md`

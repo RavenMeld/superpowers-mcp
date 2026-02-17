@@ -4,7 +4,7 @@ Control Philips Hue lights/scenes via the OpenHue CLI.
 
 ## Quick Facts
 - id: `openhue--79fa6d7bcb`
-- worth_using_score: `10/100`
+- worth_using_score: `20/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/openhue/SKILL.md`
 

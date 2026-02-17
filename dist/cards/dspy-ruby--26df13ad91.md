@@ -4,7 +4,7 @@ Build type-safe LLM applications with DSPy.rb — Ruby's programmatic prompt fra
 
 ## Quick Facts
 - id: `dspy-ruby--26df13ad91`
-- worth_using_score: `53/100`
+- worth_using_score: `63/100`
 - tags: `github, node, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/dspy-ruby/SKILL.md`

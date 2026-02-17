@@ -4,7 +4,7 @@ Use when building iOS/macOS applications with Swift 5.9+, SwiftUI, or async/awai
 
 ## Quick Facts
 - id: `swift-expert--e7c707460c`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/swift-expert/SKILL.md`

@@ -4,7 +4,7 @@ Use when building TypeScript applications requiring advanced type systems, gener
 
 ## Quick Facts
 - id: `typescript-pro--ae77e9d420`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/typescript-pro/SKILL.md`

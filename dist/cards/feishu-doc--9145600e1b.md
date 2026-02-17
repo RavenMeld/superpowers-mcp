@@ -1,10 +1,11 @@
 # feishu-doc
 
-|
+Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.
 
 ## Quick Facts
 - id: `feishu-doc--9145600e1b`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
+- tags: `docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/extensions/feishu/skills/feishu-doc/SKILL.md`
 

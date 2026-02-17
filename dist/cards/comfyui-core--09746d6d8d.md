@@ -4,7 +4,7 @@ Rules and guardrails for safe ComfyUI repo edits and operations (workflows, embe
 
 ## Quick Facts
 - id: `comfyui-core--09746d6d8d`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `comfyui, python, node, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-core/SKILL.md`

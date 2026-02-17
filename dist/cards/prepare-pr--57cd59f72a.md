@@ -4,7 +4,7 @@ Script-first PR preparation with structured findings resolution, deterministic p
 
 ## Quick Facts
 - id: `prepare-pr--57cd59f72a`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/.agents/skills/prepare-pr/SKILL.md`

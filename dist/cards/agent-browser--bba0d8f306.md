@@ -4,7 +4,7 @@ Automates browser interactions for web testing, form filling, screenshots, and d
 
 ## Quick Facts
 - id: `agent-browser--bba0d8f306`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, playwright, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/oh-my-opencode/src/features/builtin-skills/agent-browser/SKILL.md`

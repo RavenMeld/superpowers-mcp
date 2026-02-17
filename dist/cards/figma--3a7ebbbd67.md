@@ -4,7 +4,7 @@ Use the Figma MCP server to fetch design context, screenshots, variables, and as
 
 ## Quick Facts
 - id: `figma--3a7ebbbd67`
-- worth_using_score: `18/100`
+- worth_using_score: `33/100`
 - tags: `mcp, node, ci, figma`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/figma/SKILL.md`

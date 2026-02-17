@@ -4,7 +4,7 @@ Create distinctive, production-grade frontend interfaces with high design qualit
 
 ## Quick Facts
 - id: `frontend-design--973bd957ff`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/frontend-design/SKILL.md`

@@ -4,7 +4,7 @@ Explain lint errors and propose fixes. Use when a junior developer needs help re
 
 ## Quick Facts
 - id: `linter-fix-guide--7139e17d48`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/linter-fix-guide/SKILL.md`
 

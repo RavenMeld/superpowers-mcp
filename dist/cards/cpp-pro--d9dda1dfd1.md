@@ -4,7 +4,7 @@ Use when building C++ applications requiring modern C++20/23 features, template 
 
 ## Quick Facts
 - id: `cpp-pro--d9dda1dfd1`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/cpp-pro/SKILL.md`

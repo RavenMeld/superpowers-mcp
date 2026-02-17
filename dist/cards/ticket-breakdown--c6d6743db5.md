@@ -4,7 +4,7 @@ Break a task or ticket into small steps. Use when a junior developer needs guida
 
 ## Quick Facts
 - id: `ticket-breakdown--c6d6743db5`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/ticket-breakdown/SKILL.md`

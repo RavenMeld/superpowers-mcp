@@ -4,7 +4,7 @@ Capture conversations and decisions into structured Notion pages; use when turni
 
 ## Quick Facts
 - id: `notion-knowledge-capture--8b3cfe91ad`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `mcp, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/notion-knowledge-capture/SKILL.md`

@@ -4,7 +4,7 @@ Local text-to-speech via sherpa-onnx (offline, no cloud)
 
 ## Quick Facts
 - id: `sherpa-onnx-tts--0e9e944a87`
-- worth_using_score: `25/100`
+- worth_using_score: `35/100`
 - tags: `node`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/sherpa-onnx-tts/SKILL.md`

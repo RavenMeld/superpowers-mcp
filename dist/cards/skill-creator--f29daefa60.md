@@ -4,7 +4,7 @@ Guide for creating effective skills. This skill should be used when users want t
 
 ## Quick Facts
 - id: `skill-creator--f29daefa60`
-- worth_using_score: `58/100`
+- worth_using_score: `68/100`
 - tags: `python, aws, azure, gcp, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/.system/skill-creator/SKILL.md`

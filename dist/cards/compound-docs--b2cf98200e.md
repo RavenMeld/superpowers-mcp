@@ -4,7 +4,7 @@ Capture solved problems as categorized documentation with YAML frontmatter for f
 
 ## Quick Facts
 - id: `compound-docs--b2cf98200e`
-- worth_using_score: `48/100`
+- worth_using_score: `63/100`
 - tags: `python, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/compound-docs/SKILL.md`

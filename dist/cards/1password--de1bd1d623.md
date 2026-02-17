@@ -4,7 +4,7 @@ Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop
 
 ## Quick Facts
 - id: `1password--de1bd1d623`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/1password/SKILL.md`

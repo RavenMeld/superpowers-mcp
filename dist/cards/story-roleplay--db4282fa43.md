@@ -4,7 +4,7 @@ Parse and apply character cards and world info files in multiple formats (PNG, W
 
 ## Quick Facts
 - id: `story-roleplay--db4282fa43`
-- worth_using_score: `60/100`
+- worth_using_score: `75/100`
 - tags: `node, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/story-roleplay/SKILL.md`

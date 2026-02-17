@@ -4,7 +4,7 @@ Script-first deterministic squash merge with strict required-check gating, head-
 
 ## Quick Facts
 - id: `merge-pr--f57b516d71`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/.agents/skills/merge-pr/SKILL.md`
 

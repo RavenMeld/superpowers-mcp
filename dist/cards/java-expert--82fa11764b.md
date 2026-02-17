@@ -4,7 +4,7 @@ Expert-level Java development with Java 21+ features, Spring Boot, Maven/Gradle,
 
 ## Quick Facts
 - id: `java-expert--82fa11764b`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/java-expert/SKILL.md`

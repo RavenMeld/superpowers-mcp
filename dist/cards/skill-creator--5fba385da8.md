@@ -4,7 +4,7 @@ Create or update AgentSkills. Use when designing, structuring, or packaging skil
 
 ## Quick Facts
 - id: `skill-creator--5fba385da8`
-- worth_using_score: `50/100`
+- worth_using_score: `60/100`
 - tags: `python, aws, azure, gcp, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/skill-creator/SKILL.md`

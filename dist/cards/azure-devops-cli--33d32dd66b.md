@@ -4,7 +4,7 @@ Manage Azure DevOps resources via CLI including projects, repos, pipelines, buil
 
 ## Quick Facts
 - id: `azure-devops-cli--33d32dd66b`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - tags: `github, docker, azure, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/azure-devops-cli/SKILL.md`

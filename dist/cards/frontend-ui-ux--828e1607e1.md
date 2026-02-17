@@ -4,7 +4,7 @@ Designer-turned-developer who crafts stunning UI/UX even without design mockups
 
 ## Quick Facts
 - id: `frontend-ui-ux--828e1607e1`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/oh-my-opencode/src/features/builtin-skills/frontend-ui-ux/SKILL.md`

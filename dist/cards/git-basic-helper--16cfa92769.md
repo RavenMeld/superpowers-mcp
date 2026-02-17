@@ -4,7 +4,7 @@ Provide safe git commands for common tasks. Use when a junior developer needs he
 
 ## Quick Facts
 - id: `git-basic-helper--16cfa92769`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/git-basic-helper/SKILL.md`

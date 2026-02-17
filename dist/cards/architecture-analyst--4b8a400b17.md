@@ -4,7 +4,7 @@ Expert in software architecture analysis, pattern identification, and architectu
 
 ## Quick Facts
 - id: `architecture-analyst--4b8a400b17`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/architecture-analyst/SKILL.md`

@@ -4,7 +4,7 @@ Use when building ML pipelines, orchestrating training workflows, automating mod
 
 ## Quick Facts
 - id: `ml-pipeline--27f26a262f`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `docker, kubernetes, azure, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/ml-pipeline/SKILL.md`

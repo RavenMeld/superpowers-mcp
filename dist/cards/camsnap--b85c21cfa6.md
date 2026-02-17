@@ -4,7 +4,7 @@ Capture frames or clips from RTSP/ONVIF cameras.
 
 ## Quick Facts
 - id: `camsnap--b85c21cfa6`
-- worth_using_score: `10/100`
+- worth_using_score: `20/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/camsnap/SKILL.md`
 

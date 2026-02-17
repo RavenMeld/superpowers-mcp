@@ -4,7 +4,7 @@ Guidelines for proper localization of VS Code extensions, following VS Code exte
 
 ## Quick Facts
 - id: `vscode-ext-localization--e1f625e6b1`
-- worth_using_score: `25/100`
+- worth_using_score: `35/100`
 - tags: `typescript`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/vscode-ext-localization/SKILL.md`

@@ -4,7 +4,7 @@ Lobster executes multi-step workflows with approval checkpoints. Use it when:
 
 ## Quick Facts
 - id: `lobster--052c9c4ffd`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/extensions/lobster/SKILL.md`
 

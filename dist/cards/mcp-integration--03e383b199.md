@@ -4,7 +4,7 @@ This skill should be used when the user asks to "add MCP server", "integrate MCP
 
 ## Quick Facts
 - id: `mcp-integration--03e383b199`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `mcp, github, python, security, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/mcp-integration/SKILL.md`

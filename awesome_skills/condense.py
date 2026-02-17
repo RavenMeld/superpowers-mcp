@@ -188,7 +188,7 @@ def build_skill_record(root_label: str, skill_md: Path) -> tuple[SkillRecord, st
     has_scripts = (skill_dir / "scripts").is_dir()
     has_references = (skill_dir / "references").is_dir()
     has_assets = (skill_dir / "assets").is_dir()
-    word_count = len(re.findall(r"\\S+", body))
+    word_count = len(re.findall(r"\S+", body))
 
     features = SkillFeatures(
         has_description=bool(description),

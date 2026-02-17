@@ -4,7 +4,7 @@ Create, search, and manage Bear notes via grizzly CLI.
 
 ## Quick Facts
 - id: `bear-notes--610cce7f9a`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/bear-notes/SKILL.md`
 

@@ -4,7 +4,7 @@ Build robust processes for data cleaning, missing value imputation, outlier hand
 
 ## Quick Facts
 - id: `data-cleaning-pipeline--9074261167`
-- worth_using_score: `50/100`
+- worth_using_score: `65/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/data-cleaning-pipeline/SKILL.md`

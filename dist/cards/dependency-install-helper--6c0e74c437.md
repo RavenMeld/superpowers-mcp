@@ -4,7 +4,7 @@ Guide installation of project dependencies and toolchains. Use when a junior dev
 
 ## Quick Facts
 - id: `dependency-install-helper--6c0e74c437`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/dependency-install-helper/SKILL.md`

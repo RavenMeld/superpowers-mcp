@@ -4,7 +4,7 @@ Use when investigating slow queries, analyzing execution plans, or optimizing da
 
 ## Quick Facts
 - id: `database-optimizer--a862127702`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/database-optimizer/SKILL.md`

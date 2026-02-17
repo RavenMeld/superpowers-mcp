@@ -4,7 +4,7 @@ Use when building Shopify themes, apps, custom storefronts, or e-commerce soluti
 
 ## Quick Facts
 - id: `shopify-expert--1222b0491a`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/shopify-expert/SKILL.md`

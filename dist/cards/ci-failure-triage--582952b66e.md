@@ -4,7 +4,7 @@ Diagnose CI failures and stabilize pipelines. Use when a mid-level developer nee
 
 ## Quick Facts
 - id: `ci-failure-triage--582952b66e`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/ci-failure-triage/SKILL.md`

@@ -4,7 +4,7 @@ Generate starter unit tests for a small function or module. Use when a junior de
 
 ## Quick Facts
 - id: `unit-test-starter--e45a526e39`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/unit-test-starter/SKILL.md`
 

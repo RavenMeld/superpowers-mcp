@@ -4,7 +4,7 @@ Manage issues, projects & team workflows in Linear. Use when the user wants to r
 
 ## Quick Facts
 - id: `linear--f5ebc5890f`
-- worth_using_score: `33/100`
+- worth_using_score: `48/100`
 - tags: `mcp, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/linear/SKILL.md`

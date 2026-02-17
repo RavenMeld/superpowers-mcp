@@ -4,7 +4,7 @@ Power features in the ComfyUI UI (Templates, Subgraphs, Partial Execution, Node 
 
 ## Quick Facts
 - id: `comfyui-ui-power--b09f7c979b`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `comfyui, node, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-ui-power/SKILL.md`

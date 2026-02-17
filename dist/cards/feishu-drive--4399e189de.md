@@ -1,10 +1,10 @@
 # feishu-drive
 
-|
+Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.
 
 ## Quick Facts
 - id: `feishu-drive--4399e189de`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/extensions/feishu/skills/feishu-drive/SKILL.md`
 

@@ -4,7 +4,7 @@ Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when t
 
 ## Quick Facts
 - id: `netlify-deploy--9034b01776`
-- worth_using_score: `48/100`
+- worth_using_score: `63/100`
 - tags: `github, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/netlify-deploy/SKILL.md`

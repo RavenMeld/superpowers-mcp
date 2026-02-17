@@ -4,7 +4,7 @@ Use when building cross-platform mobile applications with React Native or Expo. 
 
 ## Quick Facts
 - id: `react-native-expert--9656657afb`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/react-native-expert/SKILL.md`

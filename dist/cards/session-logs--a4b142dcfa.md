@@ -4,7 +4,7 @@ Search and analyze your own session logs (older/parent conversations) using jq.
 
 ## Quick Facts
 - id: `session-logs--a4b142dcfa`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/session-logs/SKILL.md`

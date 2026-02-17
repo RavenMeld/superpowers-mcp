@@ -4,7 +4,7 @@ Your job is to convert a json workflow graph for ai image generation into a type
 
 ## Quick Facts
 - id: `comfyui-converter--d05052a626`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `comfyui, typescript, node`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-converter/SKILL.md`

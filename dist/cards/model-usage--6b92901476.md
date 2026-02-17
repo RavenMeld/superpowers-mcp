@@ -4,7 +4,7 @@ Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Clau
 
 ## Quick Facts
 - id: `model-usage--6b92901476`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `python, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/model-usage/SKILL.md`

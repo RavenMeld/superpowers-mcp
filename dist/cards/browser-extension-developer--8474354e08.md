@@ -4,7 +4,7 @@ Use this skill when developing or maintaining browser extension code in the `bro
 
 ## Quick Facts
 - id: `browser-extension-developer--8474354e08`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `github`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/platforms/repomix/browser/.claude/skills/browser-extension-developer/SKILL.md`

@@ -4,7 +4,7 @@ Draft a basic SQL query from a simple requirement. Use when a junior developer n
 
 ## Quick Facts
 - id: `sql-query-starter--1d875af039`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sql-query-starter/SKILL.md`
 

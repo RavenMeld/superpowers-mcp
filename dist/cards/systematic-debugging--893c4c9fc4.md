@@ -4,7 +4,7 @@ Use when encountering any bug, test failure, or unexpected behavior, before prop
 
 ## Quick Facts
 - id: `systematic-debugging--893c4c9fc4`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/systematic-debugging/SKILL.md`

@@ -4,7 +4,7 @@ Translate Figma nodes into production-ready code with 1:1 visual fidelity using 
 
 ## Quick Facts
 - id: `figma-implement-design--77ac3a40d2`
-- worth_using_score: `33/100`
+- worth_using_score: `48/100`
 - tags: `mcp, typescript, node, ci, docs, figma`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/figma-implement-design/SKILL.md`

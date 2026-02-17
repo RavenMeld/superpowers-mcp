@@ -4,7 +4,7 @@ Automates browser interactions for web testing, form filling, screenshots, and d
 
 ## Quick Facts
 - id: `playwright-cli--ae0727b275`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `playwright, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/platforms/playwright/packages/playwright/lib/skill/SKILL.md`

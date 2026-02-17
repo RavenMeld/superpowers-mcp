@@ -4,7 +4,7 @@ Error Pattern Safety Guidelines for Agentic Engines
 
 ## Quick Facts
 - id: `error-pattern-safety--0b4cd4ce68`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/gh-aw/skills/error-pattern-safety/SKILL.md`

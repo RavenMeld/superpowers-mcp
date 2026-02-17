@@ -4,7 +4,7 @@ Start voice calls via the OpenClaw voice-call plugin.
 
 ## Quick Facts
 - id: `voice-call--bdaf83738a`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/voice-call/SKILL.md`
 

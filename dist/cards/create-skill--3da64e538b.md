@@ -4,7 +4,7 @@ Create new skills for Claude Code. Use when users ask to create a skill, add a s
 
 ## Quick Facts
 - id: `create-skill--3da64e538b`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claudeclaw/skills/create-skill/SKILL.md`

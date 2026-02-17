@@ -4,7 +4,7 @@ Performs comprehensive preflight validation of Bicep deployments to Azure, inclu
 
 ## Quick Facts
 - id: `azure-deployment-preflight--e86f904041`
-- worth_using_score: `60/100`
+- worth_using_score: `75/100`
 - tags: `mcp, azure, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/azure-deployment-preflight/SKILL.md`

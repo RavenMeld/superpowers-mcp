@@ -4,7 +4,7 @@ Use when about to claim work is complete, fixed, or passing, before committing o
 
 ## Quick Facts
 - id: `verification-before-completion--57aa84920d`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/verification-before-completion/SKILL.md`

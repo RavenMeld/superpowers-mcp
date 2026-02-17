@@ -4,7 +4,7 @@ Guide quick orientation of an unfamiliar codebase with module mapping, entry poi
 
 ## Quick Facts
 - id: `codebase-orientation--c6bdafb9f3`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/codebase-orientation/SKILL.md`
 

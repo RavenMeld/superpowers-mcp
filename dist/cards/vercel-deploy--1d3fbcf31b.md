@@ -4,7 +4,7 @@ Deploy applications and websites to Vercel. Use when the user requests deploymen
 
 ## Quick Facts
 - id: `vercel-deploy--1d3fbcf31b`
-- worth_using_score: `38/100`
+- worth_using_score: `53/100`
 - tags: `ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/vercel-deploy/SKILL.md`

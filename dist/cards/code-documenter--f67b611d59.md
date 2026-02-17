@@ -4,7 +4,7 @@ Use when adding docstrings, creating API documentation, or building documentatio
 
 ## Quick Facts
 - id: `code-documenter--f67b611d59`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `python, typescript, node, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/code-documenter/SKILL.md`

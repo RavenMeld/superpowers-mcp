@@ -4,7 +4,7 @@ Analyze Terraform plan JSON output for AzureRM Provider to distinguish between f
 
 ## Quick Facts
 - id: `terraform-azurerm-set-diff-analyzer--a8fa61b77c`
-- worth_using_score: `60/100`
+- worth_using_score: `75/100`
 - tags: `python, azure, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/terraform-azurerm-set-diff-analyzer/SKILL.md`

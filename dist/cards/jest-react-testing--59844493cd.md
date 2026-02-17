@@ -4,7 +4,7 @@ Comprehensive React component testing with Jest and React Testing Library coveri
 
 ## Quick Facts
 - id: `jest-react-testing--59844493cd`
-- worth_using_score: `45/100`
+- worth_using_score: `55/100`
 - tags: `github, typescript, node, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/jest-react-testing/SKILL.md`

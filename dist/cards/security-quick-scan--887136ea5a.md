@@ -4,7 +4,7 @@ Scan code or configuration for common security issues. Use when a mid-level deve
 
 ## Quick Facts
 - id: `security-quick-scan--887136ea5a`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/security-quick-scan/SKILL.md`

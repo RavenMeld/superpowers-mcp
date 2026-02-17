@@ -4,7 +4,7 @@ Use when conducting security audits, reviewing code for vulnerabilities, or anal
 
 ## Quick Facts
 - id: `security-reviewer--df93ce10a8`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `aws, security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/security-reviewer/SKILL.md`

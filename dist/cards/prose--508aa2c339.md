@@ -4,7 +4,7 @@ OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenP
 
 ## Quick Facts
 - id: `prose--508aa2c339`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `github, docker, security, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/extensions/open-prose/skills/prose/SKILL.md`

@@ -4,7 +4,7 @@ Summarize noisy logs into likely causes and next steps. Use when a junior develo
 
 ## Quick Facts
 - id: `log-summarizer--da942eeb86`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/log-summarizer/SKILL.md`
 

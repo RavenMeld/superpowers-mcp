@@ -4,7 +4,7 @@ Review a pull request for correctness, regressions, and missing tests. Use when 
 
 ## Quick Facts
 - id: `pr-reviewer--163c01f10a`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/pr-reviewer/SKILL.md`

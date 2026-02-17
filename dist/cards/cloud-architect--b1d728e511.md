@@ -4,7 +4,7 @@ Use when designing cloud architectures, planning migrations, or optimizing multi
 
 ## Quick Facts
 - id: `cloud-architect--b1d728e511`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `docker, kubernetes, aws, azure, gcp, security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/cloud-architect/SKILL.md`

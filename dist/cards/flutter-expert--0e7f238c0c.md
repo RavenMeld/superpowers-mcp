@@ -4,7 +4,7 @@ Use when building cross-platform applications with Flutter 3+ and Dart. Invoke f
 
 ## Quick Facts
 - id: `flutter-expert--0e7f238c0c`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/flutter-expert/SKILL.md`

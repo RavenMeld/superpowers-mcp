@@ -4,7 +4,7 @@ Plan-first workflow for creating detailed image captions for AI/LoRA training da
 
 ## Quick Facts
 - id: `lora-captioner--cdf1df0155`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/lora-captioner-skill/SKILL.md`

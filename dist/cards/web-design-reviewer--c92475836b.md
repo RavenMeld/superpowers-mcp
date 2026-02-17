@@ -4,7 +4,7 @@ This skill enables visual inspection of websites running locally or remotely to 
 
 ## Quick Facts
 - id: `web-design-reviewer--c92475836b`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `mcp, github, playwright, typescript, node, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/web-design-reviewer/SKILL.md`

@@ -4,7 +4,7 @@ Use the mcporter CLI to list, configure, auth, and call MCP servers/tools direct
 
 ## Quick Facts
 - id: `mcporter--89be46339f`
-- worth_using_score: `10/100`
+- worth_using_score: `20/100`
 - tags: `mcp`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/mcporter/SKILL.md`

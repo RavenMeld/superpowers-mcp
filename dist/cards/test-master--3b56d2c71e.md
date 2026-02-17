@@ -4,7 +4,7 @@ Use when writing tests, creating test strategies, or building automation framewo
 
 ## Quick Facts
 - id: `test-master--3b56d2c71e`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `playwright, aws, security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/test-master/SKILL.md`

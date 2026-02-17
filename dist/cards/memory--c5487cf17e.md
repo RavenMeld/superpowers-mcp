@@ -4,7 +4,7 @@
 
 ## Quick Facts
 - id: `memory--c5487cf17e`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/memory/SKILL.md`
 

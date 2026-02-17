@@ -1,10 +1,10 @@
 # scoutqa-test
 
-|
+This skill should be used when the user asks to "test this website", "run exploratory testing", "check for accessibility issues", "verify the login flow works", "find bugs on this page", or requests automated QA testing. Triggers on web application testing scenarios including smoke tests, accessibility audits, e-commerce flows, and user flow validation using ScoutQA CLI. IMPORTANT: Use this ski...
 
 ## Quick Facts
 - id: `scoutqa-test--b87aadf427`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/scoutqa-test/SKILL.md`

@@ -4,7 +4,7 @@
 
 ## Quick Facts
 - id: `sqlite-inspector--1ea7e91f18`
-- worth_using_score: `65/100`
+- worth_using_score: `80/100`
 - tags: `docker, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sqlite-inspector/SKILL.md`

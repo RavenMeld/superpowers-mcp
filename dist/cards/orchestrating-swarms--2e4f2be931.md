@@ -4,7 +4,7 @@ This skill should be used when orchestrating multi-agent swarms using Claude Cod
 
 ## Quick Facts
 - id: `orchestrating-swarms--2e4f2be931`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - tags: `mcp, github, python, typescript, node, security, testing, ci, docs, figma`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/orchestrating-swarms/SKILL.md`

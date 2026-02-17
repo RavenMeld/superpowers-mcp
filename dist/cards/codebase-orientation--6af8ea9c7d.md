@@ -4,7 +4,7 @@ Guide quick orientation of an unfamiliar codebase with module mapping, entry poi
 
 ## Quick Facts
 - id: `codebase-orientation--6af8ea9c7d`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/codebase-orientation/SKILL.md`
 

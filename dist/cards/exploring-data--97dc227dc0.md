@@ -4,7 +4,7 @@ Exploratory data analysis using ydata-profiling. Use when users upload .csv/.xls
 
 ## Quick Facts
 - id: `exploring-data--97dc227dc0`
-- worth_using_score: `50/100`
+- worth_using_score: `65/100`
 - tags: `python`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/exploring-data/SKILL.md`

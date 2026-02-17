@@ -4,7 +4,7 @@ Build and maintain documentation sites with Mintlify. Use when
 
 ## Quick Facts
 - id: `mintlify--f8434e1091`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `github, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/.agents/skills/mintlify/SKILL.md`

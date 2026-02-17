@@ -4,7 +4,7 @@ Use when the user asks to generate or edit images via the OpenAI Image API (for 
 
 ## Quick Facts
 - id: `imagegen--fd300907ba`
-- worth_using_score: `65/100`
+- worth_using_score: `80/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/imagegen/SKILL.md`

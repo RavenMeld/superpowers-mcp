@@ -4,7 +4,7 @@ Best practices for using the oracle CLI (prompt + file bundling, engines, sessio
 
 ## Quick Facts
 - id: `oracle--73a1eb1caa`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `github, node, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/oracle/SKILL.md`

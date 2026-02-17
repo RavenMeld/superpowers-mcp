@@ -4,7 +4,7 @@ Diagnose CI failures and stabilize pipelines. Use when a mid-level developer nee
 
 ## Quick Facts
 - id: `ci-failure-triage--9c9b50c9a6`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/ci-failure-triage/SKILL.md`

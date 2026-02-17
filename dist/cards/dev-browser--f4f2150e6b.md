@@ -4,7 +4,7 @@ Browser automation with persistent page state. Use when users ask to navigate we
 
 ## Quick Facts
 - id: `dev-browser--f4f2150e6b`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `github, playwright, typescript, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/oh-my-opencode/src/features/builtin-skills/dev-browser/SKILL.md`

@@ -4,7 +4,7 @@ Use when building Kotlin applications requiring coroutines, multiplatform develo
 
 ## Quick Facts
 - id: `kotlin-specialist--16a3816cd9`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/kotlin-specialist/SKILL.md`

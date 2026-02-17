@@ -4,7 +4,7 @@ Manage NuGet packages in .NET projects/solutions. Use this skill when adding, re
 
 ## Quick Facts
 - id: `nuget-manager--dc8e583a62`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/nuget-manager/SKILL.md`
 

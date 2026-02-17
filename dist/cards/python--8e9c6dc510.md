@@ -1,10 +1,13 @@
 # python
 
-|
+Python environment and execution guide.
+Use when:
+- Running Python scripts
+- Working with uv, poetry, venv
 
 ## Quick Facts
 - id: `python--8e9c6dc510`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - tags: `github, python, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/python/SKILL.md`

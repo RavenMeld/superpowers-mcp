@@ -4,7 +4,7 @@ Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Sy
 
 ## Quick Facts
 - id: `php-pro--6b708d137e`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/php-pro/SKILL.md`

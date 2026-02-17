@@ -4,7 +4,7 @@ Use when building .NET 8 applications with minimal APIs, clean architecture, or 
 
 ## Quick Facts
 - id: `dotnet-core-expert--122f6b182b`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `docker, kubernetes, security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/dotnet-core-expert/SKILL.md`

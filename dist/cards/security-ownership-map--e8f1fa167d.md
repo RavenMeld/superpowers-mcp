@@ -4,7 +4,7 @@ Analyze git repositories to build a security ownership topology (people-to-file)
 
 ## Quick Facts
 - id: `security-ownership-map--e8f1fa167d`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `github, python, node, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/security-ownership-map/SKILL.md`

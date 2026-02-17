@@ -4,7 +4,7 @@ Use when the user asks to generate, remix, poll, list, download, or delete Sora 
 
 ## Quick Facts
 - id: `sora--3b582ffd83`
-- worth_using_score: `65/100`
+- worth_using_score: `80/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sora/SKILL.md`

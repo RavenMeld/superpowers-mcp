@@ -4,7 +4,7 @@ Kubectl commands, Kubernetes manifests, cluster management, resource operations,
 
 ## Quick Facts
 - id: `kubernetes--4f11484c4a`
-- worth_using_score: `25/100`
+- worth_using_score: `40/100`
 - tags: `kubernetes, security, testing, ci, figma`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/kubernetes/SKILL.md`

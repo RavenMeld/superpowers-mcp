@@ -4,7 +4,7 @@ This skill should be used when generating and editing images using the Gemini AP
 
 ## Quick Facts
 - id: `gemini-imagegen--8cc7df2c57`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `python, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/gemini-imagegen/SKILL.md`

@@ -4,7 +4,7 @@ Use when creating new skills, editing existing skills, or verifying skills work 
 
 ## Quick Facts
 - id: `writing-skills--468c2620d6`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - tags: `python, typescript, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/writing-skills/SKILL.md`

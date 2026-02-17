@@ -4,7 +4,7 @@ Coordinate debugging across multiple services. Use when a senior developer needs
 
 ## Quick Facts
 - id: `cross-service-debugger--d7e015a908`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cross-service-debugger/SKILL.md`
 

@@ -4,7 +4,7 @@ Comprehensive security engineering skill for application security, penetration t
 
 ## Quick Facts
 - id: `senior-security--1872eba3bd`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `github, python, typescript, node, docker, kubernetes, aws, azure, gcp, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/senior-security/SKILL.md`

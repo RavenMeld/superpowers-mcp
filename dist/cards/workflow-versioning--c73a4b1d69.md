@@ -4,7 +4,7 @@ Versioning and review discipline for ComfyUI workflows (JSON + embedded workflow
 
 ## Quick Facts
 - id: `workflow-versioning--c73a4b1d69`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `comfyui, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/workflow-versioning/SKILL.md`

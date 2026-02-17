@@ -4,7 +4,7 @@ Conduct comprehensive, systematic literature reviews using multiple academic dat
 
 ## Quick Facts
 - id: `literature-review--370ea3d9c3`
-- worth_using_score: `73/100`
+- worth_using_score: `83/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/literature-review/SKILL.md`

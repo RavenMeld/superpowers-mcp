@@ -4,7 +4,7 @@ Use when executing implementation plans with independent tasks in the current se
 
 ## Quick Facts
 - id: `subagent-driven-development--c09e4abf0b`
-- worth_using_score: `50/100`
+- worth_using_score: `65/100`
 - tags: `ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/subagent-driven-development/SKILL.md`

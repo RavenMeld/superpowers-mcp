@@ -4,7 +4,7 @@ Use when building Rails 7+ web applications with Hotwire, real-time features, or
 
 ## Quick Facts
 - id: `rails-expert--f9f2ba1527`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/rails-expert/SKILL.md`

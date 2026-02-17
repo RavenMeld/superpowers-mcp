@@ -4,7 +4,7 @@ Generate spectrograms and feature-panel visualizations from audio with the songs
 
 ## Quick Facts
 - id: `songsee--398a8d0e21`
-- worth_using_score: `10/100`
+- worth_using_score: `20/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/songsee/SKILL.md`
 

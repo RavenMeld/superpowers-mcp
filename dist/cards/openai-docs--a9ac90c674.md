@@ -4,7 +4,7 @@ Use when the user asks how to build with OpenAI products or APIs and needs up-to
 
 ## Quick Facts
 - id: `openai-docs--a9ac90c674`
-- worth_using_score: `23/100`
+- worth_using_score: `38/100`
 - tags: `mcp, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/openai-docs/SKILL.md`

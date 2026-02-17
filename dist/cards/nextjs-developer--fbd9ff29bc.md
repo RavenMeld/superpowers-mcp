@@ -4,7 +4,7 @@ Use when building Next.js 14+ applications with App Router, server components, o
 
 ## Quick Facts
 - id: `nextjs-developer--fbd9ff29bc`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `typescript, docker, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/nextjs-developer/SKILL.md`

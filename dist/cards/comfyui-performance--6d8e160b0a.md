@@ -4,7 +4,7 @@ Performance and memory tuning for ComfyUI (VRAM modes, workload knobs, and safe 
 
 ## Quick Facts
 - id: `comfyui-performance--6d8e160b0a`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `comfyui, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-performance/SKILL.md`

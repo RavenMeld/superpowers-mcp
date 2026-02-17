@@ -4,7 +4,7 @@ This skill provides an advanced financial modeling suite with DCF analysis, sens
 
 ## Quick Facts
 - id: `creating-financial-models--7ee0fb9888`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/creating-financial-models/SKILL.md`

@@ -4,7 +4,7 @@ Tips and Tricks for Working with GitHub Copilot Agent PRs
 
 ## Quick Facts
 - id: `github-copilot-agent-tips-and-tricks--155c788ac1`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `mcp, github, playwright, security, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/gh-aw/skills/github-copilot-agent-tips-and-tricks/SKILL.md`

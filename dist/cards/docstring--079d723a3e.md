@@ -4,7 +4,7 @@ Write docstrings for PyTorch functions and methods following PyTorch conventions
 
 ## Quick Facts
 - id: `docstring--079d723a3e`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `python, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/docstring/SKILL.md`

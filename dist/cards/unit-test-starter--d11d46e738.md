@@ -4,7 +4,7 @@ Generate starter unit tests for a small function or module. Use when a junior de
 
 ## Quick Facts
 - id: `unit-test-starter--d11d46e738`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/unit-test-starter/SKILL.md`
 

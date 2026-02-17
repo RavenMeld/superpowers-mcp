@@ -4,7 +4,7 @@ Evaluate research rigor. Assess methodology, experimental design, statistical va
 
 ## Quick Facts
 - id: `scientific-critical-thinking--e409f2e1e1`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - tags: `python, aws, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/scientific-critical-thinking/SKILL.md`

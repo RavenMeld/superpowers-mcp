@@ -4,7 +4,7 @@ Use when you have a written implementation plan to execute in a separate session
 
 ## Quick Facts
 - id: `executing-plans--1a380e7aba`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/executing-plans/SKILL.md`

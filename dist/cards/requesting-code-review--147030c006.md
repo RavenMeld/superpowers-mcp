@@ -4,7 +4,7 @@ Use when completing tasks, implementing major features, or before merging to ver
 
 ## Quick Facts
 - id: `requesting-code-review--147030c006`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/requesting-code-review/SKILL.md`

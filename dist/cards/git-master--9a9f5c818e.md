@@ -4,7 +4,7 @@ MUST USE for ANY git operations. Atomic commits, rebase/squash, history search (
 
 ## Quick Facts
 - id: `git-master--9a9f5c818e`
-- worth_using_score: `40/100`
+- worth_using_score: `50/100`
 - tags: `ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/oh-my-opencode/src/features/builtin-skills/git-master/SKILL.md`

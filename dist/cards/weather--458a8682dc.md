@@ -4,7 +4,7 @@ Get current weather and forecasts (no API key required).
 
 ## Quick Facts
 - id: `weather--458a8682dc`
-- worth_using_score: `25/100`
+- worth_using_score: `35/100`
 - tags: `ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/weather/SKILL.md`

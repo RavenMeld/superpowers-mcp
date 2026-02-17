@@ -4,7 +4,7 @@ Turn Notion specs into implementation plans, tasks, and progress tracking; use w
 
 ## Quick Facts
 - id: `notion-spec-to-implementation--fe923421bd`
-- worth_using_score: `20/100`
+- worth_using_score: `35/100`
 - tags: `mcp, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/notion-spec-to-implementation/SKILL.md`

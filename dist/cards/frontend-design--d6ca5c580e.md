@@ -4,7 +4,7 @@ This skill should be used when creating distinctive, production-grade frontend i
 
 ## Quick Facts
 - id: `frontend-design--d6ca5c580e`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/frontend-design/SKILL.md`

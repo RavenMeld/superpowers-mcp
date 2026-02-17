@@ -4,7 +4,7 @@ Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or pla
 
 ## Quick Facts
 - id: `api-designer--a39384b992`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `security, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/api-designer/SKILL.md`

@@ -4,7 +4,7 @@ Read and control I2C and SPI peripherals on Sipeed boards (LicheeRV Nano, MaixCA
 
 ## Quick Facts
 - id: `hardware--f98566a75f`
-- worth_using_score: `25/100`
+- worth_using_score: `40/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/picoclaw/workspace/skills/hardware/SKILL.md`

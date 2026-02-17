@@ -4,7 +4,7 @@ GitHub CLI Agent Task Extension
 
 ## Quick Facts
 - id: `gh-agent-task--3a292dc6bd`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, security, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/gh-aw/skills/gh-agent-task/SKILL.md`

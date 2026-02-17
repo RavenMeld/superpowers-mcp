@@ -4,7 +4,7 @@ Use when building MCP servers or clients that connect AI systems with external t
 
 ## Quick Facts
 - id: `mcp-developer--030185cdff`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `mcp, python, typescript, node, security, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/mcp-developer/SKILL.md`

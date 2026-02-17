@@ -4,7 +4,7 @@ Use when designing distributed systems, decomposing monoliths, or implementing m
 
 ## Quick Facts
 - id: `microservices-architect--630aef777d`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `kubernetes, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/microservices-architect/SKILL.md`

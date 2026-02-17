@@ -4,7 +4,7 @@ Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`)
 
 ## Quick Facts
 - id: `jupyter-notebook--855dd39b82`
-- worth_using_score: `68/100`
+- worth_using_score: `83/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/jupyter-notebook/SKILL.md`

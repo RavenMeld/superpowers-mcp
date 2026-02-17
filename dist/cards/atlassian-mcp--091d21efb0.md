@@ -4,7 +4,7 @@ Use when querying Jira issues, searching Confluence pages, creating tickets, upd
 
 ## Quick Facts
 - id: `atlassian-mcp--091d21efb0`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `mcp, security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/atlassian-mcp/SKILL.md`

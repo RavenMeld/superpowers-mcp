@@ -4,7 +4,7 @@ Guide users through creating Agent Skills for Claude Code. Use when the user wan
 
 ## Quick Facts
 - id: `skill-writer--63d6154dfc`
-- worth_using_score: `55/100`
+- worth_using_score: `70/100`
 - tags: `python, security, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/skill-writer/SKILL.md`

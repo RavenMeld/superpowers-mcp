@@ -4,7 +4,7 @@ Guide for creating effective skills. This skill should be used when users want t
 
 ## Quick Facts
 - id: `skill-creator--2bda1e275b`
-- worth_using_score: `55/100`
+- worth_using_score: `65/100`
 - tags: `python, aws, azure, gcp, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/ui/AionUi/skills/skill-creator/SKILL.md`

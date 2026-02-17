@@ -4,7 +4,7 @@ Instructions for refactoring JavaScript code into separate files
 
 ## Quick Facts
 - id: `javascript-refactoring--39a6cece17`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, typescript, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/gh-aw/skills/javascript-refactoring/SKILL.md`

@@ -4,7 +4,7 @@ Perform a focused SEO audit on JavaScript concept pages to maximize search visib
 
 ## Quick Facts
 - id: `seo-review--f0b473e5d6`
-- worth_using_score: `45/100`
+- worth_using_score: `55/100`
 - tags: `node, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/seo-review/SKILL.md`

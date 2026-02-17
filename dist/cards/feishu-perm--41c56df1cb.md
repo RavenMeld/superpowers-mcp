@@ -1,10 +1,10 @@
 # feishu-perm
 
-|
+Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.
 
 ## Quick Facts
 - id: `feishu-perm--41c56df1cb`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `node, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/extensions/feishu/skills/feishu-perm/SKILL.md`

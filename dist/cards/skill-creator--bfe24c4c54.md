@@ -4,7 +4,7 @@ Guide for creating effective skills. This skill should be used when users want t
 
 ## Quick Facts
 - id: `skill-creator--bfe24c4c54`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `python, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/skill-creator/SKILL.md`

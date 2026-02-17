@@ -4,7 +4,7 @@ Generate a small helper script for repetitive tasks. Use when a junior developer
 
 ## Quick Facts
 - id: `small-script-generator--86c25c4fe8`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/small-script-generator/SKILL.md`
 

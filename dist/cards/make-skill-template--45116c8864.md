@@ -4,7 +4,7 @@ Create new Agent Skills for GitHub Copilot from prompts or by duplicating this t
 
 ## Quick Facts
 - id: `make-skill-template--45116c8864`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, playwright, python, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/make-skill-template/SKILL.md`

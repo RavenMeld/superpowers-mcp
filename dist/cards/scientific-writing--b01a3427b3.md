@@ -4,7 +4,7 @@ Core skill for the deep research and writing tool. Write scientific manuscripts 
 
 ## Quick Facts
 - id: `scientific-writing--b01a3427b3`
-- worth_using_score: `63/100`
+- worth_using_score: `73/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/scientific-writing/SKILL.md`

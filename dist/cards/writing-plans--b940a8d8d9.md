@@ -4,7 +4,7 @@ Use when you have a spec or requirements for a multi-step task, before touching 
 
 ## Quick Facts
 - id: `writing-plans--b940a8d8d9`
-- worth_using_score: `35/100`
+- worth_using_score: `50/100`
 - tags: `python, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/writing-plans/SKILL.md`

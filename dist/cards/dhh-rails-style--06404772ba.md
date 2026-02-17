@@ -4,7 +4,7 @@ This skill should be used when writing Ruby and Rails code in DHH's distinctive 
 
 ## Quick Facts
 - id: `dhh-rails-style--06404772ba`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `github, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/dhh-rails-style/SKILL.md`

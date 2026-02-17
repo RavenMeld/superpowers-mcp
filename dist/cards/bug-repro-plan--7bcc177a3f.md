@@ -4,7 +4,7 @@ Create a minimal, repeatable reproduction plan for a bug. Use when a junior deve
 
 ## Quick Facts
 - id: `bug-repro-plan--7bcc177a3f`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/bug-repro-plan/SKILL.md`
 

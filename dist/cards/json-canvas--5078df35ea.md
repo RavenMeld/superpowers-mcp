@@ -4,7 +4,7 @@ Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and conne
 
 ## Quick Facts
 - id: `json-canvas--5078df35ea`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `github, node, ci, obsidian`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/json-canvas/SKILL.md`

@@ -4,7 +4,7 @@ This skill manages Git worktrees for isolated parallel development. It handles c
 
 ## Quick Facts
 - id: `git-worktree--e2b1b77c7f`
-- worth_using_score: `65/100`
+- worth_using_score: `80/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/git-worktree/SKILL.md`

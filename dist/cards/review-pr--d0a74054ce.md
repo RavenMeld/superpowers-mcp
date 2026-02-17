@@ -4,7 +4,7 @@ Script-first review-only GitHub pull request analysis. Use for deterministic PR 
 
 ## Quick Facts
 - id: `review-pr--d0a74054ce`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/.agents/skills/review-pr/SKILL.md`

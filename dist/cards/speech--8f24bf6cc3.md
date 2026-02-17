@@ -4,7 +4,7 @@ Use when the user asks for text-to-speech narration or voiceover, accessibility 
 
 ## Quick Facts
 - id: `speech--8f24bf6cc3`
-- worth_using_score: `65/100`
+- worth_using_score: `80/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/speech/SKILL.md`

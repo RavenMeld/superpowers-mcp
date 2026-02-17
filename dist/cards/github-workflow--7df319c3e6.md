@@ -4,7 +4,7 @@ GitHub 工作流程，包含帳號資訊、gh CLI 安裝狀態、建立 repo、p
 
 ## Quick Facts
 - id: `github-workflow--7df319c3e6`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `github, node, gcp, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/github-workflow/SKILL.md`

@@ -4,7 +4,7 @@ Use when implementing any feature or bugfix, before writing implementation code
 
 ## Quick Facts
 - id: `test-driven-development--7455e6e2f1`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `typescript, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/test-driven-development/SKILL.md`

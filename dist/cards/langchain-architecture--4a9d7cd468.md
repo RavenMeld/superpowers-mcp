@@ -4,7 +4,7 @@ Design LLM applications using LangChain 1.x and LangGraph for agents, memory, an
 
 ## Quick Facts
 - id: `langchain-architecture--4a9d7cd468`
-- worth_using_score: `55/100`
+- worth_using_score: `65/100`
 - tags: `github, python, node, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/langchain-architecture/SKILL.md`

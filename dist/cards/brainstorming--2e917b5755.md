@@ -4,7 +4,7 @@ You MUST use this before any creative work - creating features, building compone
 
 ## Quick Facts
 - id: `brainstorming--2e917b5755`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `mcp, testing, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/superpowers/skills/brainstorming/SKILL.md`

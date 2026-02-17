@@ -4,7 +4,7 @@ Use when designing GraphQL schemas, implementing Apollo Federation, or building 
 
 ## Quick Facts
 - id: `graphql-architect--d974a9e506`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `security, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/graphql-architect/SKILL.md`

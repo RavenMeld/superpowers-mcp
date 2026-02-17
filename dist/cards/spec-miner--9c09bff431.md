@@ -4,7 +4,7 @@ Use when understanding legacy or undocumented systems, creating documentation fo
 
 ## Quick Facts
 - id: `spec-miner--9c09bff431`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `security, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/spec-miner/SKILL.md`

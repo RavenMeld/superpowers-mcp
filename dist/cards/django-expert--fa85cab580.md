@@ -4,7 +4,7 @@ Use when building Django web applications or REST APIs with Django REST Framewor
 
 ## Quick Facts
 - id: `django-expert--fa85cab580`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `python, security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/django-expert/SKILL.md`

@@ -4,7 +4,7 @@ Use when implementing authentication/authorization, securing user input, or prev
 
 ## Quick Facts
 - id: `secure-code-guardian--030f21fa82`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/secure-code-guardian/SKILL.md`

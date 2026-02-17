@@ -4,7 +4,7 @@ Use this skill when working on the Repomix documentation website in `website/` d
 
 ## Quick Facts
 - id: `website-maintainer--c8c5e59386`
-- worth_using_score: `20/100`
+- worth_using_score: `30/100`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/platforms/repomix/website/.claude/skills/website-maintainer/SKILL.md`
 

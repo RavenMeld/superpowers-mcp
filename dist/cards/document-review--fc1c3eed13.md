@@ -4,7 +4,7 @@ This skill should be used to refine brainstorm or plan documents before proceedi
 
 ## Quick Facts
 - id: `document-review--fc1c3eed13`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/compound-engineering-plugin/plugins/compound-engineering/skills/document-review/SKILL.md`

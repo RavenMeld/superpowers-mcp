@@ -4,7 +4,7 @@ Log analysis and reporting for Hylab (pattern catalogs, failure taxonomies, CSV/
 
 ## Quick Facts
 - id: `hylab-analyzer-reporting--876fc41767`
-- worth_using_score: `15/100`
+- worth_using_score: `25/100`
 - tags: `github, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-analyzer-reporting/SKILL.md`

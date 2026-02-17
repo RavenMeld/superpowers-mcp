@@ -4,7 +4,7 @@ Use when reviewing pull requests, conducting code quality audits, or identifying
 
 ## Quick Facts
 - id: `code-reviewer--1348cd5fc4`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `security, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/code-reviewer/SKILL.md`

@@ -4,7 +4,7 @@ Toolkit for generating PowerToys release notes from GitHub milestone PRs or comm
 
 ## Quick Facts
 - id: `release-note-generation--f183038301`
-- worth_using_score: `60/100`
+- worth_using_score: `75/100`
 - tags: `mcp, github, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/release-note-generation/SKILL.md`

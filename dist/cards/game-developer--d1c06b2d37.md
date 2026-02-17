@@ -4,7 +4,7 @@ Use when building game systems, implementing Unity/Unreal features, or optimizin
 
 ## Quick Facts
 - id: `game-developer--d1c06b2d37`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/game-developer/SKILL.md`

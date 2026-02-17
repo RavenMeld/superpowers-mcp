@@ -4,7 +4,7 @@ Search and install skills from skills.sh and GitHub repos. Use when users ask to
 
 ## Quick Facts
 - id: `install-skill--1bbc119846`
-- worth_using_score: `35/100`
+- worth_using_score: `45/100`
 - tags: `github, node, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claudeclaw/skills/install-skill/SKILL.md`

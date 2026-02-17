@@ -4,7 +4,7 @@ Use when setting up CI/CD pipelines, containerizing applications, or managing in
 
 ## Quick Facts
 - id: `devops-engineer--cb93121cb9`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `github, docker, kubernetes, aws, azure, gcp, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/devops-engineer/SKILL.md`

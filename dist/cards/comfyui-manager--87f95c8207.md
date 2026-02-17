@@ -4,7 +4,7 @@ Safe use of ComfyUI-Manager and cm-cli: installation, security levels, config lo
 
 ## Quick Facts
 - id: `comfyui-manager--87f95c8207`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `comfyui, python, node, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-manager/SKILL.md`

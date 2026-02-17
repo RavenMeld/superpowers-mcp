@@ -4,7 +4,7 @@ Operation-aware node configuration guidance. Use when configuring nodes, underst
 
 ## Quick Facts
 - id: `n8n-node-configuration--29bc215f0d`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `mcp, node, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/.agents/skills/n8n-node-configuration/SKILL.md`

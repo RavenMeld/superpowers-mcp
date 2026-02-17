@@ -4,7 +4,7 @@ Send WhatsApp messages to other people or search/sync WhatsApp history via the w
 
 ## Quick Facts
 - id: `wacli--c31c0a525f`
-- worth_using_score: `10/100`
+- worth_using_score: `25/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/openclaw/skills/wacli/SKILL.md`

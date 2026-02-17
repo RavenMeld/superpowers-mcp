@@ -4,7 +4,7 @@ Use when tasks involve reading, creating, or reviewing PDF files where rendering
 
 ## Quick Facts
 - id: `pdf--b17d45eba8`
-- worth_using_score: `50/100`
+- worth_using_score: `65/100`
 - tags: `python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/pdf/SKILL.md`

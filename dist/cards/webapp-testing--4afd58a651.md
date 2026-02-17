@@ -4,7 +4,7 @@ Toolkit for interacting with and testing local web applications using Playwright
 
 ## Quick Facts
 - id: `webapp-testing--4afd58a651`
-- worth_using_score: `45/100`
+- worth_using_score: `60/100`
 - tags: `playwright, node, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/webapp-testing/SKILL.md`

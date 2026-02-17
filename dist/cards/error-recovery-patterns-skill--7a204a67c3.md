@@ -4,7 +4,7 @@ This skill provides comprehensive guidance on error handling patterns, recovery 
 
 ## Quick Facts
 - id: `error-recovery-patterns-skill--7a204a67c3`
-- worth_using_score: `25/100`
+- worth_using_score: `40/100`
 - tags: `github, python, docker, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/gh-aw/skills/error-recovery-patterns/SKILL.md`

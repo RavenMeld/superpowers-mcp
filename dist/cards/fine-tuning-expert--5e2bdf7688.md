@@ -4,7 +4,7 @@ Use when fine-tuning LLMs, training custom models, or optimizing model performan
 
 ## Quick Facts
 - id: `fine-tuning-expert--5e2bdf7688`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/fine-tuning-expert/SKILL.md`

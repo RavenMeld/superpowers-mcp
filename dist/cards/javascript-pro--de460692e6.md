@@ -4,7 +4,7 @@ Use when building JavaScript applications with modern ES2023+ features, async pa
 
 ## Quick Facts
 - id: `javascript-pro--de460692e6`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `node, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/javascript-pro/SKILL.md`

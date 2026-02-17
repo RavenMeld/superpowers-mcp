@@ -4,7 +4,7 @@ Performs discounted cash flow (DCF) valuation analysis to estimate intrinsic val
 
 ## Quick Facts
 - id: `dcf-valuation--9ccbab568b`
-- worth_using_score: `30/100`
+- worth_using_score: `45/100`
 - tags: `ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/automation/devtools/dexter/src/skills/dcf/SKILL.md`

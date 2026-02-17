@@ -4,7 +4,7 @@ Use when designing prompts for LLMs, optimizing model performance, building eval
 
 ## Quick Facts
 - id: `prompt-engineer--1d445ea6ce`
-- worth_using_score: `40/100`
+- worth_using_score: `55/100`
 - tags: `testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/source/agents/tooling/claude-skills/skills/prompt-engineer/SKILL.md`
