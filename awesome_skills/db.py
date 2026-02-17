@@ -64,7 +64,7 @@ def build_db(db_path: Path, records: list[SkillRecord], card_by_id: dict[str, st
               use_when,
               workflow,
               content,
-              tokenize='porter'
+              tokenize='unicode61'
             );
             """
         )
