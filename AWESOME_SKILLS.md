@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `479`
+- total_skills: `493`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -105,6 +105,7 @@
 - [terraform-engineer (`55/100`)](dist/cards/terraform-engineer--5974053ea8.md)
 - [azure-devops-cli (`50/100`)](dist/cards/azure-devops-cli--33d32dd66b.md)
 - [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--3ed875f5e3.md)
+- [polars (`50/100`)](dist/cards/polars--63a2a901db.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--ad98050726.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--f5053d24ab.md)
 
@@ -173,6 +174,7 @@
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
+- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--b0ea30228a.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
 - [aws-beanstalk-expert (`55/100`)](dist/cards/aws-beanstalk-expert--23b198b516.md)
 - [cloud-architect (`55/100`)](dist/cards/cloud-architect--b1d728e511.md)
@@ -212,10 +214,12 @@
 - [skill-creator (`68/100`)](dist/cards/skill-creator--f29daefa60.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
+- [modern-python (`65/100`)](dist/cards/modern-python--38683f732b.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--2bda1e275b.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
 - [subagent-driven-development (`65/100`)](dist/cards/subagent-driven-development--c09e4abf0b.md)
 - [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
+- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--b0ea30228a.md)
 - [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--b327aafd76.md)
 - [compound-docs (`63/100`)](dist/cards/compound-docs--b2cf98200e.md)
 - [netlify-deploy (`63/100`)](dist/cards/netlify-deploy--9034b01776.md)
@@ -224,8 +228,6 @@
 - [dev-browser (`60/100`)](dist/cards/dev-browser--f4f2150e6b.md)
 - [docx (`60/100`)](dist/cards/docx--172b4907d3.md)
 - [feishu-doc (`60/100`)](dist/cards/feishu-doc--9145600e1b.md)
-- [hugging-face-paper-publisher (`60/100`)](dist/cards/hugging-face-paper-publisher--94fcb45911.md)
-- [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 
 ### figma
 - [screenshot (`65/100`)](dist/cards/screenshot--35d6a921f7.md)
@@ -272,7 +274,9 @@
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
+- [modern-python (`65/100`)](dist/cards/modern-python--38683f732b.md)
 - [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
+- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--b0ea30228a.md)
 - [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--b327aafd76.md)
 - [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--26df13ad91.md)
 - [netlify-deploy (`63/100`)](dist/cards/netlify-deploy--9034b01776.md)
@@ -282,9 +286,7 @@
 - [github-pr-triage (`60/100`)](dist/cards/github-pr-triage--ef5323ab82.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 - [prompt-library (`60/100`)](dist/cards/prompt-library--dde0f0be9c.md)
-- [rag-implementation (`60/100`)](dist/cards/rag-implementation--d287e06a29.md)
-- [resolve_pr_parallel (`60/100`)](dist/cards/resolve-pr-parallel--cb40018bdf.md)
-- [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
+- [pyright-type-checker (`60/100`)](dist/cards/pyright-type-checker--8b51a860ca.md)
 
 ### kubernetes
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
@@ -353,6 +355,7 @@
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
 - [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--26df13ad91.md)
 - [docx (`60/100`)](dist/cards/docx--172b4907d3.md)
+- [pyright-type-checker (`60/100`)](dist/cards/pyright-type-checker--8b51a860ca.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--d287e06a29.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
 - [webapp-testing (`60/100`)](dist/cards/webapp-testing--4afd58a651.md)
@@ -366,7 +369,6 @@
 - [Command Development (`55/100`)](dist/cards/command-development--627881243e.md)
 - [create-pr (`55/100`)](dist/cards/create-pr--11574b9b85.md)
 - [create-pr (`55/100`)](dist/cards/create-pr--f83d364c23.md)
-- [debugging-workflows (`55/100`)](dist/cards/debugging-workflows--4a8832e484.md)
 
 ### obsidian
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -444,7 +446,9 @@
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [skill-writer (`70/100`)](dist/cards/skill-writer--63d6154dfc.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
+- [modern-python (`65/100`)](dist/cards/modern-python--38683f732b.md)
 - [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
+- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--b0ea30228a.md)
 - [github-issue-triage (`60/100`)](dist/cards/github-issue-triage--f3214d1ae1.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 - [postmortem-writing (`60/100`)](dist/cards/postmortem-writing--ccbc661449.md)
@@ -460,8 +464,6 @@
 - [cloud-architect (`55/100`)](dist/cards/cloud-architect--b1d728e511.md)
 - [code-reviewer (`55/100`)](dist/cards/code-reviewer--1348cd5fc4.md)
 - [Command Development (`55/100`)](dist/cards/command-development--627881243e.md)
-- [debugging-workflows (`55/100`)](dist/cards/debugging-workflows--4a8832e484.md)
-- [django-expert (`55/100`)](dist/cards/django-expert--fa85cab580.md)
 
 ### testing
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
@@ -477,10 +479,12 @@
 - [skill-creator (`68/100`)](dist/cards/skill-creator--f29daefa60.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
+- [modern-python (`65/100`)](dist/cards/modern-python--38683f732b.md)
 - [refactor (`65/100`)](dist/cards/refactor--4f640e2f77.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--2bda1e275b.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
 - [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
+- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--b0ea30228a.md)
 - [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--26df13ad91.md)
 - [netlify-deploy (`63/100`)](dist/cards/netlify-deploy--9034b01776.md)
 - [brainstorming (`60/100`)](dist/cards/brainstorming--3c80560146.md)
@@ -492,8 +496,6 @@
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
 - [skill-creator (`60/100`)](dist/cards/skill-creator--5fba385da8.md)
 - [skill-creator (`60/100`)](dist/cards/skill-creator--bfe24c4c54.md)
-- [systematic-debugging (`60/100`)](dist/cards/systematic-debugging--893c4c9fc4.md)
-- [test-driven-development (`60/100`)](dist/cards/test-driven-development--7455e6e2f1.md)
 
 ### typescript
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -523,6 +525,6 @@
 - [typescript-pro (`55/100`)](dist/cards/typescript-pro--ae77e9d420.md)
 - [vue-expert (`55/100`)](dist/cards/vue-expert--192c05809c.md)
 - [vue-expert-js (`55/100`)](dist/cards/vue-expert-js--d4892391f7.md)
+- [pydantic-models-py (`53/100`)](dist/cards/pydantic-models-py--8b5934f559.md)
 - [custom-agents (`50/100`)](dist/cards/custom-agents--bb5fead61d.md)
 - [orchestrating-swarms (`50/100`)](dist/cards/orchestrating-swarms--2e4f2be931.md)
-- [typescript-core (`50/100`)](dist/cards/typescript-core--627655f6c9.md)

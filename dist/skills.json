@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 479,
+  "count": 493,
   "roots": [
     {
       "label": "agent_playground",
@@ -582,6 +582,42 @@
         "ci"
       ],
       "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "async-python-patterns--2ea225b490",
+      "name": "async-python-patterns",
+      "description": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-async-python-patterns/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-async-python-patterns",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 25,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2224
+      },
+      "tags": [
+        "python",
+        "testing",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "Building async web APIs (FastAPI, aiohttp, Sanic)",
+        "Implementing concurrent I/O operations (database, file, network)",
+        "Creating web scrapers with concurrent requests",
+        "Developing real-time applications (WebSocket servers, chat systems)",
+        "Processing multiple independent tasks simultaneously",
+        "Building microservices with async communication",
+        "Optimizing I/O-bound workloads",
+        "Implementing async background tasks and queues"
+      ],
       "workflow": []
     },
     {
@@ -2948,6 +2984,31 @@
       ]
     },
     {
+      "id": "data-module--82caa7e615",
+      "name": "data-module",
+      "description": "myfy DataModule for database access with async SQLAlchemy. Use when working with DataModule, AsyncSession, database connections, connection pooling, migrations, or SQLAlchemy models.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/psincraian-data-module/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/psincraian-data-module",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 12,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 527
+      },
+      "tags": [
+        "python",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "database-optimizer--a862127702",
       "name": "database-optimizer",
       "description": "Use when investigating slow queries, analyzing execution plans, or optimizing database performance. Invoke for index design, query rewrites, configuration tuning, partitioning strategies, lock contention resolution.",
@@ -4082,6 +4143,30 @@
         "Fields where constraint guidance helps (e.g., `description: \"YYYY-MM-DD format\"`)",
         "*Rule of thumb**: If you'd write a `case` statement on the output, it should be a `T::Enum`. If you'd call `.each` on it, it should be `T::Array[SomeStruct]`."
       ],
+      "workflow": []
+    },
+    {
+      "id": "duckdb-en--f67829f654",
+      "name": "duckdb-en",
+      "description": "DuckDB CLI specialist for SQL analysis, data processing and file conversion. Use for SQL queries, CSV/Parquet/JSON analysis, database queries, or data conversion. Triggers on \"duckdb\", \"sql\", \"query\", \"data analysis\", \"parquet\", \"convert data\".",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/openclaw-duckdb-en/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/openclaw-duckdb-en",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 17,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1003
+      },
+      "tags": [
+        "ci"
+      ],
+      "use_when": [],
       "workflow": []
     },
     {
@@ -8314,6 +8399,41 @@
       "workflow": []
     },
     {
+      "id": "modern-python--38683f732b",
+      "name": "modern-python",
+      "description": "Configures Python projects with modern tooling (uv, ruff, ty). Use when creating projects, writing standalone scripts, or migrating from pip/Poetry/mypy/black.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/trailofbits-modern-python/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/trailofbits-modern-python",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 11,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1406
+      },
+      "tags": [
+        "github",
+        "python",
+        "security",
+        "testing",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "Creating a new Python project or package",
+        "Setting up `pyproject.toml` configuration",
+        "Configuring development tools (linting, formatting, testing)",
+        "Writing Python scripts with external dependencies",
+        "Migrating from legacy tools (when user requests it)"
+      ],
+      "workflow": []
+    },
+    {
       "id": "moltbook--4f552b5d80",
       "name": "moltbook",
       "description": "The social network for AI agents. Post, comment, upvote, and create communities.",
@@ -8377,6 +8497,41 @@
         "**Collect** - Set up aggregation and storage",
         "**Visualize** - Create dashboards",
         "**Alert** - Configure meaningful alerts"
+      ]
+    },
+    {
+      "id": "mypy--ef6202d707",
+      "name": "mypy",
+      "description": "mypy - Static type checker for Python with gradual typing, strict mode, Protocol support, and framework integration",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/bobmatnyc-mypy/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/bobmatnyc-mypy",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 55,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 3578
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "python",
+        "testing",
+        "ci",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": [
+        "uses: actions/checkout@v3",
+        "name: Set up Python",
+        "name: Install dependencies",
+        "name: Run mypy",
+        "name: Run mypy strict on new code"
       ]
     },
     {
@@ -9834,6 +9989,32 @@
       "workflow": []
     },
     {
+      "id": "polars--63a2a901db",
+      "name": "polars",
+      "description": "Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy evaluation, CSV/Parquet I/O, expression API, for high-performance data analysis workflows.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/davila7-polars/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/davila7-polars",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 21,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1061
+      },
+      "tags": [
+        "python",
+        "azure",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "postgres-pro--04ba93383e",
       "name": "postgres-pro",
       "description": "Use when optimizing PostgreSQL queries, configuring replication, or implementing advanced database features. Invoke for EXPLAIN analysis, JSONB operations, extension usage, VACUUM tuning, performance monitoring.",
@@ -10069,6 +10250,44 @@
       ]
     },
     {
+      "id": "precommit-setup--073c4d0496",
+      "name": "precommit-setup",
+      "description": "Configure three-layer pre-commit system with linting, type checking, and testing hooks. Use for quality gate setup and code standards. Skip if pre-commit is optimally configured.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/athola-precommit-setup/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/athola-precommit-setup",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2250
+      },
+      "tags": [
+        "github",
+        "python",
+        "typescript",
+        "security",
+        "testing",
+        "ci"
+      ],
+      "use_when": [
+        "Setting up new project with code quality enforcement",
+        "Adding pre-commit hooks to existing project",
+        "Upgrading from basic linting to a full quality system",
+        "Setting up monorepo/plugin architecture with per-component quality checks",
+        "Updating pre-commit hook versions"
+      ],
+      "workflow": [
+        "### 1. Create Configuration Files",
+        "\\`\\`\\`bash"
+      ]
+    },
+    {
       "id": "prepare-pr--57cd59f72a",
       "name": "prepare-pr",
       "description": "Script-first PR preparation with structured findings resolution, deterministic push safety, and explicit gate execution.",
@@ -10294,6 +10513,102 @@
       ]
     },
     {
+      "id": "pydantic-models-py--8b5934f559",
+      "name": "pydantic-models-py",
+      "description": "Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schemas, database models, or data validation in Python applications using Pydantic v2.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/microsoft-pydantic-models-py/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/microsoft-pydantic-models-py",
+      "worth_score": 53,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": true,
+        "word_count": 179
+      },
+      "tags": [
+        "python",
+        "typescript"
+      ],
+      "use_when": [],
+      "workflow": [
+        "Create models in `src/backend/app/models/`",
+        "Export from `src/backend/app/models/__init__.py`",
+        "Add corresponding TypeScript types"
+      ]
+    },
+    {
+      "id": "pyright-type-checker--8b51a860ca",
+      "name": "pyright-type-checker",
+      "description": "Pyright fast Python type checker from Microsoft with VS Code integration and strict type checking modes",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/bobmatnyc-pyright-type-checker/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/bobmatnyc-pyright-type-checker",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 41,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1480
+      },
+      "tags": [
+        "github",
+        "python",
+        "node",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "✅ VS Code users",
+        "✅ Need fast feedback",
+        "✅ Want strict type checking",
+        "✅ Modern Python (3.10+)",
+        "✅ Starting new projects"
+      ],
+      "workflow": []
+    },
+    {
+      "id": "pytest-advanced--3f715623c2",
+      "name": "pytest-advanced",
+      "description": "Advanced pytest patterns including fixtures, markers, parametrization, and parallel execution.\nUse when implementing test infrastructure, organizing test suites, writing fixtures,\nor running tests with coverage. Covers pytest-cov, pytest-asyncio, pytest-xdist, pytest-mock.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/laurigates-pytest-advanced/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/laurigates-pytest-advanced",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 11,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 738
+      },
+      "tags": [
+        "github",
+        "python",
+        "testing",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": [
+        "name: Run tests",
+        "-cov=src \\",
+        "-cov-report=xml \\",
+        "-cov-report=term-missing \\",
+        "-junitxml=test-results.xml"
+      ]
+    },
+    {
       "id": "python--8e9c6dc510",
       "name": "python",
       "description": "Python environment and execution guide.\nUse when:\n- Running Python scripts\n- Working with uv, poetry, venv",
@@ -10315,6 +10630,30 @@
         "github",
         "python",
         "ci"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "python-linting--52ba8b46e0",
+      "name": "python-linting",
+      "description": "This skill helps lint Python code using ruff. Use when the user asks to \"lint\", \"check code quality\", or \"fix style issues\".",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/openhands-python-linting/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/openhands-python-linting",
+      "worth_score": 35,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 92
+      },
+      "tags": [
+        "python"
       ],
       "use_when": [],
       "workflow": []
@@ -10409,6 +10748,64 @@
         "docs"
       ],
       "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "python-testing--780b421c83",
+      "name": "python-testing",
+      "description": "Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/affaan-m-python-testing/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/affaan-m-python-testing",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 41,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2027
+      },
+      "tags": [
+        "python",
+        "testing",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "python-type-safety--85b7f40946",
+      "name": "python-type-safety",
+      "description": "Python type safety with type hints, generics, protocols, and strict type checking. Use when adding type annotations, implementing generic classes, defining structural interfaces, or configuring mypy/pyright.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-python-type-safety/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-python-type-safety",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 12,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1417
+      },
+      "tags": [
+        "python",
+        "ci"
+      ],
+      "use_when": [
+        "Adding type hints to existing code",
+        "Creating generic, reusable classes",
+        "Defining structural interfaces with protocols",
+        "Configuring mypy or pyright for strict checking",
+        "Understanding type narrowing and guards",
+        "Building type-safe APIs and libraries"
+      ],
       "workflow": []
     },
     {
@@ -14396,6 +14793,50 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "uv-package-manager--b0ea30228a",
+      "name": "uv-package-manager",
+      "description": "Master the uv package manager for fast Python dependency management, virtual environments, and modern Python project workflows. Use when setting up Python projects, managing dependencies, or optimizing Python development workflows with uv.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-uv-package-manager/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-uv-package-manager",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 36,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2227
+      },
+      "tags": [
+        "github",
+        "python",
+        "docker",
+        "security",
+        "testing",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "Setting up new Python projects quickly",
+        "Managing Python dependencies faster than pip",
+        "Creating and managing virtual environments",
+        "Installing Python interpreters",
+        "Resolving dependency conflicts efficiently",
+        "Migrating from pip/pip-tools/poetry",
+        "Speeding up CI/CD pipelines",
+        "Managing monorepo Python projects",
+        "Working with lockfiles for reproducible builds",
+        "Optimizing Docker builds with Python dependencies"
+      ],
+      "workflow": [
+        "### Pattern 12: Monorepo Support",
+        "```bash"
+      ]
     },
     {
       "id": "uv-python-versions--68be17e52d",
