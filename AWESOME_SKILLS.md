@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `493`
+- total_skills: `497`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -14,6 +14,7 @@
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e2b1b77c7f.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [speech (`80/100`)](dist/cards/speech--8f24bf6cc3.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
@@ -32,6 +33,7 @@
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
 - [scientific-writing (`73/100`)](dist/cards/scientific-writing--b01a3427b3.md)
 - [transcribe (`73/100`)](dist/cards/transcribe--2a1c42dc48.md)
+- [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--f534bb4317.md)
 - [content-research-writer (`70/100`)](dist/cards/content-research-writer--b0e2626a35.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
@@ -51,8 +53,6 @@
 - [skill-creator (`68/100`)](dist/cards/skill-creator--f29daefa60.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [Data Cleaning Pipeline (`65/100`)](dist/cards/data-cleaning-pipeline--9074261167.md)
-- [exploring-data (`65/100`)](dist/cards/exploring-data--97dc227dc0.md)
-- [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
 
 ## By Tag
 ### aws
@@ -120,6 +120,7 @@
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e2b1b77c7f.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [speech (`80/100`)](dist/cards/speech--8f24bf6cc3.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
@@ -138,8 +139,7 @@
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
 - [scientific-writing (`73/100`)](dist/cards/scientific-writing--b01a3427b3.md)
 - [transcribe (`73/100`)](dist/cards/transcribe--2a1c42dc48.md)
-- [content-research-writer (`70/100`)](dist/cards/content-research-writer--b0e2626a35.md)
-- [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
+- [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--f534bb4317.md)
 
 ### comfyui
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
@@ -169,6 +169,7 @@
 
 ### docker
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
@@ -201,6 +202,7 @@
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
 - [Agent Development (`85/100`)](dist/cards/agent-development--e1238b5b0f.md)
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [qmd (`75/100`)](dist/cards/qmd--c437a36408.md)
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--201fb004f0.md)
@@ -227,7 +229,6 @@
 - [create-agent-skills (`60/100`)](dist/cards/create-agent-skills--86efc6c194.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--f4f2150e6b.md)
 - [docx (`60/100`)](dist/cards/docx--172b4907d3.md)
-- [feishu-doc (`60/100`)](dist/cards/feishu-doc--9145600e1b.md)
 
 ### figma
 - [screenshot (`65/100`)](dist/cards/screenshot--35d6a921f7.md)
@@ -259,6 +260,7 @@
 ### github
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
 - [qmd (`75/100`)](dist/cards/qmd--c437a36408.md)
@@ -286,9 +288,9 @@
 - [github-pr-triage (`60/100`)](dist/cards/github-pr-triage--ef5323ab82.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 - [prompt-library (`60/100`)](dist/cards/prompt-library--dde0f0be9c.md)
-- [pyright-type-checker (`60/100`)](dist/cards/pyright-type-checker--8b51a860ca.md)
 
 ### kubernetes
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
@@ -340,6 +342,7 @@
 
 ### node
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [story-roleplay (`75/100`)](dist/cards/story-roleplay--db4282fa43.md)
 - [playwright (`73/100`)](dist/cards/playwright--cce2795d85.md)
@@ -368,7 +371,6 @@
 - [comfy-edit (`55/100`)](dist/cards/comfy-edit--b2b01b2266.md)
 - [Command Development (`55/100`)](dist/cards/command-development--627881243e.md)
 - [create-pr (`55/100`)](dist/cards/create-pr--11574b9b85.md)
-- [create-pr (`55/100`)](dist/cards/create-pr--f83d364c23.md)
 
 ### obsidian
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -411,6 +413,7 @@
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [speech (`80/100`)](dist/cards/speech--8f24bf6cc3.md)
 - [content-creator (`78/100`)](dist/cards/content-creator--b657ebe201.md)
@@ -419,6 +422,7 @@
 - [terraform-azurerm-set-diff-analyzer (`75/100`)](dist/cards/terraform-azurerm-set-diff-analyzer--a8fa61b77c.md)
 - [scientific-writing (`73/100`)](dist/cards/scientific-writing--b01a3427b3.md)
 - [transcribe (`73/100`)](dist/cards/transcribe--2a1c42dc48.md)
+- [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--f534bb4317.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--77b98183f5.md)
@@ -430,14 +434,14 @@
 - [ui-ux-pro-max (`70/100`)](dist/cards/ui-ux-pro-max--20633323ec.md)
 - [api-design-principles (`68/100`)](dist/cards/api-design-principles--405cf8e59a.md)
 - [skill-creator (`68/100`)](dist/cards/skill-creator--f29daefa60.md)
-- [Data Cleaning Pipeline (`65/100`)](dist/cards/data-cleaning-pipeline--9074261167.md)
-- [exploring-data (`65/100`)](dist/cards/exploring-data--97dc227dc0.md)
 
 ### security
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
 - [Agent Development (`85/100`)](dist/cards/agent-development--e1238b5b0f.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
+- [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--f534bb4317.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 - [scoutqa-test (`70/100`)](dist/cards/scoutqa-test--b87aadf427.md)
@@ -454,6 +458,7 @@
 - [postmortem-writing (`60/100`)](dist/cards/postmortem-writing--ccbc661449.md)
 - [prd (`60/100`)](dist/cards/prd--4e2f52f8e6.md)
 - [prompt-library (`60/100`)](dist/cards/prompt-library--dde0f0be9c.md)
+- [python-project-skel (`60/100`)](dist/cards/python-project-skel--a9f4f0e172.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
 - [systematic-debugging (`60/100`)](dist/cards/systematic-debugging--893c4c9fc4.md)
 - [testing-patterns (`60/100`)](dist/cards/testing-patterns--eab943b042.md)
@@ -461,9 +466,6 @@
 - [architecture-designer (`55/100`)](dist/cards/architecture-designer--97d5b33afc.md)
 - [atlassian-mcp (`55/100`)](dist/cards/atlassian-mcp--091d21efb0.md)
 - [aws-beanstalk-expert (`55/100`)](dist/cards/aws-beanstalk-expert--23b198b516.md)
-- [cloud-architect (`55/100`)](dist/cards/cloud-architect--b1d728e511.md)
-- [code-reviewer (`55/100`)](dist/cards/code-reviewer--1348cd5fc4.md)
-- [Command Development (`55/100`)](dist/cards/command-development--627881243e.md)
 
 ### testing
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
@@ -493,12 +495,13 @@
 - [playwright-cli (`60/100`)](dist/cards/playwright-cli--ee674ba8f4.md)
 - [prd (`60/100`)](dist/cards/prd--4e2f52f8e6.md)
 - [prompt-library (`60/100`)](dist/cards/prompt-library--dde0f0be9c.md)
+- [python-project-skel (`60/100`)](dist/cards/python-project-skel--a9f4f0e172.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
 - [skill-creator (`60/100`)](dist/cards/skill-creator--5fba385da8.md)
-- [skill-creator (`60/100`)](dist/cards/skill-creator--bfe24c4c54.md)
 
 ### typescript
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
+- [semgrep (`80/100`)](dist/cards/semgrep--4891943f24.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--f4f2150e6b.md)
@@ -527,4 +530,3 @@
 - [vue-expert-js (`55/100`)](dist/cards/vue-expert-js--d4892391f7.md)
 - [pydantic-models-py (`53/100`)](dist/cards/pydantic-models-py--8b5934f559.md)
 - [custom-agents (`50/100`)](dist/cards/custom-agents--bb5fead61d.md)
-- [orchestrating-swarms (`50/100`)](dist/cards/orchestrating-swarms--2e4f2be931.md)

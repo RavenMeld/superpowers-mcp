@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 493,
+  "count": 497,
   "roots": [
     {
       "label": "agent_playground",
@@ -863,6 +863,47 @@
         "-project $SYSTEM_TEAMPROJECT",
         "-artifact-name 'webapp' \\",
         "-path ./output \\"
+      ]
+    },
+    {
+      "id": "bandit-security-scan--f534bb4317",
+      "name": "bandit-security-scan",
+      "description": "Run Bandit security analysis to find common security issues and vulnerabilities in Python code. Use when the user mentions Bandit, security analysis, vulnerability scanning, security audit, software composition analysis (SCA), or wants to check for security issues in Python code.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/visgwu-bandit-security-scan/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/visgwu-bandit-security-scan",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 2,
+        "has_scripts": true,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 511
+      },
+      "tags": [
+        "python",
+        "security",
+        "ci"
+      ],
+      "use_when": [
+        "Run a Bandit security scan",
+        "Find security vulnerabilities in Python code",
+        "Perform software composition analysis (SCA)",
+        "Conduct security audits",
+        "Check for insecure coding practices",
+        "Identify potential security risks",
+        "Scan for common security issues (SQL injection, XSS, hardcoded passwords, etc.)"
+      ],
+      "workflow": [
+        "Review the HTML report in your browser",
+        "Prioritize fixes by severity and confidence",
+        "Address hardcoded secrets immediately",
+        "Update insecure dependencies",
+        "Integrate Bandit into your CI/CD pipeline",
+        "Set up pre-commit hooks for automatic scanning"
       ]
     },
     {
@@ -3249,6 +3290,36 @@
       "tags": [],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "dependency-auditor--5537145a6e",
+      "name": "dependency-auditor",
+      "description": "Check dependencies for known vulnerabilities using npm audit, pip-audit, etc. Use when package.json or requirements.txt changes, or before deployments. Alerts on vulnerable dependencies. Triggers on dependency file changes, deployment prep, security mentions.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/alirezarezvani-dependency-auditor/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/alirezarezvani-dependency-auditor",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 12,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 638
+      },
+      "tags": [
+        "github",
+        "python",
+        "node",
+        "security",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": [
+        "name: Dependency audit"
+      ]
     },
     {
       "id": "dependency-install-helper--6c0e74c437",
@@ -10699,6 +10770,40 @@
       ]
     },
     {
+      "id": "python-project-skel--a9f4f0e172",
+      "name": "python-project-skel",
+      "description": "Generate production-ready Python project skeletons with Astral UV package manager, Hatchling build backend with dynamic versioning, and modern tooling (ruff, mypy, pytest, bandit). Use when creating new Python projects, initializing Python packages, setting up src-layout projects, scaffolding Python libraries, or starting a new Python application. Supports Python 3.14+ by default with configura...",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/zircote-python-project-skel/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/zircote-python-project-skel",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 4,
+        "has_scripts": true,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 429
+      },
+      "tags": [
+        "python",
+        "security",
+        "testing",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": [
+        "After generation:",
+        "```bash",
+        "cd {project-name}",
+        "uv sync                    # Install dependencies",
+        "make test                  # Run tests",
+        "make quality               # Run all quality checks"
+      ]
+    },
+    {
       "id": "python-repl--05af0c9cbc",
       "name": "python-repl",
       "description": "Interactive Python REPL automation with common helpers and best practices",
@@ -12357,6 +12462,54 @@
         "Identify entry points (endpoints, upload surfaces, parsers/decoders, job triggers, admin tooling, logging/error sinks).",
         "List the assets that drive risk (credentials, PII, integrity-critical state, availability-critical components, build artifacts).",
         "Describe realistic attacker capabilities based on exposure and intended usage."
+      ]
+    },
+    {
+      "id": "semgrep--4891943f24",
+      "name": "semgrep",
+      "description": "Run Semgrep static analysis scan on a codebase using parallel subagents. Automatically",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/trailofbits-semgrep/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/trailofbits-semgrep",
+      "worth_score": 80,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 12,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 2143
+      },
+      "tags": [
+        "github",
+        "python",
+        "typescript",
+        "node",
+        "docker",
+        "kubernetes",
+        "security",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "Security audit of a codebase",
+        "Finding vulnerabilities before code review",
+        "Scanning for known bug patterns",
+        "First-pass static analysis"
+      ],
+      "workflow": [
+        "*Step 3 is a HARD GATE**: Mark as `completed` ONLY after user says \"yes\", \"proceed\", \"approved\", or equivalent.",
+        "Create all 6 tasks with dependencies",
+        "TaskUpdate Step 1 → in_progress, execute detection",
+        "TaskUpdate Step 1 → completed",
+        "TaskUpdate Step 2 → in_progress, select rulesets",
+        "TaskUpdate Step 2 → completed",
+        "TaskUpdate Step 3 → in_progress, present plan with rulesets",
+        "STOP: Wait for user response (may modify rulesets)",
+        "User approves → TaskUpdate Step 3 → completed",
+        "TaskUpdate Step 4 → in_progress (now unblocked)"
       ]
     },
     {
