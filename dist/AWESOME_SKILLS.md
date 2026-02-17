@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `478`
+- total_skills: `479`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)

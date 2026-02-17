@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 478,
+  "count": 479,
   "roots": [
     {
       "label": "agent_playground",
@@ -14424,6 +14424,40 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "vector-database-engineer--0116448941",
+      "name": "vector-database-engineer",
+      "description": "Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similar",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-vector-database-engineer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-vector-database-engineer",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 281
+      },
+      "tags": [],
+      "use_when": [
+        "The task is unrelated to vector database engineer",
+        "You need a different domain or tool outside this scope"
+      ],
+      "workflow": [
+        "Analyze data characteristics and query patterns",
+        "Select appropriate embedding model",
+        "Design chunking and preprocessing pipeline",
+        "Choose vector database and index type",
+        "Configure metadata schema for filtering",
+        "Implement hybrid search if needed",
+        "Optimize for latency/recall tradeoffs",
+        "Set up monitoring and reindexing strategies"
+      ]
     },
     {
       "id": "vercel-deploy--1d3fbcf31b",
