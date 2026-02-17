@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `466`
+- total_skills: `478`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -20,6 +20,7 @@
 - [content-creator (`78/100`)](dist/cards/content-creator--b657ebe201.md)
 - [mcp-management (`78/100`)](dist/cards/mcp-management--5e36ea09dd.md)
 - [azure-deployment-preflight (`75/100`)](dist/cards/azure-deployment-preflight--e86f904041.md)
+- [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
 - [qmd (`75/100`)](dist/cards/qmd--c437a36408.md)
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--201fb004f0.md)
@@ -52,7 +53,6 @@
 - [Data Cleaning Pipeline (`65/100`)](dist/cards/data-cleaning-pipeline--9074261167.md)
 - [exploring-data (`65/100`)](dist/cards/exploring-data--97dc227dc0.md)
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
-- [pdf (`65/100`)](dist/cards/pdf--b17d45eba8.md)
 
 ## By Tag
 ### aws
@@ -67,6 +67,9 @@
 - [pdf (`65/100`)](dist/cards/pdf--eff8a191ba.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--2bda1e275b.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
+- [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
+- [hugging-face-cli (`60/100`)](dist/cards/hugging-face-cli--2d478fc7c0.md)
+- [rag-implementation (`60/100`)](dist/cards/rag-implementation--d287e06a29.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
 - [skill-creator (`60/100`)](dist/cards/skill-creator--5fba385da8.md)
 - [architecture-designer (`55/100`)](dist/cards/architecture-designer--97d5b33afc.md)
@@ -78,6 +81,7 @@
 - [security-reviewer (`55/100`)](dist/cards/security-reviewer--df93ce10a8.md)
 - [terraform-engineer (`55/100`)](dist/cards/terraform-engineer--5974053ea8.md)
 - [test-master (`55/100`)](dist/cards/test-master--3b56d2c71e.md)
+- [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--3ed875f5e3.md)
 - [scientific-critical-thinking (`50/100`)](dist/cards/scientific-critical-thinking--e409f2e1e1.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--ad98050726.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--f5053d24ab.md)
@@ -100,6 +104,7 @@
 - [ml-pipeline (`55/100`)](dist/cards/ml-pipeline--27f26a262f.md)
 - [terraform-engineer (`55/100`)](dist/cards/terraform-engineer--5974053ea8.md)
 - [azure-devops-cli (`50/100`)](dist/cards/azure-devops-cli--33d32dd66b.md)
+- [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--3ed875f5e3.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--ad98050726.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--f5053d24ab.md)
 
@@ -120,6 +125,7 @@
 - [content-creator (`78/100`)](dist/cards/content-creator--b657ebe201.md)
 - [mcp-management (`78/100`)](dist/cards/mcp-management--5e36ea09dd.md)
 - [azure-deployment-preflight (`75/100`)](dist/cards/azure-deployment-preflight--e86f904041.md)
+- [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
 - [qmd (`75/100`)](dist/cards/qmd--c437a36408.md)
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--201fb004f0.md)
@@ -133,7 +139,6 @@
 - [transcribe (`73/100`)](dist/cards/transcribe--2a1c42dc48.md)
 - [content-research-writer (`70/100`)](dist/cards/content-research-writer--b0e2626a35.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
-- [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 
 ### comfyui
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
@@ -182,16 +187,19 @@
 - [spring-boot-engineer (`55/100`)](dist/cards/spring-boot-engineer--fad2368d80.md)
 - [azure-devops-cli (`50/100`)](dist/cards/azure-devops-cli--33d32dd66b.md)
 - [developer (`50/100`)](dist/cards/developer--e52395e767.md)
+- [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--3ed875f5e3.md)
 - [prose (`50/100`)](dist/cards/prose--508aa2c339.md)
 - [containerization-assistant (`45/100`)](dist/cards/containerization-assistant--fabeb603a6.md)
 - [docker-best-practices (`45/100`)](dist/cards/docker-best-practices--5c4f53367d.md)
 - [Error Recovery Patterns Skill (`40/100`)](dist/cards/error-recovery-patterns-skill--7a204a67c3.md)
 - [docker-and-kubernetes-pro (`35/100`)](dist/cards/docker-and-kubernetes-pro--91b01856e4.md)
+- [MLOps Automation (`35/100`)](dist/cards/mlops-automation--ce68bd1a32.md)
 
 ### docs
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
 - [Agent Development (`85/100`)](dist/cards/agent-development--e1238b5b0f.md)
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
+- [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [qmd (`75/100`)](dist/cards/qmd--c437a36408.md)
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--201fb004f0.md)
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--f183038301.md)
@@ -207,6 +215,8 @@
 - [skill-creator (`65/100`)](dist/cards/skill-creator--2bda1e275b.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
 - [subagent-driven-development (`65/100`)](dist/cards/subagent-driven-development--c09e4abf0b.md)
+- [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
+- [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--b327aafd76.md)
 - [compound-docs (`63/100`)](dist/cards/compound-docs--b2cf98200e.md)
 - [netlify-deploy (`63/100`)](dist/cards/netlify-deploy--9034b01776.md)
 - [brainstorming (`60/100`)](dist/cards/brainstorming--3c80560146.md)
@@ -216,9 +226,6 @@
 - [feishu-doc (`60/100`)](dist/cards/feishu-doc--9145600e1b.md)
 - [hugging-face-paper-publisher (`60/100`)](dist/cards/hugging-face-paper-publisher--94fcb45911.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
-- [ouroboros (`60/100`)](dist/cards/ouroboros--487547d843.md)
-- [postmortem-writing (`60/100`)](dist/cards/postmortem-writing--ccbc661449.md)
-- [skill-creator (`60/100`)](dist/cards/skill-creator--5fba385da8.md)
 
 ### figma
 - [screenshot (`65/100`)](dist/cards/screenshot--35d6a921f7.md)
@@ -242,6 +249,7 @@
 - [cloud-architect (`55/100`)](dist/cards/cloud-architect--b1d728e511.md)
 - [devops-engineer (`55/100`)](dist/cards/devops-engineer--cb93121cb9.md)
 - [terraform-engineer (`55/100`)](dist/cards/terraform-engineer--5974053ea8.md)
+- [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--3ed875f5e3.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--ad98050726.md)
 - [skill-creator (`50/100`)](dist/cards/skill-creator--f5053d24ab.md)
 - [github-workflow (`45/100`)](dist/cards/github-workflow--7df319c3e6.md)
@@ -249,6 +257,7 @@
 ### github
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
+- [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
 - [qmd (`75/100`)](dist/cards/qmd--c437a36408.md)
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--201fb004f0.md)
@@ -263,6 +272,8 @@
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
+- [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
+- [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--b327aafd76.md)
 - [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--26df13ad91.md)
 - [netlify-deploy (`63/100`)](dist/cards/netlify-deploy--9034b01776.md)
 - [create-agent-skills (`60/100`)](dist/cards/create-agent-skills--86efc6c194.md)
@@ -271,12 +282,9 @@
 - [github-pr-triage (`60/100`)](dist/cards/github-pr-triage--ef5323ab82.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 - [prompt-library (`60/100`)](dist/cards/prompt-library--dde0f0be9c.md)
+- [rag-implementation (`60/100`)](dist/cards/rag-implementation--d287e06a29.md)
 - [resolve_pr_parallel (`60/100`)](dist/cards/resolve-pr-parallel--cb40018bdf.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
-- [winapp-cli (`60/100`)](dist/cards/winapp-cli--368f1b33de.md)
-- [agent-browser (`55/100`)](dist/cards/agent-browser--bba0d8f306.md)
-- [aws-beanstalk-expert (`55/100`)](dist/cards/aws-beanstalk-expert--23b198b516.md)
-- [coding-agent (`55/100`)](dist/cards/coding-agent--5d1d9c04fb.md)
 
 ### kubernetes
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
@@ -291,6 +299,7 @@
 - [microservices-architect (`55/100`)](dist/cards/microservices-architect--630aef777d.md)
 - [ml-pipeline (`55/100`)](dist/cards/ml-pipeline--27f26a262f.md)
 - [spring-boot-engineer (`55/100`)](dist/cards/spring-boot-engineer--fad2368d80.md)
+- [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--3ed875f5e3.md)
 - [containerization-assistant (`45/100`)](dist/cards/containerization-assistant--fabeb603a6.md)
 - [kubernetes (`40/100`)](dist/cards/kubernetes--4f11484c4a.md)
 - [docker-and-kubernetes-pro (`35/100`)](dist/cards/docker-and-kubernetes-pro--91b01856e4.md)
@@ -309,6 +318,7 @@
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--77b98183f5.md)
 - [develop-web-game (`68/100`)](dist/cards/develop-web-game--667d6cd915.md)
 - [screenshot (`65/100`)](dist/cards/screenshot--35d6a921f7.md)
+- [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
 - [awesome-skills-database (`60/100`)](dist/cards/awesome-skills-database--1e6a2a488c.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 - [ouroboros (`60/100`)](dist/cards/ouroboros--487547d843.md)
@@ -325,10 +335,10 @@
 - [n8n-node-configuration (`55/100`)](dist/cards/n8n-node-configuration--29bc215f0d.md)
 - [playwright-mcp (`55/100`)](dist/cards/playwright-mcp--b4cf09bd8f.md)
 - [Skill Development (`55/100`)](dist/cards/skill-development--0e9643a221.md)
-- [skills (`55/100`)](dist/cards/skills--d6fe596dbe.md)
 
 ### node
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
+- [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [story-roleplay (`75/100`)](dist/cards/story-roleplay--db4282fa43.md)
 - [playwright (`73/100`)](dist/cards/playwright--cce2795d85.md)
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
@@ -343,6 +353,7 @@
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
 - [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--26df13ad91.md)
 - [docx (`60/100`)](dist/cards/docx--172b4907d3.md)
+- [rag-implementation (`60/100`)](dist/cards/rag-implementation--d287e06a29.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
 - [webapp-testing (`60/100`)](dist/cards/webapp-testing--4afd58a651.md)
 - [winapp-cli (`60/100`)](dist/cards/winapp-cli--368f1b33de.md)
@@ -356,8 +367,6 @@
 - [create-pr (`55/100`)](dist/cards/create-pr--11574b9b85.md)
 - [create-pr (`55/100`)](dist/cards/create-pr--f83d364c23.md)
 - [debugging-workflows (`55/100`)](dist/cards/debugging-workflows--4a8832e484.md)
-- [feishu-wiki (`55/100`)](dist/cards/feishu-wiki--14a771da52.md)
-- [javascript-pro (`55/100`)](dist/cards/javascript-pro--de460692e6.md)
 
 ### obsidian
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -403,6 +412,7 @@
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [speech (`80/100`)](dist/cards/speech--8f24bf6cc3.md)
 - [content-creator (`78/100`)](dist/cards/content-creator--b657ebe201.md)
+- [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--3d193cf821.md)
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
 - [terraform-azurerm-set-diff-analyzer (`75/100`)](dist/cards/terraform-azurerm-set-diff-analyzer--a8fa61b77c.md)
 - [scientific-writing (`73/100`)](dist/cards/scientific-writing--b01a3427b3.md)
@@ -420,7 +430,6 @@
 - [skill-creator (`68/100`)](dist/cards/skill-creator--f29daefa60.md)
 - [Data Cleaning Pipeline (`65/100`)](dist/cards/data-cleaning-pipeline--9074261167.md)
 - [exploring-data (`65/100`)](dist/cards/exploring-data--97dc227dc0.md)
-- [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
 
 ### security
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -435,6 +444,7 @@
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [skill-writer (`70/100`)](dist/cards/skill-writer--63d6154dfc.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
+- [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
 - [github-issue-triage (`60/100`)](dist/cards/github-issue-triage--f3214d1ae1.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 - [postmortem-writing (`60/100`)](dist/cards/postmortem-writing--ccbc661449.md)
@@ -452,7 +462,6 @@
 - [Command Development (`55/100`)](dist/cards/command-development--627881243e.md)
 - [debugging-workflows (`55/100`)](dist/cards/debugging-workflows--4a8832e484.md)
 - [django-expert (`55/100`)](dist/cards/django-expert--fa85cab580.md)
-- [dotnet-core-expert (`55/100`)](dist/cards/dotnet-core-expert--122f6b182b.md)
 
 ### testing
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
@@ -471,6 +480,7 @@
 - [refactor (`65/100`)](dist/cards/refactor--4f640e2f77.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--2bda1e275b.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
+- [terraform-skill (`65/100`)](dist/cards/terraform-skill--c55db7e80b.md)
 - [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--26df13ad91.md)
 - [netlify-deploy (`63/100`)](dist/cards/netlify-deploy--9034b01776.md)
 - [brainstorming (`60/100`)](dist/cards/brainstorming--3c80560146.md)
@@ -484,7 +494,6 @@
 - [skill-creator (`60/100`)](dist/cards/skill-creator--bfe24c4c54.md)
 - [systematic-debugging (`60/100`)](dist/cards/systematic-debugging--893c4c9fc4.md)
 - [test-driven-development (`60/100`)](dist/cards/test-driven-development--7455e6e2f1.md)
-- [testing-patterns (`60/100`)](dist/cards/testing-patterns--eab943b042.md)
 
 ### typescript
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)

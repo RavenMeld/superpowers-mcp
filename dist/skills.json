@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 466,
+  "count": 478,
   "roots": [
     {
       "label": "agent_playground",
@@ -6059,6 +6059,39 @@
       ]
     },
     {
+      "id": "hugging-face-cli--2d478fc7c0",
+      "name": "hugging-face-cli",
+      "description": "Execute Hugging Face Hub operations using the `hf` CLI. Use when the user needs to download models/datasets/spaces, upload files to Hub repositories, create repos, manage local cache, or run compute jobs on HF infrastructure. Covers authentication, file transfers, repository creation, cache operations, and cloud compute.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-hugging-face-cli/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-hugging-face-cli",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 13,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 998
+      },
+      "tags": [
+        "python",
+        "aws",
+        "ci"
+      ],
+      "use_when": [
+        "User needs to download models, datasets, or spaces",
+        "Uploading files to Hub repositories",
+        "Creating Hugging Face repositories",
+        "Managing local cache",
+        "Running compute jobs on HF infrastructure",
+        "Working with Hugging Face Hub authentication"
+      ],
+      "workflow": []
+    },
+    {
       "id": "hugging-face-paper-publisher--94fcb45911",
       "name": "hugging-face-paper-publisher",
       "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
@@ -6083,6 +6116,80 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "huggingface-accelerate--3d193cf821",
+      "name": "huggingface-accelerate",
+      "description": "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/davila7-huggingface-accelerate/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/davila7-huggingface-accelerate",
+      "worth_score": 75,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 19,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 813
+      },
+      "tags": [
+        "github",
+        "python",
+        "node",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "*Use Accelerate when**:",
+        "Want simplest distributed training",
+        "Need single script for any hardware",
+        "Use HuggingFace ecosystem",
+        "Want flexibility (DDP/DeepSpeed/FSDP/Megatron)",
+        "Need quick prototyping",
+        "*Key advantages**:",
+        "**4 lines**: Minimal code changes",
+        "**Unified API**: Same code for DDP, DeepSpeed, FSDP, Megatron",
+        "**Automatic**: Device placement, mixed precision, sharding"
+      ],
+      "workflow": [
+        "*Original script**:"
+      ]
+    },
+    {
+      "id": "huggingface-transformers--dab0f5d784",
+      "name": "huggingface-transformers",
+      "description": "Hugging Face Transformers best practices including model loading, tokenization, fine-tuning workflows, and inference optimization. Use when working with transformer models, fine-tuning LLMs, implementing NLP tasks, or optimizing transformer inference.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/applied-artificial-intelligence-huggingface-transformers/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/applied-artificial-intelligence-huggingface-transformers",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 30,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2028
+      },
+      "tags": [
+        "python",
+        "ci",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": [
+        "### Pattern 1: Simple Fine-Tuning with Trainer",
+        "```python",
+        "from transformers import (",
+        "AutoModelForSequenceClassification,",
+        "AutoTokenizer,",
+        "Trainer,"
+      ]
     },
     {
       "id": "hylab-analyzer-reporting--876fc41767",
@@ -8101,6 +8208,84 @@
         "**Orchestrate training** - Configure distributed training, hyperparameter tuning, resource allocation",
         "**Track experiments** - Log metrics, parameters, artifacts; enable comparison and reproducibility",
         "**Validate and deploy** - Implement model validation, A/B testing, automated deployment workflows"
+      ]
+    },
+    {
+      "id": "mlops-automation--ce68bd1a32",
+      "name": "MLOps Automation",
+      "description": "Guide to refine MLOps projects with task automation, containerization, CI/CD pipelines, and robust experiment tracking.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/fmind-mlops-automation/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/fmind-mlops-automation",
+      "worth_score": 35,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 323
+      },
+      "tags": [
+        "github",
+        "python",
+        "docker",
+        "ci",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": [
+        "**Platform**: ask for the company CI/CD platform, or use `github-actions` for GitHub.",
+        "**Workflows**:",
+        "`check.yml`: On PRs (Run `just check`).",
+        "`publish.yml`: On Release (Build docker image, publish docs/package).",
+        "**Optimization**: Use `concurrency` to cancel redundant runs."
+      ]
+    },
+    {
+      "id": "mlops-engineer--3ed875f5e3",
+      "name": "mlops-engineer",
+      "description": "Build comprehensive ML pipelines, experiment tracking, and model",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-mlops-engineer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-mlops-engineer",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1517
+      },
+      "tags": [
+        "github",
+        "docker",
+        "kubernetes",
+        "aws",
+        "azure",
+        "gcp",
+        "security",
+        "testing",
+        "ci"
+      ],
+      "use_when": [
+        "Working on mlops engineer tasks or workflows",
+        "Needing guidance, best practices, or checklists for mlops engineer"
+      ],
+      "workflow": [
+        "Kubeflow Pipelines for Kubernetes-native ML workflows",
+        "Apache Airflow for complex DAG-based ML pipeline orchestration",
+        "Prefect for modern dataflow orchestration with dynamic workflows",
+        "Dagster for data-aware pipeline orchestration and asset management",
+        "Azure ML Pipelines and AWS SageMaker Pipelines for cloud-native workflows",
+        "Argo Workflows for container-native workflow orchestration",
+        "GitHub Actions and GitLab CI/CD for ML pipeline automation",
+        "Custom pipeline frameworks with Docker and Kubernetes"
       ]
     },
     {
@@ -10227,6 +10412,112 @@
       "workflow": []
     },
     {
+      "id": "pytorch-fsdp2--9101f94a33",
+      "name": "pytorch-fsdp2",
+      "description": "Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing. Use when models exceed single-GPU memory or when you need DTensor-based sharding with DeviceMesh.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/orchestra-research-pytorch-fsdp2/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/orchestra-research-pytorch-fsdp2",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1231
+      },
+      "tags": [
+        "node",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "Your model **doesn’t fit** on one GPU (parameters + gradients + optimizer state).",
+        "You want an eager-mode sharding approach that is **DTensor-based per-parameter sharding** (more inspectable, simpler sharded state dicts) than FSDP1.",
+        "You may later compose DP with **Tensor Parallel** using **DeviceMesh**.",
+        "You need strict backwards-compatible checkpoints across PyTorch versions (DCP warns against this).",
+        "You’re forced onto older PyTorch versions without the FSDP2 stack."
+      ],
+      "workflow": [
+        "Prefer a recent stable PyTorch where the docs show FSDP2 and DCP updated recently.",
+        "Use `torchrun --nproc_per_node <gpus_per_node> ...` and ensure `RANK`, `WORLD_SIZE`, `LOCAL_RANK` are visible.",
+        "--",
+        "`dist.init_process_group(backend=\"nccl\")`",
+        "`torch.cuda.set_device(int(os.environ[\"LOCAL_RANK\"]))`",
+        "Optionally create a `DeviceMesh` to describe the data-parallel group(s)",
+        "--",
+        "`with torch.device(\"meta\"): model = ...`",
+        "apply `fully_shard(...)` on submodules, then `fully_shard(model)`",
+        "`model.to_empty(device=\"cuda\")`"
+      ]
+    },
+    {
+      "id": "pytorch-lightning--23858b8fd7",
+      "name": "pytorch-lightning",
+      "description": "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/k-dense-ai-pytorch-lightning/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/k-dense-ai-pytorch-lightning",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 831
+      },
+      "tags": [
+        "python",
+        "ci"
+      ],
+      "use_when": [
+        "Building, training, or deploying neural networks using PyTorch Lightning",
+        "Organizing PyTorch code into LightningModules",
+        "Configuring Trainers for multi-GPU/TPU training",
+        "Implementing data pipelines with LightningDataModules",
+        "Working with callbacks, logging, and distributed training strategies (DDP, FSDP, DeepSpeed)",
+        "Structuring deep learning projects professionally"
+      ],
+      "workflow": [
+        "**Define model:**",
+        "**Prepare data:**"
+      ]
+    },
+    {
+      "id": "pytorch-trainer--001292b173",
+      "name": "pytorch-trainer",
+      "description": "PyTorch model training skill with custom training loops, gradient management, and GPU optimization.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/a5c-ai-pytorch-trainer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/a5c-ai-pytorch-trainer",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 366
+      },
+      "tags": [
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": [
+        "Model Training Pipeline with Experiment Tracking",
+        "Distributed Training Orchestration",
+        "AutoML Pipeline Orchestration"
+      ]
+    },
+    {
       "id": "qmd--c437a36408",
       "name": "qmd",
       "description": "Search personal markdown knowledge bases, notes, meeting transcripts, and documentation using QMD - a local hybrid search engine. Combines BM25 keyword search, vector semantic search, and LLM re-ranking. Use when users ask to search notes, find documents, look up information in their knowledge base, retrieve meeting notes, or search documentation. Triggers on \"search markdown files\", \"search my...",
@@ -10306,6 +10597,69 @@
         "**Retrieval Pipeline** - Embedding selection, query transformation, hybrid search, reranking",
         "**Evaluation & Iteration** - Metrics tracking, retrieval debugging, continuous optimization"
       ]
+    },
+    {
+      "id": "rag-implementation--d287e06a29",
+      "name": "rag-implementation",
+      "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-rag-implementation/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/wshobson-rag-implementation",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 21,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1609
+      },
+      "tags": [
+        "github",
+        "python",
+        "node",
+        "aws",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "Building Q&A systems over proprietary documents",
+        "Creating chatbots with current, factual information",
+        "Implementing semantic search with natural language queries",
+        "Reducing hallucinations with grounded responses",
+        "Enabling LLMs to access domain-specific knowledge",
+        "Building documentation assistants",
+        "Creating research tools with source citation"
+      ],
+      "workflow": []
+    },
+    {
+      "id": "rag-skills--ead1d1fa2f",
+      "name": "rag-skills",
+      "description": "RAG-specific best practices for LlamaIndex, ChromaDB, and Celery workers. Covers ingestion, retrieval, embeddings, and performance.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/llama-farm-rag-skills/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/llama-farm-rag-skills",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 5,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 555
+      },
+      "tags": [
+        "python",
+        "node",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "rails-expert--f9f2ba1527",
@@ -13314,6 +13668,52 @@
       ]
     },
     {
+      "id": "terraform-skill--c55db7e80b",
+      "name": "terraform-skill",
+      "description": "Terraform infrastructure as code best practices",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-terraform-skill/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/sickn33-terraform-skill",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 16,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2185
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "aws",
+        "security",
+        "testing",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "*Activate this skill when:**",
+        "Creating new Terraform or OpenTofu configurations or modules",
+        "Setting up testing infrastructure for IaC code",
+        "Deciding between testing approaches (validate, plan, frameworks)",
+        "Structuring multi-environment deployments",
+        "Implementing CI/CD for infrastructure-as-code",
+        "Reviewing or refactoring existing Terraform/OpenTofu projects",
+        "Choosing between module patterns or state management approaches",
+        "*Don't use this skill for:**",
+        "Basic Terraform/OpenTofu syntax questions (Claude knows this)"
+      ],
+      "workflow": [
+        "**Validate** - Format check + syntax validation + linting",
+        "**Test** - Run automated tests (native or Terratest)",
+        "**Plan** - Generate and review execution plan",
+        "**Apply** - Execute changes (with approvals for production)"
+      ]
+    },
+    {
       "id": "test-driven-development--7455e6e2f1",
       "name": "test-driven-development",
       "description": "Use when implementing any feature or bugfix, before writing implementation code",
@@ -14514,6 +14914,42 @@
         "**Scale** - Configure Redis adapter, sticky sessions, load balancing",
         "**Monitor** - Track connections, latency, throughput, error rates"
       ]
+    },
+    {
+      "id": "weights-and-biases--b327aafd76",
+      "name": "weights-and-biases",
+      "description": "Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/.agents/skills/davila7-weights-and-biases/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/.agents/skills/davila7-weights-and-biases",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 23,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1257
+      },
+      "tags": [
+        "github",
+        "python",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "**Track ML experiments** with automatic metric logging",
+        "**Visualize training** in real-time dashboards",
+        "**Compare runs** across hyperparameters and configurations",
+        "**Optimize hyperparameters** with automated sweeps",
+        "**Manage model registry** with versioning and lineage",
+        "**Collaborate on ML projects** with team workspaces",
+        "**Track artifacts** (datasets, models, code) with lineage",
+        "*Users**: 200,000+ ML practitioners | **GitHub Stars**: 10.5k+ | **Integrations**: 100+"
+      ],
+      "workflow": []
     },
     {
       "id": "when-profiling-performance-use-performance-profiler--38a9d8fb1e",
