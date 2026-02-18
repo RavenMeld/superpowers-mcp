@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `522`
+- total_skills: `523`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -36,6 +36,7 @@
 - [content-research-writer (`70/100`)](cards/content-research-writer--b0e2626a35.md)
 - [cto-advisor (`70/100`)](cards/cto-advisor--1727d247f6.md)
 - [github-ssh-multi-account-wsl (`70/100`)](cards/github-ssh-multi-account-wsl--3d479c57e2.md)
+- [hyimporter-hytale-terrain-pipeline (`70/100`)](cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
 - [markdown-to-html (`70/100`)](cards/markdown-to-html--d6a05a10fb.md)
 - [mem-search (`70/100`)](cards/mem-search--07ddef34ce.md)
 - [ml-paper-writing (`70/100`)](cards/ml-paper-writing--1ab00a8515.md)
@@ -52,7 +53,6 @@
 - [ui-ux-pro-max (`70/100`)](cards/ui-ux-pro-max--20633323ec.md)
 - [api-design-principles (`68/100`)](cards/api-design-principles--405cf8e59a.md)
 - [develop-web-game (`68/100`)](cards/develop-web-game--667d6cd915.md)
-- [browser (`65/100`)](cards/browser--ed92b6f327.md)
 
 ## By Tag
 ### aws
@@ -208,6 +208,7 @@
 - [qmd (`75/100`)](cards/qmd--f2d765c35d.md)
 - [release-note-generation (`75/100`)](cards/release-note-generation--f183038301.md)
 - [render-deploy (`73/100`)](cards/render-deploy--ca3d146899.md)
+- [hyimporter-hytale-terrain-pipeline (`70/100`)](cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
 - [markdown-to-html (`70/100`)](cards/markdown-to-html--d6a05a10fb.md)
 - [ml-paper-writing (`70/100`)](cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](cards/n8n-workflow-patterns--e60ff0c2ed.md)
@@ -229,7 +230,6 @@
 - [create-agent-skills (`60/100`)](cards/create-agent-skills--b637da3b33.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [feishu-doc (`60/100`)](cards/feishu-doc--f7157e71fa.md)
-- [hugging-face-paper-publisher (`60/100`)](cards/hugging-face-paper-publisher--94fcb45911.md)
 
 ### figma
 - [screenshot (`65/100`)](cards/screenshot--35d6a921f7.md)

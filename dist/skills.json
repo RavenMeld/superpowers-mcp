@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 522,
+  "count": 523,
   "roots": [
     {
       "label": "agent_playground",
@@ -6690,6 +6690,41 @@
         "AutoModelForSequenceClassification,",
         "AutoTokenizer,",
         "Trainer,"
+      ]
+    },
+    {
+      "id": "hyimporter-hytale-terrain-pipeline--291774c4e1",
+      "name": "hyimporter-hytale-terrain-pipeline",
+      "description": "Use HyImporter to convert wow.export map packages into seam-safe OBJ tiles and async-pastable `.schematic` tiles for Hytale.\nIncludes WSL/Windows path conventions and validation steps.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hyimporter-hytale-terrain-pipeline/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hyimporter-hytale-terrain-pipeline",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 8,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 308
+      },
+      "tags": [
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "You exported a WoW zone via `wow.export` on Windows and want to import terrain into Hytale.",
+        "You want seam-safe tiled terrain with a strict Y budget (0..319).",
+        "Hytale’s OBJ import freezes on large tiles and you need async schematic paste."
+      ],
+      "workflow": [
+        "Prepare the shared folder layout (`C:\\\\hyimporter\\\\input` + `C:\\\\hyimporter\\\\out`).",
+        "Place the wow.export package under `<input_root>/<map_name>/`.",
+        "Create `config.yaml` and set `project.map_name`, `paths.input_root`, `paths.output_root`.",
+        "Run the build (WSL bash or Windows PowerShell wrapper).",
+        "Use the generated runbook (`runbook/hytale_import_runbook.md`) to paste into Hytale."
       ]
     },
     {
