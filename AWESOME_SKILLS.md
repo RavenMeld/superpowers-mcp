@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `543`
+- total_skills: `546`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -35,8 +35,11 @@
 - [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--45b56af64a.md)
 - [content-research-writer (`70/100`)](dist/cards/content-research-writer--b0e2626a35.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
+- [docker-compose-troubleshooting (`70/100`)](dist/cards/docker-compose-troubleshooting--5de2468ab8.md)
+- [github-private-repo-bootstrap (`70/100`)](dist/cards/github-private-repo-bootstrap--2788e455a1.md)
 - [github-ssh-multi-account-wsl (`70/100`)](dist/cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
+- [kubernetes-debugging (`70/100`)](dist/cards/kubernetes-debugging--9d82fc9f76.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 - [mem-search (`70/100`)](dist/cards/mem-search--07ddef34ce.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
@@ -50,9 +53,6 @@
 - [slack-search (`70/100`)](dist/cards/slack-search--9d76720452.md)
 - [spreadsheet (`70/100`)](dist/cards/spreadsheet--cb653911c9.md)
 - [tmux-terminal (`70/100`)](dist/cards/tmux-terminal--a97c40eb77.md)
-- [ui-ux-pro-max (`70/100`)](dist/cards/ui-ux-pro-max--20633323ec.md)
-- [api-design-principles (`68/100`)](dist/cards/api-design-principles--405cf8e59a.md)
-- [develop-web-game (`68/100`)](dist/cards/develop-web-game--667d6cd915.md)
 
 ## By Tag
 ### aws
@@ -245,6 +245,7 @@
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
+- [docker-compose-troubleshooting (`70/100`)](dist/cards/docker-compose-troubleshooting--5de2468ab8.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
@@ -270,7 +271,6 @@
 - [docker-best-practices (`45/100`)](dist/cards/docker-best-practices--5c4f53367d.md)
 - [error-recovery-patterns (`40/100`)](dist/cards/error-recovery-patterns--6e8782ac12.md)
 - [docker-and-kubernetes-pro (`35/100`)](dist/cards/docker-and-kubernetes-pro--91b01856e4.md)
-- [MLOps Automation (`35/100`)](dist/cards/mlops-automation--f3f14f2209.md)
 
 ### docs
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
@@ -337,6 +337,7 @@
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
 
 ### figma
+- [kubernetes-debugging (`70/100`)](dist/cards/kubernetes-debugging--9d82fc9f76.md)
 - [screenshot (`65/100`)](dist/cards/screenshot--35d6a921f7.md)
 - [kubernetes-specialist (`55/100`)](dist/cards/kubernetes-specialist--4038a718ab.md)
 - [orchestrating-swarms (`50/100`)](dist/cards/orchestrating-swarms--0a01a758fd.md)
@@ -370,6 +371,7 @@
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--f183038301.md)
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
+- [github-private-repo-bootstrap (`70/100`)](dist/cards/github-private-repo-bootstrap--2788e455a1.md)
 - [github-ssh-multi-account-wsl (`70/100`)](dist/cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
@@ -388,7 +390,6 @@
 - [terraform-skill (`65/100`)](dist/cards/terraform-skill--756c0a4bbf.md)
 - [tool-selection-rubric (`65/100`)](dist/cards/tool-selection-rubric--413d53e8b9.md)
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--7cb9c75e56.md)
-- [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--ff63951ece.md)
 
 ### github
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -400,6 +401,7 @@
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--f183038301.md)
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
+- [github-private-repo-bootstrap (`70/100`)](dist/cards/github-private-repo-bootstrap--2788e455a1.md)
 - [github-ssh-multi-account-wsl (`70/100`)](dist/cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
@@ -420,7 +422,6 @@
 - [netlify-deploy (`63/100`)](dist/cards/netlify-deploy--9034b01776.md)
 - [create-agent-skills (`60/100`)](dist/cards/create-agent-skills--b637da3b33.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--0d8d1f9239.md)
-- [github-issue-triage (`60/100`)](dist/cards/github-issue-triage--60dfb77f3d.md)
 
 ### go
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -488,6 +489,7 @@
 
 ### kubernetes
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
+- [kubernetes-debugging (`70/100`)](dist/cards/kubernetes-debugging--9d82fc9f76.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
@@ -510,6 +512,8 @@
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
 - [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--45b56af64a.md)
+- [docker-compose-troubleshooting (`70/100`)](dist/cards/docker-compose-troubleshooting--5de2468ab8.md)
+- [github-private-repo-bootstrap (`70/100`)](dist/cards/github-private-repo-bootstrap--2788e455a1.md)
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 - [security-ownership-map (`70/100`)](dist/cards/security-ownership-map--e8f1fa167d.md)
@@ -534,8 +538,6 @@
 - [prose (`50/100`)](dist/cards/prose--13a444e700.md)
 - [docker-best-practices (`45/100`)](dist/cards/docker-best-practices--5c4f53367d.md)
 - [duckdb-en (`45/100`)](dist/cards/duckdb-en--be98aa1293.md)
-- [firefox-devtools-debugging (`45/100`)](dist/cards/firefox-devtools-debugging--3467791ec7.md)
-- [github-workflow (`45/100`)](dist/cards/github-workflow--80fb86a0a6.md)
 
 ### llm
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
@@ -613,6 +615,7 @@
 - [story-roleplay (`75/100`)](dist/cards/story-roleplay--d82f961258.md)
 - [playwright (`73/100`)](dist/cards/playwright--cce2795d85.md)
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
+- [kubernetes-debugging (`70/100`)](dist/cards/kubernetes-debugging--9d82fc9f76.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [playwright-browser-automation (`70/100`)](dist/cards/playwright-browser-automation--629938c0e3.md)
@@ -636,7 +639,6 @@
 - [winapp-cli (`60/100`)](dist/cards/winapp-cli--368f1b33de.md)
 - [aws-beanstalk-expert (`55/100`)](dist/cards/aws-beanstalk-expert--23b198b516.md)
 - [blockbench-hytale (`55/100`)](dist/cards/blockbench-hytale--38826bfa86.md)
-- [canvas (`55/100`)](dist/cards/canvas--1febf47cbd.md)
 
 ### observability
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -955,6 +957,7 @@
 
 ### ssh
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
+- [github-private-repo-bootstrap (`70/100`)](dist/cards/github-private-repo-bootstrap--2788e455a1.md)
 - [github-ssh-multi-account-wsl (`70/100`)](dist/cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [llm-evaluation-harness (`65/100`)](dist/cards/llm-evaluation-harness--6086851fcb.md)
 - [refactor (`65/100`)](dist/cards/refactor--4f640e2f77.md)
@@ -1097,6 +1100,7 @@
 ### windows
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--45b56af64a.md)
+- [docker-compose-troubleshooting (`70/100`)](dist/cards/docker-compose-troubleshooting--5de2468ab8.md)
 - [github-ssh-multi-account-wsl (`70/100`)](dist/cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
@@ -1124,11 +1128,12 @@
 - [firefox-devtools-debugging (`45/100`)](dist/cards/firefox-devtools-debugging--3467791ec7.md)
 - [github-workflow (`45/100`)](dist/cards/github-workflow--80fb86a0a6.md)
 - [peekaboo (`45/100`)](dist/cards/peekaboo--259321dd95.md)
-- [uv-python-versions (`45/100`)](dist/cards/uv-python-versions--1b324673a0.md)
 
 ### wsl
 - [content-creator (`78/100`)](dist/cards/content-creator--b657ebe201.md)
 - [content-research-writer (`70/100`)](dist/cards/content-research-writer--b0e2626a35.md)
+- [docker-compose-troubleshooting (`70/100`)](dist/cards/docker-compose-troubleshooting--5de2468ab8.md)
+- [github-private-repo-bootstrap (`70/100`)](dist/cards/github-private-repo-bootstrap--2788e455a1.md)
 - [github-ssh-multi-account-wsl (`70/100`)](dist/cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
 - [llm-evaluation-harness (`65/100`)](dist/cards/llm-evaluation-harness--6086851fcb.md)

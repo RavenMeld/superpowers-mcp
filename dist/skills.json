@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 543,
+  "count": 546,
   "roots": [
     {
       "label": "agent_playground",
@@ -4628,6 +4628,43 @@
       "workflow": []
     },
     {
+      "id": "docker-compose-troubleshooting--5de2468ab8",
+      "name": "docker-compose-troubleshooting",
+      "description": "Run and debug multi-service dev stacks with Docker Compose: logs, exec, rebuilds, volumes, networking, and safe cleanup.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/docker-compose-troubleshooting/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/docker-compose-troubleshooting",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 8,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 233
+      },
+      "tags": [
+        "docker",
+        "wsl",
+        "windows",
+        "linux"
+      ],
+      "use_when": [
+        "A local dev stack (db + api + worker) won’t start.",
+        "You need to inspect logs, env, and connectivity between services.",
+        "You need safe cleanup without nuking unrelated Docker state."
+      ],
+      "workflow": [
+        "Start cleanly and watch logs.",
+        "Identify the failing service (exit code, crash loop, healthcheck).",
+        "Inspect container config (env, ports, volumes).",
+        "Exec into the container to run the failing command manually.",
+        "Fix the minimal root cause (config, deps, migrations) and restart."
+      ]
+    },
+    {
       "id": "docs-write--56ea6cf90c",
       "name": "docs-write",
       "description": "Write documentation following Metabase's conversational, clear, and user-focused style. Use when creating or editing documentation files (markdown, MDX, etc.).",
@@ -6719,6 +6756,44 @@
       ]
     },
     {
+      "id": "github-private-repo-bootstrap--2788e455a1",
+      "name": "github-private-repo-bootstrap",
+      "description": "Bootstrap a private GitHub repo safely: SSH remote, branch setup, first push, and verification (including multi-account SSH aliases).",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/github-private-repo-bootstrap/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/github-private-repo-bootstrap",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 211
+      },
+      "tags": [
+        "github",
+        "git",
+        "ssh",
+        "wsl",
+        "linux"
+      ],
+      "use_when": [
+        "You created a new private repo and need to push code from WSL/Linux.",
+        "You have multiple GitHub accounts and need deterministic SSH identity selection.",
+        "You want a clean `main` branch setup with minimal footguns."
+      ],
+      "workflow": [
+        "Create the repo in GitHub (private).",
+        "Initialize git locally (or enter an existing repo).",
+        "Add the SSH remote using the right host alias.",
+        "Push `main` and verify by fetching.",
+        "Lock in the remote URL and branch upstream."
+      ]
+    },
+    {
       "id": "github-script--69b23d0ced",
       "name": "github-script",
       "description": "Best practices for writing JavaScript code for GitHub Actions using github-script",
@@ -8548,6 +8623,44 @@
         "Kubernetes troubleshooting"
       ],
       "workflow": []
+    },
+    {
+      "id": "kubernetes-debugging--9d82fc9f76",
+      "name": "kubernetes-debugging",
+      "description": "Debug Kubernetes workloads quickly with kubectl: pods, logs, describe, events, exec, port-forward, and rollout control.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/kubernetes-debugging/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/kubernetes-debugging",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 8,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 247
+      },
+      "tags": [
+        "node",
+        "kubernetes",
+        "ci",
+        "figma"
+      ],
+      "use_when": [
+        "Pods are crashlooping or stuck pending.",
+        "Requests fail and you need logs/events fast.",
+        "You need to test a service locally via port-forward."
+      ],
+      "workflow": [
+        "Identify the broken namespace/context.",
+        "Find the failing pod and reason (events, status).",
+        "Read logs (current + previous).",
+        "Describe pod and inspect env/volumes/probes.",
+        "Exec in for a minimal diagnosis (dns, config files, connectivity).",
+        "Fix and watch rollout."
+      ]
     },
     {
       "id": "kubernetes-specialist--4038a718ab",
