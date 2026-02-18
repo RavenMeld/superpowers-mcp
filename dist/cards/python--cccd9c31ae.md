@@ -8,7 +8,7 @@ Use when:
 ## Quick Facts
 - id: `python--cccd9c31ae`
 - worth_using_score: `30/100`
-- tags: `github, python, ci`
+- tags: `github, git, python, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/python/SKILL.md`
 

@@ -5,7 +5,7 @@ This skill should be used before implementing features, building components, or 
 ## Quick Facts
 - id: `brainstorming--85542ee792`
 - worth_using_score: `60/100`
-- tags: `testing, ci, docs`
+- tags: `go, testing, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/brainstorming/SKILL.md`
 

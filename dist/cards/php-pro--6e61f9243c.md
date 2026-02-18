@@ -5,7 +5,7 @@ Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Sy
 ## Quick Facts
 - id: `php-pro--6e61f9243c`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `sql, postgres, go, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/php-pro/SKILL.md`
 

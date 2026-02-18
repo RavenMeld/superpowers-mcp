@@ -5,7 +5,7 @@ Write TypeScript and JavaScript code following Metabase coding standards and bes
 ## Quick Facts
 - id: `typescript-write--7510dce13d`
 - worth_using_score: `10/100`
-- tags: `typescript`
+- tags: `typescript, java`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/typescript-write/SKILL.md`
 

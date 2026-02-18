@@ -5,7 +5,7 @@ This skill should be used when writing Ruby gems following Andrew Kane's proven 
 ## Quick Facts
 - id: `andrew-kane-gem-writer--26b2d339c8`
 - worth_using_score: `50/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/andrew-kane-gem-writer/SKILL.md`
 

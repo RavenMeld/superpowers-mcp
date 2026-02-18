@@ -5,7 +5,7 @@ Query GitHub discussions efficiently with jq argument support for filtering
 ## Quick Facts
 - id: `github-discussion-query--378754f567`
 - worth_using_score: `45/100`
-- tags: `github, ci`
+- tags: `github, git, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/github-discussion-query/SKILL.md`
 

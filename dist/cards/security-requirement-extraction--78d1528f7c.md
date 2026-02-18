@@ -5,7 +5,7 @@ Derive security requirements from threat models and business context. Use when t
 ## Quick Facts
 - id: `security-requirement-extraction--78d1528f7c`
 - worth_using_score: `50/100`
-- tags: `python, security, ci`
+- tags: `python, sql, go, security, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/security-requirement-extraction/SKILL.md`
 

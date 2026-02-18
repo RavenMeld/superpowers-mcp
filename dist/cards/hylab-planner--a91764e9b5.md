@@ -5,7 +5,7 @@ Coverage planning for Hylab (pairwise/weighted planning, deterministic seeds, co
 ## Quick Facts
 - id: `hylab-planner--a91764e9b5`
 - worth_using_score: `40/100`
-- tags: `github, testing, ci`
+- tags: `github, git, testing, ci, windows, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-planner/SKILL.md`
 

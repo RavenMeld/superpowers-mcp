@@ -5,7 +5,7 @@ Operation-aware node configuration guidance. Use when configuring nodes, underst
 ## Quick Facts
 - id: `n8n-node-configuration--a86922cd31`
 - worth_using_score: `55/100`
-- tags: `mcp, node, ci`
+- tags: `mcp, sql, postgres, node, rust, go, java, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/n8n-node-configuration/SKILL.md`
 

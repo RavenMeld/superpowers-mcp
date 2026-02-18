@@ -5,7 +5,7 @@ Generate professional resumes that conform to the Reactive Resume schema. Use wh
 ## Quick Facts
 - id: `resume-builder--9daef98898`
 - worth_using_score: `50/100`
-- tags: `ci`
+- tags: `go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/resume-builder/SKILL.md`
 

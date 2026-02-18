@@ -5,7 +5,7 @@ Use when implementing authentication/authorization, securing user input, or prev
 ## Quick Facts
 - id: `secure-code-guardian--15975f60d0`
 - worth_using_score: `55/100`
-- tags: `security, testing, ci`
+- tags: `sql, rust, go, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/secure-code-guardian/SKILL.md`
 

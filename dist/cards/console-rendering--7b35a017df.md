@@ -5,7 +5,7 @@ Instructions for using the struct tag-based console rendering system in Go
 ## Quick Facts
 - id: `console-rendering--7b35a017df`
 - worth_using_score: `40/100`
-- tags: `ci`
+- tags: `go, ci, render`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/console-rendering/SKILL.md`
 

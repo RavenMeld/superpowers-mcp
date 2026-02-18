@@ -5,7 +5,7 @@ Expert guidance for creating Claude Code skills and slash commands. Use when wor
 ## Quick Facts
 - id: `create-agent-skills--b637da3b33`
 - worth_using_score: `60/100`
-- tags: `github, ci, docs`
+- tags: `github, git, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/create-agent-skills/SKILL.md`
 

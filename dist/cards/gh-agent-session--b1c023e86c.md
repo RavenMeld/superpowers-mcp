@@ -5,7 +5,7 @@ GitHub CLI Agent Session Extension
 ## Quick Facts
 - id: `gh-agent-session--b1c023e86c`
 - worth_using_score: `55/100`
-- tags: `github, security, testing, ci, docs`
+- tags: `github, git, go, security, testing, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/gh-agent-session/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when encountering any bug, test failure, or unexpected behavior, before prop
 ## Quick Facts
 - id: `systematic-debugging--9949033dad`
 - worth_using_score: `60/100`
-- tags: `security, testing, ci`
+- tags: `git, rust, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/systematic-debugging/SKILL.md`
 

@@ -5,7 +5,7 @@ Interactive Python REPL automation with common helpers and best practices
 ## Quick Facts
 - id: `python-repl--05af0c9cbc`
 - worth_using_score: `40/100`
-- tags: `python, ci`
+- tags: `python, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/python-repl/SKILL.md`
 

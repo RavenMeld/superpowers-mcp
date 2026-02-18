@@ -5,7 +5,7 @@ Use when developing Salesforce applications, Apex code, Lightning Web Components
 ## Quick Facts
 - id: `salesforce-developer--3e218a51bd`
 - worth_using_score: `55/100`
-- tags: `security, testing, ci`
+- tags: `go, security, testing, ci, devops, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/salesforce-developer/SKILL.md`
 

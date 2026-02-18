@@ -5,7 +5,7 @@ Use when conducting security audits, reviewing code for vulnerabilities, or anal
 ## Quick Facts
 - id: `security-reviewer--f14a924987`
 - worth_using_score: `55/100`
-- tags: `aws, security, testing, ci`
+- tags: `git, sql, go, aws, security, testing, ci, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/security-reviewer/SKILL.md`
 

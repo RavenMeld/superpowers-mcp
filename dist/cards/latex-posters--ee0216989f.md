@@ -5,7 +5,7 @@ Create professional research posters in LaTeX using beamerposter, tikzposter, or
 ## Quick Facts
 - id: `latex-posters--ee0216989f`
 - worth_using_score: `83/100`
-- tags: `github, python, aws, testing, ci`
+- tags: `github, git, python, go, aws, testing, ci, windows, linux, render, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/latex-posters/SKILL.md`
 

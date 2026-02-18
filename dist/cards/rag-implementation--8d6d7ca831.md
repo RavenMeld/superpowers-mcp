@@ -5,7 +5,7 @@ Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vec
 ## Quick Facts
 - id: `rag-implementation--8d6d7ca831`
 - worth_using_score: `60/100`
-- tags: `github, python, node, aws, ci, docs`
+- tags: `github, git, python, sql, postgres, node, rust, go, aws, ci, docs, rag, llm, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/wshobson-rag-implementation/SKILL.md`
 

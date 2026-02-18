@@ -5,7 +5,7 @@ Python type safety with type hints, generics, protocols, and strict type checkin
 ## Quick Facts
 - id: `python-type-safety--13467c8069`
 - worth_using_score: `60/100`
-- tags: `python, ci`
+- tags: `python, go, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/wshobson-python-type-safety/SKILL.md`
 

@@ -5,7 +5,7 @@ Java code maintenance standards including prioritization, refactoring triggers, 
 ## Quick Facts
 - id: `java-maintenance--c5cac50392`
 - worth_using_score: `50/100`
-- tags: `ci`
+- tags: `go, java, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/java-maintenance/SKILL.md`
 

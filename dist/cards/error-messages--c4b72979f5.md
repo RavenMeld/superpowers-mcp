@@ -5,7 +5,7 @@ Error Message Style Guide for Validation Errors
 ## Quick Facts
 - id: `error-messages--c4b72979f5`
 - worth_using_score: `45/100`
-- tags: `mcp, github, node, testing, ci, docs`
+- tags: `mcp, github, git, node, go, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/error-messages/SKILL.md`
 

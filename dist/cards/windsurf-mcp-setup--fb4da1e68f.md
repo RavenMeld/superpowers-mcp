@@ -5,7 +5,7 @@ Configure MCP servers in Windsurf (Codeium Cascade), including config file locat
 ## Quick Facts
 - id: `windsurf-mcp-setup--fb4da1e68f`
 - worth_using_score: `55/100`
-- tags: `mcp`
+- tags: `mcp, rust`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/windsurf-mcp-setup/SKILL.md`
 

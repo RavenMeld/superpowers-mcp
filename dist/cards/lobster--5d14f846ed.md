@@ -5,7 +5,7 @@ Guidance for building multi-step workflows with explicit approval checkpoints fo
 ## Quick Facts
 - id: `lobster--5d14f846ed`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `go, ci, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/lobster/SKILL.md`
 

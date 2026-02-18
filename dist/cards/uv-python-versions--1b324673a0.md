@@ -8,7 +8,7 @@ Use when user mentions installing Python versions, switching Python versions,
 ## Quick Facts
 - id: `uv-python-versions--1b324673a0`
 - worth_using_score: `45/100`
-- tags: `github, python, testing, ci, docs`
+- tags: `github, git, python, testing, ci, docs, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/uv-python-versions/SKILL.md`
 

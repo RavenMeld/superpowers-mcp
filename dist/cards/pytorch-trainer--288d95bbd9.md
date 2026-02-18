@@ -5,7 +5,7 @@ PyTorch model training skill with custom training loops, gradient management, an
 ## Quick Facts
 - id: `pytorch-trainer--288d95bbd9`
 - worth_using_score: `50/100`
-- tags: `ci`
+- tags: `java, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/a5c-ai-pytorch-trainer/SKILL.md`
 

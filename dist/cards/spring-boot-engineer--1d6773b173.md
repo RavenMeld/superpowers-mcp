@@ -5,7 +5,7 @@ Use when building Spring Boot 3.x applications, microservices, or reactive Java 
 ## Quick Facts
 - id: `spring-boot-engineer--1d6773b173`
 - worth_using_score: `55/100`
-- tags: `docker, kubernetes, security, testing, ci`
+- tags: `java, docker, kubernetes, security, testing, ci, observability, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/spring-boot-engineer/SKILL.md`
 

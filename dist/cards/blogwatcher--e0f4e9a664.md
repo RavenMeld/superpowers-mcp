@@ -5,7 +5,7 @@ Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.
 ## Quick Facts
 - id: `blogwatcher--e0f4e9a664`
 - worth_using_score: `30/100`
-- tags: `github`
+- tags: `github, git, go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/blogwatcher/SKILL.md`
 

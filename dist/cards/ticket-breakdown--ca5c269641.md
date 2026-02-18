@@ -5,7 +5,7 @@ Break a task or ticket into small steps. Use when a junior developer needs guida
 ## Quick Facts
 - id: `ticket-breakdown--ca5c269641`
 - worth_using_score: `30/100`
-- tags: `ci`
+- tags: `go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/ticket-breakdown/SKILL.md`
 

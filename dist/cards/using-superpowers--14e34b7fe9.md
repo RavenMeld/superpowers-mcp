@@ -5,7 +5,7 @@ Use when starting any conversation - establishes how to find and use skills, req
 ## Quick Facts
 - id: `using-superpowers--14e34b7fe9`
 - worth_using_score: `35/100`
-- tags: `mcp, ci`
+- tags: `mcp, git, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/using-superpowers/SKILL.md`
 

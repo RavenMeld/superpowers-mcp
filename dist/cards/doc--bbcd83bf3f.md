@@ -5,7 +5,7 @@ Use when the task involves reading, creating, or editing `.docx` documents, espe
 ## Quick Facts
 - id: `doc--bbcd83bf3f`
 - worth_using_score: `80/100`
-- tags: `python, ci, docs`
+- tags: `python, ci, docs, render`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/doc/SKILL.md`
 

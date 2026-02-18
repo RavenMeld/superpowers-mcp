@@ -5,7 +5,7 @@ Setup guide for Claude-Mem OpenClaw plugin, including installation, configuratio
 ## Quick Facts
 - id: `openclaw--a1a93d527d`
 - worth_using_score: `40/100`
-- tags: `github`
+- tags: `github, git, go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/openclaw/SKILL.md`
 

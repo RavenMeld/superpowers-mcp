@@ -5,7 +5,7 @@ Work with Steve's Obsidian vault at /Users/steve/Documents/Main using direct fil
 ## Quick Facts
 - id: `obsidian-vault-context--6f76db90ac`
 - worth_using_score: `40/100`
-- tags: `python, ci, obsidian`
+- tags: `python, ci, obsidian, llm`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/steveclarke-obsidian-vault-context/SKILL.md`
 

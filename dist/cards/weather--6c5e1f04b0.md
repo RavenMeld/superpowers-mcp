@@ -5,7 +5,7 @@ Get current weather and forecasts (no API key required).
 ## Quick Facts
 - id: `weather--6c5e1f04b0`
 - worth_using_score: `35/100`
-- tags: `ci, docs`
+- tags: `git, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/weather/SKILL.md`
 

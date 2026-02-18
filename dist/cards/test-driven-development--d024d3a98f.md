@@ -5,7 +5,7 @@ Use when implementing any feature or bugfix, before writing implementation code
 ## Quick Facts
 - id: `test-driven-development--d024d3a98f`
 - worth_using_score: `60/100`
-- tags: `typescript, testing, ci`
+- tags: `typescript, rust, go, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/test-driven-development/SKILL.md`
 

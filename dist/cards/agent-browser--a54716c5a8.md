@@ -5,7 +5,7 @@ Browser automation using Vercel's agent-browser CLI. Use when you need to intera
 ## Quick Facts
 - id: `agent-browser--a54716c5a8`
 - worth_using_score: `55/100`
-- tags: `mcp, playwright`
+- tags: `mcp, playwright, browser, go, vercel, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/agent-browser/SKILL.md`
 

@@ -5,7 +5,7 @@ Master Python asyncio, concurrent programming, and async/await patterns for high
 ## Quick Facts
 - id: `async-python-patterns--33a99bebe9`
 - worth_using_score: `55/100`
-- tags: `python, testing, ci, docs`
+- tags: `python, sql, postgres, go, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/wshobson-async-python-patterns/SKILL.md`
 

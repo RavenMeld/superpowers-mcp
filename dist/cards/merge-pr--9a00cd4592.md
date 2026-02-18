@@ -5,7 +5,7 @@ Merge a GitHub PR via squash after /prepare-pr. Use when asked to merge a ready 
 ## Quick Facts
 - id: `merge-pr--9a00cd4592`
 - worth_using_score: `55/100`
-- tags: `github, ci`
+- tags: `github, git, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/merge-pr-v1/SKILL.md`
 

@@ -5,6 +5,7 @@ Add Telegram reaction directives in assistant replies. Use when the user asks fo
 ## Quick Facts
 - id: `telegram-react--44fb120264`
 - worth_using_score: `10/100`
+- tags: `go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/telegram-react/SKILL.md`
 

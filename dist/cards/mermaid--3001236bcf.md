@@ -5,7 +5,7 @@ Render Mermaid diagrams as SVG or ASCII art using beautiful-mermaid. Use when us
 ## Quick Facts
 - id: `mermaid--3001236bcf`
 - worth_using_score: `55/100`
-- tags: `github, ci`
+- tags: `github, git, ci, terminal, render`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/mermaid/SKILL.md`
 

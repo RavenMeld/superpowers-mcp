@@ -5,7 +5,7 @@ Terminal multiplexer specialist for layout design, plugin development, and sessi
 ## Quick Facts
 - id: `zellij-specialist--0607aa94d8`
 - worth_using_score: `50/100`
-- tags: `github, testing, ci`
+- tags: `github, git, rust, go, testing, ci, terminal, devops, render, rag, llm`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/delorenj-zellij-specialist/SKILL.md`
 

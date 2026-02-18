@@ -5,7 +5,7 @@ Treat MCP servers as executable code: least privilege, safe defaults, review che
 ## Quick Facts
 - id: `mcp-security-hygiene--4912448216`
 - worth_using_score: `50/100`
-- tags: `mcp, github, security, ci`
+- tags: `mcp, github, git, browser, rust, security, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/mcp-security-hygiene/SKILL.md`
 

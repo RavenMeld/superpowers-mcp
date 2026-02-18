@@ -5,7 +5,7 @@
 ## Quick Facts
 - id: `security-review--b40c5ae70c`
 - worth_using_score: `45/100`
-- tags: `github, typescript, security, ci, docs`
+- tags: `github, git, sql, typescript, security, ci, docs, vercel, render, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/security-review/SKILL.md`
 

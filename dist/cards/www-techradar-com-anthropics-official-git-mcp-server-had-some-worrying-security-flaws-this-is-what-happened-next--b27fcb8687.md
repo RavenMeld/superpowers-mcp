@@ -5,8 +5,8 @@ Vulnerabilities in Git MCP servers can chain with filesystem access; treat MCP l
 ## Quick Facts
 - id: `www-techradar-com-anthropics-official-git-mcp-server-had-some-worrying-security-flaws-this-is-what-happened-next--b27fcb8687`
 - kind: `external`
-- section: `Security Notes (MCP Tooling)`
-- tags: `mcp, security`
+- section: `LLM / AI Engineering (Awesome Lists)`
+- tags: `mcp, git, security, aws, llm`
 - url: `https://www.techradar.com/pro/security/anthropics-official-git-mcp-server-had-some-worrying-security-flaws-this-is-what-happened-next`
 - source_path: `https://www.techradar.com/pro/security/anthropics-official-git-mcp-server-had-some-worrying-security-flaws-this-is-what-happened-next`
 

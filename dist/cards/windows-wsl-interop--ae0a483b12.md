@@ -5,7 +5,7 @@ Practical WSL <-> Windows interop cheatsheet: paths, clipboard, opening files, a
 ## Quick Facts
 - id: `windows-wsl-interop--ae0a483b12`
 - worth_using_score: `65/100`
-- tags: `github, node, ci`
+- tags: `github, git, ssh, node, go, ci, wsl, windows`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/windows-wsl-interop/SKILL.md`
 

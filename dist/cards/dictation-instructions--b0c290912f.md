@@ -5,7 +5,7 @@ Instructions for fixing speech-to-text errors and improving text quality in gh-a
 ## Quick Facts
 - id: `dictation-instructions--b0c290912f`
 - worth_using_score: `35/100`
-- tags: `mcp, github, playwright, python, node, security, ci, docs`
+- tags: `mcp, github, git, ssh, playwright, python, node, go, java, security, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/dictation/SKILL.md`
 

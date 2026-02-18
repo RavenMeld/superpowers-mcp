@@ -5,7 +5,7 @@ Cross-language testing strategies and patterns. Triggers on: test pyramid, unit 
 ## Quick Facts
 - id: `testing-patterns--eab943b042`
 - worth_using_score: `60/100`
-- tags: `python, security, testing, ci`
+- tags: `browser, python, security, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/testing-patterns/SKILL.md`
 

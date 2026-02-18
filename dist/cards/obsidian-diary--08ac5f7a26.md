@@ -5,7 +5,7 @@ This skill acts as an intelligent secretary for your Obsidian knowledge base. It
 ## Quick Facts
 - id: `obsidian-diary--08ac5f7a26`
 - worth_using_score: `35/100`
-- tags: `ci, obsidian`
+- tags: `ci, obsidian, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/you-n-g-obsidian-diary/SKILL.md`
 

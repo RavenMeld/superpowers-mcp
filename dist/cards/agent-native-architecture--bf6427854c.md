@@ -5,7 +5,7 @@ Build applications where agents are first-class citizens. Use this skill when de
 ## Quick Facts
 - id: `agent-native-architecture--bf6427854c`
 - worth_using_score: `45/100`
-- tags: `mcp, typescript, testing, ci`
+- tags: `mcp, git, typescript, go, testing, ci, rag, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/agent-native-architecture/SKILL.md`
 

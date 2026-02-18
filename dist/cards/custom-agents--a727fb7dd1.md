@@ -5,7 +5,7 @@ Guidance for GitHub custom agent file formats, repository-specific instructions,
 ## Quick Facts
 - id: `custom-agents--a727fb7dd1`
 - worth_using_score: `50/100`
-- tags: `mcp, github, typescript, security, testing, ci, docs`
+- tags: `mcp, github, git, typescript, go, java, security, testing, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/custom-agents/SKILL.md`
 

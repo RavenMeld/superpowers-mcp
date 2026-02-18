@@ -5,7 +5,7 @@ Generate high-quality Product Requirements Documents (PRDs) for software systems
 ## Quick Facts
 - id: `prd--4e2f52f8e6`
 - worth_using_score: `60/100`
-- tags: `security, testing, ci`
+- tags: `go, security, testing, ci, vercel, eval, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/prd/SKILL.md`
 

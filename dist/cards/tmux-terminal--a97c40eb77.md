@@ -5,7 +5,7 @@ Interactive terminal control via tmux for TUI apps, prompts, and long-running CL
 ## Quick Facts
 - id: `tmux-terminal--a97c40eb77`
 - worth_using_score: `70/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci, terminal`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/mikeyobrien-tmux-terminal/SKILL.md`
 

@@ -5,7 +5,7 @@ Create SEO-optimized marketing content with consistent brand voice. Includes bra
 ## Quick Facts
 - id: `content-creator--b657ebe201`
 - worth_using_score: `78/100`
-- tags: `python, ci`
+- tags: `python, go, ci, wsl, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/content-creator/SKILL.md`
 

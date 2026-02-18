@@ -5,7 +5,7 @@ Supply-chain security for ComfyUI: custom nodes as executable code, safe sourcin
 ## Quick Facts
 - id: `comfyui-supply-chain--b8d6786928`
 - worth_using_score: `25/100`
-- tags: `comfyui, node, security, ci`
+- tags: `git, comfyui, node, rust, security, ci, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-supply-chain/SKILL.md`
 

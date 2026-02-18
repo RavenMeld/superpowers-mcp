@@ -5,7 +5,7 @@ Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy eva
 ## Quick Facts
 - id: `polars--8ab7332b4b`
 - worth_using_score: `50/100`
-- tags: `python, azure, ci`
+- tags: `python, rust, go, azure, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/davila7-polars/SKILL.md`
 

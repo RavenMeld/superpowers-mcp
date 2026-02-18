@@ -5,7 +5,7 @@ Deep Node.js internals expertise including C++ addons, V8, libuv, and build syst
 ## Quick Facts
 - id: `nodejs-core--fce62e2382`
 - worth_using_score: `40/100`
-- tags: `node, ci`
+- tags: `node, java, ci, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/nodejs-core/SKILL.md`
 

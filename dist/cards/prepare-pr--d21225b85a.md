@@ -5,7 +5,7 @@ Prepare a GitHub PR for merge by rebasing onto main, fixing review findings, run
 ## Quick Facts
 - id: `prepare-pr--d21225b85a`
 - worth_using_score: `55/100`
-- tags: `github, node, ci, docs`
+- tags: `github, git, node, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/prepare-pr-v1/SKILL.md`
 

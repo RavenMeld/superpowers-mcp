@@ -5,7 +5,7 @@ Use this skill when the user asks to save, remember, recall, or organize memorie
 ## Quick Facts
 - id: `agent-memory--ee25813c18`
 - worth_using_score: `50/100`
-- tags: `ci`
+- tags: `git, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/agent-memory/SKILL.md`
 

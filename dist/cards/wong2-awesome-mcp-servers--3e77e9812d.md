@@ -6,7 +6,7 @@ Curated list; contributor flow via mcpservers.org.
 - id: `wong2-awesome-mcp-servers--3e77e9812d`
 - kind: `external`
 - section: `MCP Server Catalogs (GitHub)`
-- tags: `mcp, github`
+- tags: `mcp, github, git`
 - url: `https://github.com/wong2/awesome-mcp-servers`
 - source_path: `https://github.com/wong2/awesome-mcp-servers`
 

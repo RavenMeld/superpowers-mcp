@@ -5,7 +5,7 @@ Use when writing tests, creating test strategies, or building automation framewo
 ## Quick Facts
 - id: `test-master--c3a18da2b7`
 - worth_using_score: `55/100`
-- tags: `playwright, aws, security, testing, ci`
+- tags: `playwright, aws, security, testing, ci, rag, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/test-master/SKILL.md`
 

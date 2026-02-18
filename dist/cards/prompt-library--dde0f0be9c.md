@@ -5,7 +5,7 @@ Curated collection of high-quality prompts for various use cases. Includes role-
 ## Quick Facts
 - id: `prompt-library--dde0f0be9c`
 - worth_using_score: `60/100`
-- tags: `github, security, testing, ci`
+- tags: `github, git, sql, go, security, testing, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/prompt-library/SKILL.md`
 

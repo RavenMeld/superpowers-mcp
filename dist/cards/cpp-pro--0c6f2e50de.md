@@ -5,7 +5,7 @@ Use when building C++ applications requiring modern C++20/23 features, template 
 ## Quick Facts
 - id: `cpp-pro--0c6f2e50de`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci, rag, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cpp-pro/SKILL.md`
 

@@ -47,10 +47,27 @@ def _infer_tags(text: str) -> list[str]:
     for t in [
         "mcp",
         "github",
+        "git",
+        "ssh",
         "playwright",
         "browser",
         "obsidian",
         "security",
+        "python",
+        "sql",
+        "docker",
+        "kubernetes",
+        "aws",
+        "azure",
+        "gcp",
+        "wsl",
+        "windows",
+        "linux",
+        "devops",
+        "observability",
+        "rag",
+        "llm",
+        "eval",
         "reddit",
         "registry",
         "course",
@@ -182,4 +199,3 @@ def _render_external_card(rec: SkillRecord, section: str, url: str, notes: list[
     lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
-

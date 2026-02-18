@@ -5,7 +5,7 @@ Use when reviewing pull requests, conducting code quality audits, or identifying
 ## Quick Facts
 - id: `code-reviewer--9a7ccbe361`
 - worth_using_score: `55/100`
-- tags: `security, testing, ci`
+- tags: `go, security, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/code-reviewer/SKILL.md`
 

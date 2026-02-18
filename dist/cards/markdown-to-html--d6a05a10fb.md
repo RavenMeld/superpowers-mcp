@@ -5,7 +5,7 @@ Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/mar
 ## Quick Facts
 - id: `markdown-to-html--d6a05a10fb`
 - worth_using_score: `70/100`
-- tags: `github, node, gcp, security, ci, docs`
+- tags: `github, git, browser, node, rust, go, java, gcp, security, ci, docs, windows, linux, terminal, render, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/markdown-to-html/SKILL.md`
 

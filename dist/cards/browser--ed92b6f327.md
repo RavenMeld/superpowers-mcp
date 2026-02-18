@@ -5,7 +5,7 @@ This skill should be used for browser automation tasks using Chrome DevTools Pro
 ## Quick Facts
 - id: `browser--ed92b6f327`
 - worth_using_score: `65/100`
-- tags: `mcp, ci`
+- tags: `mcp, browser, java, ci, eval`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/cexll-browser/SKILL.md`
 

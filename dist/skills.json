@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 523,
+  "count": 538,
   "roots": [
     {
       "label": "agent_playground",
@@ -68,10 +68,14 @@
       },
       "tags": [
         "mcp",
+        "ssh",
         "python",
         "node",
         "docker",
-        "ci"
+        "ci",
+        "wsl",
+        "windows",
+        "devops"
       ],
       "use_when": [],
       "workflow": []
@@ -96,9 +100,13 @@
       },
       "tags": [
         "mcp",
+        "ssh",
         "python",
         "node",
-        "docker"
+        "docker",
+        "wsl",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -122,6 +130,7 @@
         "word_count": 1380
       },
       "tags": [
+        "go",
         "security",
         "testing",
         "ci",
@@ -165,7 +174,11 @@
       },
       "tags": [
         "mcp",
-        "playwright"
+        "playwright",
+        "browser",
+        "go",
+        "vercel",
+        "llm"
       ],
       "use_when": [],
       "workflow": [
@@ -195,6 +208,8 @@
         "word_count": 666
       },
       "tags": [
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -223,9 +238,13 @@
       },
       "tags": [
         "mcp",
+        "git",
         "typescript",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -249,7 +268,10 @@
         "word_count": 303
       },
       "tags": [
-        "github"
+        "github",
+        "git",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -273,7 +295,10 @@
         "word_count": 319
       },
       "tags": [
-        "ci"
+        "ci",
+        "rag",
+        "eval",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": []
@@ -297,8 +322,10 @@
         "word_count": 486
       },
       "tags": [
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -324,7 +351,8 @@
       "tags": [
         "typescript",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building Angular 17+ applications with standalone components",
@@ -364,6 +392,8 @@
       "tags": [
         "python",
         "node",
+        "rust",
+        "go",
         "ci",
         "docs"
       ],
@@ -439,6 +469,7 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "security"
       ],
       "use_when": [],
@@ -463,7 +494,8 @@
         "word_count": 220
       },
       "tags": [
-        "security"
+        "security",
+        "terminal"
       ],
       "use_when": [],
       "workflow": []
@@ -487,8 +519,10 @@
         "word_count": 266
       },
       "tags": [
+        "ssh",
         "security",
-        "ci"
+        "ci",
+        "terminal"
       ],
       "use_when": [],
       "workflow": []
@@ -512,7 +546,9 @@
         "word_count": 680
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -536,8 +572,11 @@
         "word_count": 644
       },
       "tags": [
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -566,7 +605,9 @@
         "azure",
         "gcp",
         "security",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Designing new system architecture",
@@ -632,7 +673,8 @@
       },
       "tags": [
         "comfyui",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -657,6 +699,9 @@
       },
       "tags": [
         "python",
+        "sql",
+        "postgres",
+        "go",
         "testing",
         "ci",
         "docs"
@@ -736,7 +781,8 @@
       "tags": [
         "mcp",
         "python",
-        "ci"
+        "ci",
+        "llm"
       ],
       "use_when": [
         "You need the right `SKILL.md` fast (across multiple roots).",
@@ -769,15 +815,24 @@
       },
       "tags": [
         "github",
+        "git",
+        "ssh",
         "python",
+        "sql",
+        "postgres",
         "typescript",
         "node",
+        "go",
+        "java",
         "docker",
         "aws",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "linux",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Deploying Node.js/Python/Ruby/etc. applications to AWS",
@@ -813,12 +868,17 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
         "typescript",
+        "go",
         "docker",
         "aws",
         "security",
-        "ci"
+        "ci",
+        "observability",
+        "terraform",
+        "rag"
       ],
       "use_when": [
         "--"
@@ -856,6 +916,7 @@
       },
       "tags": [
         "mcp",
+        "go",
         "azure",
         "ci"
       ],
@@ -899,10 +960,17 @@
       },
       "tags": [
         "github",
+        "git",
+        "ssh",
+        "browser",
+        "go",
         "docker",
         "azure",
         "security",
-        "ci"
+        "ci",
+        "linux",
+        "devops",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -937,9 +1005,14 @@
         "word_count": 511
       },
       "tags": [
+        "browser",
         "python",
+        "sql",
+        "go",
         "security",
-        "ci"
+        "ci",
+        "windows",
+        "linux"
       ],
       "use_when": [
         "Run a Bandit security scan",
@@ -978,7 +1051,11 @@
         "word_count": 467
       },
       "tags": [
-        "ci"
+        "java",
+        "ci",
+        "wsl",
+        "linux",
+        "render"
       ],
       "use_when": [],
       "workflow": []
@@ -1051,7 +1128,8 @@
       },
       "tags": [
         "mcp",
-        "node"
+        "node",
+        "go"
       ],
       "use_when": [],
       "workflow": [
@@ -1082,7 +1160,9 @@
         "word_count": 119
       },
       "tags": [
-        "github"
+        "github",
+        "git",
+        "go"
       ],
       "use_when": [],
       "workflow": []
@@ -1128,6 +1208,7 @@
         "word_count": 352
       },
       "tags": [
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -1152,9 +1233,11 @@
         "word_count": 851
       },
       "tags": [
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [
         "Requirements are unclear or ambiguous",
@@ -1199,7 +1282,10 @@
       },
       "tags": [
         "mcp",
-        "ci"
+        "browser",
+        "java",
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -1229,8 +1315,11 @@
         "word_count": 661
       },
       "tags": [
+        "browser",
+        "java",
         "security",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -1257,7 +1346,9 @@
         "word_count": 125
       },
       "tags": [
-        "github"
+        "github",
+        "git",
+        "browser"
       ],
       "use_when": [],
       "workflow": []
@@ -1322,6 +1413,33 @@
       ]
     },
     {
+      "id": "bytedance-seed-mcp-universe--ecaa26d264",
+      "name": "ByteDance-Seed/mcp-universe",
+      "description": "MCP benchmark suite (tool realism + evaluation patterns).",
+      "root_label": "external",
+      "source_path": "https://github.com/ByteDance-Seed/mcp-universe",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 21
+      },
+      "tags": [
+        "mcp",
+        "eval",
+        "reddit",
+        "benchmark"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "camsnap--bc3d1360be",
       "name": "camsnap",
       "description": "Capture frames or clips from RTSP/ONVIF cameras.",
@@ -1363,7 +1481,10 @@
       },
       "tags": [
         "node",
-        "ci"
+        "java",
+        "ci",
+        "render",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -1391,7 +1512,10 @@
         "word_count": 1693
       },
       "tags": [
-        "ci"
+        "git",
+        "go",
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -1418,7 +1542,8 @@
         "node",
         "kubernetes",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Designing and executing chaos experiments",
@@ -1456,7 +1581,12 @@
       },
       "tags": [
         "mcp",
-        "ci"
+        "browser",
+        "go",
+        "java",
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "**Browser Automation**: Navigating pages, clicking elements, filling forms, and handling dialogs.",
@@ -1498,8 +1628,11 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "browser",
         "ci",
-        "docs"
+        "docs",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -1513,6 +1646,42 @@
         "**Automation/interaction**: `take_snapshot` (text-based, faster, better for automation)",
         "**Visual inspection**: `take_screenshot` (when user needs to see visual state)",
         "**Additional details**: `evaluate_script` for data not in accessibility tree"
+      ]
+    },
+    {
+      "id": "chrome-devtools-debugging--75a85076fc",
+      "name": "chrome-devtools-debugging",
+      "description": "Debug and profile web apps using Chrome DevTools: console, network, performance traces, memory, and lighthouse-style checks.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/chrome-devtools-debugging/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/chrome-devtools-debugging",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 221
+      },
+      "tags": [
+        "windows",
+        "linux",
+        "render"
+      ],
+      "use_when": [
+        "A web page is broken and you need root-cause evidence fast.",
+        "You need to inspect network requests, headers, cookies, and caching behavior.",
+        "You need performance profiling (slow page, jank, long tasks)."
+      ],
+      "workflow": [
+        "Reproduce the issue with DevTools open.",
+        "Capture console errors + stack traces.",
+        "Capture a Network HAR-like view (requests + responses + timings).",
+        "Profile performance and identify the bottleneck (CPU, layout, JS, network).",
+        "Apply the smallest fix and re-check in an incognito profile."
       ]
     },
     {
@@ -1563,13 +1732,15 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
         "docker",
         "aws",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [
         "Automated code testing and quality checks",
@@ -1603,6 +1774,7 @@
         "word_count": 131
       },
       "tags": [
+        "postgres",
         "ci",
         "docs"
       ],
@@ -1630,8 +1802,13 @@
       "tags": [
         "python",
         "node",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "windows",
+        "linux",
+        "terminal",
+        "benchmark"
       ],
       "use_when": [
         "Building CLI tools and terminal applications",
@@ -1668,6 +1845,9 @@
         "word_count": 466
       },
       "tags": [
+        "sql",
+        "rust",
+        "go",
         "docker",
         "kubernetes",
         "aws",
@@ -1675,7 +1855,9 @@
         "gcp",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "terraform",
+        "rag"
       ],
       "use_when": [
         "Designing cloud architectures (AWS, Azure, GCP)",
@@ -1715,8 +1897,20 @@
         "word_count": 938
       },
       "tags": [
+        "git",
+        "browser",
+        "sql",
+        "sqlite",
+        "postgres",
+        "go",
         "security",
-        "ci"
+        "ci",
+        "observability",
+        "terraform",
+        "cloudflare",
+        "render",
+        "rag",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -1743,9 +1937,11 @@
         "python",
         "typescript",
         "node",
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [
         "Adding docstrings to functions and classes",
@@ -1784,9 +1980,11 @@
         "word_count": 357
       },
       "tags": [
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Reviewing pull requests",
@@ -1850,8 +2048,12 @@
       },
       "tags": [
         "github",
+        "git",
+        "rust",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "terminal"
       ],
       "use_when": [],
       "workflow": [
@@ -1878,7 +2080,10 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "vercel",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -1903,9 +2108,11 @@
       },
       "tags": [
         "github",
+        "git",
         "comfyui",
         "python",
-        "node"
+        "node",
+        "go"
       ],
       "use_when": [],
       "workflow": [
@@ -1938,7 +2145,8 @@
       "tags": [
         "mcp",
         "comfyui",
-        "node"
+        "node",
+        "go"
       ],
       "use_when": [],
       "workflow": [
@@ -1970,7 +2178,8 @@
         "python",
         "node",
         "security",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -2047,11 +2256,15 @@
         "word_count": 807
       },
       "tags": [
+        "git",
         "comfyui",
         "python",
         "node",
         "security",
-        "ci"
+        "ci",
+        "windows",
+        "linux",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -2086,9 +2299,11 @@
         "word_count": 597
       },
       "tags": [
+        "git",
         "comfyui",
         "python",
         "node",
+        "rust",
         "security",
         "testing",
         "ci"
@@ -2118,10 +2333,13 @@
         "word_count": 521
       },
       "tags": [
+        "git",
         "comfyui",
         "node",
+        "rust",
         "security",
-        "ci"
+        "ci",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -2145,9 +2363,11 @@
         "word_count": 516
       },
       "tags": [
+        "git",
         "comfyui",
         "python",
         "node",
+        "rust",
         "security",
         "ci"
       ],
@@ -2174,9 +2394,11 @@
       },
       "tags": [
         "github",
+        "git",
         "comfyui",
         "node",
-        "ci"
+        "ci",
+        "windows"
       ],
       "use_when": [
         "The user asks to install, update, configure, or run ComfyUIMini.",
@@ -2206,6 +2428,7 @@
       "tags": [
         "comfyui",
         "node",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -2232,7 +2455,9 @@
       "tags": [
         "comfyui",
         "node",
-        "ci"
+        "go",
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -2289,10 +2514,13 @@
         "word_count": 209
       },
       "tags": [
+        "git",
         "comfyui",
         "node",
+        "rust",
         "security",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -2319,8 +2547,10 @@
         "comfyui",
         "python",
         "node",
+        "go",
         "security",
-        "ci"
+        "ci",
+        "windows"
       ],
       "use_when": [],
       "workflow": [
@@ -2381,7 +2611,9 @@
       "tags": [
         "comfyui",
         "node",
-        "ci"
+        "go",
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -2418,6 +2650,7 @@
       "tags": [
         "comfyui",
         "python",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -2442,13 +2675,18 @@
         "word_count": 2351
       },
       "tags": [
+        "git",
+        "sql",
         "typescript",
         "node",
+        "go",
         "aws",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "terminal",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -2480,8 +2718,10 @@
       },
       "tags": [
         "python",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "terminal"
       ],
       "use_when": [],
       "workflow": [
@@ -2517,8 +2757,10 @@
       },
       "tags": [
         "playwright",
+        "browser",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Ensure a web application functions correctly across different browsers and devices.",
@@ -2603,7 +2845,9 @@
         "word_count": 370
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "render"
       ],
       "use_when": [],
       "workflow": []
@@ -2627,6 +2871,8 @@
         "word_count": 313
       },
       "tags": [
+        "go",
+        "java",
         "docker",
         "kubernetes",
         "security",
@@ -2659,7 +2905,10 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "wsl",
+        "rag"
       ],
       "use_when": [
         "*references/brand_guidelines.md**",
@@ -2705,7 +2954,11 @@
         "word_count": 1946
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "wsl",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Writing blog posts, articles, or newsletters",
@@ -2744,8 +2997,11 @@
         "word_count": 413
       },
       "tags": [
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "benchmark"
       ],
       "use_when": [
         "Building high-performance C++ applications",
@@ -2783,6 +3039,8 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "ci",
         "docs"
       ],
@@ -2814,9 +3072,13 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": [
@@ -2883,8 +3145,11 @@
         "word_count": 683
       },
       "tags": [
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "terminal",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -2949,7 +3214,9 @@
       },
       "tags": [
         "docker",
-        "ci"
+        "ci",
+        "wsl",
+        "windows"
       ],
       "use_when": [],
       "workflow": [
@@ -3009,7 +3276,9 @@
       },
       "tags": [
         "azure",
-        "ci"
+        "ci",
+        "rag",
+        "benchmark"
       ],
       "use_when": [
         "Building ASP.NET Core APIs (Minimal or Controller-based)",
@@ -3047,9 +3316,13 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "go",
         "security",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -3078,8 +3351,10 @@
         "word_count": 176
       },
       "tags": [
+        "git",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -3129,6 +3404,7 @@
       },
       "tags": [
         "github",
+        "git",
         "docs"
       ],
       "use_when": [],
@@ -3154,8 +3430,10 @@
       },
       "tags": [
         "mcp",
+        "rust",
         "ci",
-        "docs"
+        "docs",
+        "terminal"
       ],
       "use_when": [
         "You want Cursor to call tools via MCP (stdio, SSE, or streamable HTTP).",
@@ -3189,10 +3467,14 @@
         "word_count": 2639
       },
       "tags": [
+        "go",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Create a new subagent/agent",
@@ -3236,11 +3518,15 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "typescript",
+        "go",
+        "java",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -3329,7 +3615,9 @@
         "word_count": 775
       },
       "tags": [
+        "git",
         "python",
+        "go",
         "ci"
       ],
       "use_when": [
@@ -3368,6 +3656,9 @@
       },
       "tags": [
         "python",
+        "sql",
+        "sqlite",
+        "postgres",
         "ci"
       ],
       "use_when": [],
@@ -3392,6 +3683,8 @@
         "word_count": 382
       },
       "tags": [
+        "sql",
+        "postgres",
         "ci"
       ],
       "use_when": [
@@ -3429,7 +3722,9 @@
         "word_count": 583
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "terminal"
       ],
       "use_when": [],
       "workflow": [
@@ -3510,8 +3805,10 @@
         "word_count": 367
       },
       "tags": [
+        "git",
         "testing",
-        "ci"
+        "ci",
+        "sentry"
       ],
       "use_when": [
         "Investigating errors, exceptions, or unexpected behavior",
@@ -3550,6 +3847,7 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
         "node",
         "security",
@@ -3611,8 +3909,12 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
         "node",
+        "go",
+        "java",
         "security",
         "ci"
       ],
@@ -3698,7 +4000,8 @@
       },
       "tags": [
         "mcp",
-        "github"
+        "github",
+        "git"
       ],
       "use_when": [],
       "workflow": []
@@ -3723,10 +4026,16 @@
       },
       "tags": [
         "github",
+        "git",
         "playwright",
+        "browser",
         "typescript",
+        "go",
+        "java",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -3759,8 +4068,10 @@
         "mcp",
         "playwright",
         "node",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "render"
       ],
       "use_when": [],
       "workflow": [
@@ -3797,12 +4108,19 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
         "node",
+        "rust",
+        "go",
+        "java",
         "docker",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -3836,13 +4154,18 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "docker",
         "kubernetes",
         "aws",
         "azure",
         "gcp",
         "testing",
-        "ci"
+        "ci",
+        "devops",
+        "observability",
+        "terraform"
       ],
       "use_when": [
         "Setting up CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins)",
@@ -3883,8 +4206,12 @@
       },
       "tags": [
         "github",
+        "git",
+        "sql",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -3910,12 +4237,17 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "ssh",
         "playwright",
         "python",
         "node",
+        "go",
+        "java",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -3968,7 +4300,8 @@
         "word_count": 389
       },
       "tags": [
-        "ci"
+        "ci",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -4015,6 +4348,7 @@
       },
       "tags": [
         "typescript",
+        "go",
         "testing",
         "ci"
       ],
@@ -4051,6 +4385,9 @@
       },
       "tags": [
         "python",
+        "sql",
+        "rust",
+        "go",
         "security",
         "testing",
         "ci"
@@ -4128,7 +4465,8 @@
       "tags": [
         "python",
         "ci",
-        "docs"
+        "docs",
+        "render"
       ],
       "use_when": [
         "Read or review DOCX content where layout matters (tables, diagrams, pagination).",
@@ -4166,9 +4504,12 @@
       },
       "tags": [
         "mcp",
+        "rust",
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -4203,10 +4544,12 @@
         "word_count": 197
       },
       "tags": [
+        "git",
         "docker",
         "kubernetes",
         "security",
-        "ci"
+        "ci",
+        "observability"
       ],
       "use_when": [
         "Review [modules/core-guidance.md](modules/core-guidance.md) to scope workloads, platform constraints, and SLAs.",
@@ -4237,13 +4580,22 @@
         "word_count": 1750
       },
       "tags": [
+        "git",
         "python",
         "node",
+        "rust",
+        "go",
         "docker",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "wsl",
+        "windows",
+        "linux",
+        "observability",
+        "rag",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": []
@@ -4267,7 +4619,8 @@
         "word_count": 386
       },
       "tags": [
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -4304,6 +4657,7 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "registry"
       ],
       "use_when": [],
@@ -4328,7 +4682,9 @@
         "word_count": 1331
       },
       "tags": [
+        "git",
         "python",
+        "go",
         "ci",
         "docs"
       ],
@@ -4355,7 +4711,8 @@
       },
       "tags": [
         "ci",
-        "docs"
+        "docs",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -4380,8 +4737,11 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "render"
       ],
       "use_when": [],
       "workflow": [
@@ -4414,9 +4774,14 @@
         "word_count": 2129
       },
       "tags": [
+        "git",
         "python",
+        "go",
+        "java",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -4482,9 +4847,15 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "observability",
+        "rag",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "*Use schemas (T::Struct/T::Enum)** for:",
@@ -4519,7 +4890,13 @@
         "word_count": 1003
       },
       "tags": [
-        "ci"
+        "sql",
+        "sqlite",
+        "go",
+        "ci",
+        "wsl",
+        "linux",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -4567,6 +4944,7 @@
         "word_count": 1054
       },
       "tags": [
+        "go",
         "testing",
         "ci"
       ],
@@ -4629,6 +5007,8 @@
         "word_count": 139
       },
       "tags": [
+        "sql",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -4683,7 +5063,9 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "node",
+        "go",
         "testing",
         "ci",
         "docs"
@@ -4710,6 +5092,8 @@
         "word_count": 656
       },
       "tags": [
+        "go",
+        "java",
         "testing",
         "ci",
         "docs"
@@ -4744,7 +5128,10 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "go",
+        "java",
         "docker",
         "ci"
       ],
@@ -4777,7 +5164,9 @@
         "word_count": 639
       },
       "tags": [
-        "ci"
+        "ci",
+        "wsl",
+        "rag"
       ],
       "use_when": [
         "Reviewing articles, blog posts, newsletters, or any written content",
@@ -4807,6 +5196,7 @@
         "word_count": 356
       },
       "tags": [
+        "git",
         "ci"
       ],
       "use_when": [],
@@ -4856,6 +5246,30 @@
       ]
     },
     {
+      "id": "f-awesome-chatgpt-prompts--2a8e47c5fc",
+      "name": "f/awesome-chatgpt-prompts",
+      "description": "Prompt collection (use with a quality filter; can be noisy).",
+      "root_label": "external",
+      "source_path": "https://github.com/f/awesome-chatgpt-prompts",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 27
+      },
+      "tags": [
+        "llm"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "fastapi-expert--b6dd851ee2",
       "name": "fastapi-expert",
       "description": "Use when building high-performance async Python APIs with FastAPI and Pydantic V2. Invoke for async SQLAlchemy, JWT authentication, WebSockets, OpenAPI documentation.",
@@ -4875,6 +5289,8 @@
       },
       "tags": [
         "python",
+        "sql",
+        "go",
         "testing",
         "ci"
       ],
@@ -4913,6 +5329,7 @@
         "word_count": 407
       },
       "tags": [
+        "go",
         "security",
         "ci"
       ],
@@ -4977,7 +5394,9 @@
         "has_assets": false,
         "word_count": 313
       },
-      "tags": [],
+      "tags": [
+        "rag"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -5083,9 +5502,11 @@
         "mcp",
         "typescript",
         "node",
+        "go",
         "ci",
         "docs",
-        "figma"
+        "figma",
+        "render"
       ],
       "use_when": [],
       "workflow": [
@@ -5155,7 +5576,10 @@
         "word_count": 373
       },
       "tags": [
-        "ci"
+        "ci",
+        "llm",
+        "eval",
+        "benchmark"
       ],
       "use_when": [
         "Fine-tuning foundation models for specific tasks",
@@ -5193,6 +5617,8 @@
         "word_count": 641
       },
       "tags": [
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -5219,7 +5645,11 @@
         "word_count": 679
       },
       "tags": [
-        "ci"
+        "sql",
+        "sqlite",
+        "ci",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -5244,11 +5674,19 @@
       },
       "tags": [
         "mcp",
+        "browser",
         "node",
+        "go",
+        "java",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -5258,6 +5696,45 @@
         "Agent uses Firefox Remote Debugging Protocol → Takes screenshot → Returns visual state",
         "```",
         "### 2. Debug JavaScript Errors"
+      ]
+    },
+    {
+      "id": "firefox-devtools-debugging--3467791ec7",
+      "name": "firefox-devtools-debugging",
+      "description": "Debug web apps using Firefox DevTools: console/network inspection, storage/cookies, accessibility checks, and cross-browser diffs.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/firefox-devtools-debugging/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/firefox-devtools-debugging",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 179
+      },
+      "tags": [
+        "browser",
+        "security",
+        "ci",
+        "windows",
+        "linux",
+        "rag"
+      ],
+      "use_when": [
+        "You need cross-browser debugging (Chrome vs Firefox differences).",
+        "You need to inspect storage/cookies and request/response behavior.",
+        "You need to validate accessibility issues with built-in tooling."
+      ],
+      "workflow": [
+        "Reproduce the issue in Firefox with DevTools open.",
+        "Compare Console errors and Network timings vs Chrome.",
+        "Inspect Storage (cookies/localStorage) for auth/session mismatch.",
+        "Use Accessibility panel to find obvious violations.",
+        "Fix and verify in both browsers."
       ]
     },
     {
@@ -5279,6 +5756,7 @@
         "word_count": 337
       },
       "tags": [
+        "go",
         "ci"
       ],
       "use_when": [
@@ -5316,6 +5794,7 @@
         "word_count": 222
       },
       "tags": [
+        "go",
         "testing",
         "ci"
       ],
@@ -5341,6 +5820,7 @@
         "word_count": 520
       },
       "tags": [
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -5365,6 +5845,8 @@
         "word_count": 499
       },
       "tags": [
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -5400,10 +5882,15 @@
         "word_count": 405
       },
       "tags": [
+        "sql",
+        "rust",
+        "go",
         "docker",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "devops",
+        "observability"
       ],
       "use_when": [
         "Implementing new features across frontend and backend",
@@ -5501,8 +5988,11 @@
       "tags": [
         "python",
         "typescript",
+        "go",
+        "java",
         "ci",
-        "docs"
+        "docs",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -5527,6 +6017,7 @@
       },
       "tags": [
         "python",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -5583,7 +6074,8 @@
         "word_count": 161
       },
       "tags": [
-        "github"
+        "github",
+        "git"
       ],
       "use_when": [],
       "workflow": []
@@ -5608,10 +6100,13 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -5643,10 +6138,13 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -5678,10 +6176,19 @@
       },
       "tags": [
         "github",
+        "git",
+        "ssh",
+        "browser",
         "python",
         "node",
+        "rust",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -5708,6 +6215,7 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
         "ci"
       ],
@@ -5769,6 +6277,8 @@
         "word_count": 98
       },
       "tags": [
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -5797,6 +6307,7 @@
         "word_count": 392
       },
       "tags": [
+        "git",
         "ci",
         "docs"
       ],
@@ -5825,6 +6336,9 @@
         "word_count": 4281
       },
       "tags": [
+        "git",
+        "browser",
+        "go",
         "ci",
         "docs"
       ],
@@ -5861,6 +6375,8 @@
         "word_count": 1091
       },
       "tags": [
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [
@@ -5894,6 +6410,7 @@
       },
       "tags": [
         "github",
+        "git",
         "ci"
       ],
       "use_when": [],
@@ -5920,11 +6437,15 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "playwright",
+        "browser",
+        "java",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "render"
       ],
       "use_when": [],
       "workflow": [
@@ -5952,6 +6473,8 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -5977,7 +6500,9 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -6003,7 +6528,9 @@
       },
       "tags": [
         "github",
+        "git",
         "typescript",
+        "go",
         "security",
         "ci"
       ],
@@ -6033,6 +6560,9 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "browser",
+        "go",
         "ci",
         "docs"
       ],
@@ -6066,6 +6596,7 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "docker",
         "security",
         "ci",
@@ -6100,6 +6631,7 @@
       },
       "tags": [
         "github",
+        "git",
         "ci"
       ],
       "use_when": [],
@@ -6125,7 +6657,9 @@
       },
       "tags": [
         "github",
+        "git",
         "typescript",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -6153,7 +6687,9 @@
       },
       "tags": [
         "github",
+        "git",
         "typescript",
+        "java",
         "ci"
       ],
       "use_when": [],
@@ -6178,7 +6714,11 @@
         "word_count": 310
       },
       "tags": [
-        "github"
+        "github",
+        "git",
+        "ssh",
+        "wsl",
+        "windows"
       ],
       "use_when": [
         "You need a **second GitHub account** (or org) on the same WSL machine.",
@@ -6213,9 +6753,42 @@
       },
       "tags": [
         "github",
+        "git",
+        "ssh",
+        "browser",
         "node",
+        "go",
         "gcp",
-        "ci"
+        "ci",
+        "windows",
+        "linux"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "github-com-mcp--d76f6f19ec",
+      "name": "github.com:mcp",
+      "description": "GitHub MCP Registry org (browse for official/community servers).",
+      "root_label": "external",
+      "source_path": "https://github.com/mcp",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 21
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "git",
+        "registry"
       ],
       "use_when": [],
       "workflow": []
@@ -6239,8 +6812,10 @@
         "word_count": 576
       },
       "tags": [
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -6263,7 +6838,9 @@
         "has_assets": false,
         "word_count": 23
       },
-      "tags": [],
+      "tags": [
+        "go"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -6286,8 +6863,11 @@
         "word_count": 430
       },
       "tags": [
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "benchmark"
       ],
       "use_when": [
         "Building concurrent Go applications with goroutines and channels",
@@ -6324,6 +6904,7 @@
         "word_count": 108
       },
       "tags": [
+        "go",
         "testing"
       ],
       "use_when": [],
@@ -6368,6 +6949,31 @@
       ]
     },
     {
+      "id": "hannibal046-awesome-llmops--a03e02fd1e",
+      "name": "Hannibal046/Awesome-LLMOps",
+      "description": "LLMOps resources (deployment, eval, monitoring, safety, etc).",
+      "root_label": "external",
+      "source_path": "https://github.com/Hannibal046/Awesome-LLMOps",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 21
+      },
+      "tags": [
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "hardware--463161224a",
       "name": "hardware",
       "description": "Read and control I2C and SPI peripherals on Sipeed boards (LicheeRV Nano, MaixCAM, NanoKVM).",
@@ -6410,9 +7016,15 @@
         "word_count": 1499
       },
       "tags": [
+        "git",
+        "ssh",
+        "browser",
+        "go",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": [
@@ -6427,6 +7039,30 @@
         "OS automatic security updates status.",
         "Usage mode for a personal assistant with full access (local workstation vs headless/remote vs other)."
       ]
+    },
+    {
+      "id": "heinien-awesome-prompt-engineering--f77b49d679",
+      "name": "HeinieN/awesome-prompt-engineering",
+      "description": "Prompt engineering resources and references.",
+      "root_label": "external",
+      "source_path": "https://github.com/HeinieN/awesome-prompt-engineering",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 17
+      },
+      "tags": [
+        "python"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "himalaya--72d2aea79e",
@@ -6447,7 +7083,9 @@
         "word_count": 523
       },
       "tags": [
-        "ci"
+        "rust",
+        "ci",
+        "terminal"
       ],
       "use_when": [],
       "workflow": []
@@ -6473,7 +7111,11 @@
       "tags": [
         "mcp",
         "github",
-        "security"
+        "git",
+        "go",
+        "security",
+        "render",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -6503,7 +7145,35 @@
       },
       "tags": [
         "mcp",
-        "github"
+        "github",
+        "git"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "https-mcp-obsidian-org--afc31802f0",
+      "name": "https://mcp-obsidian.org/",
+      "description": "Obsidian MCP server docs + setup.",
+      "root_label": "external",
+      "source_path": "https://mcp-obsidian.org/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 17
+      },
+      "tags": [
+        "mcp",
+        "obsidian",
+        "course",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": []
@@ -6554,6 +7224,7 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "security"
       ],
       "use_when": [],
@@ -6579,8 +7250,11 @@
       },
       "tags": [
         "python",
+        "go",
         "aws",
-        "ci"
+        "ci",
+        "terminal",
+        "llm"
       ],
       "use_when": [
         "User needs to download models, datasets, or spaces",
@@ -6612,8 +7286,11 @@
       },
       "tags": [
         "python",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -6638,6 +7315,7 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
         "node",
         "ci",
@@ -6678,9 +7356,14 @@
         "word_count": 2028
       },
       "tags": [
+        "git",
         "python",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "llm",
+        "eval",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": [
@@ -6691,6 +7374,32 @@
         "AutoTokenizer,",
         "Trainer,"
       ]
+    },
+    {
+      "id": "huggingface-co-mcp-course--ac8be3ea85",
+      "name": "huggingface.co:mcp-course",
+      "description": "MCP Course (good for vocabulary + patterns + safety baseline).",
+      "root_label": "external",
+      "source_path": "https://huggingface.co/learn/mcp-course",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 25
+      },
+      "tags": [
+        "mcp",
+        "course",
+        "benchmark"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "hyimporter-hytale-terrain-pipeline--291774c4e1",
@@ -6712,7 +7421,10 @@
       },
       "tags": [
         "ci",
-        "docs"
+        "docs",
+        "wsl",
+        "windows",
+        "linux"
       ],
       "use_when": [
         "You exported a WoW zone via `wow.export` on Windows and want to import terrain into Hytale.",
@@ -6747,8 +7459,12 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "observability",
+        "render"
       ],
       "use_when": [],
       "workflow": []
@@ -6773,6 +7489,7 @@
       },
       "tags": [
         "github",
+        "git",
         "testing",
         "ci"
       ],
@@ -6799,6 +7516,7 @@
       },
       "tags": [
         "github",
+        "git",
         "testing"
       ],
       "use_when": [],
@@ -6824,7 +7542,10 @@
       },
       "tags": [
         "github",
-        "ci"
+        "git",
+        "rust",
+        "ci",
+        "windows"
       ],
       "use_when": [],
       "workflow": [
@@ -6857,8 +7578,13 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
-        "ci"
+        "rust",
+        "go",
+        "ci",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -6883,6 +7609,7 @@
       },
       "tags": [
         "github",
+        "git",
         "ci"
       ],
       "use_when": [],
@@ -6908,8 +7635,11 @@
       },
       "tags": [
         "github",
+        "git",
         "testing",
-        "ci"
+        "ci",
+        "windows",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -6945,6 +7675,9 @@
       },
       "tags": [
         "github",
+        "git",
+        "rust",
+        "java",
         "ci"
       ],
       "use_when": [],
@@ -6976,7 +7709,9 @@
       },
       "tags": [
         "node",
-        "ci"
+        "java",
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Creating new slash commands for players or admins",
@@ -7007,6 +7742,8 @@
         "word_count": 1752
       },
       "tags": [
+        "go",
+        "java",
         "ci"
       ],
       "use_when": [
@@ -7038,6 +7775,7 @@
         "word_count": 1582
       },
       "tags": [
+        "java",
         "ci"
       ],
       "use_when": [
@@ -7070,6 +7808,9 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
+        "java",
         "testing"
       ],
       "use_when": [],
@@ -7099,7 +7840,10 @@
         "word_count": 835
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "render",
+        "llm"
       ],
       "use_when": [],
       "workflow": [
@@ -7126,7 +7870,9 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "render"
       ],
       "use_when": [
         "Generate a new image (concept art, product shot, cover, website hero)",
@@ -7163,7 +7909,8 @@
         "word_count": 150
       },
       "tags": [
-        "ci"
+        "ci",
+        "terminal"
       ],
       "use_when": [],
       "workflow": []
@@ -7216,6 +7963,7 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
         "ci"
       ],
@@ -7280,7 +8028,13 @@
         "word_count": 3053
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "terminal",
+        "vercel",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -7314,7 +8068,8 @@
         "word_count": 151
       },
       "tags": [
-        "ci"
+        "ci",
+        "wsl"
       ],
       "use_when": [
         "3P updates (Progress, Plans, Problems)",
@@ -7346,9 +8101,11 @@
         "word_count": 386
       },
       "tags": [
+        "java",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building Spring Boot microservices",
@@ -7385,6 +8142,7 @@
         "word_count": 291
       },
       "tags": [
+        "java",
         "ci"
       ],
       "use_when": [
@@ -7415,8 +8173,14 @@
         "word_count": 2122
       },
       "tags": [
+        "sql",
+        "postgres",
+        "go",
+        "java",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -7447,7 +8211,10 @@
         "word_count": 341
       },
       "tags": [
-        "ci"
+        "go",
+        "java",
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -7478,8 +8245,11 @@
         "word_count": 426
       },
       "tags": [
+        "browser",
         "node",
-        "ci"
+        "java",
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building vanilla JavaScript applications",
@@ -7517,9 +8287,13 @@
       },
       "tags": [
         "github",
+        "git",
         "typescript",
+        "go",
+        "java",
         "testing",
-        "ci"
+        "ci",
+        "llm"
       ],
       "use_when": [],
       "workflow": [
@@ -7553,11 +8327,18 @@
       },
       "tags": [
         "github",
+        "git",
         "typescript",
         "node",
+        "go",
+        "java",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "Testing React components with Jest and React Testing Library",
@@ -7593,9 +8374,11 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
         "ci",
-        "obsidian"
+        "obsidian",
+        "render"
       ],
       "use_when": [],
       "workflow": []
@@ -7660,7 +8443,8 @@
         "word_count": 429
       },
       "tags": [
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building Kotlin Multiplatform (KMP) libraries or apps",
@@ -7697,6 +8481,7 @@
         "word_count": 283
       },
       "tags": [
+        "git",
         "kubernetes",
         "security",
         "testing",
@@ -7732,11 +8517,14 @@
         "word_count": 512
       },
       "tags": [
+        "git",
+        "go",
         "kubernetes",
         "security",
         "testing",
         "ci",
-        "figma"
+        "figma",
+        "rag"
       ],
       "use_when": [
         "Deploying workloads (Deployments, StatefulSets, DaemonSets, Jobs)",
@@ -7775,11 +8563,18 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
+        "postgres",
         "node",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "observability",
+        "rag",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "Building autonomous AI agents with tool access",
@@ -7817,8 +8612,10 @@
         "word_count": 422
       },
       "tags": [
+        "sql",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building Laravel 10+ applications",
@@ -7858,10 +8655,16 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "go",
         "aws",
         "testing",
-        "ci"
+        "ci",
+        "windows",
+        "linux",
+        "render",
+        "rag"
       ],
       "use_when": [
         "Creating research posters for conferences, symposia, or poster sessions",
@@ -7905,8 +8708,11 @@
         "word_count": 422
       },
       "tags": [
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Modernizing legacy codebases and outdated technology stacks",
@@ -7944,8 +8750,13 @@
       },
       "tags": [
         "mcp",
+        "browser",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "wsl",
+        "windows",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -8006,8 +8817,14 @@
         "word_count": 3122
       },
       "tags": [
+        "browser",
         "python",
-        "ci"
+        "go",
+        "ci",
+        "linux",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Conducting a systematic literature review for research or publication",
@@ -8050,7 +8867,9 @@
         "word_count": 152
       },
       "tags": [
-        "mcp"
+        "mcp",
+        "rust",
+        "go"
       ],
       "use_when": [
         "You want LM Studio to act as an MCP Host (local or remote MCP servers).",
@@ -8083,7 +8902,9 @@
         "word_count": 339
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "llm"
       ],
       "use_when": [],
       "workflow": [
@@ -8140,8 +8961,10 @@
         "word_count": 275
       },
       "tags": [
+        "git",
         "ci",
-        "obsidian"
+        "obsidian",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -8237,8 +9060,10 @@
         "word_count": 368
       },
       "tags": [
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "llm"
       ],
       "use_when": [],
       "workflow": [
@@ -8274,8 +9099,11 @@
       },
       "tags": [
         "github",
+        "git",
         "playwright",
+        "browser",
         "python",
+        "go",
         "testing",
         "ci",
         "docs"
@@ -8308,11 +9136,21 @@
       },
       "tags": [
         "github",
+        "git",
+        "browser",
         "node",
+        "rust",
+        "go",
+        "java",
         "gcp",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux",
+        "terminal",
+        "render",
+        "rag"
       ],
       "use_when": [
         "User asks to \"convert markdown to html\" or \"transform md files\"",
@@ -8343,12 +9181,11 @@
         "has_scripts": false,
         "has_references": false,
         "has_assets": false,
-        "word_count": 17
+        "word_count": 16
       },
       "tags": [
         "mcp",
-        "obsidian",
-        "reddit"
+        "obsidian"
       ],
       "use_when": [],
       "workflow": []
@@ -8374,7 +9211,10 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "browser",
         "python",
+        "go",
         "security",
         "testing",
         "ci",
@@ -8415,12 +9255,17 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
         "typescript",
         "node",
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "llm",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -8457,6 +9302,7 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "typescript",
         "ci"
       ],
@@ -8530,7 +9376,9 @@
       },
       "tags": [
         "mcp",
-        "ci"
+        "go",
+        "ci",
+        "llm"
       ],
       "use_when": [
         "**Discovering MCP Capabilities**: Need to list available tools/prompts/resources from configured servers",
@@ -8589,6 +9437,9 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "browser",
+        "rust",
         "security",
         "ci"
       ],
@@ -8627,6 +9478,8 @@
         "mcp",
         "typescript",
         "node",
+        "rust",
+        "go",
         "security",
         "testing",
         "ci",
@@ -8654,7 +9507,8 @@
         "word_count": 125
       },
       "tags": [
-        "mcp"
+        "mcp",
+        "go"
       ],
       "use_when": [],
       "workflow": []
@@ -8717,7 +9571,10 @@
         "has_assets": false,
         "word_count": 142
       },
-      "tags": [],
+      "tags": [
+        "go",
+        "java"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -8741,6 +9598,8 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -8772,7 +9631,10 @@
       },
       "tags": [
         "github",
-        "ci"
+        "git",
+        "ci",
+        "terminal",
+        "render"
       ],
       "use_when": [],
       "workflow": []
@@ -8797,7 +9659,12 @@
       },
       "tags": [
         "github",
-        "ci"
+        "git",
+        "go",
+        "java",
+        "ci",
+        "render",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -8822,7 +9689,8 @@
       },
       "tags": [
         "kubernetes",
-        "ci"
+        "ci",
+        "observability"
       ],
       "use_when": [
         "Decomposing monoliths into microservices",
@@ -8842,6 +9710,30 @@
         "**Observability** - Distributed tracing, correlation IDs, centralized logging",
         "**Deployment** - Container orchestration, service mesh, progressive delivery"
       ]
+    },
+    {
+      "id": "microsoft-mcp--40951f1416",
+      "name": "microsoft/mcp",
+      "description": "Microsoft MCP repo: specs + server catalog and patterns.",
+      "root_label": "external",
+      "source_path": "https://github.com/microsoft/mcp",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 23
+      },
+      "tags": [
+        "mcp"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "microsoft-playwright-mcp--846767e3d8",
@@ -8889,8 +9781,13 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "cloudflare",
+        "vercel",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -8927,10 +9824,15 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
+        "go",
         "aws",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "**Starting from a research repo** to write a paper",
@@ -8976,7 +9878,9 @@
         "kubernetes",
         "azure",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Building feature engineering pipelines and feature stores",
@@ -9017,7 +9921,9 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "go",
         "docker",
         "ci",
         "docs"
@@ -9051,6 +9957,8 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
         "docker",
         "kubernetes",
         "aws",
@@ -9058,7 +9966,11 @@
         "gcp",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "devops",
+        "observability",
+        "terraform",
+        "rag"
       ],
       "use_when": [
         "Working on mlops engineer tasks or workflows",
@@ -9095,7 +10007,8 @@
       },
       "tags": [
         "python",
-        "ci"
+        "ci",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -9145,6 +10058,7 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "reddit"
       ],
       "use_when": [],
@@ -9170,11 +10084,16 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "rust",
+        "go",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "terminal",
+        "rag"
       ],
       "use_when": [
         "Creating a new Python project or package",
@@ -9204,8 +10123,12 @@
         "word_count": 2468
       },
       "tags": [
+        "rust",
+        "go",
         "security",
-        "ci"
+        "ci",
+        "wsl",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -9230,7 +10153,10 @@
       },
       "tags": [
         "testing",
-        "ci"
+        "ci",
+        "observability",
+        "rag",
+        "benchmark"
       ],
       "use_when": [
         "Setting up application monitoring",
@@ -9272,10 +10198,16 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "browser",
         "python",
+        "sql",
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -9306,8 +10238,15 @@
       },
       "tags": [
         "mcp",
+        "sql",
+        "postgres",
         "node",
-        "ci"
+        "rust",
+        "go",
+        "java",
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -9344,11 +10283,17 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
+        "sql",
+        "postgres",
         "node",
+        "go",
+        "java",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [
         "*Webhook Processing** - Use when:",
@@ -9442,6 +10387,7 @@
       "tags": [
         "typescript",
         "node",
+        "rust",
         "testing",
         "ci",
         "docs"
@@ -9482,9 +10428,12 @@
       },
       "tags": [
         "github",
+        "git",
+        "browser",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "netlify"
       ],
       "use_when": [],
       "workflow": [
@@ -9517,7 +10466,12 @@
         "has_assets": false,
         "word_count": 159
       },
-      "tags": [],
+      "tags": [
+        "go",
+        "wsl",
+        "windows",
+        "linux"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -9542,7 +10496,10 @@
       "tags": [
         "typescript",
         "docker",
-        "ci"
+        "ci",
+        "vercel",
+        "render",
+        "eval"
       ],
       "use_when": [
         "Building Next.js 14+ applications with App Router",
@@ -9580,7 +10537,10 @@
       },
       "tags": [
         "node",
-        "ci"
+        "java",
+        "ci",
+        "windows",
+        "linux"
       ],
       "use_when": [
         "C++ addon development",
@@ -9611,7 +10571,10 @@
         "has_assets": false,
         "word_count": 560
       },
-      "tags": [],
+      "tags": [
+        "rag",
+        "eval"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -9672,8 +10635,10 @@
       },
       "tags": [
         "mcp",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": [
@@ -9709,6 +10674,7 @@
       },
       "tags": [
         "mcp",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -9745,6 +10711,7 @@
       },
       "tags": [
         "mcp",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -9808,7 +10775,10 @@
         "has_assets": false,
         "word_count": 85
       },
-      "tags": [],
+      "tags": [
+        "observability",
+        "rag"
+      ],
       "use_when": [],
       "workflow": [
         "Define key service indicators and error budget metrics.",
@@ -9836,12 +10806,16 @@
       },
       "tags": [
         "github",
+        "git",
         "typescript",
+        "java",
         "security",
         "testing",
         "ci",
         "docs",
-        "obsidian"
+        "obsidian",
+        "render",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -9889,8 +10863,11 @@
         "word_count": 2392
       },
       "tags": [
+        "git",
         "ci",
-        "obsidian"
+        "obsidian",
+        "render",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -9915,7 +10892,8 @@
       },
       "tags": [
         "ci",
-        "obsidian"
+        "obsidian",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -9951,6 +10929,7 @@
       },
       "tags": [
         "typescript",
+        "go",
         "testing",
         "ci",
         "docs",
@@ -9981,11 +10960,15 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "go",
+        "java",
         "testing",
         "ci",
         "docs",
-        "obsidian"
+        "obsidian",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -10010,7 +10993,8 @@
       },
       "tags": [
         "ci",
-        "obsidian"
+        "obsidian",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -10036,9 +11020,14 @@
       "tags": [
         "typescript",
         "node",
+        "go",
+        "java",
         "ci",
         "docs",
-        "obsidian"
+        "obsidian",
+        "render",
+        "rag",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": [
@@ -10070,9 +11059,16 @@
       },
       "tags": [
         "mcp",
+        "git",
         "python",
+        "rust",
+        "go",
+        "java",
         "ci",
-        "obsidian"
+        "obsidian",
+        "terminal",
+        "netlify",
+        "eval"
       ],
       "use_when": [
         "Working with Obsidian notes and needing to understand OFM syntax",
@@ -10116,7 +11112,8 @@
       "tags": [
         "python",
         "ci",
-        "obsidian"
+        "obsidian",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -10237,7 +11234,8 @@
       },
       "tags": [
         "python",
-        "ci"
+        "ci",
+        "render"
       ],
       "use_when": [],
       "workflow": []
@@ -10305,7 +11303,9 @@
         "word_count": 2111
       },
       "tags": [
-        "github"
+        "github",
+        "git",
+        "go"
       ],
       "use_when": [],
       "workflow": []
@@ -10330,6 +11330,7 @@
       },
       "tags": [
         "github",
+        "git",
         "docs"
       ],
       "use_when": [],
@@ -10377,9 +11378,16 @@
       },
       "tags": [
         "github",
+        "git",
+        "browser",
+        "sql",
+        "sqlite",
         "node",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -10405,14 +11413,21 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
+        "sql",
         "typescript",
         "node",
+        "go",
+        "java",
         "security",
         "testing",
         "ci",
         "docs",
-        "figma"
+        "figma",
+        "windows",
+        "terminal",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -10440,7 +11455,9 @@
         "word_count": 198
       },
       "tags": [
-        "testing"
+        "browser",
+        "testing",
+        "cloudflare"
       ],
       "use_when": [],
       "workflow": []
@@ -10466,6 +11483,9 @@
       "tags": [
         "mcp",
         "python",
+        "sql",
+        "sqlite",
+        "rust",
         "ci",
         "docs"
       ],
@@ -10498,6 +11518,7 @@
       },
       "tags": [
         "comfyui",
+        "go",
         "testing",
         "ci"
       ],
@@ -10524,6 +11545,8 @@
       },
       "tags": [
         "python",
+        "sql",
+        "go",
         "ci"
       ],
       "use_when": [
@@ -10563,10 +11586,20 @@
       },
       "tags": [
         "github",
+        "git",
+        "browser",
         "python",
+        "go",
         "aws",
         "testing",
-        "ci"
+        "ci",
+        "vercel",
+        "netlify",
+        "render",
+        "rag",
+        "llm",
+        "eval",
+        "benchmark"
       ],
       "use_when": [
         "**Creating conference materials**: Posters, presentation videos, and companion websites for academic conferences",
@@ -10609,7 +11642,8 @@
       },
       "tags": [
         "python",
-        "ci"
+        "ci",
+        "render"
       ],
       "use_when": [
         "Read or review PDF content where layout and visuals matter.",
@@ -10645,7 +11679,9 @@
       },
       "tags": [
         "mcp",
-        "ci"
+        "ci",
+        "windows",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -10670,8 +11706,12 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
-        "ci"
+        "go",
+        "java",
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -10727,6 +11767,7 @@
         "word_count": 81
       },
       "tags": [
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -10755,8 +11796,12 @@
         "word_count": 416
       },
       "tags": [
+        "sql",
+        "postgres",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building Laravel or Symfony applications",
@@ -10795,8 +11840,12 @@
       "tags": [
         "mcp",
         "playwright",
+        "browser",
         "node",
-        "ci"
+        "go",
+        "ci",
+        "terminal",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -10827,6 +11876,7 @@
       },
       "tags": [
         "playwright",
+        "browser",
         "node",
         "testing",
         "ci"
@@ -10864,8 +11914,12 @@
       },
       "tags": [
         "playwright",
+        "browser",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -10894,8 +11948,11 @@
       },
       "tags": [
         "playwright",
+        "browser",
         "typescript",
-        "ci"
+        "go",
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -10947,8 +12004,11 @@
       },
       "tags": [
         "playwright",
+        "browser",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Writing E2E tests with Playwright",
@@ -10987,6 +12047,9 @@
       "tags": [
         "mcp",
         "playwright",
+        "browser",
+        "sql",
+        "java",
         "testing",
         "ci"
       ],
@@ -11025,11 +12088,16 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
+        "sql",
         "node",
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -11054,8 +12122,12 @@
       },
       "tags": [
         "python",
+        "rust",
+        "go",
         "azure",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -11079,7 +12151,11 @@
         "word_count": 411
       },
       "tags": [
-        "ci"
+        "sql",
+        "postgres",
+        "go",
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Analyzing and optimizing slow queries with EXPLAIN",
@@ -11117,9 +12193,13 @@
         "word_count": 1779
       },
       "tags": [
+        "go",
+        "java",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Conducting post-incident reviews",
@@ -11150,7 +12230,9 @@
         "word_count": 533
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "windows"
       ],
       "use_when": [],
       "workflow": []
@@ -11175,7 +12257,12 @@
       },
       "tags": [
         "python",
-        "ci"
+        "rust",
+        "go",
+        "ci",
+        "render",
+        "rag",
+        "llm"
       ],
       "use_when": [],
       "workflow": [
@@ -11204,7 +12291,8 @@
         "word_count": 93
       },
       "tags": [
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -11232,9 +12320,13 @@
         "word_count": 619
       },
       "tags": [
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "vercel",
+        "eval",
+        "benchmark"
       ],
       "use_when": [
         "Starting a new product or feature development cycle",
@@ -11274,11 +12366,17 @@
       },
       "tags": [
         "github",
+        "git",
+        "ssh",
         "python",
         "typescript",
+        "rust",
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "terminal",
+        "rag"
       ],
       "use_when": [
         "Setting up new project with code quality enforcement",
@@ -11312,7 +12410,9 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
+        "go",
         "ci",
         "docs"
       ],
@@ -11350,7 +12450,9 @@
       },
       "tags": [
         "testing",
-        "ci"
+        "ci",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "Designing prompts for new LLM applications",
@@ -11390,10 +12492,15 @@
       },
       "tags": [
         "python",
+        "sql",
+        "go",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "Designing complex prompts for production LLM applications",
@@ -11429,9 +12536,14 @@
       },
       "tags": [
         "github",
+        "git",
+        "sql",
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Needs ready-to-use prompt templates",
@@ -11440,6 +12552,32 @@
         "Needs task-specific prompt patterns",
         "Wants to improve their prompting"
       ],
+      "workflow": []
+    },
+    {
+      "id": "promptslab-awesome-rag--833d14b9de",
+      "name": "promptslab/Awesome-RAG",
+      "description": "Retrieval-Augmented Generation resources (chunking, retrieval, reranking).",
+      "root_label": "external",
+      "source_path": "https://github.com/promptslab/Awesome-RAG",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 19
+      },
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
       "workflow": []
     },
     {
@@ -11462,10 +12600,20 @@
       },
       "tags": [
         "github",
+        "git",
+        "browser",
+        "sql",
+        "sqlite",
+        "postgres",
+        "rust",
         "docker",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux",
+        "llm",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -11530,10 +12678,15 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
         "node",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "linux",
+        "render",
+        "rag"
       ],
       "use_when": [
         "✅ VS Code users",
@@ -11564,9 +12717,14 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
+        "sqlite",
+        "postgres",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -11597,11 +12755,48 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
         "ci"
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "python-data-polars-duckdb--114e4a2ece",
+      "name": "python-data-polars-duckdb",
+      "description": "Practical data engineering workflows with Polars + DuckDB: fast local analytics, Parquet, and repeatable ETL patterns.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/python-data-polars-duckdb/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/python-data-polars-duckdb",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 212
+      },
+      "tags": [
+        "python",
+        "sql",
+        "ci",
+        "rag"
+      ],
+      "use_when": [
+        "You want fast local analytics without spinning up a database.",
+        "You work with Parquet/CSV/JSON and need reliable transforms.",
+        "You want a repeatable ETL pattern that scales from laptop to server."
+      ],
+      "workflow": [
+        "Use Polars for dataframe transforms (fast + memory-efficient).",
+        "Use DuckDB for SQL over files (Parquet/CSV) and joins/aggregations.",
+        "Persist intermediate results to Parquet (columnar, compressible, portable).",
+        "Validate with small invariants (row counts, null rates, schema checks)."
+      ]
     },
     {
       "id": "python-linting--c488a3f2ca",
@@ -11647,9 +12842,11 @@
       },
       "tags": [
         "python",
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [
         "Writing type-safe Python with complete type coverage",
@@ -11665,6 +12862,44 @@
         "**Implement** - Write Pythonic code with full type hints and error handling",
         "**Test** - Create comprehensive pytest suite with >90% coverage",
         "**Validate** - Run mypy, black, ruff; ensure quality standards met"
+      ]
+    },
+    {
+      "id": "python-project-bootstrap--1be93be29e",
+      "name": "python-project-bootstrap",
+      "description": "Bootstrap a clean Python project with reproducible environments, lint/type/test gates, and a fast debug loop.\nFocuses on uv/venv + ruff + pyright + pytest patterns.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/python-project-bootstrap/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/python-project-bootstrap",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 182
+      },
+      "tags": [
+        "python",
+        "go",
+        "ci",
+        "wsl",
+        "windows",
+        "linux"
+      ],
+      "use_when": [
+        "You’re starting a new Python repo and want good defaults.",
+        "You need fast setup on Linux/WSL/Windows with minimal yak shave.",
+        "You want a repeatable “format + lint + typecheck + tests” loop."
+      ],
+      "workflow": [
+        "Create an isolated environment (uv or venv).",
+        "Add quality gates (ruff, pyright, pytest).",
+        "Add a single command that runs the full gate.",
+        "Add a minimal smoke test and iterate."
       ]
     },
     {
@@ -11687,9 +12922,11 @@
       },
       "tags": [
         "python",
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -11721,7 +12958,8 @@
       },
       "tags": [
         "python",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -11746,9 +12984,15 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
+        "postgres",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -11773,8 +13017,14 @@
       },
       "tags": [
         "python",
+        "sql",
+        "sqlite",
+        "postgres",
+        "rust",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -11799,7 +13049,9 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Adding type hints to existing code",
@@ -11831,6 +13083,7 @@
       },
       "tags": [
         "node",
+        "go",
         "ci",
         "docs"
       ],
@@ -11874,6 +13127,7 @@
       },
       "tags": [
         "python",
+        "go",
         "ci"
       ],
       "use_when": [
@@ -11908,6 +13162,7 @@
         "word_count": 366
       },
       "tags": [
+        "java",
         "ci"
       ],
       "use_when": [],
@@ -11938,8 +13193,11 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "ci",
-        "docs"
+        "docs",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "User asks to search their notes, documents, or knowledge base",
@@ -11976,9 +13234,14 @@
         "word_count": 496
       },
       "tags": [
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "llm",
+        "eval",
+        "benchmark"
       ],
       "use_when": [
         "Building RAG systems for chatbots, Q&A, or knowledge retrieval",
@@ -12018,11 +13281,19 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
+        "postgres",
         "node",
+        "rust",
+        "go",
         "aws",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "llm",
+        "eval"
       ],
       "use_when": [
         "Building Q&A systems over proprietary documents",
@@ -12056,7 +13327,9 @@
       "tags": [
         "python",
         "node",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -12080,8 +13353,11 @@
         "word_count": 413
       },
       "tags": [
+        "sql",
+        "postgres",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building Rails 7+ applications with modern patterns",
@@ -12118,7 +13394,13 @@
         "word_count": 472
       },
       "tags": [
-        "aws"
+        "git",
+        "browser",
+        "go",
+        "aws",
+        "linux",
+        "cloudflare",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -12144,7 +13426,8 @@
       "tags": [
         "typescript",
         "testing",
-        "ci"
+        "ci",
+        "render"
       ],
       "use_when": [
         "Building new React components or features",
@@ -12184,7 +13467,8 @@
       "tags": [
         "typescript",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building cross-platform mobile applications",
@@ -12250,9 +13534,13 @@
       },
       "tags": [
         "github",
+        "git",
+        "rust",
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -12276,6 +13564,8 @@
         "word_count": 595
       },
       "tags": [
+        "rust",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -12402,6 +13692,7 @@
       },
       "tags": [
         "mcp",
+        "eval",
         "reddit",
         "benchmark"
       ],
@@ -12427,8 +13718,13 @@
         "word_count": 2468
       },
       "tags": [
+        "git",
+        "ssh",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Code is hard to understand or maintain",
@@ -12472,8 +13768,10 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "ci",
-        "docs"
+        "docs",
+        "terminal"
       ],
       "use_when": [
         "Generate release notes for a milestone",
@@ -12513,10 +13811,16 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "ssh",
+        "browser",
+        "postgres",
         "node",
         "docker",
         "ci",
-        "docs"
+        "docs",
+        "linux",
+        "render"
       ],
       "use_when": [
         "Deploy an application to Render",
@@ -12558,9 +13862,14 @@
       },
       "tags": [
         "github",
+        "git",
         "typescript",
+        "rust",
+        "go",
+        "java",
         "security",
-        "ci"
+        "ci",
+        "vercel"
       ],
       "use_when": [],
       "workflow": [
@@ -12594,7 +13903,9 @@
         "has_assets": false,
         "word_count": 79
       },
-      "tags": [],
+      "tags": [
+        "go"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -12617,6 +13928,7 @@
         "word_count": 346
       },
       "tags": [
+        "git",
         "ci",
         "docs"
       ],
@@ -12654,6 +13966,7 @@
       },
       "tags": [
         "github",
+        "git",
         "ci"
       ],
       "use_when": [],
@@ -12689,6 +14002,7 @@
         "word_count": 620
       },
       "tags": [
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -12725,10 +14039,13 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
+        "go",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -12757,8 +14074,12 @@
         "word_count": 424
       },
       "tags": [
+        "rust",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "benchmark"
       ],
       "use_when": [
         "Building systems-level applications in Rust",
@@ -12796,9 +14117,16 @@
       },
       "tags": [
         "github",
+        "git",
+        "postgres",
+        "rust",
+        "go",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux",
+        "rag"
       ],
       "use_when": [
         "Building systems software requiring memory safety without garbage collection",
@@ -12857,9 +14185,12 @@
         "word_count": 504
       },
       "tags": [
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "devops",
+        "rag"
       ],
       "use_when": [
         "Building custom Apex classes and triggers",
@@ -12898,7 +14229,9 @@
         "word_count": 77
       },
       "tags": [
-        "ci"
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -12926,7 +14259,10 @@
         "word_count": 1075
       },
       "tags": [
-        "ci"
+        "go",
+        "ci",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Generating novel research ideas or directions",
@@ -12970,9 +14306,12 @@
       },
       "tags": [
         "python",
+        "rust",
+        "go",
         "aws",
         "testing",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [
         "Evaluating research methodology and experimental design",
@@ -13005,7 +14344,11 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "Writing or revising any section of a scientific manuscript (abstract, introduction, methods, results, discussion)",
@@ -13051,9 +14394,13 @@
         "word_count": 1642
       },
       "tags": [
+        "browser",
+        "rust",
+        "go",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "**User requests testing** - When the user explicitly asks to test a website or verify functionality",
@@ -13099,9 +14446,12 @@
       "tags": [
         "mcp",
         "playwright",
+        "browser",
         "python",
         "ci",
-        "figma"
+        "figma",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": [
@@ -13128,6 +14478,9 @@
         "word_count": 330
       },
       "tags": [
+        "sql",
+        "rust",
+        "go",
         "security",
         "testing",
         "ci"
@@ -13167,8 +14520,11 @@
         "word_count": 1378
       },
       "tags": [
+        "git",
         "python",
         "typescript",
+        "go",
+        "java",
         "security",
         "testing",
         "ci"
@@ -13200,10 +14556,14 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
         "node",
+        "go",
         "security",
-        "ci"
+        "ci",
+        "linux",
+        "llm"
       ],
       "use_when": [],
       "workflow": [
@@ -13267,8 +14627,11 @@
       },
       "tags": [
         "python",
+        "sql",
+        "go",
         "security",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Converting threat models to requirements",
@@ -13300,10 +14663,16 @@
       },
       "tags": [
         "github",
+        "git",
+        "sql",
         "typescript",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "vercel",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -13327,10 +14696,14 @@
         "word_count": 401
       },
       "tags": [
+        "git",
+        "sql",
+        "go",
         "aws",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "benchmark"
       ],
       "use_when": [
         "Code review and SAST scanning",
@@ -13367,6 +14740,8 @@
         "word_count": 702
       },
       "tags": [
+        "rust",
+        "go",
         "security",
         "ci"
       ],
@@ -13404,14 +14779,21 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
         "typescript",
         "node",
+        "rust",
+        "go",
+        "java",
         "docker",
         "kubernetes",
         "security",
         "ci",
-        "docs"
+        "docs",
+        "terraform",
+        "eval"
       ],
       "use_when": [
         "Security audit of a codebase",
@@ -13452,6 +14834,9 @@
       },
       "tags": [
         "python",
+        "sql",
+        "postgres",
+        "go",
         "docker",
         "kubernetes",
         "aws",
@@ -13459,7 +14844,10 @@
         "gcp",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "observability",
+        "llm",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -13490,16 +14878,23 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
+        "postgres",
         "typescript",
         "node",
+        "go",
+        "java",
         "docker",
         "kubernetes",
         "aws",
         "azure",
         "gcp",
         "security",
-        "ci"
+        "ci",
+        "devops",
+        "terraform"
       ],
       "use_when": [],
       "workflow": [
@@ -13530,9 +14925,14 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "sql",
+        "postgres",
         "typescript",
         "node",
+        "go",
+        "java",
         "docker",
         "kubernetes",
         "aws",
@@ -13540,7 +14940,9 @@
         "gcp",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "devops",
+        "terraform"
       ],
       "use_when": [],
       "workflow": [
@@ -13568,7 +14970,10 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "observability",
+        "sentry"
       ],
       "use_when": [],
       "workflow": []
@@ -13592,9 +14997,14 @@
         "word_count": 5134
       },
       "tags": [
+        "browser",
         "node",
+        "go",
+        "java",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag"
       ],
       "use_when": [
         "Before publishing a new concept page",
@@ -13648,8 +15058,10 @@
         "word_count": 612
       },
       "tags": [
+        "git",
         "python",
         "typescript",
+        "java",
         "security",
         "ci"
       ],
@@ -13675,7 +15087,8 @@
         "word_count": 135
       },
       "tags": [
-        "node"
+        "node",
+        "windows"
       ],
       "use_when": [],
       "workflow": []
@@ -13741,6 +15154,7 @@
       "tags": [
         "mcp",
         "python",
+        "go",
         "testing",
         "ci",
         "docs"
@@ -13779,12 +15193,14 @@
       },
       "tags": [
         "python",
+        "go",
         "aws",
         "azure",
         "gcp",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -13815,6 +15231,8 @@
       },
       "tags": [
         "github",
+        "git",
+        "ssh",
         "ci"
       ],
       "use_when": [],
@@ -13861,7 +15279,9 @@
         "word_count": 1356
       },
       "tags": [
+        "git",
         "python",
+        "go",
         "security",
         "testing",
         "ci",
@@ -13902,8 +15322,10 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "python",
         "node",
+        "rust",
         "docker",
         "docs"
       ],
@@ -13961,7 +15383,8 @@
         "word_count": 777
       },
       "tags": [
-        "ci"
+        "ci",
+        "devops"
       ],
       "use_when": [
         "Find specific information mentioned in Slack conversations",
@@ -14024,6 +15447,9 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "browser",
+        "go",
         "ci",
         "docs"
       ],
@@ -14073,8 +15499,11 @@
         "word_count": 560
       },
       "tags": [
+        "sql",
         "ci",
-        "docs"
+        "docs",
+        "terminal",
+        "rag"
       ],
       "use_when": [],
       "workflow": [
@@ -14108,7 +15537,9 @@
         "has_assets": false,
         "word_count": 103
       },
-      "tags": [],
+      "tags": [
+        "render"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -14131,6 +15562,7 @@
         "word_count": 83
       },
       "tags": [
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -14156,7 +15588,10 @@
       },
       "tags": [
         "python",
-        "ci"
+        "rust",
+        "go",
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Generate a new video clip from a prompt",
@@ -14195,7 +15630,9 @@
         "word_count": 514
       },
       "tags": [
-        "ci"
+        "sql",
+        "ci",
+        "eval"
       ],
       "use_when": [
         "Building distributed data processing pipelines with Spark",
@@ -14306,7 +15743,11 @@
         "has_assets": false,
         "word_count": 114
       },
-      "tags": [],
+      "tags": [
+        "browser",
+        "go",
+        "terminal"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -14330,7 +15771,10 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "render",
+        "eval"
       ],
       "use_when": [
         "Build new workbooks with formulas, formatting, and structured layouts.",
@@ -14365,11 +15809,14 @@
         "word_count": 505
       },
       "tags": [
+        "java",
         "docker",
         "kubernetes",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "observability",
+        "rag"
       ],
       "use_when": [
         "Building REST APIs with Spring Boot",
@@ -14408,6 +15855,8 @@
         "word_count": 215
       },
       "tags": [
+        "sql",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -14432,6 +15881,8 @@
         "word_count": 433
       },
       "tags": [
+        "sql",
+        "postgres",
         "ci"
       ],
       "use_when": [
@@ -14468,7 +15919,9 @@
         "has_assets": false,
         "word_count": 84
       },
-      "tags": [],
+      "tags": [
+        "sql"
+      ],
       "use_when": [],
       "workflow": [
         "Clarify tables, filters, and desired fields.",
@@ -14495,10 +15948,14 @@
         "word_count": 1326
       },
       "tags": [
+        "sql",
+        "sqlite",
+        "go",
         "docker",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "**After API operations** - Verify create/update/delete operations modified database correctly",
@@ -14531,7 +15988,9 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "terraform"
       ],
       "use_when": [
         "Defining SLIs/SLOs and error budgets",
@@ -14609,8 +16068,11 @@
         "word_count": 1196
       },
       "tags": [
+        "git",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "rag"
       ],
       "use_when": [
         "*vs. Executing Plans (parallel session):**",
@@ -14646,7 +16108,9 @@
         "has_assets": false,
         "word_count": 194
       },
-      "tags": [],
+      "tags": [
+        "go"
+      ],
       "use_when": [
         "“use summarize.sh”",
         "“what’s this link/video about?”",
@@ -14713,7 +16177,8 @@
       },
       "tags": [
         "mcp",
-        "github"
+        "github",
+        "git"
       ],
       "use_when": [],
       "workflow": []
@@ -14737,6 +16202,8 @@
         "word_count": 1486
       },
       "tags": [
+        "git",
+        "rust",
         "security",
         "testing",
         "ci"
@@ -14776,7 +16243,9 @@
         "has_assets": false,
         "word_count": 61
       },
-      "tags": [],
+      "tags": [
+        "go"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -14800,6 +16269,9 @@
       },
       "tags": [
         "github",
+        "git",
+        "go",
+        "java",
         "security",
         "testing",
         "ci"
@@ -14813,6 +16285,32 @@
         "labels: [tracking]",
         "max: 3"
       ]
+    },
+    {
+      "id": "tensorblock-awesome-mcp-servers--f288b6636e",
+      "name": "TensorBlock/awesome-mcp-servers",
+      "description": "Another large community list (treat as noisy; use as a discovery feed).",
+      "root_label": "external",
+      "source_path": "https://github.com/TensorBlock/awesome-mcp-servers",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 29
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "git"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "terraform-azurerm-set-diff-analyzer--a8fa61b77c",
@@ -14835,7 +16333,8 @@
       "tags": [
         "python",
         "azure",
-        "ci"
+        "ci",
+        "terraform"
       ],
       "use_when": [
         "`terraform plan` shows many changes, but you only added/removed a single element",
@@ -14871,7 +16370,9 @@
         "gcp",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "devops",
+        "terraform"
       ],
       "use_when": [
         "Building Terraform modules for reusability",
@@ -14910,11 +16411,14 @@
       "tags": [
         "mcp",
         "github",
+        "git",
+        "go",
         "aws",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "terraform"
       ],
       "use_when": [
         "*Activate this skill when:**",
@@ -14955,8 +16459,11 @@
       },
       "tags": [
         "typescript",
+        "rust",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "*Always:**",
@@ -14994,7 +16501,9 @@
         "aws",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "benchmark"
       ],
       "use_when": [
         "Writing unit, integration, or E2E tests",
@@ -15035,10 +16544,12 @@
         "word_count": 520
       },
       "tags": [
+        "browser",
         "python",
         "security",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [],
       "workflow": []
@@ -15062,8 +16573,10 @@
         "word_count": 816
       },
       "tags": [
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [
         "Stress-testing a plan, architecture, or strategy before committing",
@@ -15100,6 +16613,7 @@
         "word_count": 433
       },
       "tags": [
+        "go",
         "ci",
         "docs"
       ],
@@ -15130,7 +16644,10 @@
         "word_count": 392
       },
       "tags": [
-        "github"
+        "github",
+        "git",
+        "go",
+        "terminal"
       ],
       "use_when": [],
       "workflow": []
@@ -15154,6 +16671,7 @@
         "word_count": 81
       },
       "tags": [
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -15182,7 +16700,11 @@
         "word_count": 546
       },
       "tags": [
-        "python"
+        "git",
+        "python",
+        "wsl",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": [
@@ -15208,8 +16730,10 @@
         "word_count": 336
       },
       "tags": [
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "terminal"
       ],
       "use_when": [
         "Testing `ralph-tui` or any interactive CLI prompts",
@@ -15242,6 +16766,7 @@
         "word_count": 1159
       },
       "tags": [
+        "go",
         "ci",
         "docs"
       ],
@@ -15271,7 +16796,8 @@
       },
       "tags": [
         "python",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -15353,7 +16879,8 @@
       },
       "tags": [
         "typescript",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building type-safe full-stack applications",
@@ -15392,7 +16919,9 @@
       "tags": [
         "typescript",
         "testing",
-        "ci"
+        "ci",
+        "rag",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -15416,7 +16945,8 @@
         "word_count": 6
       },
       "tags": [
-        "typescript"
+        "typescript",
+        "java"
       ],
       "use_when": [],
       "workflow": []
@@ -15441,7 +16971,12 @@
       },
       "tags": [
         "python",
-        "ci"
+        "go",
+        "ci",
+        "windows",
+        "terminal",
+        "render",
+        "eval"
       ],
       "use_when": [
         "**Product type**: SaaS, e-commerce, portfolio, dashboard, landing page, etc.",
@@ -15510,8 +17045,11 @@
         "word_count": 751
       },
       "tags": [
+        "git",
         "python",
         "node",
+        "rust",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -15541,7 +17079,8 @@
       },
       "tags": [
         "typescript",
-        "obsidian"
+        "obsidian",
+        "sentry"
       ],
       "use_when": [],
       "workflow": []
@@ -15566,6 +17105,8 @@
       },
       "tags": [
         "mcp",
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -15591,12 +17132,19 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "rust",
+        "go",
         "docker",
         "security",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux",
+        "terminal",
+        "rag"
       ],
       "use_when": [
         "Setting up new Python projects quickly",
@@ -15635,10 +17183,13 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "linux"
       ],
       "use_when": [],
       "workflow": []
@@ -15661,7 +17212,11 @@
         "has_assets": false,
         "word_count": 281
       },
-      "tags": [],
+      "tags": [
+        "go",
+        "rag",
+        "eval"
+      ],
       "use_when": [
         "The task is unrelated to vector database engineer",
         "You need a different domain or tool outside this scope"
@@ -15696,7 +17251,8 @@
         "word_count": 282
       },
       "tags": [
-        "ci"
+        "ci",
+        "vercel"
       ],
       "use_when": [],
       "workflow": []
@@ -15720,6 +17276,8 @@
         "word_count": 630
       },
       "tags": [
+        "rust",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -15744,6 +17302,30 @@
         "word_count": 63
       },
       "tags": [],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "vinta-awesome-python--aa6f49e850",
+      "name": "vinta/awesome-python",
+      "description": "General Python ecosystem index (libraries by category).",
+      "root_label": "external",
+      "source_path": "https://github.com/vinta/awesome-python",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 21
+      },
+      "tags": [
+        "python"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -15788,7 +17370,9 @@
         "word_count": 171
       },
       "tags": [
-        "typescript"
+        "typescript",
+        "go",
+        "java"
       ],
       "use_when": [
         "Localize new or existing contributed configurations (settings), commands, menus, views or walkthroughs",
@@ -15816,7 +17400,9 @@
       },
       "tags": [
         "typescript",
-        "ci"
+        "java",
+        "ci",
+        "render"
       ],
       "use_when": [
         "Building Vue 3 applications with Composition API",
@@ -15858,8 +17444,10 @@
       },
       "tags": [
         "typescript",
+        "java",
         "testing",
-        "ci"
+        "ci",
+        "rag"
       ],
       "use_when": [
         "Building Vue 3 applications without TypeScript",
@@ -15921,9 +17509,11 @@
       },
       "tags": [
         "github",
+        "git",
         "comfyui",
         "node",
-        "ci"
+        "ci",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": [
@@ -15954,7 +17544,10 @@
         "word_count": 173
       },
       "tags": [
-        "github"
+        "github",
+        "git",
+        "ssh",
+        "terminal"
       ],
       "use_when": [
         "You use Warp as your daily terminal and want faster repeatable command runs.",
@@ -15992,6 +17585,8 @@
         "word_count": 125
       },
       "tags": [
+        "git",
+        "go",
         "ci",
         "docs"
       ],
@@ -16020,6 +17615,7 @@
         "playwright",
         "typescript",
         "node",
+        "java",
         "testing",
         "ci",
         "docs"
@@ -16048,11 +17644,14 @@
       "tags": [
         "mcp",
         "github",
+        "git",
         "playwright",
+        "browser",
         "typescript",
         "node",
         "testing",
-        "ci"
+        "ci",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -16079,7 +17678,10 @@
       },
       "tags": [
         "playwright",
+        "browser",
         "node",
+        "go",
+        "java",
         "testing",
         "ci"
       ],
@@ -16112,7 +17714,9 @@
         "has_assets": false,
         "word_count": 154
       },
-      "tags": [],
+      "tags": [
+        "go"
+      ],
       "use_when": [],
       "workflow": []
     },
@@ -16175,9 +17779,13 @@
       },
       "tags": [
         "github",
+        "git",
         "python",
+        "go",
         "ci",
-        "docs"
+        "docs",
+        "rag",
+        "eval"
       ],
       "use_when": [
         "**Track ML experiments** with automatic metric logging",
@@ -16211,7 +17819,11 @@
       },
       "tags": [
         "mcp",
-        "ci"
+        "go",
+        "java",
+        "ci",
+        "rag",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": []
@@ -16236,11 +17848,17 @@
       },
       "tags": [
         "github",
+        "git",
         "node",
+        "rust",
+        "go",
         "azure",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "windows",
+        "devops",
+        "llm"
       ],
       "use_when": [
         "Initialize a Windows app project with SDK setup, manifests, and certificates",
@@ -16276,8 +17894,13 @@
       },
       "tags": [
         "github",
+        "git",
+        "ssh",
         "node",
-        "ci"
+        "go",
+        "ci",
+        "wsl",
+        "windows"
       ],
       "use_when": [
         "You bounce between Windows apps and WSL tooling.",
@@ -16310,7 +17933,8 @@
         "word_count": 152
       },
       "tags": [
-        "mcp"
+        "mcp",
+        "rust"
       ],
       "use_when": [
         "You use Windsurf’s Cascade and want to add MCP servers.",
@@ -16344,7 +17968,8 @@
       },
       "tags": [
         "mcp",
-        "github"
+        "github",
+        "git"
       ],
       "use_when": [],
       "workflow": []
@@ -16368,6 +17993,9 @@
         "word_count": 467
       },
       "tags": [
+        "sql",
+        "rust",
+        "go",
         "security",
         "testing",
         "ci"
@@ -16446,7 +18074,9 @@
         "word_count": 438
       },
       "tags": [
+        "git",
         "python",
+        "go",
         "testing",
         "ci",
         "docs"
@@ -16484,11 +18114,17 @@
         "word_count": 3185
       },
       "tags": [
+        "git",
         "python",
         "typescript",
+        "go",
+        "java",
         "testing",
         "ci",
-        "docs"
+        "docs",
+        "render",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": [
@@ -16514,6 +18150,8 @@
         "word_count": 630
       },
       "tags": [
+        "git",
+        "go",
         "ci"
       ],
       "use_when": [],
@@ -16535,11 +18173,14 @@
         "has_scripts": false,
         "has_references": false,
         "has_assets": false,
-        "word_count": 35
+        "word_count": 37
       },
       "tags": [
         "mcp",
-        "security"
+        "git",
+        "security",
+        "aws",
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -16616,8 +18257,13 @@
       },
       "tags": [
         "python",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "linux",
+        "terminal",
+        "rag",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -16642,7 +18288,9 @@
       },
       "tags": [
         "github",
-        "ci"
+        "git",
+        "ci",
+        "terminal"
       ],
       "use_when": [],
       "workflow": [
@@ -16674,7 +18322,11 @@
       },
       "tags": [
         "mcp",
-        "ci"
+        "browser",
+        "java",
+        "ci",
+        "render",
+        "eval"
       ],
       "use_when": [],
       "workflow": []
@@ -16699,8 +18351,16 @@
       },
       "tags": [
         "github",
+        "git",
+        "rust",
+        "go",
         "testing",
-        "ci"
+        "ci",
+        "terminal",
+        "devops",
+        "render",
+        "rag",
+        "llm"
       ],
       "use_when": [],
       "workflow": [

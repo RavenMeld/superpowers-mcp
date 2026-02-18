@@ -5,7 +5,7 @@ This skill scans your Obsidian vault (specifically the `People/` directory) for 
 ## Quick Facts
 - id: `obsidian-people--88297c060d`
 - worth_using_score: `35/100`
-- tags: `ci, obsidian`
+- tags: `ci, obsidian, llm`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/you-n-g-obsidian-people/SKILL.md`
 

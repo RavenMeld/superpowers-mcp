@@ -5,7 +5,7 @@ Pyright fast Python type checker from Microsoft with VS Code integration and str
 ## Quick Facts
 - id: `pyright-type-checker--b262476f17`
 - worth_using_score: `60/100`
-- tags: `github, python, node, ci, docs`
+- tags: `github, git, python, node, go, ci, docs, linux, render, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/bobmatnyc-pyright-type-checker/SKILL.md`
 

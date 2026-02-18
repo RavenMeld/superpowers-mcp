@@ -5,7 +5,7 @@ Use when building NestJS applications requiring modular architecture, dependency
 ## Quick Facts
 - id: `nestjs-expert--5d2fb2ff2f`
 - worth_using_score: `55/100`
-- tags: `typescript, node, testing, ci, docs`
+- tags: `typescript, node, rust, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/nestjs-expert/SKILL.md`
 

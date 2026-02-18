@@ -5,7 +5,7 @@ Design AWS architectures for startups using serverless patterns and IaC template
 ## Quick Facts
 - id: `aws-solution-architect--e1c3559c82`
 - worth_using_score: `88/100`
-- tags: `github, python, typescript, docker, aws, security, ci`
+- tags: `github, git, python, typescript, go, docker, aws, security, ci, observability, terraform, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/aws-solution-architect/SKILL.md`
 

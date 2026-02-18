@@ -5,7 +5,7 @@ Search personal markdown knowledge bases, notes, meeting transcripts, and docume
 ## Quick Facts
 - id: `qmd--f2d765c35d`
 - worth_using_score: `75/100`
-- tags: `mcp, github, ci, docs`
+- tags: `mcp, github, git, ci, docs, llm, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/qmd/SKILL.md`
 

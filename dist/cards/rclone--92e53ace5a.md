@@ -5,7 +5,7 @@ Upload, sync, and manage files across cloud storage providers using rclone. Use 
 ## Quick Facts
 - id: `rclone--92e53ace5a`
 - worth_using_score: `55/100`
-- tags: `aws`
+- tags: `git, browser, go, aws, linux, cloudflare, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/rclone/SKILL.md`
 

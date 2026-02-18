@@ -5,7 +5,7 @@ Configure MCP servers in LM Studio (MCP host support), including where to edit m
 ## Quick Facts
 - id: `lmstudio-mcp-setup--6f9f732344`
 - worth_using_score: `55/100`
-- tags: `mcp`
+- tags: `mcp, rust, go`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/lmstudio-mcp-setup/SKILL.md`
 

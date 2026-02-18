@@ -5,7 +5,7 @@ Use this skill any time a .pptx file is involved in any way — as input, output
 ## Quick Facts
 - id: `pptx--f1eedde963`
 - worth_using_score: `65/100`
-- tags: `python, ci`
+- tags: `python, rust, go, ci, render, rag, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/pptx/SKILL.md`
 

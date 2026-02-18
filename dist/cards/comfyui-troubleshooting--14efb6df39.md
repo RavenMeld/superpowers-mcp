@@ -5,7 +5,7 @@ Diagnose and recover ComfyUI failures (startup crashes, import failed custom nod
 ## Quick Facts
 - id: `comfyui-troubleshooting--14efb6df39`
 - worth_using_score: `35/100`
-- tags: `comfyui, python, node, security, ci`
+- tags: `comfyui, python, node, go, security, ci, windows`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-troubleshooting/SKILL.md`
 

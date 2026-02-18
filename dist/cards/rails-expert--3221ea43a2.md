@@ -5,7 +5,7 @@ Use when building Rails 7+ web applications with Hotwire, real-time features, or
 ## Quick Facts
 - id: `rails-expert--3221ea43a2`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `sql, postgres, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/rails-expert/SKILL.md`
 

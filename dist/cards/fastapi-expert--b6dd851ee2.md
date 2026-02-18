@@ -5,7 +5,7 @@ Use when building high-performance async Python APIs with FastAPI and Pydantic V
 ## Quick Facts
 - id: `fastapi-expert--b6dd851ee2`
 - worth_using_score: `55/100`
-- tags: `python, testing, ci`
+- tags: `python, sql, go, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/fastapi-expert/SKILL.md`
 

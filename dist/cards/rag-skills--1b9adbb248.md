@@ -5,7 +5,7 @@ RAG-specific best practices for LlamaIndex, ChromaDB, and Celery workers. Covers
 ## Quick Facts
 - id: `rag-skills--1b9adbb248`
 - worth_using_score: `40/100`
-- tags: `python, node, ci`
+- tags: `python, node, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/llama-farm-rag-skills/SKILL.md`
 

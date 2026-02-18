@@ -5,7 +5,7 @@ Guide users through a structured workflow for co-authoring documentation. Use wh
 ## Quick Facts
 - id: `doc-coauthoring--b423e3f007`
 - worth_using_score: `30/100`
-- tags: `mcp, testing, ci, docs`
+- tags: `mcp, rust, go, testing, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/doc-coauthoring/SKILL.md`
 

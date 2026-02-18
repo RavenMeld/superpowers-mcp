@@ -5,7 +5,7 @@ Use when implementing infrastructure as code with Terraform across AWS, Azure, o
 ## Quick Facts
 - id: `terraform-engineer--07b80d9be4`
 - worth_using_score: `55/100`
-- tags: `aws, azure, gcp, security, testing, ci`
+- tags: `aws, azure, gcp, security, testing, ci, devops, terraform`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/terraform-engineer/SKILL.md`
 

@@ -5,7 +5,7 @@ Developer Instructions for GitHub Agentic Workflows
 ## Quick Facts
 - id: `developer--be6edc2eb1`
 - worth_using_score: `50/100`
-- tags: `mcp, github, python, node, docker, security, testing, ci`
+- tags: `mcp, github, git, python, node, rust, go, java, docker, security, testing, ci, render, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/developer/SKILL.md`
 

@@ -6,7 +6,7 @@ Debug AI suggestions and code generation in Cursor. Triggers on "debug cursor ai
 ## Quick Facts
 - id: `cursor-debug-bundle--f2b4f56e45`
 - worth_using_score: `25/100`
-- tags: `github, docs`
+- tags: `github, git, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cursor-debug-bundle/SKILL.md`
 

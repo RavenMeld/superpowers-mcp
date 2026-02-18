@@ -6,7 +6,7 @@ MCP-Universe benchmark (evaluation + real MCP-server tasks).
 - id: `reddit-r-localllama-1mwa46v--acb2a4eec3`
 - kind: `external`
 - section: `MCP “Awesome Lists” as a Knowledge Source`
-- tags: `mcp, reddit, benchmark`
+- tags: `mcp, eval, reddit, benchmark`
 - url: `https://www.reddit.com/r/LocalLLaMA/comments/1mwa46v/`
 - source_path: `https://www.reddit.com/r/LocalLLaMA/comments/1mwa46v/`
 

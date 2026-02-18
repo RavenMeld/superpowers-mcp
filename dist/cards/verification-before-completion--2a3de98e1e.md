@@ -5,7 +5,7 @@ Use when about to claim work is complete, fixed, or passing, before committing o
 ## Quick Facts
 - id: `verification-before-completion--2a3de98e1e`
 - worth_using_score: `45/100`
-- tags: `ci`
+- tags: `rust, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/verification-before-completion/SKILL.md`
 

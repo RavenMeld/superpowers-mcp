@@ -5,7 +5,7 @@ Remote-control tmux sessions for interactive CLIs by sending keystrokes and scra
 ## Quick Facts
 - id: `tmux--9df7a0c58b`
 - worth_using_score: `60/100`
-- tags: `python`
+- tags: `git, python, wsl, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/tmux/SKILL.md`
 

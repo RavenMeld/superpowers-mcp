@@ -5,7 +5,7 @@ Use when defining new features, gathering requirements, or writing specification
 ## Quick Facts
 - id: `feature-forge--5d006bab5c`
 - worth_using_score: `55/100`
-- tags: `security, ci`
+- tags: `go, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/feature-forge/SKILL.md`
 

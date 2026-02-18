@@ -5,7 +5,7 @@ Track ML experiments with automatic logging, visualize training in real-time, op
 ## Quick Facts
 - id: `weights-and-biases--ff63951ece`
 - worth_using_score: `65/100`
-- tags: `github, python, ci, docs`
+- tags: `github, git, python, go, ci, docs, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/davila7-weights-and-biases/SKILL.md`
 

@@ -5,7 +5,7 @@ This skill should be used to refine brainstorm or plan documents before proceedi
 ## Quick Facts
 - id: `document-review--4703ba39d2`
 - worth_using_score: `25/100`
-- tags: `ci, docs`
+- tags: `ci, docs, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/document-review/SKILL.md`
 

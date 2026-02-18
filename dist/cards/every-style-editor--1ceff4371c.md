@@ -5,7 +5,7 @@ This skill should be used when reviewing or editing copy to ensure adherence to 
 ## Quick Facts
 - id: `every-style-editor--1ceff4371c`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `ci, wsl, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/every-style-editor/SKILL.md`
 

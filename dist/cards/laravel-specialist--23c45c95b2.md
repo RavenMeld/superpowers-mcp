@@ -5,7 +5,7 @@ Use when building Laravel 10+ applications requiring Eloquent ORM, API resources
 ## Quick Facts
 - id: `laravel-specialist--23c45c95b2`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `sql, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/laravel-specialist/SKILL.md`
 

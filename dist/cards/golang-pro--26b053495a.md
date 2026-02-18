@@ -5,7 +5,7 @@ Use when building Go applications requiring concurrent programming, microservice
 ## Quick Facts
 - id: `golang-pro--26b053495a`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci, rag, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/golang-pro/SKILL.md`
 

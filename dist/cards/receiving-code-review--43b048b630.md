@@ -5,7 +5,7 @@ Use when receiving code review feedback, before implementing suggestions, especi
 ## Quick Facts
 - id: `receiving-code-review--43b048b630`
 - worth_using_score: `45/100`
-- tags: `github, security, testing, ci`
+- tags: `github, git, rust, go, security, testing, ci, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/receiving-code-review/SKILL.md`
 

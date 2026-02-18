@@ -5,7 +5,7 @@ MUST USE for ANY git operations. Atomic commits, rebase/squash, history search (
 ## Quick Facts
 - id: `git-master--1eaaca75dd`
 - worth_using_score: `50/100`
-- tags: `ci, docs`
+- tags: `git, browser, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/git-master/SKILL.md`
 

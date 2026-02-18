@@ -5,6 +5,7 @@ Assists with Go development tasks
 ## Quick Facts
 - id: `golang-developer--22d36d00af`
 - worth_using_score: `10/100`
+- tags: `go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/golang-developer/SKILL.md`
 

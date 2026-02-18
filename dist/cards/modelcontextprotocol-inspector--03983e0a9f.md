@@ -6,7 +6,7 @@ MCP Inspector (implementation).
 - id: `modelcontextprotocol-inspector--03983e0a9f`
 - kind: `external`
 - section: `Installers / Managers (From Reddit -> GitHub)`
-- tags: `mcp, github, reddit`
+- tags: `mcp, github, git, reddit`
 - url: `https://github.com/modelcontextprotocol/inspector`
 - source_path: `https://github.com/modelcontextprotocol/inspector`
 

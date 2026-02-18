@@ -5,7 +5,7 @@ This skill should be used when the user asks to "create an agent", "add an agent
 ## Quick Facts
 - id: `agent-development--e1238b5b0f`
 - worth_using_score: `85/100`
-- tags: `security, testing, ci, docs`
+- tags: `go, security, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/agent-identifier/SKILL.md`
 

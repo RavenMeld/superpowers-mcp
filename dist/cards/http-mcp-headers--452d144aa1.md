@@ -5,7 +5,7 @@ HTTP MCP Header Secret Support - Implementation Summary
 ## Quick Facts
 - id: `http-mcp-headers--452d144aa1`
 - worth_using_score: `50/100`
-- tags: `mcp, github, security`
+- tags: `mcp, github, git, go, security, render, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/http-mcp-headers/SKILL.md`
 

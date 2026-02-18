@@ -5,7 +5,7 @@ Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and 
 ## Quick Facts
 - id: `github--8607dcac74`
 - worth_using_score: `40/100`
-- tags: `github, ci`
+- tags: `github, git, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/github/SKILL.md`
 

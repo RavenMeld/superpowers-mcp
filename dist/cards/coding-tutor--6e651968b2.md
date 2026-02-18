@@ -5,7 +5,7 @@ Personalized coding tutorials that build on your existing knowledge and use your
 ## Quick Facts
 - id: `coding-tutor--6e651968b2`
 - worth_using_score: `50/100`
-- tags: `python, ci`
+- tags: `python, go, ci, vercel, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/coding-tutor/SKILL.md`
 

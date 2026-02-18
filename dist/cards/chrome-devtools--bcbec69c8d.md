@@ -5,7 +5,7 @@ Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browse
 ## Quick Facts
 - id: `chrome-devtools--bcbec69c8d`
 - worth_using_score: `35/100`
-- tags: `mcp, github, ci, docs`
+- tags: `mcp, github, git, browser, ci, docs, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/chrome-devtools/SKILL.md`
 

@@ -5,7 +5,7 @@ This skill should be used when the user asks to "create a slash command", "add a
 ## Quick Facts
 - id: `command-development--627881243e`
 - worth_using_score: `55/100`
-- tags: `typescript, node, aws, security, testing, ci, docs`
+- tags: `git, sql, typescript, node, go, aws, security, testing, ci, docs, terminal, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/command-development/SKILL.md`
 

@@ -5,7 +5,7 @@ Use the mcporter CLI to list, configure, auth, and call MCP servers/tools direct
 ## Quick Facts
 - id: `mcporter--92599869cf`
 - worth_using_score: `20/100`
-- tags: `mcp`
+- tags: `mcp, go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/mcporter/SKILL.md`
 

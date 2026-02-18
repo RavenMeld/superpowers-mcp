@@ -5,7 +5,7 @@ Assist in containerizing applications with Dockerfile generation and optimizatio
 ## Quick Facts
 - id: `containerization-assistant--fabeb603a6`
 - worth_using_score: `45/100`
-- tags: `docker, kubernetes, security, ci`
+- tags: `go, java, docker, kubernetes, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/containerization-assistant/SKILL.md`
 

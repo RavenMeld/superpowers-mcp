@@ -5,7 +5,7 @@ Build comprehensive ML pipelines, experiment tracking, and model
 ## Quick Facts
 - id: `mlops-engineer--b342272417`
 - worth_using_score: `50/100`
-- tags: `github, docker, kubernetes, aws, azure, gcp, security, testing, ci`
+- tags: `github, git, go, docker, kubernetes, aws, azure, gcp, security, testing, ci, devops, observability, terraform, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sickn33-mlops-engineer/SKILL.md`
 

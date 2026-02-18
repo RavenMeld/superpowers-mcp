@@ -6,7 +6,7 @@ Large curated list; includes a security warning section.
 - id: `appcypher-awesome-mcp-servers--35fafe9afe`
 - kind: `external`
 - section: `MCP Server Catalogs (GitHub)`
-- tags: `mcp, github, security`
+- tags: `mcp, github, git, security`
 - url: `https://github.com/appcypher/awesome-mcp-servers`
 - source_path: `https://github.com/appcypher/awesome-mcp-servers`
 

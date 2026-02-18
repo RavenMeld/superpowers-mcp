@@ -5,7 +5,7 @@ Use when creating new skills, editing existing skills, or verifying skills work 
 ## Quick Facts
 - id: `writing-skills--5630faf0d7`
 - worth_using_score: `50/100`
-- tags: `python, typescript, testing, ci, docs`
+- tags: `git, python, typescript, go, java, testing, ci, docs, render, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/writing-skills/SKILL.md`
 

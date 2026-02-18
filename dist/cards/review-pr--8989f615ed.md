@@ -5,7 +5,7 @@ Review-only GitHub pull request analysis with the gh CLI. Use when asked to revi
 ## Quick Facts
 - id: `review-pr--8989f615ed`
 - worth_using_score: `55/100`
-- tags: `github, node, security, ci, docs`
+- tags: `github, git, node, go, security, ci, docs, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/review-pr-v1/SKILL.md`
 

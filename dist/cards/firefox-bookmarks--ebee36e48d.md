@@ -5,7 +5,7 @@ Analyze Firefox bookmarks and tags directly from the places.sqlite database. Ext
 ## Quick Facts
 - id: `firefox-bookmarks--ebee36e48d`
 - worth_using_score: `50/100`
-- tags: `ci`
+- tags: `sql, sqlite, ci, windows, linux`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/dreikanter-firefox-bookmarks/SKILL.md`
 

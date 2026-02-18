@@ -5,7 +5,7 @@ Technical leadership guidance for engineering teams, architecture decisions, and
 ## Quick Facts
 - id: `cto-advisor--1727d247f6`
 - worth_using_score: `70/100`
-- tags: `github, python, security, ci`
+- tags: `github, git, python, go, security, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cto-advisor/SKILL.md`
 

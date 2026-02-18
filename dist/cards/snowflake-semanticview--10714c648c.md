@@ -5,7 +5,7 @@ Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow).
 ## Quick Facts
 - id: `snowflake-semanticview--10714c648c`
 - worth_using_score: `50/100`
-- tags: `ci, docs`
+- tags: `sql, ci, docs, terminal, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/snowflake-semanticview/SKILL.md`
 

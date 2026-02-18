@@ -5,7 +5,7 @@ Comprehensive guidance on error handling patterns, recovery strategies, and debu
 ## Quick Facts
 - id: `error-recovery-patterns--6e8782ac12`
 - worth_using_score: `40/100`
-- tags: `github, python, docker, ci`
+- tags: `github, git, python, go, java, docker, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/error-recovery-patterns/SKILL.md`
 

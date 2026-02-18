@@ -5,7 +5,7 @@ Use when challenging ideas, plans, decisions, or proposals using structured crit
 ## Quick Facts
 - id: `the-fool--794d0ffd92`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/the-fool/SKILL.md`
 

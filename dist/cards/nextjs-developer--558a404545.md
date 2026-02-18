@@ -5,7 +5,7 @@ Use when building Next.js 14+ applications with App Router, server components, o
 ## Quick Facts
 - id: `nextjs-developer--558a404545`
 - worth_using_score: `55/100`
-- tags: `typescript, docker, ci`
+- tags: `typescript, docker, ci, vercel, render, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/nextjs-developer/SKILL.md`
 

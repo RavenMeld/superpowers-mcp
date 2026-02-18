@@ -5,7 +5,7 @@ Discord ops via the message tool (channel=discord).
 ## Quick Facts
 - id: `discord--4f9fe1356a`
 - worth_using_score: `45/100`
-- tags: `ci`
+- tags: `ci, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/discord/SKILL.md`
 

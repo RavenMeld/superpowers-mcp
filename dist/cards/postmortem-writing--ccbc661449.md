@@ -5,7 +5,7 @@ Write effective blameless postmortems with root cause analysis, timelines, and a
 ## Quick Facts
 - id: `postmortem-writing--ccbc661449`
 - worth_using_score: `60/100`
-- tags: `security, ci, docs`
+- tags: `go, java, security, ci, docs, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/postmortem-writing/SKILL.md`
 

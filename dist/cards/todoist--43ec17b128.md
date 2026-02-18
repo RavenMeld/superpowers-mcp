@@ -5,7 +5,7 @@ Todoist CLI (sachaos/todoist). Use when user mentions: todoist, tasks, todos, ad
 ## Quick Facts
 - id: `todoist--43ec17b128`
 - worth_using_score: `55/100`
-- tags: `ci, docs`
+- tags: `go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/todoist/SKILL.md`
 

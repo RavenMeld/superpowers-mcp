@@ -5,7 +5,7 @@ Instructions for refactoring JavaScript code into separate files
 ## Quick Facts
 - id: `javascript-refactoring--31a3066ab6`
 - worth_using_score: `55/100`
-- tags: `github, typescript, testing, ci`
+- tags: `github, git, typescript, go, java, testing, ci, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/javascript-refactoring/SKILL.md`
 

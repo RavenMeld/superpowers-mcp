@@ -5,7 +5,7 @@ DuckDB CLI specialist for SQL analysis, data processing and file conversion. Use
 ## Quick Facts
 - id: `duckdb-en--be98aa1293`
 - worth_using_score: `45/100`
-- tags: `ci`
+- tags: `sql, sqlite, go, ci, wsl, linux, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/openclaw-duckdb-en/SKILL.md`
 

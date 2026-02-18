@@ -5,7 +5,7 @@ Integration guide for Skillz MCP server with Docker, including setup, configurat
 ## Quick Facts
 - id: `skillz-integration--75b81d2b77`
 - worth_using_score: `55/100`
-- tags: `mcp, github, python, node, docker, docs`
+- tags: `mcp, github, git, python, node, rust, docker, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/skillz-integration/SKILL.md`
 

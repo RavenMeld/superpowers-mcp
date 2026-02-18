@@ -5,7 +5,7 @@ GitHub MCP Server Documentation
 ## Quick Facts
 - id: `github-mcp-server--69151c26b6`
 - worth_using_score: `55/100`
-- tags: `mcp, github, docker, security, ci, docs`
+- tags: `mcp, github, git, docker, security, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/githubnext-github-mcp-server/SKILL.md`
 

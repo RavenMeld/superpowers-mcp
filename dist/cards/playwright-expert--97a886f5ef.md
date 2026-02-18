@@ -5,7 +5,7 @@ Use when writing E2E tests with Playwright, setting up test infrastructure, or d
 ## Quick Facts
 - id: `playwright-expert--97a886f5ef`
 - worth_using_score: `55/100`
-- tags: `playwright, testing, ci`
+- tags: `playwright, browser, go, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/playwright-expert/SKILL.md`
 

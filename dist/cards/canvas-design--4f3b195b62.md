@@ -5,7 +5,7 @@ Create beautiful visual art in .png and .pdf documents using design philosophy. 
 ## Quick Facts
 - id: `canvas-design--4f3b195b62`
 - worth_using_score: `25/100`
-- tags: `ci`
+- tags: `git, go, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/canvas-design/SKILL.md`
 

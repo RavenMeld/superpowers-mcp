@@ -5,7 +5,7 @@ Use when searching for ComfyUI nodes, finding nodes by keyword/author/pack/categ
 ## Quick Facts
 - id: `comfy-registry--b79e2071fa`
 - worth_using_score: `45/100`
-- tags: `mcp, comfyui, node`
+- tags: `mcp, comfyui, node, go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfy-registry/SKILL.md`
 

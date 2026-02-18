@@ -5,7 +5,7 @@ Publish and manage research papers on Hugging Face Hub. Supports creating paper 
 ## Quick Facts
 - id: `hugging-face-paper-publisher--94fcb45911`
 - worth_using_score: `60/100`
-- tags: `python, ci, docs`
+- tags: `python, go, ci, docs, render, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hugging-face-paper-publisher/SKILL.md`
 

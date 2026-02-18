@@ -5,6 +5,7 @@ Guidelines for formatting reports using HTML details/summary tags
 ## Quick Facts
 - id: `reporting--b5275daf30`
 - worth_using_score: `20/100`
+- tags: `go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/reporting/SKILL.md`
 

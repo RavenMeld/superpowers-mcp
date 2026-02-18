@@ -5,7 +5,7 @@ AionUi WebUI configuration expert: Helps users configure AionUi WebUI mode for r
 ## Quick Facts
 - id: `aionui-webui-setup--2c29012be4`
 - worth_using_score: `30/100`
-- tags: `github`
+- tags: `github, git, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/aionui-webui-setup/SKILL.md`
 

@@ -5,7 +5,7 @@ Draft professional emails for various contexts including business, technical, an
 ## Quick Facts
 - id: `email-composer--33a461b59c`
 - worth_using_score: `45/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/email-composer/SKILL.md`
 

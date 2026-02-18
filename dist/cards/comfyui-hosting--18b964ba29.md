@@ -5,7 +5,7 @@ Safely run ComfyUI as a LAN/internal service (and only intentionally as a public
 ## Quick Facts
 - id: `comfyui-hosting--18b964ba29`
 - worth_using_score: `25/100`
-- tags: `comfyui, node, security, ci`
+- tags: `git, comfyui, node, rust, security, ci, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-hosting/SKILL.md`
 

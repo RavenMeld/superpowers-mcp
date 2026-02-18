@@ -5,7 +5,7 @@ Best practices for writing JavaScript code for GitHub Actions using github-scrip
 ## Quick Facts
 - id: `github-script--69b23d0ced`
 - worth_using_score: `35/100`
-- tags: `github, typescript, ci`
+- tags: `github, git, typescript, java, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/github-script/SKILL.md`
 

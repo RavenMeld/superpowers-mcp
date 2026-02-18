@@ -5,7 +5,7 @@ Deploy applications and infrastructure to Cloudflare using Workers, Pages, and r
 ## Quick Facts
 - id: `cloudflare-deploy--512c1f5b25`
 - worth_using_score: `53/100`
-- tags: `security, ci`
+- tags: `git, browser, sql, sqlite, postgres, go, security, ci, observability, terraform, cloudflare, render, rag, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cloudflare-deploy/SKILL.md`
 

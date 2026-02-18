@@ -5,7 +5,7 @@ Use when investigating slow queries, analyzing execution plans, or optimizing da
 ## Quick Facts
 - id: `database-optimizer--1a72046f2d`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `sql, postgres, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/database-optimizer/SKILL.md`
 

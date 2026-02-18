@@ -5,7 +5,7 @@ Host security hardening and risk-tolerance configuration for OpenClaw deployment
 ## Quick Facts
 - id: `healthcheck--bc073741c2`
 - worth_using_score: `35/100`
-- tags: `security, ci, docs`
+- tags: `git, ssh, browser, go, security, ci, docs, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/healthcheck/SKILL.md`
 

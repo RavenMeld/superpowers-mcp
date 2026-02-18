@@ -5,7 +5,7 @@ Use when you have a written implementation plan to execute in a separate session
 ## Quick Facts
 - id: `executing-plans--311ba91e8a`
 - worth_using_score: `35/100`
-- tags: `ci`
+- tags: `git, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/executing-plans/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when tasks involve creating, editing, analyzing, or formatting spreadsheets 
 ## Quick Facts
 - id: `spreadsheet--cb653911c9`
 - worth_using_score: `70/100`
-- tags: `python, ci`
+- tags: `python, go, ci, render, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/spreadsheet/SKILL.md`
 

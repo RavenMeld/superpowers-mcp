@@ -5,7 +5,7 @@ Use when building Rust applications requiring memory safety, systems programming
 ## Quick Facts
 - id: `rust-engineer--de140c66de`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `rust, go, testing, ci, rag, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/rust-engineer/SKILL.md`
 

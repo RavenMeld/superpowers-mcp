@@ -5,7 +5,7 @@ Comprehensive Python coding standards - naming, layout, typing, logging, configu
 ## Quick Facts
 - id: `python-standards--a76cf6c108`
 - worth_using_score: `45/100`
-- tags: `github, python, ci, docs`
+- tags: `github, git, python, sql, postgres, go, ci, docs, render, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/python-standards/SKILL.md`
 

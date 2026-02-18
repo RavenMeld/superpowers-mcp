@@ -5,7 +5,7 @@ Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, pro
 ## Quick Facts
 - id: `obsidian-markdown--0b4f6175c5`
 - worth_using_score: `45/100`
-- tags: `github, python, testing, ci, docs, obsidian`
+- tags: `github, git, python, go, java, testing, ci, docs, obsidian, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/obsidian-markdown/SKILL.md`
 

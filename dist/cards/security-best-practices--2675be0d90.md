@@ -5,7 +5,7 @@ Perform language and framework specific security best-practice reviews and sugge
 ## Quick Facts
 - id: `security-best-practices--2675be0d90`
 - worth_using_score: `40/100`
-- tags: `python, typescript, security, testing, ci`
+- tags: `git, python, typescript, go, java, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/security-best-practices/SKILL.md`
 

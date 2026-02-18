@@ -5,7 +5,7 @@ Use when building Apache Spark applications, distributed data processing pipelin
 ## Quick Facts
 - id: `spark-engineer--89476c464a`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `sql, ci, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/spark-engineer/SKILL.md`
 

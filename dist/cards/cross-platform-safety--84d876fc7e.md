@@ -5,7 +5,7 @@ Ensure commands and paths are safe across Windows + WSL + Docker (PowerShell vs 
 ## Quick Facts
 - id: `cross-platform-safety--84d876fc7e`
 - worth_using_score: `30/100`
-- tags: `docker, ci`
+- tags: `docker, ci, wsl, windows`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/janjaszczak-cross-platform-safety/SKILL.md`
 

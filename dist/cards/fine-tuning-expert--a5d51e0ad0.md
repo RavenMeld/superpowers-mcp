@@ -5,7 +5,7 @@ Use when fine-tuning LLMs, training custom models, or optimizing model performan
 ## Quick Facts
 - id: `fine-tuning-expert--a5d51e0ad0`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `ci, llm, eval, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/fine-tuning-expert/SKILL.md`
 

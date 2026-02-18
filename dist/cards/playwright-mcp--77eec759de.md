@@ -5,7 +5,7 @@ Automate browser testing, web scraping, and UI validation using Playwright MCP s
 ## Quick Facts
 - id: `playwright-mcp--77eec759de`
 - worth_using_score: `55/100`
-- tags: `mcp, playwright, testing, ci`
+- tags: `mcp, playwright, browser, sql, java, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/playwright-mcp/SKILL.md`
 

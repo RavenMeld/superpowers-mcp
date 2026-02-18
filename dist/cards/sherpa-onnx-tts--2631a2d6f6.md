@@ -5,7 +5,7 @@ Local text-to-speech via sherpa-onnx (offline, no cloud)
 ## Quick Facts
 - id: `sherpa-onnx-tts--2631a2d6f6`
 - worth_using_score: `35/100`
-- tags: `node`
+- tags: `node, windows`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sherpa-onnx-tts/SKILL.md`
 

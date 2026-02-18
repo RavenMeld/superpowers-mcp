@@ -5,7 +5,7 @@ Use when defining SLIs/SLOs, managing error budgets, or building reliable system
 ## Quick Facts
 - id: `sre-engineer--cb40ffb152`
 - worth_using_score: `55/100`
-- tags: `python, ci`
+- tags: `python, go, ci, terraform`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sre-engineer/SKILL.md`
 

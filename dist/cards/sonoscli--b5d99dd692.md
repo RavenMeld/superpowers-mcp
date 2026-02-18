@@ -5,7 +5,7 @@ Control Sonos speakers (discover/status/play/volume/group).
 ## Quick Facts
 - id: `sonoscli--b5d99dd692`
 - worth_using_score: `20/100`
-- tags: `ci`
+- tags: `go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sonoscli/SKILL.md`
 

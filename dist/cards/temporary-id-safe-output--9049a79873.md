@@ -5,7 +5,7 @@ Plan for adding temporary ID support to safe output jobs
 ## Quick Facts
 - id: `temporary-id-safe-output--9049a79873`
 - worth_using_score: `55/100`
-- tags: `github, security, testing, ci`
+- tags: `github, git, go, java, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/temporary-id-safe-output/SKILL.md`
 

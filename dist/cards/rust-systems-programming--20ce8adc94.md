@@ -5,7 +5,7 @@ Complete guide for Rust systems programming including ownership, borrowing, conc
 ## Quick Facts
 - id: `rust-systems-programming--20ce8adc94`
 - worth_using_score: `55/100`
-- tags: `github, testing, ci, docs`
+- tags: `github, git, postgres, rust, go, testing, ci, docs, windows, linux, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/rust-systems-programming/SKILL.md`
 

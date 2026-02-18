@@ -5,7 +5,7 @@ Manage Model Context Protocol (MCP) servers - discover, analyze, and execute too
 ## Quick Facts
 - id: `mcp-management--5fb019db79`
 - worth_using_score: `78/100`
-- tags: `mcp, ci`
+- tags: `mcp, go, ci, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/mrgoonie-mcp-management/SKILL.md`
 

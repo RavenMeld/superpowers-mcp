@@ -5,7 +5,7 @@ Query GitHub pull requests efficiently with jq argument support for filtering
 ## Quick Facts
 - id: `github-pr-query--667d007e14`
 - worth_using_score: `45/100`
-- tags: `github, ci`
+- tags: `github, git, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/github-pr-query/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when optimizing PostgreSQL queries, configuring replication, or implementing
 ## Quick Facts
 - id: `postgres-pro--4fc2453244`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `sql, postgres, go, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/postgres-pro/SKILL.md`
 

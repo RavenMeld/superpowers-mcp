@@ -5,7 +5,7 @@ Assess a system for growth bottlenecks. Use when a senior developer needs to eva
 ## Quick Facts
 - id: `scalability-assessment--a2bbc410a9`
 - worth_using_score: `20/100`
-- tags: `ci`
+- tags: `ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/scalability-assessment/SKILL.md`
 

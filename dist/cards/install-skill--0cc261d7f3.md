@@ -5,7 +5,7 @@ Search and install skills from skills.sh and GitHub repos. Use when users ask to
 ## Quick Facts
 - id: `install-skill--0cc261d7f3`
 - worth_using_score: `45/100`
-- tags: `github, node, ci`
+- tags: `github, git, node, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/install-skill/SKILL.md`
 

@@ -5,7 +5,7 @@ Set up, configure, and run ComfyUIMini (mobile-friendly WebUI) with a local Comf
 ## Quick Facts
 - id: `comfyui-mini--afe0cd8c44`
 - worth_using_score: `40/100`
-- tags: `github, comfyui, node, ci`
+- tags: `github, git, comfyui, node, ci, windows`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-mini/SKILL.md`
 

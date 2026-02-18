@@ -5,7 +5,7 @@ How to load, edit, validate, share, and reuse ComfyUI workflows (JSON + embedded
 ## Quick Facts
 - id: `comfyui-workflow--924bee3809`
 - worth_using_score: `45/100`
-- tags: `comfyui, node, ci`
+- tags: `comfyui, node, go, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-workflow/SKILL.md`
 

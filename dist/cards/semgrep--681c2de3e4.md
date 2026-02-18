@@ -5,7 +5,7 @@ Run Semgrep static analysis scan on a codebase using parallel subagents. Automat
 ## Quick Facts
 - id: `semgrep--681c2de3e4`
 - worth_using_score: `80/100`
-- tags: `github, python, typescript, node, docker, kubernetes, security, ci, docs`
+- tags: `github, git, python, sql, typescript, node, rust, go, java, docker, kubernetes, security, ci, docs, terraform, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/trailofbits-semgrep/SKILL.md`
 

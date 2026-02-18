@@ -5,7 +5,7 @@ Resolve all PR comments using parallel processing. Use when addressing PR review
 ## Quick Facts
 - id: `resolve-pr-parallel--751b2f43e5`
 - worth_using_score: `60/100`
-- tags: `github, ci`
+- tags: `github, git, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/resolve-pr-parallel/SKILL.md`
 

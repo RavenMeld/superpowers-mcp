@@ -5,7 +5,7 @@ Create and edit Obsidian Bases (.base files) with views, filters, formulas, and 
 ## Quick Facts
 - id: `obsidian-bases--f28452c0c9`
 - worth_using_score: `40/100`
-- tags: `ci, obsidian`
+- tags: `git, ci, obsidian, render, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/obsidian-bases/SKILL.md`
 

@@ -5,6 +5,7 @@ Feishu cloud storage file management. Activate when user mentions cloud space, f
 ## Quick Facts
 - id: `feishu-drive--163842cacf`
 - worth_using_score: `45/100`
+- tags: `rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/feishu-drive/SKILL.md`
 

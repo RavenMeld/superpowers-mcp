@@ -5,7 +5,7 @@ Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process 
 ## Quick Facts
 - id: `coding-agent--94dd6c46d4`
 - worth_using_score: `55/100`
-- tags: `github, ci, docs`
+- tags: `github, git, rust, go, ci, docs, terminal`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/coding-agent/SKILL.md`
 

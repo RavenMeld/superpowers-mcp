@@ -7,7 +7,7 @@ or running tests with coverage. Covers pytest-cov, pytest-asyncio, pytest-xdist,
 ## Quick Facts
 - id: `pytest-advanced--f9df867d4e`
 - worth_using_score: `55/100`
-- tags: `github, python, testing, ci`
+- tags: `github, git, python, sql, sqlite, postgres, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/laurigates-pytest-advanced/SKILL.md`
 

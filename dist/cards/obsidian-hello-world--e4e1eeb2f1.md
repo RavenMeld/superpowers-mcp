@@ -9,7 +9,7 @@ Trigger with phrases like "obsidian hello world", "first obsidian plugin",
 ## Quick Facts
 - id: `obsidian-hello-world--e4e1eeb2f1`
 - worth_using_score: `55/100`
-- tags: `typescript, testing, ci, docs, obsidian`
+- tags: `typescript, go, testing, ci, docs, obsidian`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/jeremylongshore-obsidian-hello-world/SKILL.md`
 

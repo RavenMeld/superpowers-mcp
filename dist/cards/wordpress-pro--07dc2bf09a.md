@@ -5,7 +5,7 @@ Use when developing WordPress themes, plugins, customizing Gutenberg blocks, imp
 ## Quick Facts
 - id: `wordpress-pro--07dc2bf09a`
 - worth_using_score: `55/100`
-- tags: `security, testing, ci`
+- tags: `sql, rust, go, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/wordpress-pro/SKILL.md`
 

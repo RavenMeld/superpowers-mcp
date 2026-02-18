@@ -5,7 +5,7 @@ This skill manages Git worktrees for isolated parallel development. It handles c
 ## Quick Facts
 - id: `git-worktree--e3d54110ec`
 - worth_using_score: `80/100`
-- tags: `ci`
+- tags: `git, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/git-worktree/SKILL.md`
 

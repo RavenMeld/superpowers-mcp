@@ -5,7 +5,7 @@ Use when editing ComfyUI workflow JSON, adding nodes, wiring connections, modify
 ## Quick Facts
 - id: `comfy-edit--b2b01b2266`
 - worth_using_score: `55/100`
-- tags: `github, comfyui, python, node`
+- tags: `github, git, comfyui, python, node, go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfy-edit/SKILL.md`
 

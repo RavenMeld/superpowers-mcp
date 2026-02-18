@@ -5,7 +5,7 @@ myfy DataModule for database access with async SQLAlchemy. Use when working with
 ## Quick Facts
 - id: `data-module--0bef005925`
 - worth_using_score: `45/100`
-- tags: `python, ci`
+- tags: `python, sql, sqlite, postgres, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/psincraian-data-module/SKILL.md`
 

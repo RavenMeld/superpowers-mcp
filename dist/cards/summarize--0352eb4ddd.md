@@ -5,6 +5,7 @@ Summarize or extract text/transcripts from URLs, podcasts, and local files (grea
 ## Quick Facts
 - id: `summarize--0352eb4ddd`
 - worth_using_score: `50/100`
+- tags: `go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/summarize/SKILL.md`
 

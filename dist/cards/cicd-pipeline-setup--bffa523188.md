@@ -5,7 +5,7 @@ Design and implement CI/CD pipelines with GitHub Actions, GitLab CI, Jenkins, or
 ## Quick Facts
 - id: `cicd-pipeline-setup--bffa523188`
 - worth_using_score: `65/100`
-- tags: `github, node, docker, aws, security, testing, ci, docs`
+- tags: `github, git, node, docker, aws, security, testing, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cicd-pipeline-setup/SKILL.md`
 

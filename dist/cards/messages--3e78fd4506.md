@@ -5,7 +5,7 @@ Instructions for adding new message types to the safe-output messages system
 ## Quick Facts
 - id: `messages--3e78fd4506`
 - worth_using_score: `45/100`
-- tags: `github, ci`
+- tags: `github, git, go, java, ci, render, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/messages/SKILL.md`
 

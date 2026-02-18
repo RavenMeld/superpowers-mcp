@@ -5,7 +5,7 @@ Use when completing tasks, implementing major features, or before merging to ver
 ## Quick Facts
 - id: `requesting-code-review--2fd2234d6f`
 - worth_using_score: `45/100`
-- tags: `ci, docs`
+- tags: `git, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/requesting-code-review/SKILL.md`
 

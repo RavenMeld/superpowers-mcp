@@ -5,7 +5,7 @@ Reorder Foodora orders and track ETA/status with ordercli, with explicit user co
 ## Quick Facts
 - id: `food-order--e20f7021fb`
 - worth_using_score: `25/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/food-order/SKILL.md`
 

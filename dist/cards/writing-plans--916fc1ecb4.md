@@ -5,7 +5,7 @@ Use when you have a spec or requirements for a multi-step task, before touching 
 ## Quick Facts
 - id: `writing-plans--916fc1ecb4`
 - worth_using_score: `50/100`
-- tags: `python, testing, ci, docs`
+- tags: `git, python, go, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/writing-plans/SKILL.md`
 

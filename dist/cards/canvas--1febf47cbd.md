@@ -5,7 +5,7 @@ Guide for displaying HTML content on connected OpenClaw canvas nodes across desk
 ## Quick Facts
 - id: `canvas--1febf47cbd`
 - worth_using_score: `55/100`
-- tags: `node, ci`
+- tags: `node, java, ci, render, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/canvas/SKILL.md`
 

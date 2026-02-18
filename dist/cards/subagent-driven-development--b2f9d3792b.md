@@ -5,7 +5,7 @@ Use when executing implementation plans with independent tasks in the current se
 ## Quick Facts
 - id: `subagent-driven-development--b2f9d3792b`
 - worth_using_score: `65/100`
-- tags: `ci, docs`
+- tags: `git, go, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/subagent-driven-development/SKILL.md`
 

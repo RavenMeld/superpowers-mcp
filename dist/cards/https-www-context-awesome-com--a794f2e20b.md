@@ -6,7 +6,7 @@ MCP server providing access to thousands of GitHub “awesome lists”.
 - id: `https-www-context-awesome-com--a794f2e20b`
 - kind: `external`
 - section: `Security Notes (MCP Tooling)`
-- tags: `mcp, github, security`
+- tags: `mcp, github, git, security`
 - url: `https://www.context-awesome.com/`
 - source_path: `https://www.context-awesome.com/`
 

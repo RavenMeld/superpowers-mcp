@@ -6,7 +6,7 @@ Uses per-host aliases so each repo can target the right key deterministically.
 ## Quick Facts
 - id: `github-ssh-multi-account-wsl--3d479c57e2`
 - worth_using_score: `70/100`
-- tags: `github`
+- tags: `github, git, ssh, wsl, windows`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/github-ssh-multi-account-wsl/SKILL.md`
 

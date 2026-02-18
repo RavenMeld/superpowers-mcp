@@ -5,7 +5,7 @@ Master Java concurrency - threads, executors, locks, CompletableFuture, virtual 
 ## Quick Facts
 - id: `java-concurrency--22ff835618`
 - worth_using_score: `73/100`
-- tags: `ci`
+- tags: `java, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/java-concurrency/SKILL.md`
 

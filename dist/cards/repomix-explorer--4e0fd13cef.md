@@ -5,7 +5,7 @@ Use this skill when the user wants to analyze or explore a codebase (remote repo
 ## Quick Facts
 - id: `repomix-explorer--4e0fd13cef`
 - worth_using_score: `55/100`
-- tags: `github, typescript, security, ci`
+- tags: `github, git, typescript, rust, go, java, security, ci, vercel`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/repomix-explorer/SKILL.md`
 

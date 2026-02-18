@@ -5,7 +5,7 @@ Use when building TypeScript applications requiring advanced type systems, gener
 ## Quick Facts
 - id: `typescript-pro--289fdb9f80`
 - worth_using_score: `55/100`
-- tags: `typescript, ci`
+- tags: `typescript, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/typescript-pro/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when starting feature work that needs isolation from current workspace or be
 ## Quick Facts
 - id: `using-git-worktrees--de9ac5fd08`
 - worth_using_score: `55/100`
-- tags: `python, node, ci`
+- tags: `git, python, node, rust, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/using-git-worktrees/SKILL.md`
 

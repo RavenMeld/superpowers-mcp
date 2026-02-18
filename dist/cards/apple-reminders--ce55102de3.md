@@ -5,7 +5,7 @@ Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, comple
 ## Quick Facts
 - id: `apple-reminders--ce55102de3`
 - worth_using_score: `25/100`
-- tags: `security, ci`
+- tags: `ssh, security, ci, terminal`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/apple-reminders/SKILL.md`
 

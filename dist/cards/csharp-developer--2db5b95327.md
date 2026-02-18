@@ -5,7 +5,7 @@ Use when building C# applications with .NET 8+, ASP.NET Core APIs, or Blazor web
 ## Quick Facts
 - id: `csharp-developer--2db5b95327`
 - worth_using_score: `55/100`
-- tags: `azure, ci`
+- tags: `azure, ci, rag, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/csharp-developer/SKILL.md`
 

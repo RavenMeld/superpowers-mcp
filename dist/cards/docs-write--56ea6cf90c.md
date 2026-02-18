@@ -5,7 +5,7 @@ Write documentation following Metabase's conversational, clear, and user-focused
 ## Quick Facts
 - id: `docs-write--56ea6cf90c`
 - worth_using_score: `45/100`
-- tags: `docs`
+- tags: `docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/docs-write/SKILL.md`
 

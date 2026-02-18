@@ -5,7 +5,7 @@ Playwright debugging techniques and tools
 ## Quick Facts
 - id: `playwright-debugging--6d6cbf7add`
 - worth_using_score: `45/100`
-- tags: `playwright, typescript, ci`
+- tags: `playwright, browser, typescript, go, ci, eval`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/the-answerai-playwright-debugging/SKILL.md`
 

@@ -5,7 +5,7 @@ Search and retrieve information from Slack workspace using the slack-cli tool. U
 ## Quick Facts
 - id: `slack-search--9d76720452`
 - worth_using_score: `70/100`
-- tags: `ci`
+- tags: `ci, devops`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/slack-search/SKILL.md`
 

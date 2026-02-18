@@ -5,7 +5,7 @@ Static and runtime validation (Proofcheck) for Hylab: manifest checks, asset for
 ## Quick Facts
 - id: `hylab-proofcheck--de98333649`
 - worth_using_score: `40/100`
-- tags: `github, ci`
+- tags: `github, git, rust, java, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-proofcheck/SKILL.md`
 

@@ -5,7 +5,7 @@ Comprehensive testing guidance for TypeScript projects including unit testing pa
 ## Quick Facts
 - id: `typescript-testing--79bb435021`
 - worth_using_score: `45/100`
-- tags: `typescript, testing, ci`
+- tags: `typescript, testing, ci, rag, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/typescript-testing/SKILL.md`
 

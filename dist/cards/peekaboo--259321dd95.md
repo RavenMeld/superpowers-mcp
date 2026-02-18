@@ -5,7 +5,7 @@ Capture and automate macOS UI with the Peekaboo CLI.
 ## Quick Facts
 - id: `peekaboo--259321dd95`
 - worth_using_score: `45/100`
-- tags: `mcp, ci`
+- tags: `mcp, ci, windows, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/peekaboo/SKILL.md`
 

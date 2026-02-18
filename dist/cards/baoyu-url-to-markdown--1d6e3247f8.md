@@ -5,7 +5,7 @@ Fetch any URL and convert to markdown using Chrome CDP. Supports two modes - aut
 ## Quick Facts
 - id: `baoyu-url-to-markdown--1d6e3247f8`
 - worth_using_score: `50/100`
-- tags: `ci`
+- tags: `java, ci, wsl, linux, render`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/jimliu-baoyu-url-to-markdown/SKILL.md`
 

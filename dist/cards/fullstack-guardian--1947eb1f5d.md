@@ -5,7 +5,7 @@ Use when implementing features across frontend and backend, building APIs with U
 ## Quick Facts
 - id: `fullstack-guardian--1947eb1f5d`
 - worth_using_score: `55/100`
-- tags: `docker, security, testing, ci`
+- tags: `sql, rust, go, docker, security, testing, ci, devops, observability`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/fullstack-guardian/SKILL.md`
 

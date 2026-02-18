@@ -5,7 +5,7 @@ Failure isolation and repro packaging for Hylab (delta debugging, bisect, minima
 ## Quick Facts
 - id: `hylab-isolation-repro--6bb10c2212`
 - worth_using_score: `25/100`
-- tags: `github, ci`
+- tags: `github, git, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-isolation-repro/SKILL.md`
 

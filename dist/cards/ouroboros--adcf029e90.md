@@ -9,7 +9,7 @@ Use when:
 ## Quick Facts
 - id: `ouroboros--adcf029e90`
 - worth_using_score: `60/100`
-- tags: `mcp, python, ci, docs`
+- tags: `mcp, python, sql, sqlite, rust, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/ouroboros/SKILL.md`
 

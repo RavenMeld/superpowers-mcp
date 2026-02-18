@@ -5,7 +5,7 @@ Documentation Brief description for SEO and navigation
 ## Quick Facts
 - id: `documentation--01f458116b`
 - worth_using_score: `55/100`
-- tags: `github, ci, docs`
+- tags: `github, git, go, ci, docs, render`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/documentation/SKILL.md`
 

@@ -5,7 +5,7 @@ Model library and model path hygiene for ComfyUI. Use when installing or trouble
 ## Quick Facts
 - id: `comfyui-models--04ddb84556`
 - worth_using_score: `25/100`
-- tags: `comfyui, node, ci`
+- tags: `comfyui, node, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/comfyui-models/SKILL.md`
 

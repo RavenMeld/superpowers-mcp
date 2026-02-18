@@ -5,7 +5,7 @@ This skill applies consistent corporate branding and styling to all generated do
 ## Quick Facts
 - id: `applying-brand-guidelines--6767a52237`
 - worth_using_score: `25/100`
-- tags: `ci`
+- tags: `go, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/applying-brand-guidelines/SKILL.md`
 

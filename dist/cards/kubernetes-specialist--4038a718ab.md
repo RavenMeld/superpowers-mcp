@@ -5,7 +5,7 @@ Use when deploying or managing Kubernetes workloads requiring cluster configurat
 ## Quick Facts
 - id: `kubernetes-specialist--4038a718ab`
 - worth_using_score: `55/100`
-- tags: `kubernetes, security, testing, ci, figma`
+- tags: `git, go, kubernetes, security, testing, ci, figma, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/kubernetes-specialist/SKILL.md`
 

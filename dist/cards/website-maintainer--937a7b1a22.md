@@ -5,6 +5,7 @@ Use this skill when working on the Repomix documentation website in `website/` d
 ## Quick Facts
 - id: `website-maintainer--937a7b1a22`
 - worth_using_score: `30/100`
+- tags: `go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/website-maintainer/SKILL.md`
 

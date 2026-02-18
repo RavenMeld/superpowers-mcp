@@ -5,7 +5,7 @@ Use when facing 2+ independent tasks that can be worked on without shared state 
 ## Quick Facts
 - id: `dispatching-parallel-agents--3ad811cbbe`
 - worth_using_score: `55/100`
-- tags: `typescript, testing, ci`
+- tags: `typescript, go, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/dispatching-parallel-agents/SKILL.md`
 

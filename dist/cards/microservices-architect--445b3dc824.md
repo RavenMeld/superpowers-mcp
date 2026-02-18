@@ -5,7 +5,7 @@ Use when designing distributed systems, decomposing monoliths, or implementing m
 ## Quick Facts
 - id: `microservices-architect--445b3dc824`
 - worth_using_score: `55/100`
-- tags: `kubernetes, ci`
+- tags: `kubernetes, ci, observability`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/microservices-architect/SKILL.md`
 

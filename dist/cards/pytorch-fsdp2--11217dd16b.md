@@ -5,7 +5,7 @@ Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding
 ## Quick Facts
 - id: `pytorch-fsdp2--11217dd16b`
 - worth_using_score: `55/100`
-- tags: `node, ci, docs`
+- tags: `node, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/orchestra-research-pytorch-fsdp2/SKILL.md`
 

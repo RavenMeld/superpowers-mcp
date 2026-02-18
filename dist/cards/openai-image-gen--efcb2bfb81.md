@@ -5,7 +5,7 @@ Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html
 ## Quick Facts
 - id: `openai-image-gen--efcb2bfb81`
 - worth_using_score: `45/100`
-- tags: `python, ci`
+- tags: `python, ci, render`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/openai-image-gen/SKILL.md`
 

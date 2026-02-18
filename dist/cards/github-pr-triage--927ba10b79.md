@@ -5,7 +5,7 @@ Triage GitHub Pull Requests with streaming analysis. CRITICAL: 1 PR = 1 backgrou
 ## Quick Facts
 - id: `github-pr-triage--927ba10b79`
 - worth_using_score: `60/100`
-- tags: `github, typescript, ci`
+- tags: `github, git, typescript, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/github-pr-triage/SKILL.md`
 

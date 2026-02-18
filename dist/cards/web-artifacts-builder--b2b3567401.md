@@ -5,7 +5,7 @@ Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts 
 ## Quick Facts
 - id: `web-artifacts-builder--b2b3567401`
 - worth_using_score: `45/100`
-- tags: `playwright, typescript, node, testing, ci, docs`
+- tags: `playwright, typescript, node, java, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/web-artifacts-builder/SKILL.md`
 

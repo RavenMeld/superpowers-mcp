@@ -6,7 +6,7 @@ Includes WSL/Windows path conventions and validation steps.
 ## Quick Facts
 - id: `hyimporter-hytale-terrain-pipeline--291774c4e1`
 - worth_using_score: `70/100`
-- tags: `ci, docs`
+- tags: `ci, docs, wsl, windows, linux`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hyimporter-hytale-terrain-pipeline/SKILL.md`
 

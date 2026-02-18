@@ -9,7 +9,7 @@ Trigger when:
 ## Quick Facts
 - id: `awesome-skills-database--07fa975aa6`
 - worth_using_score: `60/100`
-- tags: `mcp, python, ci`
+- tags: `mcp, python, ci, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/awesome-skills-database/SKILL.md`
 

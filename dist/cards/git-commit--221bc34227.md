@@ -5,7 +5,7 @@ Execute git commit with conventional commit message analysis, intelligent stagin
 ## Quick Facts
 - id: `git-commit--221bc34227`
 - worth_using_score: `50/100`
-- tags: `ci, docs`
+- tags: `git, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/git-commit/SKILL.md`
 

@@ -5,7 +5,7 @@ This skill should be used when the user asks to "test this website", "run explor
 ## Quick Facts
 - id: `scoutqa-test--b87aadf427`
 - worth_using_score: `70/100`
-- tags: `security, testing, ci`
+- tags: `browser, rust, go, security, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/scoutqa-test/SKILL.md`
 

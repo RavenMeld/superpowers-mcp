@@ -5,7 +5,7 @@ Guide collection and analysis of performance traces. Use when a mid-level develo
 ## Quick Facts
 - id: `performance-trace-guide--299697f6cd`
 - worth_using_score: `30/100`
-- tags: `ci`
+- tags: `go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/performance-trace-guide/SKILL.md`
 

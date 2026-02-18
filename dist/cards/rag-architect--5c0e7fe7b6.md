@@ -5,7 +5,7 @@ Use when building RAG systems, vector databases, or knowledge-grounded AI applic
 ## Quick Facts
 - id: `rag-architect--5c0e7fe7b6`
 - worth_using_score: `55/100`
-- tags: `testing, ci, docs`
+- tags: `go, testing, ci, docs, rag, llm, eval, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/rag-architect/SKILL.md`
 

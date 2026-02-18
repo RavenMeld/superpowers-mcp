@@ -5,7 +5,7 @@ Comprehensive performance profiling, bottleneck detection, and optimization syst
 ## Quick Facts
 - id: `when-profiling-performance-use-performance-profiler--38a9d8fb1e`
 - worth_using_score: `45/100`
-- tags: `mcp, ci`
+- tags: `mcp, go, java, ci, rag, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/when-profiling-performance-use-performance-profiler/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when building Django web applications or REST APIs with Django REST Framewor
 ## Quick Facts
 - id: `django-expert--cb4a25f780`
 - worth_using_score: `55/100`
-- tags: `python, security, testing, ci`
+- tags: `python, sql, rust, go, security, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/django-expert/SKILL.md`
 

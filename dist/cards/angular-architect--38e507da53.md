@@ -5,7 +5,7 @@ Use when building Angular 17+ applications with standalone components or signals
 ## Quick Facts
 - id: `angular-architect--38e507da53`
 - worth_using_score: `55/100`
-- tags: `typescript, testing, ci`
+- tags: `typescript, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/angular-architect/SKILL.md`
 

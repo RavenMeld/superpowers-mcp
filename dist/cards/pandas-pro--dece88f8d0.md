@@ -5,7 +5,7 @@ Use when working with pandas DataFrames, data cleaning, aggregation, merging, or
 ## Quick Facts
 - id: `pandas-pro--dece88f8d0`
 - worth_using_score: `55/100`
-- tags: `python, ci`
+- tags: `python, sql, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/pandas-pro/SKILL.md`
 

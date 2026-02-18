@@ -5,7 +5,7 @@ Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.
 ## Quick Facts
 - id: `gog--aaccb652a5`
 - worth_using_score: `25/100`
-- tags: `ci, docs`
+- tags: `go, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/gog/SKILL.md`
 

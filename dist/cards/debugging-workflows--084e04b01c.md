@@ -5,7 +5,7 @@ Guide for debugging GitHub Agentic Workflows - analyzing logs, auditing runs, an
 ## Quick Facts
 - id: `debugging-workflows--084e04b01c`
 - worth_using_score: `55/100`
-- tags: `mcp, github, python, node, security, ci, docs`
+- tags: `mcp, github, git, python, node, security, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/debugging-workflows/SKILL.md`
 

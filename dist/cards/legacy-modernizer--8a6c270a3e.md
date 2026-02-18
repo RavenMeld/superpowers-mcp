@@ -5,7 +5,7 @@ Use when modernizing legacy systems, implementing incremental migration strategi
 ## Quick Facts
 - id: `legacy-modernizer--8a6c270a3e`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `go, testing, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/legacy-modernizer/SKILL.md`
 

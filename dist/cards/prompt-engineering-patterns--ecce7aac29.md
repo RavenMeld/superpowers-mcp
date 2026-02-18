@@ -5,7 +5,7 @@ Master advanced prompt engineering techniques to maximize LLM performance, relia
 ## Quick Facts
 - id: `prompt-engineering-patterns--ecce7aac29`
 - worth_using_score: `88/100`
-- tags: `python, security, testing, ci, docs`
+- tags: `python, sql, go, security, testing, ci, docs, rag, llm, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/prompt-engineering-patterns/SKILL.md`
 

@@ -5,7 +5,7 @@ This skill should be used when generating and editing images using the Gemini AP
 ## Quick Facts
 - id: `gemini-imagegen--a42f6a26ad`
 - worth_using_score: `55/100`
-- tags: `python, ci`
+- tags: `python, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/gemini-imagegen/SKILL.md`
 

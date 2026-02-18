@@ -5,7 +5,7 @@ Build and maintain documentation sites with Mintlify. Use when
 ## Quick Facts
 - id: `mintlify--499814ca9d`
 - worth_using_score: `50/100`
-- tags: `github, ci, docs`
+- tags: `github, git, go, ci, docs, cloudflare, vercel, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/mintlify/SKILL.md`
 

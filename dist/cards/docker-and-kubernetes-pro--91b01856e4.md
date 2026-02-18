@@ -5,7 +5,7 @@ Container orchestration expert for Docker, Kubernetes, and cloud-native deployme
 ## Quick Facts
 - id: `docker-and-kubernetes-pro--91b01856e4`
 - worth_using_score: `35/100`
-- tags: `docker, kubernetes, security, ci`
+- tags: `git, docker, kubernetes, security, ci, observability`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/docker-and-kubernetes-pro/SKILL.md`
 

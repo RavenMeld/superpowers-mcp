@@ -5,7 +5,7 @@ Create Hytale models and animations using Blockbench MCP tools. Use when working
 ## Quick Facts
 - id: `blockbench-hytale--38826bfa86`
 - worth_using_score: `55/100`
-- tags: `mcp, node`
+- tags: `mcp, node, go`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/neversight-blockbench-hytale/SKILL.md`
 

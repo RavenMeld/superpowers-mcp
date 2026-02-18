@@ -5,7 +5,7 @@ Use when designing new system architecture, reviewing existing designs, or makin
 ## Quick Facts
 - id: `architecture-designer--8f983ce1d5`
 - worth_using_score: `55/100`
-- tags: `kubernetes, aws, azure, gcp, security, ci`
+- tags: `kubernetes, aws, azure, gcp, security, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/architecture-designer/SKILL.md`
 

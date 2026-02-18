@@ -5,7 +5,7 @@ This skill calculates key financial ratios and metrics from financial statement 
 ## Quick Facts
 - id: `analyzing-financial-statements--80ab4ed22f`
 - worth_using_score: `25/100`
-- tags: `ci`
+- tags: `ci, rag, eval, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/analyzing-financial-statements/SKILL.md`
 

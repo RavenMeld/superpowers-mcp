@@ -5,7 +5,7 @@ Use when implementation is complete, all tests pass, and you need to decide how 
 ## Quick Facts
 - id: `finishing-a-development-branch--4d347c18cc`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `git, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/finishing-a-development-branch/SKILL.md`
 

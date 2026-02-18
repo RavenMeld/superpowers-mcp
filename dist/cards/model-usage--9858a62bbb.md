@@ -5,7 +5,7 @@ Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Clau
 ## Quick Facts
 - id: `model-usage--9858a62bbb`
 - worth_using_score: `50/100`
-- tags: `python, ci`
+- tags: `python, ci, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/model-usage/SKILL.md`
 

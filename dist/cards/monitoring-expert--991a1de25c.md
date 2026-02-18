@@ -5,7 +5,7 @@ Use when setting up monitoring systems, logging, metrics, tracing, or alerting. 
 ## Quick Facts
 - id: `monitoring-expert--991a1de25c`
 - worth_using_score: `55/100`
-- tags: `testing, ci`
+- tags: `testing, ci, observability, rag, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/monitoring-expert/SKILL.md`
 

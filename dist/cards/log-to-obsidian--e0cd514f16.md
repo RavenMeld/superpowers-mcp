@@ -5,7 +5,7 @@ Review a session or the git history for today and summarize this for our daily r
 ## Quick Facts
 - id: `log-to-obsidian--e0cd514f16`
 - worth_using_score: `45/100`
-- tags: `ci, obsidian`
+- tags: `git, ci, obsidian, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/gmoigneu-log-to-obsidian/SKILL.md`
 

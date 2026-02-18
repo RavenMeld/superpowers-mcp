@@ -6,7 +6,7 @@ Repo that aggregates reference + community servers.
 - id: `dev-assistant-ai-mcp-servers--4dde0fcbaf`
 - kind: `external`
 - section: `MCP Server Catalogs (GitHub)`
-- tags: `mcp, github`
+- tags: `mcp, github, git`
 - url: `https://github.com/dev-assistant-ai/mcp-servers`
 - source_path: `https://github.com/dev-assistant-ai/mcp-servers`
 

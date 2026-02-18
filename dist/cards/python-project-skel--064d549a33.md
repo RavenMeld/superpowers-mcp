@@ -5,7 +5,7 @@ Generate production-ready Python project skeletons with Astral UV package manage
 ## Quick Facts
 - id: `python-project-skel--064d549a33`
 - worth_using_score: `60/100`
-- tags: `python, security, testing, ci`
+- tags: `python, go, security, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/zircote-python-project-skel/SKILL.md`
 

@@ -5,7 +5,7 @@ iMessage/SMS CLI for listing chats, history, watch, and sending.
 ## Quick Facts
 - id: `imsg--9547caed87`
 - worth_using_score: `35/100`
-- tags: `ci`
+- tags: `ci, terminal`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/imsg/SKILL.md`
 

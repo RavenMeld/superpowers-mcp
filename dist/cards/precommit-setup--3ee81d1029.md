@@ -5,7 +5,7 @@ Configure three-layer pre-commit system with linting, type checking, and testing
 ## Quick Facts
 - id: `precommit-setup--3ee81d1029`
 - worth_using_score: `45/100`
-- tags: `github, python, typescript, security, testing, ci`
+- tags: `github, git, ssh, python, typescript, rust, go, security, testing, ci, terminal, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/athola-precommit-setup/SKILL.md`
 

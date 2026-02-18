@@ -5,7 +5,7 @@ This skill should be used when writing Ruby and Rails code in DHH's distinctive 
 ## Quick Facts
 - id: `dhh-rails-style--6f1ba9a294`
 - worth_using_score: `45/100`
-- tags: `github, testing, ci`
+- tags: `github, git, sql, go, testing, ci, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/dhh-rails-style/SKILL.md`
 

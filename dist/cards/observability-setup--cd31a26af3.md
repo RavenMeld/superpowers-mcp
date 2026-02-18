@@ -5,6 +5,7 @@ Set up metrics, logs, and traces for a service. Use when a mid-level developer n
 ## Quick Facts
 - id: `observability-setup--cd31a26af3`
 - worth_using_score: `30/100`
+- tags: `observability, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/observability-setup/SKILL.md`
 

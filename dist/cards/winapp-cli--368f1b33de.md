@@ -5,7 +5,7 @@ Windows App Development CLI (winapp) for building, packaging, and deploying Wind
 ## Quick Facts
 - id: `winapp-cli--368f1b33de`
 - worth_using_score: `60/100`
-- tags: `github, node, azure, testing, ci, docs`
+- tags: `github, git, node, rust, go, azure, testing, ci, docs, windows, devops, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/winapp-cli/SKILL.md`
 

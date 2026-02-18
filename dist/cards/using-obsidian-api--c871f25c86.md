@@ -5,7 +5,7 @@ This rule provides instruction for interacting with the Obsidian API
 ## Quick Facts
 - id: `using-obsidian-api--c871f25c86`
 - worth_using_score: `35/100`
-- tags: `typescript, obsidian`
+- tags: `typescript, obsidian, sentry`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/aitorllj93-using-obsidian-api/SKILL.md`
 

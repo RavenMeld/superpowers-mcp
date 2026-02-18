@@ -5,7 +5,7 @@ Research ideation partner. Generate hypotheses, explore interdisciplinary connec
 ## Quick Facts
 - id: `scientific-brainstorming--98e17468d0`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `go, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/scientific-brainstorming/SKILL.md`
 

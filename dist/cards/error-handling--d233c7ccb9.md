@@ -5,7 +5,7 @@ Standards for error wrapping, checking, and definition in Golang.
 ## Quick Facts
 - id: `error-handling--d233c7ccb9`
 - worth_using_score: `25/100`
-- tags: `ci`
+- tags: `sql, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/error-handling/SKILL.md`
 

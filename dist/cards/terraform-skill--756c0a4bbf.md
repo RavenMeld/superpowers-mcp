@@ -5,7 +5,7 @@ Terraform infrastructure as code best practices
 ## Quick Facts
 - id: `terraform-skill--756c0a4bbf`
 - worth_using_score: `65/100`
-- tags: `mcp, github, aws, security, testing, ci, docs`
+- tags: `mcp, github, git, go, aws, security, testing, ci, docs, terraform`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sickn33-terraform-skill/SKILL.md`
 

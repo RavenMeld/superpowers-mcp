@@ -11,7 +11,7 @@ NOT for: WSL operations (use admin-wsl), ma...
 ## Quick Facts
 - id: `admin-windows--f19530b42f`
 - worth_using_score: `60/100`
-- tags: `mcp, python, node, docker, ci`
+- tags: `mcp, ssh, python, node, docker, ci, wsl, windows, devops`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/evolv3-ai-admin-windows/SKILL.md`
 

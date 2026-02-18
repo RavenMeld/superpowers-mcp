@@ -5,7 +5,7 @@ Designer-turned-developer who crafts stunning UI/UX even without design mockups
 ## Quick Facts
 - id: `frontend-ui-ux--4cf3a705f5`
 - worth_using_score: `35/100`
-- tags: `ci`
+- tags: `git, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/frontend-ui-ux/SKILL.md`
 

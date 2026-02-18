@@ -5,7 +5,7 @@ Query Google Places API (New) via the goplaces CLI for text search, place detail
 ## Quick Facts
 - id: `goplaces--5d0b5adf2c`
 - worth_using_score: `20/100`
-- tags: `testing`
+- tags: `go, testing`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/goplaces/SKILL.md`
 

@@ -5,7 +5,7 @@ Review a pull request for correctness, regressions, and missing tests. Use when 
 ## Quick Facts
 - id: `pr-reviewer--3b8bd9d686`
 - worth_using_score: `30/100`
-- tags: `ci`
+- tags: `ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/pr-reviewer/SKILL.md`
 

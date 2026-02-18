@@ -5,7 +5,7 @@ Use when building Kotlin applications requiring coroutines, multiplatform develo
 ## Quick Facts
 - id: `kotlin-specialist--87c85ff8fa`
 - worth_using_score: `55/100`
-- tags: `ci`
+- tags: `ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/kotlin-specialist/SKILL.md`
 

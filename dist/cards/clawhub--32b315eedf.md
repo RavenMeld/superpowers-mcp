@@ -5,7 +5,7 @@ Use the ClawHub CLI to search, install, update, and publish agent skills from cl
 ## Quick Facts
 - id: `clawhub--32b315eedf`
 - worth_using_score: `40/100`
-- tags: `ci, docs`
+- tags: `postgres, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/clawhub/SKILL.md`
 

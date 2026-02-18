@@ -5,7 +5,7 @@ Create, update, and manage GitHub issues using MCP tools. Use this skill when us
 ## Quick Facts
 - id: `github-issues--3dcbcfee8e`
 - worth_using_score: `55/100`
-- tags: `mcp, github, ci, docs`
+- tags: `mcp, github, git, browser, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/github-issues/SKILL.md`
 

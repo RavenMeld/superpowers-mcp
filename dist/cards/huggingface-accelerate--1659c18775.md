@@ -5,7 +5,7 @@ Simplest distributed training API. 4 lines to add distributed support to any PyT
 ## Quick Facts
 - id: `huggingface-accelerate--1659c18775`
 - worth_using_score: `75/100`
-- tags: `github, python, node, ci, docs`
+- tags: `github, git, python, node, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/davila7-huggingface-accelerate/SKILL.md`
 

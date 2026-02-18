@@ -5,7 +5,7 @@ Analyze Reddit threads for sentiment, consensus opinions, top arguments, and dis
 ## Quick Facts
 - id: `reddit-thread-analyzer--5eccad4171`
 - worth_using_score: `35/100`
-- tags: `ci`
+- tags: `rust, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/reddit-thread-analyzer/SKILL.md`
 

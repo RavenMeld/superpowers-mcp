@@ -5,7 +5,7 @@ Create a detailed, phased implementation plan with documentation discovery. Use 
 ## Quick Facts
 - id: `make-plan--8d226d5c1e`
 - worth_using_score: `35/100`
-- tags: `ci, docs`
+- tags: `go, ci, docs, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/make-plan/SKILL.md`
 

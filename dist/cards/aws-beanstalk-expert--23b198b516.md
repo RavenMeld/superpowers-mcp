@@ -5,7 +5,7 @@ Expert knowledge for deploying, managing, and troubleshooting AWS Elastic Beanst
 ## Quick Facts
 - id: `aws-beanstalk-expert--23b198b516`
 - worth_using_score: `55/100`
-- tags: `github, python, typescript, node, docker, aws, security, testing, ci, docs`
+- tags: `github, git, ssh, python, sql, postgres, typescript, node, go, java, docker, aws, security, testing, ci, docs, linux, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/aws-beanstalk-expert/SKILL.md`
 

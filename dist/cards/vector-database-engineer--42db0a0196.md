@@ -5,6 +5,7 @@ Expert in vector databases, embedding strategies, and semantic search implementa
 ## Quick Facts
 - id: `vector-database-engineer--42db0a0196`
 - worth_using_score: `50/100`
+- tags: `go, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sickn33-vector-database-engineer/SKILL.md`
 

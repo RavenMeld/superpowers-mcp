@@ -5,7 +5,7 @@ Review and improve Databricks SQL queries for correctness, readability, and perf
 ## Quick Facts
 - id: `sql-performance-review--ef9af32c56`
 - worth_using_score: `33/100`
-- tags: `ci`
+- tags: `sql, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sql-performance-review/SKILL.md`
 

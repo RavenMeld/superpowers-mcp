@@ -5,7 +5,7 @@ Visual QA and regression checks for ComfyUI outputs. Use only when reviewing Com
 ## Quick Facts
 - id: `output-qc--602883a0ad`
 - worth_using_score: `20/100`
-- tags: `comfyui, testing, ci`
+- tags: `comfyui, go, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/output-qc/SKILL.md`
 

@@ -5,6 +5,7 @@
 ## Quick Facts
 - id: `memory--f53fd0ba1e`
 - worth_using_score: `30/100`
+- tags: `go, java`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/memory/SKILL.md`
 

@@ -5,7 +5,7 @@ Repository-grounded threat modeling that enumerates trust boundaries, assets, at
 ## Quick Facts
 - id: `security-threat-model--8330b87a78`
 - worth_using_score: `40/100`
-- tags: `security, ci`
+- tags: `rust, go, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/security-threat-model/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when designing cloud architectures, planning migrations, or optimizing multi
 ## Quick Facts
 - id: `cloud-architect--0088d3d770`
 - worth_using_score: `55/100`
-- tags: `docker, kubernetes, aws, azure, gcp, security, testing, ci`
+- tags: `sql, rust, go, docker, kubernetes, aws, azure, gcp, security, testing, ci, terraform, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cloud-architect/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when you need to send or manage iMessages via BlueBubbles (recommended iMess
 ## Quick Facts
 - id: `bluebubbles--72287b44d4`
 - worth_using_score: `45/100`
-- tags: `ci`
+- tags: `go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/bluebubbles/SKILL.md`
 

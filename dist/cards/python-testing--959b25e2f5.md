@@ -5,7 +5,7 @@ Python testing strategies using pytest, TDD methodology, fixtures, mocking, para
 ## Quick Facts
 - id: `python-testing--959b25e2f5`
 - worth_using_score: `40/100`
-- tags: `python, testing, ci`
+- tags: `python, sql, sqlite, postgres, rust, go, testing, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/affaan-m-python-testing/SKILL.md`
 

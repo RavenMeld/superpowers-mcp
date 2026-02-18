@@ -5,7 +5,7 @@ Deep learning framework (PyTorch Lightning). Organize PyTorch code into Lightnin
 ## Quick Facts
 - id: `pytorch-lightning--a8d7e2db3c`
 - worth_using_score: `65/100`
-- tags: `python, ci`
+- tags: `python, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/k-dense-ai-pytorch-lightning/SKILL.md`
 

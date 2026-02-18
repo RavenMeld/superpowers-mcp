@@ -5,7 +5,7 @@ Creates Cursor-specific AI subagents with isolated context for complex multi-ste
 ## Quick Facts
 - id: `cursor-subagent-creator--aabd812653`
 - worth_using_score: `65/100`
-- tags: `security, testing, ci, docs`
+- tags: `go, security, testing, ci, docs, render, rag, eval`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/tech-leads-club-cursor-subagent-creator/SKILL.md`
 

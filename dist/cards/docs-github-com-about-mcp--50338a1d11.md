@@ -6,7 +6,7 @@ GitHub’s docs on MCP, including mention of a GitHub MCP Registry.
 - id: `docs-github-com-about-mcp--50338a1d11`
 - kind: `external`
 - section: `MCP Registries / Sites`
-- tags: `mcp, github, registry`
+- tags: `mcp, github, git, registry`
 - url: `https://docs.github.com/en/copilot/concepts/about-mcp`
 - source_path: `https://docs.github.com/en/copilot/concepts/about-mcp`
 

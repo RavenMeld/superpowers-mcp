@@ -5,7 +5,7 @@ Triage GitHub issues with streaming analysis. CRITICAL: 1 issue = 1 background t
 ## Quick Facts
 - id: `github-issue-triage--60dfb77f3d`
 - worth_using_score: `60/100`
-- tags: `github, typescript, security, ci`
+- tags: `github, git, typescript, go, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/github-issue-triage/SKILL.md`
 

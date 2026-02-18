@@ -5,7 +5,7 @@ Check dependencies for known vulnerabilities using npm audit, pip-audit, etc. Us
 ## Quick Facts
 - id: `dependency-auditor--236ba4339d`
 - worth_using_score: `55/100`
-- tags: `github, python, node, security, ci`
+- tags: `github, git, python, sql, node, go, java, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/alirezarezvani-dependency-auditor/SKILL.md`
 

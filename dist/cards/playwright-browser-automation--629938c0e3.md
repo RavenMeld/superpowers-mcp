@@ -5,7 +5,7 @@ Practical Playwright workflows for web automation and smoke testing: running tes
 ## Quick Facts
 - id: `playwright-browser-automation--629938c0e3`
 - worth_using_score: `70/100`
-- tags: `playwright, node, testing, ci`
+- tags: `playwright, browser, node, testing, ci`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-browser-automation/SKILL.md`
 

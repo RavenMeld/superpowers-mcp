@@ -5,7 +5,7 @@ This skill should be used when the user asks to "create a plugin", "scaffold a p
 ## Quick Facts
 - id: `plugin-structure--2091f0f6ca`
 - worth_using_score: `50/100`
-- tags: `mcp, github, python, node, testing, ci, docs`
+- tags: `mcp, github, git, python, sql, node, go, testing, ci, docs, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/command-name/SKILL.md`
 

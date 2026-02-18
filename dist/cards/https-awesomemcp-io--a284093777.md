@@ -6,7 +6,7 @@ MCP server directory (also hosts per-server pages like “Github”).
 - id: `https-awesomemcp-io--a284093777`
 - kind: `external`
 - section: `MCP Tooling / Debugging`
-- tags: `mcp, github`
+- tags: `mcp, github, git`
 - url: `https://awesomemcp.io/`
 - source_path: `https://awesomemcp.io/`
 

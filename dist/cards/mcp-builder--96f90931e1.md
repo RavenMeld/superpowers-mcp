@@ -5,7 +5,7 @@ Guide for creating high-quality MCP (Model Context Protocol) servers that enable
 ## Quick Facts
 - id: `mcp-builder--96f90931e1`
 - worth_using_score: `55/100`
-- tags: `mcp, github, python, typescript, node, security, testing, ci`
+- tags: `mcp, github, git, python, typescript, node, go, security, testing, ci, rag, llm, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/mcp-builder/SKILL.md`
 

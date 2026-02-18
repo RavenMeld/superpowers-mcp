@@ -5,7 +5,7 @@ Hylab configuration and CLI contract (JSON schema validation, override precedenc
 ## Quick Facts
 - id: `hylab-config-cli--b7dd699983`
 - worth_using_score: `25/100`
-- tags: `github, testing`
+- tags: `github, git, testing`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-config-cli/SKILL.md`
 

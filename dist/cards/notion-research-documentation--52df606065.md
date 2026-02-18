@@ -5,7 +5,7 @@ Research across Notion and synthesize into structured documentation; use when ga
 ## Quick Facts
 - id: `notion-research-documentation--52df606065`
 - worth_using_score: `35/100`
-- tags: `mcp, ci`
+- tags: `mcp, go, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/notion-research-documentation/SKILL.md`
 

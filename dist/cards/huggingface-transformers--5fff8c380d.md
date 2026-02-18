@@ -5,7 +5,7 @@ Hugging Face Transformers best practices including model loading, tokenization, 
 ## Quick Facts
 - id: `huggingface-transformers--5fff8c380d`
 - worth_using_score: `50/100`
-- tags: `python, ci, docs`
+- tags: `git, python, ci, docs, rag, llm, eval, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/applied-artificial-intelligence-huggingface-transformers/SKILL.md`
 

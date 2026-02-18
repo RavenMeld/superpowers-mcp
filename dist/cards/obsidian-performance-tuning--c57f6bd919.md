@@ -9,7 +9,7 @@ Trigger with phrases like "obsidian performance", "obsidian slow",
 ## Quick Facts
 - id: `obsidian-performance-tuning--c57f6bd919`
 - worth_using_score: `55/100`
-- tags: `typescript, node, ci, docs, obsidian`
+- tags: `typescript, node, go, java, ci, docs, obsidian, render, rag, benchmark`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/jeremylongshore-obsidian-performance-tuning/SKILL.md`
 

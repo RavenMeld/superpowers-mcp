@@ -5,7 +5,7 @@ OpenClaw usage expert: Helps you install, deploy, configure, and use OpenClaw pe
 ## Quick Facts
 - id: `openclaw-setup--d2ef8237d6`
 - worth_using_score: `45/100`
-- tags: `github, docs`
+- tags: `github, git, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/openclaw-setup/SKILL.md`
 

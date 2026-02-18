@@ -5,7 +5,7 @@ Use when building JavaScript applications with modern ES2023+ features, async pa
 ## Quick Facts
 - id: `javascript-pro--768d3032bc`
 - worth_using_score: `55/100`
-- tags: `node, ci`
+- tags: `browser, node, java, ci, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/javascript-pro/SKILL.md`
 
