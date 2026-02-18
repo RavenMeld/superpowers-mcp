@@ -39,6 +39,13 @@ python -m awesome_skills search "write a professional email"
 python -m awesome_skills search "playwright e2e test"
 ```
 
+Stats (corpus summary):
+
+```bash
+python -m awesome_skills stats
+python -m awesome_skills stats --json
+```
+
 Python (common queries):
 
 ```bash

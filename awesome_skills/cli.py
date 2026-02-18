@@ -218,6 +218,81 @@ def cmd_show(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_stats(args: argparse.Namespace) -> int:
+    skills_json = Path(args.skills_json).expanduser().resolve()
+    if not skills_json.exists():
+        print(f"[ERROR] Missing skills.json: {skills_json}. Run: python -m awesome_skills build", file=sys.stderr)
+        return 2
+
+    data = json.loads(skills_json.read_text(encoding="utf-8", errors="replace"))
+    skills = data.get("skills", [])
+    if not isinstance(skills, list):
+        print(f"[ERROR] Invalid skills.json (missing skills[]): {skills_json}", file=sys.stderr)
+        return 2
+
+    by_root: dict[str, int] = {}
+    by_tag: dict[str, int] = {}
+    buckets = {"0-19": 0, "20-39": 0, "40-59": 0, "60-79": 0, "80-100": 0}
+
+    for s in skills:
+        root = str(s.get("root_label") or s.get("root") or "unknown")
+        by_root[root] = by_root.get(root, 0) + 1
+
+        score = 0
+        try:
+            score = int(s.get("worth_score") or 0)
+        except Exception:
+            score = 0
+
+        if score < 20:
+            buckets["0-19"] += 1
+        elif score < 40:
+            buckets["20-39"] += 1
+        elif score < 60:
+            buckets["40-59"] += 1
+        elif score < 80:
+            buckets["60-79"] += 1
+        else:
+            buckets["80-100"] += 1
+
+        tags = s.get("tags") or []
+        if isinstance(tags, list):
+            for t in tags:
+                tt = str(t).strip().lower()
+                if not tt:
+                    continue
+                by_tag[tt] = by_tag.get(tt, 0) + 1
+
+    payload = {
+        "skills_json": str(skills_json),
+        "total": len(skills),
+        "by_root": dict(sorted(by_root.items(), key=lambda kv: (-kv[1], kv[0]))),
+        "by_tag_top": [
+            {"tag": k, "count": v} for k, v in sorted(by_tag.items(), key=lambda kv: (-kv[1], kv[0]))[:50]
+        ],
+        "worth_score_buckets": buckets,
+    }
+
+    if args.json:
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+        return 0
+
+    print(f"total_skills: {payload['total']}")
+    print("")
+    print("By root_label:")
+    for k, v in payload["by_root"].items():
+        print(f"- {k}: {v}")
+    print("")
+    print("Worth score buckets:")
+    for k, v in buckets.items():
+        print(f"- {k}: {v}")
+    print("")
+    print("Top tags:")
+    for row in payload["by_tag_top"][:30]:
+        print(f"- {row['tag']}: {row['count']}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="awesome_skills")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -248,6 +323,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Optional explicit card path (default resolves to dist/cards/<id>.md).",
     )
     pw.set_defaults(func=cmd_show)
+
+    pst = sub.add_parser("stats", help="Summarize the indexed corpus (counts, tags, worth_score buckets).")
+    pst.add_argument("--skills-json", default="dist/skills.json", help="Path to dist/skills.json.")
+    pst.add_argument("--json", action="store_true", help="JSON output.")
+    pst.set_defaults(func=cmd_stats)
 
     return p
 
