@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 568,
+  "count": 576,
   "roots": [
     {
       "label": "agent_playground",
@@ -1725,6 +1725,49 @@
       ]
     },
     {
+      "id": "ci-failure-triage--487c5974dc",
+      "name": "ci-failure-triage",
+      "description": "Diagnose CI failures and stabilize pipelines. Use when a mid-level developer needs to resolve flaky or failing builds.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/ci-failure-triage/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/ci-failure-triage",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 297
+      },
+      "tags": [
+        "mcp",
+        "git",
+        "python",
+        "node",
+        "go",
+        "ci"
+      ],
+      "use_when": [
+        "A CI run is red and you need the actual root cause (not the cascade of follow-on failures).",
+        "Tests are flaky and need stabilization without hiding real failures."
+      ],
+      "workflow": [
+        "Identify the first failure.",
+        "Ignore later failures caused by missing outputs or early aborts.",
+        "Classify the failure.",
+        "Deterministic vs flaky.",
+        "Unit vs integration vs E2E.",
+        "Infra (network/rate limits) vs code (logic/parsing) vs environment (toolchain versions).",
+        "Reproduce locally with the narrowest command.",
+        "Prefer a single test file or a single script invocation.",
+        "If reproduction requires external services, add a stubbed test first.",
+        "Isolate the change that introduced it."
+      ]
+    },
+    {
       "id": "ci-failure-triage--582952b66e",
       "name": "ci-failure-triage",
       "description": "Diagnose CI failures and stabilize pipelines. Use when a mid-level developer needs to resolve flaky or failing builds.",
@@ -2091,6 +2134,48 @@
       "root_label": "agent_playground",
       "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/codebase-orientation/SKILL.md",
       "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/codebase-orientation",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 1,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 219
+      },
+      "tags": [
+        "mcp",
+        "python",
+        "node",
+        "go",
+        "ci"
+      ],
+      "use_when": [
+        "You need a fast, accurate map of a repo: entrypoints, key modules, and how to run/test it.",
+        "You’re onboarding to a new codebase and want to avoid “random walking” the tree."
+      ],
+      "workflow": [
+        "Identify the primary entrypoints.",
+        "CLI binaries, server mains, MCP servers, and scripts.",
+        "Map the “spine” of the system.",
+        "Core modules/services + config loading + IO boundaries (HTTP/MCP/filesystem).",
+        "Find how to run and test locally.",
+        "Look for `package.json`, `pyproject.toml`, `Makefile`, CI config.",
+        "Document the minimum set of commands.",
+        "Install, run, test, smoke.",
+        "Suggest one safe starter change.",
+        "Small, reversible, and easy to validate."
+      ]
+    },
+    {
+      "id": "codebase-orientation--b4d1d2ecef",
+      "name": "codebase-orientation",
+      "description": "Guide quick orientation of an unfamiliar codebase with module mapping, entry points, and local run steps. Use when a junior developer needs to get situated fast.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/codebase-orientation/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/codebase-orientation",
       "worth_score": 60,
       "features": {
         "has_description": true,
@@ -3977,6 +4062,45 @@
         "Reproduce the issue and isolate the scope.",
         "Check inputs, environment, and recent changes.",
         "Add targeted logs or breakpoints."
+      ]
+    },
+    {
+      "id": "debugging-checklist--c1c1ae5f60",
+      "name": "debugging-checklist",
+      "description": "Provide a systematic debugging checklist. Use when a junior developer is stuck and needs a structured approach.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/debugging-checklist/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/debugging-checklist",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 218
+      },
+      "tags": [
+        "node",
+        "rag"
+      ],
+      "use_when": [
+        "A bug is reported but root cause is unclear.",
+        "“It doesn’t work” without a crisp repro."
+      ],
+      "workflow": [
+        "Reproduce and minimize.",
+        "Reduce to the smallest input/command that still fails.",
+        "Bound the blast radius.",
+        "Identify which component is failing (ingress, router, executor, storage).",
+        "Add the smallest useful probe.",
+        "Structured logs around state transitions and IO boundaries.",
+        "Avoid logging payloads/prompts that can contain secrets.",
+        "Confirm hypotheses with a targeted test.",
+        "Add a unit/integration test that fails before the fix and passes after.",
+        "Fix, then re-run the exact repro."
       ]
     },
     {
@@ -9492,6 +9616,44 @@
       ]
     },
     {
+      "id": "log-summarizer--37c6baa2da",
+      "name": "log-summarizer",
+      "description": "Summarize noisy logs into likely causes and next steps. Use when a junior developer needs help interpreting logs.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/log-summarizer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/log-summarizer",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 188
+      },
+      "tags": [
+        "terminal"
+      ],
+      "use_when": [
+        "Logs are too long/noisy to reason about quickly.",
+        "Multiple errors are present and you need to identify the “first domino”."
+      ],
+      "workflow": [
+        "Build a timeline.",
+        "Identify start, first warning, first error, then cascades.",
+        "Group by error signature.",
+        "Same exception/class/message grouped together with counts.",
+        "Identify the earliest root-cause candidate.",
+        "The error that explains the rest, not the loudest error.",
+        "Translate into actionable next steps.",
+        "“Check X” and “run Y” style, with commands where possible.",
+        "Call out missing data.",
+        "What extra logs/metrics would make this definitive next time."
+      ]
+    },
+    {
       "id": "log-summarizer--bacd8bd1c6",
       "name": "log-summarizer",
       "description": "Summarize noisy logs into likely causes and next steps. Use when a junior developer needs help interpreting logs.",
@@ -13068,6 +13230,48 @@
       ]
     },
     {
+      "id": "pr-reviewer--f99f9e28a4",
+      "name": "pr-reviewer",
+      "description": "Review a pull request for correctness, regressions, and missing tests. Use when a mid-level developer needs structured review guidance.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/pr-reviewer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/pr-reviewer",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 149
+      },
+      "tags": [
+        "mcp",
+        "go",
+        "ci",
+        "docs",
+        "rag"
+      ],
+      "use_when": [
+        "You need a correctness-first review: behavior changes, regressions, missing tests, unsafe defaults.",
+        "The change touches agent harness boundaries (MCP tools, edit protocols, IO boundaries)."
+      ],
+      "workflow": [
+        "Identify behavior changes and risk surfaces.",
+        "API contracts, tool schemas, default settings, auth/network exposure.",
+        "Check error handling and failure modes.",
+        "Timeouts, retries, partial failures, and user-facing errors.",
+        "Check tests and validate commands.",
+        "Ensure there’s coverage for the new behavior (and regression for the old bug).",
+        "Review logging and secrets handling.",
+        "No prompt/secret leakage; logs should be actionable.",
+        "Review docs.",
+        "README/usage changes match implementation."
+      ]
+    },
+    {
       "id": "prd--4e2f52f8e6",
       "name": "prd",
       "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.",
@@ -14385,6 +14589,45 @@
         "Ensure install, run, and test steps are present and ordered.",
         "Add required environment variables and configuration notes.",
         "Clarify expected outputs and common troubleshooting tips."
+      ]
+    },
+    {
+      "id": "readme-polish--f0801e5600",
+      "name": "readme-polish",
+      "description": "Improve a README for clarity and completeness. Use when a junior developer needs guidance on documenting setup and usage.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/readme-polish/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/readme-polish",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 166
+      },
+      "tags": [
+        "git",
+        "ci"
+      ],
+      "use_when": [
+        "README is missing “how do I run this” or “how do I test this”.",
+        "Setup is tribal knowledge and needs to be made reproducible."
+      ],
+      "workflow": [
+        "Add a “Quick Start” that works.",
+        "Install, run, smoke in the smallest number of steps.",
+        "Document configuration.",
+        "Required env vars, optional tuning vars, defaults, and examples.",
+        "Add validation commands.",
+        "`npm test`, `pytest`, smoke scripts, and expected outputs.",
+        "Add troubleshooting.",
+        "3-5 top failure modes and how to diagnose them.",
+        "Keep it honest.",
+        "If something is optional or flaky, say so and explain why."
       ]
     },
     {
@@ -17622,6 +17865,45 @@
       "workflow": []
     },
     {
+      "id": "ticket-breakdown--1534be8e92",
+      "name": "ticket-breakdown",
+      "description": "Break a task or ticket into small steps. Use when a junior developer needs guidance on how to start.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/ticket-breakdown/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/ticket-breakdown",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 150
+      },
+      "tags": [
+        "go",
+        "ci"
+      ],
+      "use_when": [
+        "The task is vague and you need a concrete implementation plan.",
+        "The work spans multiple repos/components and needs sequencing."
+      ],
+      "workflow": [
+        "Rewrite the ticket as acceptance criteria.",
+        "What must be true for “done”.",
+        "Decompose into steps (small and testable).",
+        "Each step should have an owner file/path and a validation command.",
+        "Identify dependencies and ordering.",
+        "What blocks what.",
+        "Define a test plan.",
+        "Unit tests, integration tests, smoke tests.",
+        "Decide rollout/guardrails.",
+        "Feature flags, safe defaults, logging, and rollback plan if needed."
+      ]
+    },
+    {
       "id": "ticket-breakdown--c6d6743db5",
       "name": "ticket-breakdown",
       "description": "Break a task or ticket into small steps. Use when a junior developer needs guidance on how to start.",
@@ -18055,6 +18337,44 @@
       "root_label": "agent_playground",
       "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/unit-test-starter/SKILL.md",
       "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/unit-test-starter",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 151
+      },
+      "tags": [
+        "node"
+      ],
+      "use_when": [
+        "A function/module changed and needs tests.",
+        "A bug needs a regression test."
+      ],
+      "workflow": [
+        "Define the contract.",
+        "Inputs, outputs, invariants, and failure modes.",
+        "Pick test granularity.",
+        "Unit test preferred; add integration test only when IO boundaries matter.",
+        "Build a table of cases.",
+        "Happy path, boundary, invalid input, and one “weird” case.",
+        "Add a regression test for the bug (if applicable).",
+        "Fails before fix, passes after.",
+        "Document how to run tests.",
+        "Exact command(s) and expected output."
+      ]
+    },
+    {
+      "id": "unit-test-starter--da221e0cb8",
+      "name": "unit-test-starter",
+      "description": "Generate starter unit tests for a small function or module. Use when a junior developer needs test scaffolding and edge cases.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/unit-test-starter/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/spinnybot-selected/unit-test-starter",
       "worth_score": 45,
       "features": {
         "has_description": true,

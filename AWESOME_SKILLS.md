@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `568`
+- total_skills: `576`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -607,6 +607,7 @@
 - [admin-wsl (`60/100`)](dist/cards/admin-wsl--1963feb76a.md)
 - [awesome-skills-database (`60/100`)](dist/cards/awesome-skills-database--07fa975aa6.md)
 - [codebase-orientation (`60/100`)](dist/cards/codebase-orientation--6af8ea9c7d.md)
+- [codebase-orientation (`60/100`)](dist/cards/codebase-orientation--b4d1d2ecef.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
 - [ouroboros (`60/100`)](dist/cards/ouroboros--adcf029e90.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
@@ -614,7 +615,6 @@
 - [atlassian-mcp (`55/100`)](dist/cards/atlassian-mcp--159d33223e.md)
 - [blockbench-hytale (`55/100`)](dist/cards/blockbench-hytale--38826bfa86.md)
 - [debugging-workflows (`55/100`)](dist/cards/debugging-workflows--084e04b01c.md)
-- [firefox-debug (`55/100`)](dist/cards/firefox-debug--158ef3059f.md)
 
 ### netlify
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -647,11 +647,11 @@
 - [admin-wsl (`60/100`)](dist/cards/admin-wsl--1963feb76a.md)
 - [administering-linux (`60/100`)](dist/cards/administering-linux--035599958b.md)
 - [codebase-orientation (`60/100`)](dist/cards/codebase-orientation--6af8ea9c7d.md)
+- [codebase-orientation (`60/100`)](dist/cards/codebase-orientation--b4d1d2ecef.md)
 - [hytale-commands (`60/100`)](dist/cards/hytale-commands--1609c0ebff.md)
 - [pyright-type-checker (`60/100`)](dist/cards/pyright-type-checker--b262476f17.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--8d6d7ca831.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
-- [webapp-testing (`60/100`)](dist/cards/webapp-testing--4afd58a651.md)
 
 ### observability
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -1020,13 +1020,13 @@
 - [snowflake-semanticview (`50/100`)](dist/cards/snowflake-semanticview--10714c648c.md)
 - [Zellij Specialist (`50/100`)](dist/cards/zellij-specialist--0607aa94d8.md)
 - [dcf-valuation (`45/100`)](dist/cards/dcf-valuation--ce61190ef7.md)
+- [log-summarizer (`45/100`)](dist/cards/log-summarizer--37c6baa2da.md)
 - [log-summarizer (`45/100`)](dist/cards/log-summarizer--da942eeb86.md)
 - [precommit-setup (`45/100`)](dist/cards/precommit-setup--3ee81d1029.md)
 - [xlsx (`45/100`)](dist/cards/xlsx--f793e68227.md)
 - [creating-financial-models (`35/100`)](dist/cards/creating-financial-models--7ee0fb9888.md)
 - [imsg (`35/100`)](dist/cards/imsg--9547caed87.md)
 - [yeet (`35/100`)](dist/cards/yeet--464e6510a4.md)
-- [apple-notes (`25/100`)](dist/cards/apple-notes--d01a6f79de.md)
 
 ### terraform
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
