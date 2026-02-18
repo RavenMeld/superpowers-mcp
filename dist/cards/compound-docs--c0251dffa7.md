@@ -5,7 +5,7 @@ Capture solved problems as categorized documentation with YAML frontmatter for f
 ## Quick Facts
 - id: `compound-docs--c0251dffa7`
 - worth_using_score: `63/100`
-- tags: `python, go, ci, docs, terminal`
+- tags: `terminal, python, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/compound-docs/SKILL.md`
 

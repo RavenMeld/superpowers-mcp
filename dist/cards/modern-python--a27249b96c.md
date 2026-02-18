@@ -5,7 +5,7 @@ Configures Python projects with modern tooling (uv, ruff, ty). Use when creating
 ## Quick Facts
 - id: `modern-python--a27249b96c`
 - worth_using_score: `65/100`
-- tags: `github, git, python, rust, go, security, testing, ci, docs, terminal, rag`
+- tags: `github, git, terminal, python, rust, go, security, testing, ci, docs, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/trailofbits-modern-python/SKILL.md`
 

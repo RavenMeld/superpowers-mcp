@@ -5,7 +5,7 @@ Handle Hytale server events including player actions, world changes, entity inte
 ## Quick Facts
 - id: `hytale-events-api--7b9b01457d`
 - worth_using_score: `60/100`
-- tags: `java, ci`
+- tags: `hytale, java, ci`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/neversight-hytale-events-api/SKILL.md`
 

@@ -5,7 +5,7 @@ Invoke ComfyUI workflows to generate images, video, audio, or other content
 ## Quick Facts
 - id: `generate-with-comfyui--19820f6659`
 - worth_using_score: `80/100`
-- tags: `comfyui, python, node`
+- tags: `comfyui, python, node, powershell`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/generate-with-comfyui/SKILL.md`
 

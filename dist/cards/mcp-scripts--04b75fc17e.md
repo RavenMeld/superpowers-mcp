@@ -5,7 +5,7 @@ MCP Script Rules
 ## Quick Facts
 - id: `mcp-scripts--04b75fc17e`
 - worth_using_score: `20/100`
-- tags: `mcp, python, testing, docs`
+- tags: `mcp, warp, python, testing, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/parcadei-mcp-scripts/SKILL.md`
 

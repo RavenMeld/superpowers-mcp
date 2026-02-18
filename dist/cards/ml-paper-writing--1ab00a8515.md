@@ -5,7 +5,7 @@ Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. U
 ## Quick Facts
 - id: `ml-paper-writing--1ab00a8515`
 - worth_using_score: `70/100`
-- tags: `mcp, github, git, python, go, aws, ci, docs, rag, llm, eval`
+- tags: `mcp, github, git, cursor, python, go, aws, ci, docs, rag, llm, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/ml-paper-writing/SKILL.md`
 

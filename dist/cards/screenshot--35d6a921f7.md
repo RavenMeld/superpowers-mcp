@@ -5,7 +5,7 @@ Use when the user explicitly asks for a desktop or system screenshot (full scree
 ## Quick Facts
 - id: `screenshot--35d6a921f7`
 - worth_using_score: `65/100`
-- tags: `mcp, playwright, browser, python, ci, figma, windows, linux`
+- tags: `mcp, playwright, browser, python, powershell, ci, figma, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/screenshot/SKILL.md`
 

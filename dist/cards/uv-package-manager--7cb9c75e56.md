@@ -5,7 +5,7 @@ Master the uv package manager for fast Python dependency management, virtual env
 ## Quick Facts
 - id: `uv-package-manager--7cb9c75e56`
 - worth_using_score: `65/100`
-- tags: `github, git, python, rust, go, docker, security, testing, ci, docs, windows, linux, terminal, rag`
+- tags: `github, git, terminal, python, rust, go, powershell, docker, security, testing, ci, docs, windows, linux, rag`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/wshobson-uv-package-manager/SKILL.md`
 

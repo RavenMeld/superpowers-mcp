@@ -5,7 +5,7 @@ Use when the task requires automating a real browser from the terminal (navigati
 ## Quick Facts
 - id: `playwright--cce2795d85`
 - worth_using_score: `73/100`
-- tags: `mcp, playwright, browser, node, go, ci, terminal, eval`
+- tags: `mcp, playwright, browser, terminal, node, go, ci, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/playwright/SKILL.md`
 

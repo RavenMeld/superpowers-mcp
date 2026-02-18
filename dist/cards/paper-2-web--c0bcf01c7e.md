@@ -5,7 +5,7 @@ This skill should be used when converting academic papers into promotional and p
 ## Quick Facts
 - id: `paper-2-web--c0bcf01c7e`
 - worth_using_score: `75/100`
-- tags: `github, git, browser, python, go, aws, testing, ci, vercel, netlify, render, rag, llm, eval, benchmark`
+- tags: `github, git, cursor, browser, python, go, aws, testing, ci, vercel, netlify, render, rag, llm, eval, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/paper-2-web/SKILL.md`
 

@@ -5,7 +5,7 @@ Use Warp Terminal effectively for dev workflows: projects, saved commands/workfl
 ## Quick Facts
 - id: `warp-terminal-workflows--7c44da3884`
 - worth_using_score: `60/100`
-- tags: `github, git, ssh, terminal`
+- tags: `github, git, ssh, warp, terminal`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/warp-terminal-workflows/SKILL.md`
 

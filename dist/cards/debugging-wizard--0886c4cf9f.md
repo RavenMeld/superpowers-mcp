@@ -5,7 +5,7 @@ Use when investigating errors, analyzing stack traces, or finding root causes of
 ## Quick Facts
 - id: `debugging-wizard--0886c4cf9f`
 - worth_using_score: `55/100`
-- tags: `git, testing, ci, sentry`
+- tags: `git, chrome, testing, ci, sentry`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/debugging-wizard/SKILL.md`
 

@@ -5,7 +5,7 @@ Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or pla
 ## Quick Facts
 - id: `api-designer--cf6c9ec07a`
 - worth_using_score: `55/100`
-- tags: `security, ci`
+- tags: `cursor, security, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/api-designer/SKILL.md`
 

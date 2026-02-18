@@ -5,7 +5,7 @@ Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL
 ## Quick Facts
 - id: `things-mac--5f837d05df`
 - worth_using_score: `25/100`
-- tags: `github, git, go, terminal`
+- tags: `github, git, terminal, go`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/things-mac/SKILL.md`
 

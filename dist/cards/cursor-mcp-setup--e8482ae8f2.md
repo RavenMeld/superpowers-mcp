@@ -5,7 +5,7 @@ Configure MCP servers in Cursor using mcp.json (global or per-project), plus val
 ## Quick Facts
 - id: `cursor-mcp-setup--e8482ae8f2`
 - worth_using_score: `65/100`
-- tags: `mcp, rust, ci, docs, terminal`
+- tags: `mcp, cursor, terminal, rust, ci, docs`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/cursor-mcp-setup/SKILL.md`
 

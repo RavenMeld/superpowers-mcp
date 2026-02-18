@@ -57,6 +57,18 @@ python -m awesome_skills search "polars"
 python -m awesome_skills search "duckdb parquet"
 ```
 
+Windows/WSL + Tools (common queries):
+
+```bash
+python -m awesome_skills search "wsl ssh"
+python -m awesome_skills search "powershell"
+python -m awesome_skills search "cursor rules"
+python -m awesome_skills search "warp terminal"
+python -m awesome_skills search "chrome devtools"
+python -m awesome_skills search "firefox automation"
+python -m awesome_skills search "hytale modding"
+```
+
 Show a specific skill card:
 
 ```bash

@@ -5,7 +5,7 @@ This skill enables cross-browser compatibility testing for web applications usin
 ## Quick Facts
 - id: `conducting-browser-compatibility-tests--76c990ea0a`
 - worth_using_score: `58/100`
-- tags: `playwright, browser, testing, ci, rag`
+- tags: `playwright, browser, chrome, firefox, testing, ci, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/jeremylongshore-conducting-browser-compatibility-tests/SKILL.md`
 

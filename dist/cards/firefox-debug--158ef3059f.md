@@ -5,7 +5,7 @@ Integrate Firefox Remote Debugging Protocol (RDP) for development workflows via 
 ## Quick Facts
 - id: `firefox-debug--158ef3059f`
 - worth_using_score: `55/100`
-- tags: `mcp, browser, node, go, java, security, testing, ci, docs, windows, linux, render, rag, eval`
+- tags: `mcp, browser, chrome, firefox, mozilla, node, go, java, security, testing, ci, docs, windows, linux, render, rag, eval`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/zenobi-us-firefox-debug/SKILL.md`
 

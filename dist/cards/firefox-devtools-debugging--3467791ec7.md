@@ -5,7 +5,7 @@ Debug web apps using Firefox DevTools: console/network inspection, storage/cooki
 ## Quick Facts
 - id: `firefox-devtools-debugging--3467791ec7`
 - worth_using_score: `45/100`
-- tags: `browser, security, ci, windows, linux, rag`
+- tags: `browser, chrome, firefox, security, ci, windows, linux, rag`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/firefox-devtools-debugging/SKILL.md`
 

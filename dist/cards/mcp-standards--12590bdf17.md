@@ -5,7 +5,7 @@ MCP server standardization patterns for Claude Code plugins. Use when implementi
 ## Quick Facts
 - id: `mcp-standards--12590bdf17`
 - worth_using_score: `40/100`
-- tags: `mcp, typescript, node, rust, go, security, testing, ci, figma`
+- tags: `mcp, chrome, typescript, node, rust, go, security, testing, ci, figma`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/madappgang-mcp-standards/SKILL.md`
 

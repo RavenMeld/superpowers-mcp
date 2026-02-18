@@ -5,7 +5,7 @@ Run Lighthouse audits locally via CLI or Node API, parse and interpret reports, 
 ## Quick Facts
 - id: `perf-lighthouse--a468b831c7`
 - worth_using_score: `55/100`
-- tags: `github, git, node, go, java, ci, rag`
+- tags: `github, git, chrome, node, go, java, ci, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/tech-leads-club-perf-lighthouse/SKILL.md`
 

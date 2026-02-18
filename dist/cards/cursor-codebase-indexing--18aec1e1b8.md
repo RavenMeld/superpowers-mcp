@@ -6,7 +6,7 @@ Execute set up and optimize Cursor codebase indexing. Triggers on "cursor index 
 ## Quick Facts
 - id: `cursor-codebase-indexing--18aec1e1b8`
 - worth_using_score: `35/100`
-- tags: `git, ci, docs, rag`
+- tags: `git, cursor, ci, docs, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/jeremylongshore-cursor-codebase-indexing/SKILL.md`
 

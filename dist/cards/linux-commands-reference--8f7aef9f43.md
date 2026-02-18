@@ -5,7 +5,7 @@ This skill should be used when the user asks to "run Linux commands", "manage us
 ## Quick Facts
 - id: `linux-commands-reference--8f7aef9f43`
 - worth_using_score: `50/100`
-- tags: `ssh, security, testing, ci, linux, terminal, rag`
+- tags: `ssh, terminal, security, testing, ci, linux, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/zebbern-linux-commands-reference/SKILL.md`
 

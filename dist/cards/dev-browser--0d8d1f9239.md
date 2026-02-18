@@ -5,7 +5,7 @@ Browser automation with persistent page state. Use when users ask to navigate we
 ## Quick Facts
 - id: `dev-browser--0d8d1f9239`
 - worth_using_score: `60/100`
-- tags: `github, git, playwright, browser, typescript, go, java, ci, docs, windows, eval`
+- tags: `github, git, playwright, browser, chrome, typescript, go, java, ci, docs, windows, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/dev-browser/SKILL.md`
 

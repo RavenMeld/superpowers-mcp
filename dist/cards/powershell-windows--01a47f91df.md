@@ -5,7 +5,7 @@ PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.
 ## Quick Facts
 - id: `powershell-windows--01a47f91df`
 - worth_using_score: `35/100`
-- tags: `go, ci, windows`
+- tags: `go, powershell, ci, windows`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/davila7-powershell-windows/SKILL.md`
 

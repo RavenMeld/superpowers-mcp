@@ -5,7 +5,7 @@ Use when building CLI tools, implementing argument parsing, or adding interactiv
 ## Quick Facts
 - id: `cli-developer--80492064e4`
 - worth_using_score: `55/100`
-- tags: `python, node, go, testing, ci, windows, linux, terminal, benchmark`
+- tags: `terminal, python, node, go, testing, ci, windows, linux, benchmark`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/cli-developer/SKILL.md`
 

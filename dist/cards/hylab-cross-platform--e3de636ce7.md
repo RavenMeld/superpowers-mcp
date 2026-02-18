@@ -5,7 +5,7 @@ Cross-platform compatibility for Hylab (path normalization, process lifecycle, e
 ## Quick Facts
 - id: `hylab-cross-platform--e3de636ce7`
 - worth_using_score: `25/100`
-- tags: `github, git, python, rust, go, ci, windows, linux`
+- tags: `github, git, hytale, python, rust, go, ci, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-cross-platform/SKILL.md`
 

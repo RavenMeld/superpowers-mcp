@@ -5,7 +5,7 @@ CI/CD integration and release engineering for Hylab (artifacts, caching, schedul
 ## Quick Facts
 - id: `hylab-ci-release--c802734c27`
 - worth_using_score: `25/100`
-- tags: `github, git, testing, ci`
+- tags: `github, git, hytale, testing, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/hylab-ci-release/SKILL.md`
 

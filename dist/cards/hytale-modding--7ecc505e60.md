@@ -5,7 +5,7 @@ Develop mods for Hytale, a voxel-based sandbox RPG by Hypixel Studios. Use when 
 ## Quick Facts
 - id: `hytale-modding--7ecc505e60`
 - worth_using_score: `60/100`
-- tags: `github, git, go, java, testing`
+- tags: `github, git, hytale, go, java, testing`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/fred-drake-hytale-modding/SKILL.md`
 

@@ -5,7 +5,7 @@ Create and manage custom assets for Hytale including models, textures, sounds, p
 ## Quick Facts
 - id: `hytale-custom-assets--bcbca48599`
 - worth_using_score: `60/100`
-- tags: `go, java, ci`
+- tags: `hytale, go, java, ci`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/neversight-hytale-custom-assets/SKILL.md`
 

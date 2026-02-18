@@ -5,7 +5,7 @@ Master REST and GraphQL API design principles to build intuitive, scalable, and 
 ## Quick Facts
 - id: `api-design-principles--405cf8e59a`
 - worth_using_score: `68/100`
-- tags: `python, node, rust, go, ci, docs`
+- tags: `cursor, python, node, rust, go, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/api-design-principles/SKILL.md`
 

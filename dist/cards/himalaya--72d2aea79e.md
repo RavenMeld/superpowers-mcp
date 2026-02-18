@@ -5,7 +5,7 @@ CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, 
 ## Quick Facts
 - id: `himalaya--72d2aea79e`
 - worth_using_score: `50/100`
-- tags: `rust, ci, terminal`
+- tags: `terminal, rust, ci`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/himalaya/SKILL.md`
 

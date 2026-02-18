@@ -6,7 +6,7 @@ Optimize context window usage in Cursor. Triggers on "cursor context",
 ## Quick Facts
 - id: `cursor-context-management--39acd9d24b`
 - worth_using_score: `25/100`
-- tags: `ci, docs`
+- tags: `cursor, ci, docs`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/jeremylongshore-cursor-context-management/SKILL.md`
 

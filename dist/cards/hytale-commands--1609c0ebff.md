@@ -5,7 +5,7 @@ Create custom commands for Hytale server plugins with arguments, permissions, an
 ## Quick Facts
 - id: `hytale-commands--1609c0ebff`
 - worth_using_score: `60/100`
-- tags: `node, java, ci, rag`
+- tags: `hytale, node, java, ci, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/neversight-hytale-commands/SKILL.md`
 

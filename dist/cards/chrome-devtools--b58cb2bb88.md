@@ -5,7 +5,7 @@ Expert-level browser automation, debugging, and performance analysis using Chrom
 ## Quick Facts
 - id: `chrome-devtools--b58cb2bb88`
 - worth_using_score: `65/100`
-- tags: `mcp, browser, go, java, ci, rag, eval`
+- tags: `mcp, browser, chrome, go, java, ci, rag, eval`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/github-chrome-devtools/SKILL.md`
 

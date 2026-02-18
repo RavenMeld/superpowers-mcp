@@ -5,7 +5,7 @@ Expert in building browser extensions that solve real problems - Chrome, Firefox
 ## Quick Facts
 - id: `browser-extension-builder--54c2be13dd`
 - worth_using_score: `55/100`
-- tags: `browser, java, security, ci, rag`
+- tags: `browser, chrome, firefox, java, security, ci, rag`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/davila7-browser-extension-builder/SKILL.md`
 

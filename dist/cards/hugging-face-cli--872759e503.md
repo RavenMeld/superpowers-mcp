@@ -5,7 +5,7 @@ Execute Hugging Face Hub operations using the `hf` CLI. Use when the user needs 
 ## Quick Facts
 - id: `hugging-face-cli--872759e503`
 - worth_using_score: `60/100`
-- tags: `python, go, aws, ci, terminal, llm`
+- tags: `terminal, python, go, aws, ci, llm`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/sickn33-hugging-face-cli/SKILL.md`
 

@@ -5,7 +5,7 @@ Use this skill when developing or maintaining browser extension code in the `bro
 ## Quick Facts
 - id: `browser-extension-developer--f9046aa375`
 - worth_using_score: `30/100`
-- tags: `github, git, browser`
+- tags: `github, git, browser, chrome, firefox`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/browser-extension-developer/SKILL.md`
 

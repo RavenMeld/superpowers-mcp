@@ -5,7 +5,7 @@ Error Pattern Safety Guidelines for Agentic Engines
 ## Quick Facts
 - id: `error-pattern-safety--e9a06934b8`
 - worth_using_score: `55/100`
-- tags: `go, java, testing, ci, docs`
+- tags: `mozilla, go, java, testing, ci, docs`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/error-pattern-safety/SKILL.md`
 

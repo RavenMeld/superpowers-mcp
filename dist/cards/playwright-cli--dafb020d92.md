@@ -5,7 +5,7 @@ Automates browser interactions for web testing, form filling, screenshots, and d
 ## Quick Facts
 - id: `playwright-cli--dafb020d92`
 - worth_using_score: `60/100`
-- tags: `playwright, browser, go, testing, ci, rag, eval`
+- tags: `playwright, browser, chrome, firefox, go, testing, ci, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/skill/SKILL.md`
 

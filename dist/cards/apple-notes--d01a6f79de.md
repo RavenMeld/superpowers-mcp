@@ -5,7 +5,7 @@ Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, sear
 ## Quick Facts
 - id: `apple-notes--d01a6f79de`
 - worth_using_score: `25/100`
-- tags: `security, terminal`
+- tags: `terminal, security`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/apple-notes/SKILL.md`
 

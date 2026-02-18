@@ -5,7 +5,7 @@ Debug and profile web apps using Chrome DevTools: console, network, performance 
 ## Quick Facts
 - id: `chrome-devtools-debugging--75a85076fc`
 - worth_using_score: `50/100`
-- tags: `windows, linux, render`
+- tags: `chrome, windows, linux, render`
 - source: `agent_playground`
 - source_path: `/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/chrome-devtools-debugging/SKILL.md`
 

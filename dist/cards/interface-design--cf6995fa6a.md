@@ -5,7 +5,7 @@ This skill is for interface design — dashboards, admin panels, apps, tools, an
 ## Quick Facts
 - id: `interface-design--cf6995fa6a`
 - worth_using_score: `50/100`
-- tags: `go, ci, terminal, vercel, render, rag, eval`
+- tags: `terminal, go, ci, vercel, render, rag, eval`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/interface-design/SKILL.md`
 

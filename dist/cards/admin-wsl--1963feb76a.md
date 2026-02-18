@@ -11,7 +11,7 @@ NOT for: .wslconfig changes (use admin-windows), Windows pac...
 ## Quick Facts
 - id: `admin-wsl--1963feb76a`
 - worth_using_score: `60/100`
-- tags: `mcp, ssh, python, node, docker, wsl, windows, linux`
+- tags: `mcp, ssh, python, node, powershell, docker, wsl, windows, linux`
 - source: `agents_skills`
 - source_path: `/home/wolvend/.agents/skills/evolv3-ai-admin-wsl/SKILL.md`
 

@@ -5,7 +5,7 @@ Run Bandit security analysis to find common security issues and vulnerabilities 
 ## Quick Facts
 - id: `bandit-security-scan--45b56af64a`
 - worth_using_score: `70/100`
-- tags: `browser, python, sql, go, security, ci, windows, linux`
+- tags: `browser, python, sql, go, powershell, security, ci, windows, linux`
 - source: `codex_skills`
 - source_path: `/home/wolvend/.codex/skills/visgwu-bandit-security-scan/SKILL.md`
 
