@@ -104,6 +104,8 @@ This keeps the build/search workflow deterministic (no network required), while 
 
 If you want to expand the local corpus, you can install additional skills from Smithery into this workspace, then rebuild.
 
+See `sources/smithery_seed_installs.md` for a curated batch that matches common RavenMeld workflows (WSL/Windows, browsers, Playwright, Obsidian, Hytale, PowerShell).
+
 Example:
 
 ```bash
