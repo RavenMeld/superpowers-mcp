@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 546,
+  "count": 568,
   "roots": [
     {
       "label": "agent_playground",
@@ -110,6 +110,46 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "administering-linux--035599958b",
+      "name": "administering-linux",
+      "description": "Manage Linux systems covering systemd services, process management, filesystems, networking, performance tuning, and troubleshooting. Use when deploying applications, optimizing server performance, diagnosing production issues, or managing users and security on Linux servers.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/ancoleman-administering-linux/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/ancoleman-administering-linux",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 24,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1770
+      },
+      "tags": [
+        "ssh",
+        "sql",
+        "postgres",
+        "node",
+        "go",
+        "kubernetes",
+        "security",
+        "testing",
+        "ci",
+        "linux",
+        "devops",
+        "rag",
+        "benchmark"
+      ],
+      "use_when": [],
+      "workflow": [
+        "*Process States:** R (running), S (sleeping), D (uninterruptible sleep/I/O), Z (zombie), T (stopped)",
+        "*Common Signals:** SIGTERM (15) graceful, SIGKILL (9) force, SIGHUP (1) reload config",
+        "*Process Priority:**"
+      ]
     },
     {
       "id": "agent-development--e1238b5b0f",
@@ -1713,6 +1753,49 @@
       ]
     },
     {
+      "id": "ci-failure-triage--9c9b50c9a6",
+      "name": "ci-failure-triage",
+      "description": "Diagnose CI failures and stabilize pipelines. Use when a mid-level developer needs to resolve flaky or failing builds.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/ci-failure-triage/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/ci-failure-triage",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 297
+      },
+      "tags": [
+        "mcp",
+        "git",
+        "python",
+        "node",
+        "go",
+        "ci"
+      ],
+      "use_when": [
+        "A CI run is red and you need the actual root cause (not the cascade of follow-on failures).",
+        "Tests are flaky and need stabilization without hiding real failures."
+      ],
+      "workflow": [
+        "Identify the first failure.",
+        "Ignore later failures caused by missing outputs or early aborts.",
+        "Classify the failure.",
+        "Deterministic vs flaky.",
+        "Unit vs integration vs E2E.",
+        "Infra (network/rate limits) vs code (logic/parsing) vs environment (toolchain versions).",
+        "Reproduce locally with the narrowest command.",
+        "Prefer a single test file or a single script invocation.",
+        "If reproduction requires external services, add a stubbed test first.",
+        "Isolate the change that introduced it."
+      ]
+    },
+    {
       "id": "cicd-pipeline-setup--bffa523188",
       "name": "cicd-pipeline-setup",
       "description": "Design and implement CI/CD pipelines with GitHub Actions, GitLab CI, Jenkins, or CircleCI. Use for automated testing, building, and deployment workflows.",
@@ -1999,6 +2082,48 @@
         "**Details** - Check code quality, security, performance",
         "**Tests** - Validate test coverage and quality",
         "**Feedback** - Provide categorized, actionable feedback"
+      ]
+    },
+    {
+      "id": "codebase-orientation--6af8ea9c7d",
+      "name": "codebase-orientation",
+      "description": "Guide quick orientation of an unfamiliar codebase with module mapping, entry points, and local run steps. Use when a junior developer needs to get situated fast.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/codebase-orientation/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/codebase-orientation",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 1,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 219
+      },
+      "tags": [
+        "mcp",
+        "python",
+        "node",
+        "go",
+        "ci"
+      ],
+      "use_when": [
+        "You need a fast, accurate map of a repo: entrypoints, key modules, and how to run/test it.",
+        "You’re onboarding to a new codebase and want to avoid “random walking” the tree."
+      ],
+      "workflow": [
+        "Identify the primary entrypoints.",
+        "CLI binaries, server mains, MCP servers, and scripts.",
+        "Map the “spine” of the system.",
+        "Core modules/services + config loading + IO boundaries (HTTP/MCP/filesystem).",
+        "Find how to run and test locally.",
+        "Look for `package.json`, `pyproject.toml`, `Makefile`, CI config.",
+        "Document the minimum set of commands.",
+        "Install, run, test, smoke.",
+        "Suggest one safe starter change.",
+        "Small, reversible, and easy to validate."
       ]
     },
     {
@@ -2825,6 +2950,47 @@
         "Recommend safer defaults and validation.",
         "Identify secrets and rotate if exposed."
       ]
+    },
+    {
+      "id": "configuring-nginx--d792852b5f",
+      "name": "configuring-nginx",
+      "description": "Configure nginx for static sites, reverse proxying, load balancing, SSL/TLS termination, caching, and performance tuning. When setting up web servers, application proxies, or load balancers, this skill provides production-ready patterns with modern security best practices for TLS 1.3, rate limiting, and security headers.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/ancoleman-configuring-nginx/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/ancoleman-configuring-nginx",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 23,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1364
+      },
+      "tags": [
+        "python",
+        "node",
+        "go",
+        "java",
+        "docker",
+        "kubernetes",
+        "security",
+        "ci",
+        "eval"
+      ],
+      "use_when": [
+        "Setting up web server for static sites or single-page applications",
+        "Configuring reverse proxy for Node.js, Python, Ruby, or Go applications",
+        "Implementing load balancing across multiple backend servers",
+        "Terminating SSL/TLS for HTTPS traffic",
+        "Adding caching layer for performance improvement",
+        "Building API gateway functionality",
+        "Protecting against DDoS with rate limiting",
+        "Proxying WebSocket connections"
+      ],
+      "workflow": []
     },
     {
       "id": "console-rendering--7b35a017df",
@@ -3811,6 +3977,45 @@
         "Reproduce the issue and isolate the scope.",
         "Check inputs, environment, and recent changes.",
         "Add targeted logs or breakpoints."
+      ]
+    },
+    {
+      "id": "debugging-checklist--e7f31a6169",
+      "name": "debugging-checklist",
+      "description": "Provide a systematic debugging checklist. Use when a junior developer is stuck and needs a structured approach.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/debugging-checklist/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/debugging-checklist",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 218
+      },
+      "tags": [
+        "node",
+        "rag"
+      ],
+      "use_when": [
+        "A bug is reported but root cause is unclear.",
+        "“It doesn’t work” without a crisp repro."
+      ],
+      "workflow": [
+        "Reproduce and minimize.",
+        "Reduce to the smallest input/command that still fails.",
+        "Bound the blast radius.",
+        "Identify which component is failing (ingress, router, executor, storage).",
+        "Add the smallest useful probe.",
+        "Structured logs around state transitions and IO boundaries.",
+        "Avoid logging payloads/prompts that can contain secrets.",
+        "Confirm hypotheses with a targeted test.",
+        "Add a unit/integration test that fails before the fix and passes after.",
+        "Fix, then re-run the exact repro."
       ]
     },
     {
@@ -7977,6 +8182,50 @@
       ]
     },
     {
+      "id": "iac-checkov--2c035a1039",
+      "name": "iac-checkov",
+      "description": "Infrastructure as Code (IaC) security scanning using Checkov with 750+ built-in policies for Terraform, CloudFormation, Kubernetes, Dockerfile, and ARM templates. Use when: (1) Scanning IaC files for security misconfigurations and compliance violations, (2) Validating cloud infrastructure against CIS, PCI-DSS, HIPAA, and SOC2 benchmarks, (3) Detecting secrets and hardcoded credentials in IaC, (...",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/agentsecops-iac-checkov/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/agentsecops-iac-checkov",
+      "worth_score": 58,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 33,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": true,
+        "word_count": 2048
+      },
+      "tags": [
+        "github",
+        "git",
+        "ssh",
+        "python",
+        "go",
+        "docker",
+        "kubernetes",
+        "aws",
+        "azure",
+        "gcp",
+        "security",
+        "ci",
+        "docs",
+        "devops",
+        "terraform",
+        "rag",
+        "benchmark"
+      ],
+      "use_when": [],
+      "workflow": [
+        "### Step 1: Understand Scan Scope",
+        "Identify IaC files and frameworks to scan:",
+        "```bash"
+      ]
+    },
+    {
       "id": "imagegen--fd300907ba",
       "name": "imagegen",
       "description": "Use when the user asks to generate or edit images via the OpenAI Image API (for example: generate image, edit/inpaint/mask, background removal or replacement, transparent background, product shots, concept art, covers, or batch variants); run the bundled CLI (`scripts/image_gen.py`) and require `OPENAI_API_KEY` for live calls.",
@@ -8015,6 +8264,46 @@
         "Iterate: make a single targeted change (prompt or mask), re-run, re-check.",
         "Save/return final outputs and note the final prompt + flags used."
       ]
+    },
+    {
+      "id": "implementing-observability--a4e91fee37",
+      "name": "implementing-observability",
+      "description": "Monitoring, logging, and tracing implementation using OpenTelemetry as the unified standard. Use when building production systems requiring visibility into performance, errors, and behavior. Covers OpenTelemetry (metrics, logs, traces), Prometheus, Grafana, Loki, Jaeger, Tempo, structured logging (structlog, tracing, slog, pino), and alerting.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/ancoleman-implementing-observability/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/ancoleman-implementing-observability",
+      "worth_score": 75,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 15,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1227
+      },
+      "tags": [
+        "python",
+        "typescript",
+        "rust",
+        "go",
+        "docker",
+        "kubernetes",
+        "testing",
+        "ci",
+        "observability"
+      ],
+      "use_when": [
+        "Building production systems requiring visibility into performance and errors",
+        "Debugging distributed systems with multiple services",
+        "Setting up monitoring, logging, or tracing infrastructure",
+        "Implementing structured logging with trace correlation",
+        "Configuring alerting rules for production systems",
+        "Building proof-of-concept without production deployment",
+        "System has < 100 requests/day (console logging may suffice)"
+      ],
+      "workflow": []
     },
     {
       "id": "imsg--9547caed87",
@@ -8963,6 +9252,86 @@
       ]
     },
     {
+      "id": "linux-commands-reference--8f7aef9f43",
+      "name": "Linux Commands Reference",
+      "description": "This skill should be used when the user asks to \"run Linux commands\", \"manage users and permissions\", \"configure file systems\", \"work with LVM\", \"set up networking\", \"manage services with systemd\", \"configure firewalls\", \"implement SELinux or AppArmor\", or \"automate tasks with cron\". It provides comprehensive Linux command reference for security professionals.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/zebbern-linux-commands-reference/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/zebbern-linux-commands-reference",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 12,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2222
+      },
+      "tags": [
+        "ssh",
+        "security",
+        "testing",
+        "ci",
+        "linux",
+        "terminal",
+        "rag"
+      ],
+      "use_when": [],
+      "workflow": [
+        "### Phase 1: General Commands and Navigation",
+        "Essential system information commands:",
+        "```bash"
+      ]
+    },
+    {
+      "id": "linux-service-triage--6d7f67a24c",
+      "name": "linux-service-triage",
+      "description": "Diagnoses common Linux service issues using logs, systemd/PM2, file permissions, Nginx reverse proxy checks, and DNS sanity checks. Use when a server app is failing, unreachable, or misconfigured.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/openclaw-linux-service-triage/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/openclaw-linux-service-triage",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 1,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 466
+      },
+      "tags": [
+        "ci",
+        "linux"
+      ],
+      "use_when": [
+        "TRIGGERS:",
+        "Show me why this service is failing using logs, then give the exact fix commands.",
+        "Restart this app cleanly and confirm it is listening on the right port.",
+        "Fix the permissions on this folder so the service can read and write safely.",
+        "Set up Nginx reverse proxy for this port and verify DNS and TLS are sane.",
+        "Create a systemd service for this script and make it survive reboots.",
+        "DO NOT USE WHEN…",
+        "You need kernel debugging or deep performance profiling.",
+        "You want to exploit systems or bypass access controls."
+      ],
+      "workflow": [
+        "Confirm scope and safety:",
+        "identify service name and whether changes are permitted.",
+        "Gather evidence:",
+        "status output + recent logs (see `references/triage-commands.md`).",
+        "Classify failure:",
+        "config error, dependency missing, permission denied, port conflict, upstream unreachable, DNS mismatch.",
+        "Propose minimal fix + verification steps.",
+        "Validate network path (if web service):",
+        "app listens → Nginx proxies → DNS resolves → (TLS sanity if applicable).",
+        "Provide restart/reload plan and confirm health checks."
+      ]
+    },
+    {
       "id": "literature-review--370ea3d9c3",
       "name": "literature-review",
       "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs...",
@@ -9146,6 +9515,44 @@
         "Group similar errors and identify the first failure.",
         "Translate error messages into likely causes.",
         "Suggest immediate checks or fixes."
+      ]
+    },
+    {
+      "id": "log-summarizer--da942eeb86",
+      "name": "log-summarizer",
+      "description": "Summarize noisy logs into likely causes and next steps. Use when a junior developer needs help interpreting logs.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/log-summarizer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/log-summarizer",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 188
+      },
+      "tags": [
+        "terminal"
+      ],
+      "use_when": [
+        "Logs are too long/noisy to reason about quickly.",
+        "Multiple errors are present and you need to identify the “first domino”."
+      ],
+      "workflow": [
+        "Build a timeline.",
+        "Identify start, first warning, first error, then cascades.",
+        "Group by error signature.",
+        "Same exception/class/message grouped together with counts.",
+        "Identify the earliest root-cause candidate.",
+        "The error that explains the rest, not the loudest error.",
+        "Translate into actionable next steps.",
+        "“Check X” and “run Y” style, with commands where possible.",
+        "Call out missing data.",
+        "What extra logs/metrics would make this definitive next time."
       ]
     },
     {
@@ -10724,6 +11131,40 @@
       ]
     },
     {
+      "id": "nginx-gen--cf47b8ac2b",
+      "name": "nginx-gen",
+      "description": "Generate nginx configs from plain English. Use when you need reverse proxy, SSL, or load balancing setup.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/openclaw-nginx-gen/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/openclaw-nginx-gen",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 333
+      },
+      "tags": [
+        "github",
+        "git",
+        "node",
+        "docker",
+        "security",
+        "ci"
+      ],
+      "use_when": [
+        "Setting up a new web server",
+        "Don't remember the proxy_pass syntax",
+        "Need to add SSL to an existing site",
+        "Configuring nginx for a Docker container"
+      ],
+      "workflow": []
+    },
+    {
       "id": "nodejs-core--fce62e2382",
       "name": "nodejs-core",
       "description": "Deep Node.js internals expertise including C++ addons, V8, libuv, and build systems",
@@ -10932,6 +11373,34 @@
         "Fetch the page (`Notion:notion-fetch`) and scan for requirements, acceptance criteria, constraints, and priorities. See `reference/spec-parsing.md` for extraction patterns.",
         "Capture gaps/assumptions in a clarifications block before proceeding.",
         "Simple change → use `reference/quick-implementation-plan.md`."
+      ]
+    },
+    {
+      "id": "npm-proxy--a9394e6ce6",
+      "name": "npm-proxy",
+      "description": "Manage Nginx Proxy Manager (NPM) hosts, certificates, and access lists. Use when the user wants to add a new domain, point a domain to a server/port, enable SSL, or check the status of proxy hosts.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/openclaw-npm-proxy/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/openclaw-npm-proxy",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 2,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 184
+      },
+      "tags": [
+        "python",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": [
+        "List certs with `certs` to see if one exists.",
+        "Update the host with `certificate_id` and `ssl_forced: true`."
       ]
     },
     {
@@ -11563,6 +12032,55 @@
       "tags": [],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "opentelemetry-instrumentation-extension--09652c66d6",
+      "name": "OpenTelemetry Instrumentation Extension",
+      "description": "Extend OpenTelemetry instrumentation when new functionality is added to the MCP Gateway. Use when (1) new operations/functions are added, (2) reviewing code for missing instrumentation, (3) user requests otel/telemetry additions, or (4) working with state-changing operations. Analyzes git diff, suggests instrumentation points following project standards in docs/telemetry/README.md, implements w...",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/docker-opentelemetry-instrumentation-extension/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/docker-opentelemetry-instrumentation-extension",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1189
+      },
+      "tags": [
+        "mcp",
+        "git",
+        "go",
+        "docker",
+        "testing",
+        "ci",
+        "docs",
+        "rag"
+      ],
+      "use_when": [
+        "New state-changing operations added (Create, Update, Delete, Push, Pull, Add, Remove, etc.)",
+        "New CLI commands added to `cmd/docker-mcp/`",
+        "New packages with operations in `pkg/`",
+        "User mentions \"otel\", \"telemetry\", \"instrumentation\", \"metrics\", or \"tracing\"",
+        "Code changes that modify state (database, files, containers, configuration)",
+        "Reviewing code for telemetry coverage"
+      ],
+      "workflow": [
+        "**Read project telemetry standards**:",
+        "Read `docs/telemetry/README.md` \"Development Guidelines\" section",
+        "Read `pkg/telemetry/telemetry.go` to understand existing patterns and metrics",
+        "**Identify scope** using git diff:",
+        "Find new/changed files in `pkg/` and `cmd/docker-mcp/`",
+        "Identify functions performing state-changing operations",
+        "Infer domain from package structure (e.g., `pkg/foo/` → domain: `foo`)",
+        "**Categorize findings**:",
+        "Operations in existing domains (use existing metrics)",
+        "Operations in new domains (need new metrics)"
+      ]
     },
     {
       "id": "oracle--1e7de807d3",
@@ -12479,6 +12997,48 @@
       ]
     },
     {
+      "id": "pr-reviewer--163c01f10a",
+      "name": "pr-reviewer",
+      "description": "Review a pull request for correctness, regressions, and missing tests. Use when a mid-level developer needs structured review guidance.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/pr-reviewer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/pr-reviewer",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 149
+      },
+      "tags": [
+        "mcp",
+        "go",
+        "ci",
+        "docs",
+        "rag"
+      ],
+      "use_when": [
+        "You need a correctness-first review: behavior changes, regressions, missing tests, unsafe defaults.",
+        "The change touches agent harness boundaries (MCP tools, edit protocols, IO boundaries)."
+      ],
+      "workflow": [
+        "Identify behavior changes and risk surfaces.",
+        "API contracts, tool schemas, default settings, auth/network exposure.",
+        "Check error handling and failure modes.",
+        "Timeouts, retries, partial failures, and user-facing errors.",
+        "Check tests and validate commands.",
+        "Ensure there’s coverage for the new behavior (and regression for the old bug).",
+        "Review logging and secrets handling.",
+        "No prompt/secret leakage; logs should be actionable.",
+        "Review docs.",
+        "README/usage changes match implementation."
+      ]
+    },
+    {
       "id": "pr-reviewer--3b8bd9d686",
       "name": "pr-reviewer",
       "description": "Review a pull request for correctness, regressions, and missing tests. Use when a mid-level developer needs structured review guidance.",
@@ -12635,6 +13195,34 @@
         "Keep scope tight.",
         "List which review items you fixed."
       ]
+    },
+    {
+      "id": "productivity-helper--f826fd94a8",
+      "name": "productivity-helper",
+      "description": "Boost your productivity with automated task management",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/openclaw-security-scanner/examples/malicious-skill/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/openclaw-security-scanner/examples/malicious-skill",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 5,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 272
+      },
+      "tags": [
+        "ssh",
+        "java",
+        "aws",
+        "ci",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "prompt-engineer--4cc0b88689",
@@ -13733,6 +14321,45 @@
       ]
     },
     {
+      "id": "readme-polish--6294c8ae97",
+      "name": "readme-polish",
+      "description": "Improve a README for clarity and completeness. Use when a junior developer needs guidance on documenting setup and usage.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/readme-polish/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/readme-polish",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 166
+      },
+      "tags": [
+        "git",
+        "ci"
+      ],
+      "use_when": [
+        "README is missing “how do I run this” or “how do I test this”.",
+        "Setup is tribal knowledge and needs to be made reproducible."
+      ],
+      "workflow": [
+        "Add a “Quick Start” that works.",
+        "Install, run, smoke in the smallest number of steps.",
+        "Document configuration.",
+        "Required env vars, optional tuning vars, defaults, and examples.",
+        "Add validation commands.",
+        "`npm test`, `pytest`, smoke scripts, and expected outputs.",
+        "Add troubleshooting.",
+        "3-5 top failure modes and how to diagnose them.",
+        "Keep it honest.",
+        "If something is optional or flaky, say so and explain why."
+      ]
+    },
+    {
       "id": "readme-polish--dccacc9b0f",
       "name": "readme-polish",
       "description": "Improve a README for clarity and completeness. Use when a junior developer needs guidance on documenting setup and usage.",
@@ -14706,6 +15333,36 @@
       ]
     },
     {
+      "id": "secret-scanner--46ed3b935f",
+      "name": "secret-scanner",
+      "description": "Scan secret scanner operations. Auto-activating skill for Security Fundamentals.\nTriggers on: secret scanner, secret scanner\nPart of the Security Fundamentals skill category. Use when working with secret scanner functionality. Trigger with phrases like \"secret scanner\", \"secret scanner\", \"secret\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-secret-scanner/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-secret-scanner",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 230
+      },
+      "tags": [
+        "go",
+        "security",
+        "ci"
+      ],
+      "use_when": [
+        "Mention \"secret scanner\" in your request",
+        "Ask about secret scanner patterns or best practices",
+        "Need help with essential security skills covering authentication, input validation, secure coding practices, and basic vulnerability detection."
+      ],
+      "workflow": []
+    },
+    {
       "id": "secure-code-guardian--15975f60d0",
       "name": "secure-code-guardian",
       "description": "Use when implementing authentication/authorization, securing user input, or preventing OWASP Top 10 vulnerabilities. Invoke for authentication, authorization, input validation, encryption, OWASP Top 10 prevention.",
@@ -14966,6 +15623,72 @@
         "**Test and classify** - Validate findings, rate severity (Critical/High/Medium/Low)",
         "**Report** - Document findings with remediation guidance"
       ]
+    },
+    {
+      "id": "security-scanner--e01ca0b364",
+      "name": "security-scanner",
+      "description": "Scans OpenClaw skills for security vulnerabilities and suspicious patterns before installation",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/openclaw-security-scanner/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/openclaw-security-scanner",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 9,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1373
+      },
+      "tags": [
+        "github",
+        "git",
+        "browser",
+        "node",
+        "rust",
+        "go",
+        "java",
+        "security",
+        "ci",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "security-secrets--9f69a48a4e",
+      "name": "security-secrets",
+      "description": "Review secret detection patterns and scanning workflows. Use for identifying high-signal secrets like AWS keys, GitHub tokens, and DB passwords. Use proactively during all security audits to scan code and history.\nExamples:\n- user: \"Scan for secrets in this repo\" → run high-signal rg patterns and gitleaks\n- user: \"Check for AWS keys\" → scan for AKIA patterns and server-side exposure\n- user: \"Au...",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/igorwarzocha-security-secrets/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/igorwarzocha-security-secrets",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 2,
+        "has_scripts": true,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 506
+      },
+      "tags": [
+        "github",
+        "git",
+        "ssh",
+        "sql",
+        "postgres",
+        "go",
+        "docker",
+        "aws",
+        "security",
+        "ci"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "security-threat-model--8330b87a78",
@@ -16899,6 +17622,45 @@
       "workflow": []
     },
     {
+      "id": "ticket-breakdown--c6d6743db5",
+      "name": "ticket-breakdown",
+      "description": "Break a task or ticket into small steps. Use when a junior developer needs guidance on how to start.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/ticket-breakdown/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/ticket-breakdown",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 150
+      },
+      "tags": [
+        "go",
+        "ci"
+      ],
+      "use_when": [
+        "The task is vague and you need a concrete implementation plan.",
+        "The work spans multiple repos/components and needs sequencing."
+      ],
+      "workflow": [
+        "Rewrite the ticket as acceptance criteria.",
+        "What must be true for “done”.",
+        "Decompose into steps (small and testable).",
+        "Each step should have an owner file/path and a validation command.",
+        "Identify dependencies and ordering.",
+        "What blocks what.",
+        "Define a test plan.",
+        "Unit tests, integration tests, smoke tests.",
+        "Decide rollout/guardrails.",
+        "Feature flags, safe defaults, logging, and rollback plan if needed."
+      ]
+    },
+    {
       "id": "ticket-breakdown--ca5c269641",
       "name": "ticket-breakdown",
       "description": "Break a task or ticket into small steps. Use when a junior developer needs guidance on how to start.",
@@ -17284,6 +18046,44 @@
         "Industry: Beauty/Wellness",
         "Stack: html-tailwind (default)",
         "*Output:** Complete design system with pattern, style, colors, typography, effects, and anti-patterns."
+      ]
+    },
+    {
+      "id": "unit-test-starter--d11d46e738",
+      "name": "unit-test-starter",
+      "description": "Generate starter unit tests for a small function or module. Use when a junior developer needs test scaffolding and edge cases.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/unit-test-starter/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/source/agents/frameworks/Spinnybot/skills-selected/unit-test-starter",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 151
+      },
+      "tags": [
+        "node"
+      ],
+      "use_when": [
+        "A function/module changed and needs tests.",
+        "A bug needs a regression test."
+      ],
+      "workflow": [
+        "Define the contract.",
+        "Inputs, outputs, invariants, and failure modes.",
+        "Pick test granularity.",
+        "Unit test preferred; add integration test only when IO boundaries matter.",
+        "Build a table of cases.",
+        "Happy path, boundary, invalid input, and one “weird” case.",
+        "Add a regression test for the bug (if applicable).",
+        "Fails before fix, passes after.",
+        "Document how to run tests.",
+        "Exact command(s) and expected output."
       ]
     },
     {
@@ -17876,6 +18676,33 @@
         "go",
         "ci",
         "docs"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "weather-checker--479a13c5a3",
+      "name": "weather-checker",
+      "description": "Get current weather information for any city",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/openclaw-security-scanner/examples/clean-skill/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/openclaw-security-scanner/examples/clean-skill",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 236
+      },
+      "tags": [
+        "node",
+        "java",
+        "security",
+        "ci"
       ],
       "use_when": [],
       "workflow": []
