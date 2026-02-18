@@ -94,6 +94,10 @@ Last updated: 2026-02-18
   - Prompt collection (use with a quality filter; can be noisy).
 - https://github.com/HeinieN/awesome-prompt-engineering
   - Prompt engineering resources and references.
+- https://github.com/e2b-dev/awesome-ai-agents
+  - Agent frameworks and systems (survey and discovery feed).
+- https://github.com/corca-ai/awesome-llm-security
+  - LLM security resources (prompt injection, evals, defenses, red-teaming).
 
 ## Python / Data Engineering (Awesome Lists)
 - https://github.com/vinta/awesome-python

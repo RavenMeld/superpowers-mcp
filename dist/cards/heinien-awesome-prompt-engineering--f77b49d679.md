@@ -5,8 +5,8 @@ Prompt engineering resources and references.
 ## Quick Facts
 - id: `heinien-awesome-prompt-engineering--f77b49d679`
 - kind: `external`
-- section: `Python / Data Engineering (Awesome Lists)`
-- tags: `python`
+- section: `LLM / AI Engineering (Awesome Lists)`
+- tags: `llm`
 - url: `https://github.com/HeinieN/awesome-prompt-engineering`
 - source_path: `https://github.com/HeinieN/awesome-prompt-engineering`
 

@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `538`
+- total_skills: `543`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -295,6 +295,7 @@
 - [skill-creator (`65/100`)](cards/skill-creator--87da9c7632.md)
 - [subagent-driven-development (`65/100`)](cards/subagent-driven-development--b2f9d3792b.md)
 - [terraform-skill (`65/100`)](cards/terraform-skill--756c0a4bbf.md)
+- [tool-selection-rubric (`65/100`)](cards/tool-selection-rubric--413d53e8b9.md)
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--7cb9c75e56.md)
 - [weights-and-biases (`65/100`)](cards/weights-and-biases--ff63951ece.md)
 - [compound-docs (`63/100`)](cards/compound-docs--c0251dffa7.md)
@@ -302,7 +303,6 @@
 - [brainstorming (`60/100`)](cards/brainstorming--85542ee792.md)
 - [create-agent-skills (`60/100`)](cards/create-agent-skills--b637da3b33.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
-- [feishu-doc (`60/100`)](cards/feishu-doc--f7157e71fa.md)
 
 ### eval
 - [obsidian-skill (`88/100`)](cards/obsidian-skill--9ff25aae8e.md)
@@ -323,6 +323,7 @@
 - [chrome-devtools (`65/100`)](cards/chrome-devtools--b58cb2bb88.md)
 - [cursor-subagent-creator (`65/100`)](cards/cursor-subagent-creator--aabd812653.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
+- [llm-evaluation-harness (`65/100`)](cards/llm-evaluation-harness--6086851fcb.md)
 - [refactor (`65/100`)](cards/refactor--4f640e2f77.md)
 - [weights-and-biases (`65/100`)](cards/weights-and-biases--ff63951ece.md)
 - [dspy-ruby (`63/100`)](cards/dspy-ruby--41c758879d.md)
@@ -334,7 +335,6 @@
 - [rag-implementation (`60/100`)](cards/rag-implementation--8d6d7ca831.md)
 - [senior-data-engineer (`60/100`)](cards/senior-data-engineer--8877198b88.md)
 - [web-design-reviewer (`60/100`)](cards/web-design-reviewer--c92475836b.md)
-- [architecture-designer (`55/100`)](cards/architecture-designer--8f983ce1d5.md)
 
 ### figma
 - [screenshot (`65/100`)](cards/screenshot--35d6a921f7.md)
@@ -381,14 +381,14 @@
 - [cicd-pipeline-setup (`65/100`)](cards/cicd-pipeline-setup--bffa523188.md)
 - [Data Cleaning Pipeline (`65/100`)](cards/data-cleaning-pipeline--9074261167.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
+- [llm-evaluation-harness (`65/100`)](cards/llm-evaluation-harness--6086851fcb.md)
 - [modern-python (`65/100`)](cards/modern-python--a27249b96c.md)
 - [refactor (`65/100`)](cards/refactor--4f640e2f77.md)
 - [subagent-driven-development (`65/100`)](cards/subagent-driven-development--b2f9d3792b.md)
 - [terraform-skill (`65/100`)](cards/terraform-skill--756c0a4bbf.md)
+- [tool-selection-rubric (`65/100`)](cards/tool-selection-rubric--413d53e8b9.md)
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--7cb9c75e56.md)
 - [weights-and-biases (`65/100`)](cards/weights-and-biases--ff63951ece.md)
-- [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
-- [dspy-ruby (`63/100`)](cards/dspy-ruby--41c758879d.md)
 
 ### github
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -409,8 +409,10 @@
 - [senior-security (`70/100`)](cards/senior-security--1872eba3bd.md)
 - [cicd-pipeline-setup (`65/100`)](cards/cicd-pipeline-setup--bffa523188.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
+- [llm-evaluation-harness (`65/100`)](cards/llm-evaluation-harness--6086851fcb.md)
 - [modern-python (`65/100`)](cards/modern-python--a27249b96c.md)
 - [terraform-skill (`65/100`)](cards/terraform-skill--756c0a4bbf.md)
+- [tool-selection-rubric (`65/100`)](cards/tool-selection-rubric--413d53e8b9.md)
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--7cb9c75e56.md)
 - [weights-and-biases (`65/100`)](cards/weights-and-biases--ff63951ece.md)
 - [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
@@ -419,8 +421,6 @@
 - [create-agent-skills (`60/100`)](cards/create-agent-skills--b637da3b33.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [github-issue-triage (`60/100`)](cards/github-issue-triage--60dfb77f3d.md)
-- [github-pr-triage (`60/100`)](cards/github-pr-triage--927ba10b79.md)
-- [hytale-modding (`60/100`)](cards/hytale-modding--7ecc505e60.md)
 
 ### go
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -545,6 +545,7 @@
 - [ml-paper-writing (`70/100`)](cards/ml-paper-writing--1ab00a8515.md)
 - [security-ownership-map (`70/100`)](cards/security-ownership-map--e8f1fa167d.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
+- [llm-evaluation-harness (`65/100`)](cards/llm-evaluation-harness--6086851fcb.md)
 - [pptx (`65/100`)](cards/pptx--f1eedde963.md)
 - [dspy-ruby (`63/100`)](cards/dspy-ruby--41c758879d.md)
 - [awesome-skills-database (`60/100`)](cards/awesome-skills-database--07fa975aa6.md)
@@ -567,7 +568,6 @@
 - [prose (`50/100`)](cards/prose--13a444e700.md)
 - [Zellij Specialist (`50/100`)](cards/zellij-specialist--0607aa94d8.md)
 - [agent-native-architecture (`45/100`)](cards/agent-native-architecture--bf6427854c.md)
-- [dhh-rails-style (`45/100`)](cards/dhh-rails-style--6f1ba9a294.md)
 
 ### mcp
 - [obsidian-skill (`88/100`)](cards/obsidian-skill--9ff25aae8e.md)
@@ -623,6 +623,7 @@
 - [develop-web-game (`68/100`)](cards/develop-web-game--667d6cd915.md)
 - [cicd-pipeline-setup (`65/100`)](cards/cicd-pipeline-setup--bffa523188.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
+- [tool-selection-rubric (`65/100`)](cards/tool-selection-rubric--413d53e8b9.md)
 - [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
 - [dspy-ruby (`63/100`)](cards/dspy-ruby--41c758879d.md)
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
@@ -636,7 +637,6 @@
 - [aws-beanstalk-expert (`55/100`)](cards/aws-beanstalk-expert--23b198b516.md)
 - [blockbench-hytale (`55/100`)](cards/blockbench-hytale--38826bfa86.md)
 - [canvas (`55/100`)](cards/canvas--1febf47cbd.md)
-- [chaos-engineer (`55/100`)](cards/chaos-engineer--9a82c730bb.md)
 
 ### observability
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -890,6 +890,7 @@
 - [cursor-subagent-creator (`65/100`)](cards/cursor-subagent-creator--aabd812653.md)
 - [modern-python (`65/100`)](cards/modern-python--a27249b96c.md)
 - [terraform-skill (`65/100`)](cards/terraform-skill--756c0a4bbf.md)
+- [tool-selection-rubric (`65/100`)](cards/tool-selection-rubric--413d53e8b9.md)
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--7cb9c75e56.md)
 - [github-issue-triage (`60/100`)](cards/github-issue-triage--60dfb77f3d.md)
 - [MCP Integration (`60/100`)](cards/mcp-integration--03e383b199.md)
@@ -902,7 +903,6 @@
 - [testing-patterns (`60/100`)](cards/testing-patterns--eab943b042.md)
 - [api-designer (`55/100`)](cards/api-designer--cf6c9ec07a.md)
 - [architecture-designer (`55/100`)](cards/architecture-designer--8f983ce1d5.md)
-- [atlassian-mcp (`55/100`)](cards/atlassian-mcp--159d33223e.md)
 
 ### sentry
 - [sentry (`58/100`)](cards/sentry--5c76553a69.md)
@@ -956,6 +956,7 @@
 ### ssh
 - [render-deploy (`73/100`)](cards/render-deploy--ca3d146899.md)
 - [github-ssh-multi-account-wsl (`70/100`)](cards/github-ssh-multi-account-wsl--3d479c57e2.md)
+- [llm-evaluation-harness (`65/100`)](cards/llm-evaluation-harness--6086851fcb.md)
 - [refactor (`65/100`)](cards/refactor--4f640e2f77.md)
 - [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
@@ -1130,6 +1131,7 @@
 - [content-research-writer (`70/100`)](cards/content-research-writer--b0e2626a35.md)
 - [github-ssh-multi-account-wsl (`70/100`)](cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
+- [llm-evaluation-harness (`65/100`)](cards/llm-evaluation-harness--6086851fcb.md)
 - [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
 - [admin-wsl (`60/100`)](cards/admin-wsl--1963feb76a.md)

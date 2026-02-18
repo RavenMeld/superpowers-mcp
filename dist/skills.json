@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 538,
+  "count": 543,
   "roots": [
     {
       "label": "agent_playground",
@@ -2979,6 +2979,33 @@
       ]
     },
     {
+      "id": "corca-ai-awesome-llm-security--970ba9bab9",
+      "name": "corca-ai/awesome-llm-security",
+      "description": "LLM security resources (prompt injection, evals, defenses, red-teaming).",
+      "root_label": "external",
+      "source_path": "https://github.com/corca-ai/awesome-llm-security",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 23
+      },
+      "tags": [
+        "security",
+        "python",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "cpp-pro--0c6f2e50de",
       "name": "cpp-pro",
       "description": "Use when building C++ applications requiring modern C++20/23 features, template metaprogramming, or high-performance systems. Invoke for concepts, ranges, coroutines, SIMD optimization, memory management.",
@@ -4897,6 +4924,30 @@
         "wsl",
         "linux",
         "rag"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "e2b-dev-awesome-ai-agents--327e6b212b",
+      "name": "e2b-dev/awesome-ai-agents",
+      "description": "Agent frameworks and systems (survey and discovery feed).",
+      "root_label": "external",
+      "source_path": "https://github.com/e2b-dev/awesome-ai-agents",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 23
+      },
+      "tags": [
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -7059,7 +7110,7 @@
         "word_count": 17
       },
       "tags": [
-        "python"
+        "llm"
       ],
       "use_when": [],
       "workflow": []
@@ -8846,6 +8897,48 @@
         "Identify 2-4 main concepts from research question",
         "List synonyms, abbreviations, and related terms for each concept",
         "Plan Boolean operators (AND, OR, NOT) to combine terms"
+      ]
+    },
+    {
+      "id": "llm-evaluation-harness--6086851fcb",
+      "name": "llm-evaluation-harness",
+      "description": "Build a lightweight, repeatable evaluation harness for LLM/agent behavior: test cases, golden outputs, scoring rubrics, and regression gates.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/llm-evaluation-harness/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/llm-evaluation-harness",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 231
+      },
+      "tags": [
+        "github",
+        "git",
+        "ssh",
+        "python",
+        "go",
+        "ci",
+        "wsl",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "You’re changing prompts/tools/agents and want to prevent regressions.",
+        "You need a “good enough” eval loop before investing in heavy infra.",
+        "You want measurable progress (not vibes)."
+      ],
+      "workflow": [
+        "Define a small test set (10-50 tasks) that represent real usage.",
+        "Add a rubric per task (what “good” means).",
+        "Run the suite on every change (CI or local).",
+        "Save artifacts (inputs, outputs, scores, model/version metadata).",
+        "When something regresses: isolate, fix, and add a new test."
       ]
     },
     {
@@ -13307,6 +13400,46 @@
       "workflow": []
     },
     {
+      "id": "rag-pipeline-basics--5e17ad92f1",
+      "name": "rag-pipeline-basics",
+      "description": "Build a practical RAG pipeline: document ingestion, chunking, embeddings, retrieval, reranking, and evaluation.\nFocuses on “what works” patterns and failure modes.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/rag-pipeline-basics/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/rag-pipeline-basics",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 221
+      },
+      "tags": [
+        "rust",
+        "ci",
+        "docs",
+        "rag",
+        "eval"
+      ],
+      "use_when": [
+        "You need grounded answers over a private corpus (docs/repos/notes).",
+        "You need citations or traceability to source documents.",
+        "The model’s raw knowledge is insufficient or out of date."
+      ],
+      "workflow": [
+        "Ingest documents (normalize text + metadata).",
+        "Chunk the docs (size + overlap tuned per doc type).",
+        "Embed chunks and store in a vector index.",
+        "Retrieve top-k candidates for a query.",
+        "Rerank candidates (optional but often worth it).",
+        "Answer with citations (include source ids/paths/URLs).",
+        "Evaluate with a small suite of real questions."
+      ]
+    },
+    {
       "id": "rag-skills--1b9adbb248",
       "name": "rag-skills",
       "description": "RAG-specific best practices for LlamaIndex, ChromaDB, and Celery workers. Covers ingestion, retrieval, embeddings, and performance.",
@@ -16774,6 +16907,47 @@
       "workflow": [
         "### Daily Review",
         "```bash"
+      ]
+    },
+    {
+      "id": "tool-selection-rubric--413d53e8b9",
+      "name": "tool-selection-rubric",
+      "description": "A practical rubric for deciding whether a library/repo/tool is worth adopting: maintenance, docs, security, compatibility, and escape hatches.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/tool-selection-rubric/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/tool-selection-rubric",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 216
+      },
+      "tags": [
+        "github",
+        "git",
+        "python",
+        "node",
+        "go",
+        "security",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "You found a promising GitHub repo/library and need to decide quickly.",
+        "You’re choosing between multiple options (same category).",
+        "You want to avoid supply-chain traps and abandoned projects."
+      ],
+      "workflow": [
+        "Fit: does it solve your exact use case with minimal glue?",
+        "Health: is it maintained and used by real people?",
+        "Safety: what permissions does it need, and can you sandbox it?",
+        "Integration: does it fit your stack (Python/Node/CI/OS)?",
+        "Exit: can you swap it out later without rewriting everything?"
       ]
     },
     {
