@@ -8,6 +8,7 @@ from pathlib import Path
 from .condense import build_skill_record
 from .db import build_db, list_top_worth, search_db
 from .discover import discover_skill_mds
+from .external import build_external_records
 from .util import ensure_dir, slugify
 
 
@@ -70,6 +71,18 @@ def cmd_build(args: argparse.Namespace) -> int:
         records.append(rec)
         card_by_id[rec.id] = card
         (cards_dir / f"{rec.id}.md").write_text(card, encoding="utf-8")
+
+    # Optional: index a curated external candidate list (no network).
+    candidates_md = (Path.cwd() / "sources" / "external_candidates.md").resolve()
+    if candidates_md.exists():
+        try:
+            ext_records, ext_cards = build_external_records(candidates_md)
+            for rec in ext_records:
+                records.append(rec)
+                card_by_id[rec.id] = ext_cards.get(rec.id, "")
+                (cards_dir / f"{rec.id}.md").write_text(card_by_id[rec.id], encoding="utf-8")
+        except Exception as e:  # noqa: BLE001 - best-effort indexing
+            print(f"[WARN] Failed to index external candidates {candidates_md}: {e}", file=sys.stderr)
 
     # Stable sort for deterministic JSON.
     records.sort(key=lambda r: (r.name.lower(), r.id))

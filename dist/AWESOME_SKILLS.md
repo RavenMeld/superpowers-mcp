@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `491`
+- total_skills: `522`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -35,10 +35,12 @@
 - [bandit-security-scan (`70/100`)](cards/bandit-security-scan--45b56af64a.md)
 - [content-research-writer (`70/100`)](cards/content-research-writer--b0e2626a35.md)
 - [cto-advisor (`70/100`)](cards/cto-advisor--1727d247f6.md)
+- [github-ssh-multi-account-wsl (`70/100`)](cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [markdown-to-html (`70/100`)](cards/markdown-to-html--d6a05a10fb.md)
 - [mem-search (`70/100`)](cards/mem-search--07ddef34ce.md)
 - [ml-paper-writing (`70/100`)](cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](cards/n8n-workflow-patterns--e60ff0c2ed.md)
+- [playwright-browser-automation (`70/100`)](cards/playwright-browser-automation--629938c0e3.md)
 - [scoutqa-test (`70/100`)](cards/scoutqa-test--b87aadf427.md)
 - [security-ownership-map (`70/100`)](cards/security-ownership-map--e8f1fa167d.md)
 - [senior-fullstack (`70/100`)](cards/senior-fullstack--8b8cef9473.md)
@@ -51,8 +53,6 @@
 - [api-design-principles (`68/100`)](cards/api-design-principles--405cf8e59a.md)
 - [develop-web-game (`68/100`)](cards/develop-web-game--667d6cd915.md)
 - [browser (`65/100`)](cards/browser--ed92b6f327.md)
-- [chrome-devtools (`65/100`)](cards/chrome-devtools--b58cb2bb88.md)
-- [cicd-pipeline-setup (`65/100`)](cards/cicd-pipeline-setup--bffa523188.md)
 
 ## By Tag
 ### aws
@@ -97,6 +97,14 @@
 - [azure-devops-cli (`50/100`)](cards/azure-devops-cli--33d32dd66b.md)
 - [mlops-engineer (`50/100`)](cards/mlops-engineer--b342272417.md)
 - [polars (`50/100`)](cards/polars--8ab7332b4b.md)
+
+### benchmark
+- [reddit:r/LocalLLaMA:1mwa46v (`10/100`)](cards/reddit-r-localllama-1mwa46v--acb2a4eec3.md)
+
+### browser
+- [browserbase/mcp-server-browserbase (`10/100`)](cards/browserbase-mcp-server-browserbase--5ff6329c66.md)
+- [microsoft/playwright-mcp (`10/100`)](cards/microsoft-playwright-mcp--846767e3d8.md)
+- [onigetoc/mcp-easy-installer (`10/100`)](cards/onigetoc-mcp-easy-installer--6cedcab76a.md)
 
 ### ci
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -156,6 +164,9 @@
 - [batch-orchestration (`20/100`)](cards/batch-orchestration--3ce41feb06.md)
 - [output-qc (`20/100`)](cards/output-qc--602883a0ad.md)
 
+### course
+- [reddit:r/LocalLLaMA:1knbdd3 (`10/100`)](cards/reddit-r-localllama-1knbdd3--21809d5f5a.md)
+
 ### docker
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
 - [semgrep (`80/100`)](cards/semgrep--681c2de3e4.md)
@@ -203,6 +214,7 @@
 - [skill-writer (`70/100`)](cards/skill-writer--63d6154dfc.md)
 - [api-design-principles (`68/100`)](cards/api-design-principles--405cf8e59a.md)
 - [cicd-pipeline-setup (`65/100`)](cards/cicd-pipeline-setup--bffa523188.md)
+- [cursor-mcp-setup (`65/100`)](cards/cursor-mcp-setup--e8482ae8f2.md)
 - [cursor-subagent-creator (`65/100`)](cards/cursor-subagent-creator--aabd812653.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
 - [modern-python (`65/100`)](cards/modern-python--a27249b96c.md)
@@ -218,7 +230,6 @@
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [feishu-doc (`60/100`)](cards/feishu-doc--f7157e71fa.md)
 - [hugging-face-paper-publisher (`60/100`)](cards/hugging-face-paper-publisher--94fcb45911.md)
-- [MCP Integration (`60/100`)](cards/mcp-integration--03e383b199.md)
 
 ### figma
 - [screenshot (`65/100`)](cards/screenshot--35d6a921f7.md)
@@ -252,6 +263,7 @@
 - [release-note-generation (`75/100`)](cards/release-note-generation--f183038301.md)
 - [render-deploy (`73/100`)](cards/render-deploy--ca3d146899.md)
 - [cto-advisor (`70/100`)](cards/cto-advisor--1727d247f6.md)
+- [github-ssh-multi-account-wsl (`70/100`)](cards/github-ssh-multi-account-wsl--3d479c57e2.md)
 - [markdown-to-html (`70/100`)](cards/markdown-to-html--d6a05a10fb.md)
 - [ml-paper-writing (`70/100`)](cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](cards/n8n-workflow-patterns--e60ff0c2ed.md)
@@ -264,6 +276,7 @@
 - [terraform-skill (`65/100`)](cards/terraform-skill--756c0a4bbf.md)
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--7cb9c75e56.md)
 - [weights-and-biases (`65/100`)](cards/weights-and-biases--ff63951ece.md)
+- [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
 - [dspy-ruby (`63/100`)](cards/dspy-ruby--41c758879d.md)
 - [netlify-deploy (`63/100`)](cards/netlify-deploy--9034b01776.md)
 - [create-agent-skills (`60/100`)](cards/create-agent-skills--b637da3b33.md)
@@ -271,8 +284,6 @@
 - [github-issue-triage (`60/100`)](cards/github-issue-triage--60dfb77f3d.md)
 - [github-pr-triage (`60/100`)](cards/github-pr-triage--927ba10b79.md)
 - [hytale-modding (`60/100`)](cards/hytale-modding--7ecc505e60.md)
-- [MCP Integration (`60/100`)](cards/mcp-integration--03e383b199.md)
-- [prompt-library (`60/100`)](cards/prompt-library--dde0f0be9c.md)
 
 ### kubernetes
 - [semgrep (`80/100`)](cards/semgrep--681c2de3e4.md)
@@ -307,6 +318,8 @@
 - [develop-web-game (`68/100`)](cards/develop-web-game--667d6cd915.md)
 - [browser (`65/100`)](cards/browser--ed92b6f327.md)
 - [chrome-devtools (`65/100`)](cards/chrome-devtools--b58cb2bb88.md)
+- [cursor-mcp-setup (`65/100`)](cards/cursor-mcp-setup--e8482ae8f2.md)
+- [obsidian-vault-ops (`65/100`)](cards/obsidian-vault-ops--47bccc269b.md)
 - [screenshot (`65/100`)](cards/screenshot--35d6a921f7.md)
 - [terraform-skill (`65/100`)](cards/terraform-skill--756c0a4bbf.md)
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
@@ -322,8 +335,6 @@
 - [firefox-debug (`55/100`)](cards/firefox-debug--158ef3059f.md)
 - [github-copilot-agent-tips-and-tricks (`55/100`)](cards/github-copilot-agent-tips-and-tricks--be08c278ea.md)
 - [github-issues (`55/100`)](cards/github-issues--3dcbcfee8e.md)
-- [github-mcp-server (`55/100`)](cards/github-mcp-server--69151c26b6.md)
-- [mcp-builder (`55/100`)](cards/mcp-builder--96f90931e1.md)
 
 ### node
 - [generate-with-comfyui (`80/100`)](cards/generate-with-comfyui--19820f6659.md)
@@ -334,6 +345,7 @@
 - [render-deploy (`73/100`)](cards/render-deploy--ca3d146899.md)
 - [markdown-to-html (`70/100`)](cards/markdown-to-html--d6a05a10fb.md)
 - [n8n-workflow-patterns (`70/100`)](cards/n8n-workflow-patterns--e60ff0c2ed.md)
+- [playwright-browser-automation (`70/100`)](cards/playwright-browser-automation--629938c0e3.md)
 - [security-ownership-map (`70/100`)](cards/security-ownership-map--e8f1fa167d.md)
 - [senior-fullstack (`70/100`)](cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](cards/senior-security--1872eba3bd.md)
@@ -341,6 +353,7 @@
 - [develop-web-game (`68/100`)](cards/develop-web-game--667d6cd915.md)
 - [cicd-pipeline-setup (`65/100`)](cards/cicd-pipeline-setup--bffa523188.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
+- [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
 - [dspy-ruby (`63/100`)](cards/dspy-ruby--41c758879d.md)
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
 - [admin-wsl (`60/100`)](cards/admin-wsl--1963feb76a.md)
@@ -354,11 +367,10 @@
 - [blockbench-hytale (`55/100`)](cards/blockbench-hytale--38826bfa86.md)
 - [canvas (`55/100`)](cards/canvas--1febf47cbd.md)
 - [chaos-engineer (`55/100`)](cards/chaos-engineer--9a82c730bb.md)
-- [cli-developer (`55/100`)](cards/cli-developer--80492064e4.md)
-- [code-documenter (`55/100`)](cards/code-documenter--20605c0c4c.md)
 
 ### obsidian
 - [obsidian-skill (`88/100`)](cards/obsidian-skill--9ff25aae8e.md)
+- [obsidian-vault-ops (`65/100`)](cards/obsidian-vault-ops--47bccc269b.md)
 - [obsidian-hello-world (`55/100`)](cards/obsidian-hello-world--e4e1eeb2f1.md)
 - [obsidian-performance-tuning (`55/100`)](cards/obsidian-performance-tuning--c57f6bd919.md)
 - [daily-note (`45/100`)](cards/daily-note--438ed2aa23.md)
@@ -372,10 +384,14 @@
 - [obsidian-people (`35/100`)](cards/obsidian-people--88297c060d.md)
 - [using-obsidian-api (`35/100`)](cards/using-obsidian-api--c871f25c86.md)
 - [obsidian (`25/100`)](cards/obsidian--85da93a62e.md)
+- [madroidmaq/mcp-playwright (`10/100`)](cards/madroidmaq-mcp-playwright--538b13a6f1.md)
+- [MarkusPfundstein/mcp-obsidian (`10/100`)](cards/markuspfundstein-mcp-obsidian--4c916b7aef.md)
 
 ### playwright
 - [playwright (`73/100`)](cards/playwright--cce2795d85.md)
+- [playwright-browser-automation (`70/100`)](cards/playwright-browser-automation--629938c0e3.md)
 - [develop-web-game (`68/100`)](cards/develop-web-game--667d6cd915.md)
+- [obsidian-vault-ops (`65/100`)](cards/obsidian-vault-ops--47bccc269b.md)
 - [screenshot (`65/100`)](cards/screenshot--35d6a921f7.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--dafb020d92.md)
@@ -393,6 +409,10 @@
 - [web-artifacts-builder (`45/100`)](cards/web-artifacts-builder--b2b3567401.md)
 - [x-recruiter (`43/100`)](cards/x-recruiter--3f14787e63.md)
 - [Dictation Instructions (`35/100`)](cards/dictation-instructions--b0c290912f.md)
+- [browserbase/mcp-server-browserbase (`10/100`)](cards/browserbase-mcp-server-browserbase--5ff6329c66.md)
+- [madroidmaq/mcp-playwright (`10/100`)](cards/madroidmaq-mcp-playwright--538b13a6f1.md)
+- [microsoft/playwright-mcp (`10/100`)](cards/microsoft-playwright-mcp--846767e3d8.md)
+- [onigetoc/mcp-easy-installer (`10/100`)](cards/onigetoc-mcp-easy-installer--6cedcab76a.md)
 - [playwright-dev (`10/100`)](cards/playwright-dev--0e53de247a.md)
 
 ### python
@@ -426,6 +446,19 @@
 - [ui-ux-pro-max (`70/100`)](cards/ui-ux-pro-max--20633323ec.md)
 - [api-design-principles (`68/100`)](cards/api-design-principles--405cf8e59a.md)
 - [Data Cleaning Pipeline (`65/100`)](cards/data-cleaning-pipeline--9074261167.md)
+
+### reddit
+- [MarkusPfundstein/mcp-obsidian (`10/100`)](cards/markuspfundstein-mcp-obsidian--4c916b7aef.md)
+- [modelcontextprotocol/inspector (`10/100`)](cards/modelcontextprotocol-inspector--03983e0a9f.md)
+- [reddit:r/ClaudeAI:1j4e9ff (`10/100`)](cards/reddit-r-claudeai-1j4e9ff--0d626796bb.md)
+- [reddit:r/ClaudeAI:1k5ibqr (`10/100`)](cards/reddit-r-claudeai-1k5ibqr--c73afa29b6.md)
+- [reddit:r/LocalLLaMA:1knbdd3 (`10/100`)](cards/reddit-r-localllama-1knbdd3--21809d5f5a.md)
+- [reddit:r/LocalLLaMA:1lkc5mr (`10/100`)](cards/reddit-r-localllama-1lkc5mr--e383af1f35.md)
+- [reddit:r/LocalLLaMA:1mwa46v (`10/100`)](cards/reddit-r-localllama-1mwa46v--acb2a4eec3.md)
+
+### registry
+- [docs.github.com:about-mcp (`10/100`)](cards/docs-github-com-about-mcp--50338a1d11.md)
+- [https://mcpservers.org/ (`10/100`)](cards/https-mcpservers-org--1389216dd6.md)
 
 ### security
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -466,6 +499,7 @@
 - [sqlite-inspector (`80/100`)](cards/sqlite-inspector--1ea7e91f18.md)
 - [paper-2-web (`75/100`)](cards/paper-2-web--c0bcf01c7e.md)
 - [n8n-workflow-patterns (`70/100`)](cards/n8n-workflow-patterns--e60ff0c2ed.md)
+- [playwright-browser-automation (`70/100`)](cards/playwright-browser-automation--629938c0e3.md)
 - [scoutqa-test (`70/100`)](cards/scoutqa-test--b87aadf427.md)
 - [senior-security (`70/100`)](cards/senior-security--1872eba3bd.md)
 - [skill-writer (`70/100`)](cards/skill-writer--63d6154dfc.md)
@@ -475,6 +509,7 @@
 - [cursor-subagent-creator (`65/100`)](cards/cursor-subagent-creator--aabd812653.md)
 - [langchain-architecture (`65/100`)](cards/langchain-architecture--4a9d7cd468.md)
 - [modern-python (`65/100`)](cards/modern-python--a27249b96c.md)
+- [obsidian-vault-ops (`65/100`)](cards/obsidian-vault-ops--47bccc269b.md)
 - [refactor (`65/100`)](cards/refactor--4f640e2f77.md)
 - [skill-creator (`65/100`)](cards/skill-creator--87da9c7632.md)
 - [terraform-skill (`65/100`)](cards/terraform-skill--756c0a4bbf.md)
@@ -488,8 +523,6 @@
 - [prd (`60/100`)](cards/prd--4e2f52f8e6.md)
 - [prompt-library (`60/100`)](cards/prompt-library--dde0f0be9c.md)
 - [python-project-skel (`60/100`)](cards/python-project-skel--064d549a33.md)
-- [senior-data-engineer (`60/100`)](cards/senior-data-engineer--8877198b88.md)
-- [systematic-debugging (`60/100`)](cards/systematic-debugging--9949033dad.md)
 
 ### typescript
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)

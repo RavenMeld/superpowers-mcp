@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 491,
+  "count": 522,
   "roots": [
     {
       "label": "agent_playground",
@@ -417,6 +417,32 @@
         "**Specify contract** - Create OpenAPI 3.1 spec with complete documentation",
         "**Plan evolution** - Design versioning, deprecation, backward compatibility"
       ]
+    },
+    {
+      "id": "appcypher-awesome-mcp-servers--35fafe9afe",
+      "name": "appcypher/awesome-mcp-servers",
+      "description": "Large curated list; includes a security warning section.",
+      "root_label": "external",
+      "source_path": "https://github.com/appcypher/awesome-mcp-servers",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 21
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "security"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "apple-notes--d01a6f79de",
@@ -1232,6 +1258,32 @@
       },
       "tags": [
         "github"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "browserbase-mcp-server-browserbase--5ff6329c66",
+      "name": "browserbase/mcp-server-browserbase",
+      "description": "Browserbase MCP server (hosted browser sessions).",
+      "root_label": "external",
+      "source_path": "https://github.com/browserbase/mcp-server-browserbase",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 18
+      },
+      "tags": [
+        "mcp",
+        "playwright",
+        "browser"
       ],
       "use_when": [],
       "workflow": []
@@ -3083,6 +3135,42 @@
       "workflow": []
     },
     {
+      "id": "cursor-mcp-setup--e8482ae8f2",
+      "name": "cursor-mcp-setup",
+      "description": "Configure MCP servers in Cursor using mcp.json (global or per-project), plus validation and common failure modes.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/cursor-mcp-setup/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/cursor-mcp-setup",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 292
+      },
+      "tags": [
+        "mcp",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "You want Cursor to call tools via MCP (stdio, SSE, or streamable HTTP).",
+        "You need to add a custom server not available in “one-click installs”.",
+        "Your MCP servers aren’t showing up and you need a deterministic debug flow."
+      ],
+      "workflow": [
+        "Decide scope: project (`.cursor/mcp.json`) vs global (`~/.cursor/mcp.json`).",
+        "Add/merge a server entry under `\"mcpServers\"`.",
+        "Restart Cursor (or reload window) so it re-reads config.",
+        "Verify the server is reachable / starts successfully.",
+        "Troubleshoot JSON validity, paths, and auth env vars."
+      ]
+    },
+    {
       "id": "cursor-subagent-creator--aabd812653",
       "name": "cursor-subagent-creator",
       "description": "Creates Cursor-specific AI subagents with isolated context for complex multi-step workflows. Use when creating subagents for Cursor editor specifically, following Cursor's patterns and directories (.cursor/agents/). Triggers on \"cursor subagent\", \"cursor agent\".",
@@ -3589,6 +3677,31 @@
         "Check licenses and known vulnerabilities.",
         "Recommend replacements or mitigation plans."
       ]
+    },
+    {
+      "id": "dev-assistant-ai-mcp-servers--4dde0fcbaf",
+      "name": "dev-assistant-ai/mcp-servers",
+      "description": "Repo that aggregates reference + community servers.",
+      "root_label": "external",
+      "source_path": "https://github.com/dev-assistant-ai/mcp-servers",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 19
+      },
+      "tags": [
+        "mcp",
+        "github"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "dev-browser--0d8d1f9239",
@@ -4169,6 +4282,32 @@
         "Verify examples actually work (don't give examples that error)",
         "*Polish:**"
       ]
+    },
+    {
+      "id": "docs-github-com-about-mcp--50338a1d11",
+      "name": "docs.github.com:about-mcp",
+      "description": "GitHub’s docs on MCP, including mention of a GitHub MCP Registry.",
+      "root_label": "external",
+      "source_path": "https://docs.github.com/en/copilot/concepts/about-mcp",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 27
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "registry"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "docstring--079d723a3e",
@@ -6021,6 +6160,40 @@
       "workflow": []
     },
     {
+      "id": "github-ssh-multi-account-wsl--3d479c57e2",
+      "name": "github-ssh-multi-account-wsl",
+      "description": "Create and use multiple GitHub SSH identities from WSL without breaking your existing GitHub SSH setup.\nUses per-host aliases so each repo can target the right key deterministically.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/github-ssh-multi-account-wsl/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/github-ssh-multi-account-wsl",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 8,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 310
+      },
+      "tags": [
+        "github"
+      ],
+      "use_when": [
+        "You need a **second GitHub account** (or org) on the same WSL machine.",
+        "You want to keep existing `git@github.com:...` remotes working unchanged.",
+        "You want predictable key usage (no agent guessing)."
+      ],
+      "workflow": [
+        "Generate a new keypair (one key per account).",
+        "Add a dedicated `Host` alias in `~/.ssh/config` that points at that key.",
+        "Add the **public** key to the target GitHub account.",
+        "Use the alias in your git remotes (clone or `remote set-url`).",
+        "Verify with `ssh -T`."
+      ]
+    },
+    {
       "id": "github-workflow--80fb86a0a6",
       "name": "github-workflow",
       "description": "GitHub 工作流程，包含帳號資訊、gh CLI 安裝狀態、建立 repo、push、多地同步",
@@ -6309,6 +6482,82 @@
         "search_datadog_metrics",
         "get_datadog_metric"
       ]
+    },
+    {
+      "id": "https-awesomemcp-io--a284093777",
+      "name": "https://awesomemcp.io/",
+      "description": "MCP server directory (also hosts per-server pages like “Github”).",
+      "root_label": "external",
+      "source_path": "https://awesomemcp.io/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 23
+      },
+      "tags": [
+        "mcp",
+        "github"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "https-mcpservers-org--1389216dd6",
+      "name": "https://mcpservers.org/",
+      "description": "Submission-based registry (referenced by some “awesome” lists).",
+      "root_label": "external",
+      "source_path": "https://mcpservers.org/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 19
+      },
+      "tags": [
+        "mcp",
+        "registry"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "https-www-context-awesome-com--a794f2e20b",
+      "name": "https://www.context-awesome.com/",
+      "description": "MCP server providing access to thousands of GitHub “awesome lists”.",
+      "root_label": "external",
+      "source_path": "https://www.context-awesome.com/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 25
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "security"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "hugging-face-cli--872759e503",
@@ -7748,6 +7997,39 @@
       ]
     },
     {
+      "id": "lmstudio-mcp-setup--6f9f732344",
+      "name": "lmstudio-mcp-setup",
+      "description": "Configure MCP servers in LM Studio (MCP host support), including where to edit mcp.json and common gotchas.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/lmstudio-mcp-setup/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/lmstudio-mcp-setup",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 1,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 152
+      },
+      "tags": [
+        "mcp"
+      ],
+      "use_when": [
+        "You want LM Studio to act as an MCP Host (local or remote MCP servers).",
+        "You need to manually edit `mcp.json`.",
+        "Tools aren’t appearing and you need a deterministic check list."
+      ],
+      "workflow": [
+        "In LM Studio, open the MCP config editor (Program tab -> Install -> Edit `mcp.json`).",
+        "Add/merge servers under `\"mcpServers\"`.",
+        "Save and restart LM Studio (or re-open the app).",
+        "Ask the model to list available tools to confirm."
+      ]
+    },
+    {
       "id": "lobster--5d14f846ed",
       "name": "lobster",
       "description": "Guidance for building multi-step workflows with explicit approval checkpoints for safe automation.",
@@ -7876,6 +8158,32 @@
       ]
     },
     {
+      "id": "madroidmaq-mcp-playwright--538b13a6f1",
+      "name": "madroidmaq/mcp-playwright",
+      "description": "Community Playwright MCP implementation (compare patterns to official).",
+      "root_label": "external",
+      "source_path": "https://github.com/madroidmaq/mcp-playwright",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 20
+      },
+      "tags": [
+        "mcp",
+        "playwright",
+        "obsidian"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "make-plan--8d226d5c1e",
       "name": "make-plan",
       "description": "Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do-plan.",
@@ -7983,6 +8291,32 @@
       "workflow": [
         "See [marked.md](references/marked.md) **Step-by-Step Workflows**"
       ]
+    },
+    {
+      "id": "markuspfundstein-mcp-obsidian--4c916b7aef",
+      "name": "MarkusPfundstein/mcp-obsidian",
+      "description": "Obsidian MCP server (vault read/write operations).",
+      "root_label": "external",
+      "source_path": "https://github.com/MarkusPfundstein/mcp-obsidian",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 17
+      },
+      "tags": [
+        "mcp",
+        "obsidian",
+        "reddit"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "mcp-integration--03e383b199",
@@ -8198,6 +8532,43 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "mcp-security-hygiene--4912448216",
+      "name": "mcp-security-hygiene",
+      "description": "Treat MCP servers as executable code: least privilege, safe defaults, review checklist, and common failure modes.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/mcp-security-hygiene/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/mcp-security-hygiene",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 234
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "security",
+        "ci"
+      ],
+      "use_when": [
+        "You’re adding a new MCP server (especially from GitHub/marketplaces).",
+        "You’re exposing filesystem, shell, browser automation, or network tools.",
+        "You need a quick “is this safe enough?” review before enabling."
+      ],
+      "workflow": [
+        "Identify what the server can access (filesystem roots, env vars, network).",
+        "Reduce privileges (allowlists, localhost binds, minimal env).",
+        "Pin versions after it works.",
+        "Log carefully (redact tokens), and keep outputs bounded.",
+        "Prefer “manual start + inspect” before letting a client auto-launch it."
+      ]
     },
     {
       "id": "mcp-standards--12590bdf17",
@@ -8438,6 +8809,32 @@
       ]
     },
     {
+      "id": "microsoft-playwright-mcp--846767e3d8",
+      "name": "microsoft/playwright-mcp",
+      "description": "Official Playwright MCP server (Playwright team).",
+      "root_label": "external",
+      "source_path": "https://github.com/microsoft/playwright-mcp",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 18
+      },
+      "tags": [
+        "mcp",
+        "playwright",
+        "browser"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "mintlify--499814ca9d",
       "name": "mintlify",
       "description": "Build and maintain documentation sites with Mintlify. Use when",
@@ -8664,6 +9061,56 @@
       "tags": [
         "python",
         "ci"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "modelcontextprotocol-io-inspector--427f5bedca",
+      "name": "modelcontextprotocol.io:inspector",
+      "description": "MCP Inspector documentation (debug servers and tool schemas).",
+      "root_label": "external",
+      "source_path": "https://modelcontextprotocol.io/docs/tools/inspector",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 21
+      },
+      "tags": [
+        "mcp"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "modelcontextprotocol-inspector--03983e0a9f",
+      "name": "modelcontextprotocol/inspector",
+      "description": "MCP Inspector (implementation).",
+      "root_label": "external",
+      "source_path": "https://github.com/modelcontextprotocol/inspector",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 14
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "reddit"
       ],
       "use_when": [],
       "workflow": []
@@ -9640,6 +10087,70 @@
       "workflow": []
     },
     {
+      "id": "obsidian-vault-ops--47bccc269b",
+      "name": "obsidian-vault-ops",
+      "description": "Automate and maintain an Obsidian vault safely: search, read, patch, frontmatter updates, tags, and batch hygiene.\nDesigned for tool-driven workflows (MCP) and reproducible edits.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/obsidian-vault-ops/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/obsidian-vault-ops",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 225
+      },
+      "tags": [
+        "mcp",
+        "playwright",
+        "testing",
+        "ci",
+        "obsidian"
+      ],
+      "use_when": [
+        "You want deterministic vault edits (no manual clicking).",
+        "You need to find and patch notes at scale (tags/frontmatter/links).",
+        "You’re building an “engineering knowledge base” and want structure to stick."
+      ],
+      "workflow": [
+        "Find target notes (search by content or properties/frontmatter).",
+        "Read the note(s) before editing.",
+        "Prefer small, anchored edits (patch) over whole-file rewrites.",
+        "Update frontmatter separately when possible.",
+        "Re-read after edits to verify the expected change landed."
+      ]
+    },
+    {
+      "id": "onigetoc-mcp-easy-installer--6cedcab76a",
+      "name": "onigetoc/mcp-easy-installer",
+      "description": "Installs/uninstalls MCP servers and updates configs for multiple clients.",
+      "root_label": "external",
+      "source_path": "https://github.com/onigetoc/mcp-easy-installer",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 24
+      },
+      "tags": [
+        "mcp",
+        "playwright",
+        "browser"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "openai-docs--a9ac90c674",
       "name": "openai-docs",
       "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations (for example: Codex, Responses API, Chat Completions, Apps SDK, Agents SDK, Realtime, model capabilities or limits); prioritize OpenAI docs MCP tools and restrict any fallback browsing to official OpenAI domains.",
@@ -10259,6 +10770,43 @@
         "Interact using refs from the latest snapshot.",
         "Re-snapshot after navigation or significant DOM changes.",
         "Capture artifacts (screenshot, pdf, traces) when useful."
+      ]
+    },
+    {
+      "id": "playwright-browser-automation--629938c0e3",
+      "name": "playwright-browser-automation",
+      "description": "Practical Playwright workflows for web automation and smoke testing: running tests, headed debugging, traces, screenshots, and CI-safe defaults.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-browser-automation/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-browser-automation",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 225
+      },
+      "tags": [
+        "playwright",
+        "node",
+        "testing",
+        "ci"
+      ],
+      "use_when": [
+        "You need a reliable smoke test for a web app (Chromium/Firefox/WebKit).",
+        "You need screenshots, console logs, or traces for debugging.",
+        "You want deterministic, CI-friendly browser automation."
+      ],
+      "workflow": [
+        "Install Playwright + browsers.",
+        "Start the app (or target a URL).",
+        "Run a minimal smoke test (fast, deterministic assertions).",
+        "If failing, re-run headed with traces and screenshots enabled.",
+        "Capture evidence (trace + console + screenshot) and fix the root cause."
       ]
     },
     {
@@ -11694,6 +12242,133 @@
       },
       "tags": [
         "ci"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "reddit-r-claudeai-1j4e9ff--0d626796bb",
+      "name": "reddit:r/ClaudeAI:1j4e9ff",
+      "description": "Claude Desktop not seeing MCPs; hints about enabling “Developer Mode”.",
+      "root_label": "external",
+      "source_path": "https://www.reddit.com/r/ClaudeAI/comments/1j4e9ff/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 25
+      },
+      "tags": [
+        "mcp",
+        "reddit"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "reddit-r-claudeai-1k5ibqr--c73afa29b6",
+      "name": "reddit:r/ClaudeAI:1k5ibqr",
+      "description": "“mcp-easy-installer” announcement + client config management.",
+      "root_label": "external",
+      "source_path": "https://www.reddit.com/r/ClaudeAI/comments/1k5ibqr/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 17
+      },
+      "tags": [
+        "mcp",
+        "reddit"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "reddit-r-localllama-1knbdd3--21809d5f5a",
+      "name": "reddit:r/LocalLLaMA:1knbdd3",
+      "description": "Hugging Face MCP course (training / best practices).",
+      "root_label": "external",
+      "source_path": "https://www.reddit.com/r/LocalLLaMA/comments/1knbdd3/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 21
+      },
+      "tags": [
+        "mcp",
+        "reddit",
+        "course"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "reddit-r-localllama-1lkc5mr--e383af1f35",
+      "name": "reddit:r/LocalLLaMA:1lkc5mr",
+      "description": "LM Studio adding MCP host support (client ecosystem expanding).",
+      "root_label": "external",
+      "source_path": "https://www.reddit.com/r/LocalLLaMA/comments/1lkc5mr/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 23
+      },
+      "tags": [
+        "mcp",
+        "reddit"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "reddit-r-localllama-1mwa46v--acb2a4eec3",
+      "name": "reddit:r/LocalLLaMA:1mwa46v",
+      "description": "MCP-Universe benchmark (evaluation + real MCP-server tasks).",
+      "root_label": "external",
+      "source_path": "https://www.reddit.com/r/LocalLLaMA/comments/1mwa46v/",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 22
+      },
+      "tags": [
+        "mcp",
+        "reddit",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": []
@@ -13321,6 +13996,30 @@
       "workflow": []
     },
     {
+      "id": "smithery-ai-reference-servers--2119fe2117",
+      "name": "smithery-ai/reference-servers",
+      "description": "Smithery-hosted reference server implementations (good for patterns).",
+      "root_label": "external",
+      "source_path": "https://github.com/smithery-ai/reference-servers",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 19
+      },
+      "tags": [
+        "mcp"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "snowflake-semanticview--10714c648c",
       "name": "snowflake-semanticview",
       "description": "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to validate semantic-view DDL against Snowflake via CLI, or to guide Snowflake CLI installation and connection setup.",
@@ -13958,6 +14657,31 @@
         "**Optimize** - Profile with Instruments, ensure thread safety",
         "**Test** - Write comprehensive tests with XCTest and async patterns"
       ]
+    },
+    {
+      "id": "sylviangth-awesome-remote-mcp-servers--0b301520ac",
+      "name": "sylviangth/awesome-remote-mcp-servers",
+      "description": "Focused on hosted/managed MCP endpoints (remote MCP).",
+      "root_label": "external",
+      "source_path": "https://github.com/sylviangth/awesome-remote-mcp-servers",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 19
+      },
+      "tags": [
+        "mcp",
+        "github"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "systematic-debugging--9949033dad",
@@ -15177,6 +15901,44 @@
       ]
     },
     {
+      "id": "warp-terminal-workflows--7c44da3884",
+      "name": "warp-terminal-workflows",
+      "description": "Use Warp Terminal effectively for dev workflows: projects, saved commands/workflows, SSH sessions, and safe team sharing.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/warp-terminal-workflows/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/warp-terminal-workflows",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 173
+      },
+      "tags": [
+        "github"
+      ],
+      "use_when": [
+        "You use Warp as your daily terminal and want faster repeatable command runs.",
+        "You want a clean workflow for SSH sessions, project entrypoints, and env setup.",
+        "You want to share runbooks with teammates without leaking secrets."
+      ],
+      "workflow": [
+        "You use Warp as your daily terminal and want faster repeatable command runs.",
+        "You want a clean workflow for SSH sessions, project entrypoints, and env setup.",
+        "You want to share runbooks with teammates without leaking secrets.",
+        "Define your “project entry” commands (cd + env + dev server).",
+        "Save common commands/workflows so they stay discoverable.",
+        "Create SSH session shortcuts (hostnames + identities).",
+        "Keep secrets out of shared workflows; inject via env or a secret manager.",
+        "Never bake tokens/keys into saved workflows if they sync to the cloud.",
+        "Prefer least-privilege SSH identities and host aliases per account."
+      ]
+    },
+    {
       "id": "weather--6c5e1f04b0",
       "name": "weather",
       "description": "Get current weather and forecasts (no API key required).",
@@ -15460,6 +16222,99 @@
       "workflow": []
     },
     {
+      "id": "windows-wsl-interop--ae0a483b12",
+      "name": "windows-wsl-interop",
+      "description": "Practical WSL <-> Windows interop cheatsheet: paths, clipboard, opening files, and moving data safely.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/windows-wsl-interop/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/windows-wsl-interop",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 179
+      },
+      "tags": [
+        "github",
+        "node",
+        "ci"
+      ],
+      "use_when": [
+        "You bounce between Windows apps and WSL tooling.",
+        "You need reliable path conversion and clipboard transfer.",
+        "You want quick “open this folder/file in Windows” from WSL."
+      ],
+      "workflow": [
+        "Convert paths with `wslpath`.",
+        "Use `explorer.exe` to open folders/files.",
+        "Use `clip.exe` to copy text to Windows clipboard.",
+        "Prefer working inside the WSL filesystem for performance (especially git/node)."
+      ]
+    },
+    {
+      "id": "windsurf-mcp-setup--fb4da1e68f",
+      "name": "windsurf-mcp-setup",
+      "description": "Configure MCP servers in Windsurf (Codeium Cascade), including config file location and restart/refresh workflow.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/windsurf-mcp-setup/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/windsurf-mcp-setup",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 2,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 152
+      },
+      "tags": [
+        "mcp"
+      ],
+      "use_when": [
+        "You use Windsurf’s Cascade and want to add MCP servers.",
+        "You need to edit raw MCP config (beyond templates/marketplace).",
+        "Your MCP server doesn’t show up and you need a consistent debug loop."
+      ],
+      "workflow": [
+        "Open MCP settings in Windsurf UI, or edit the raw config file.",
+        "Add a server under `\"mcpServers\"`.",
+        "Refresh/restart Windsurf so it reloads.",
+        "Verify server start and tool availability."
+      ]
+    },
+    {
+      "id": "wong2-awesome-mcp-servers--3e77e9812d",
+      "name": "wong2/awesome-mcp-servers",
+      "description": "Curated list; contributor flow via mcpservers.org.",
+      "root_label": "external",
+      "source_path": "https://github.com/wong2/awesome-mcp-servers",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 17
+      },
+      "tags": [
+        "mcp",
+        "github"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "wordpress-pro--07dc2bf09a",
       "name": "wordpress-pro",
       "description": "Use when developing WordPress themes, plugins, customizing Gutenberg blocks, implementing WooCommerce features, or optimizing WordPress performance and security.",
@@ -15625,6 +16480,31 @@
       },
       "tags": [
         "ci"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "www-techradar-com-anthropics-official-git-mcp-server-had-some-worrying-security-flaws-this-is-what-happened-next--b27fcb8687",
+      "name": "www.techradar.com:anthropics-official-git-mcp-server-had-some-worrying-security-flaws-this-is-what-happened-next",
+      "description": "Vulnerabilities in Git MCP servers can chain with filesystem access; treat MCP like running code.",
+      "root_label": "external",
+      "source_path": "https://www.techradar.com/pro/security/anthropics-official-git-mcp-server-had-some-worrying-security-flaws-this-is-what-happened-next",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/sources/external_candidates.md",
+      "worth_score": 10,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 35
+      },
+      "tags": [
+        "mcp",
+        "security"
       ],
       "use_when": [],
       "workflow": []

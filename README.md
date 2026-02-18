@@ -20,6 +20,17 @@ python -m awesome_skills build \
   --root /home/wolvend/.agents/skills
 ```
 
+## Repo-Contained Skill Packs (Shareable)
+
+This repo also ships `skillpacks/` (additional `SKILL.md` folders intended to be checked in and shared).
+
+To build a database from *only* this repo (portable, no absolute `~/.codex/...` paths):
+
+```bash
+cd projects/awesome-skills-database
+python -m awesome_skills build --root .
+```
+
 Search:
 
 ```bash
@@ -61,6 +72,14 @@ Convenience:
 - No network calls.
 - Condensation is extractive and heuristic (reproducible), not LLM-generated.
 - The “worth using” score is a heuristic. Treat it as a ranking hint, not truth.
+
+## External Discovery (GitHub + Reddit)
+
+We keep external leads in a committed, human-reviewed list:
+
+- `sources/external_candidates.md`
+
+This keeps the build/search workflow deterministic (no network required), while still enabling deep discovery.
 
 ## Optional: Add More Skills (Smithery)
 
