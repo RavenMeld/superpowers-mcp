@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `644`
+- total_skills: `664`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -11,6 +11,7 @@
 - [jupyter-notebook (`83/100`)](dist/cards/jupyter-notebook--855dd39b82.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e3d54110ec.md)
@@ -51,8 +52,7 @@
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
 - [playwright-browser-automation (`70/100`)](dist/cards/playwright-browser-automation--629938c0e3.md)
-- [rule-updater (`70/100`)](dist/cards/rule-updater--8ccd937340.md)
-- [scoutqa-test (`70/100`)](dist/cards/scoutqa-test--b87aadf427.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 
 ## By Tag
 ### aws
@@ -114,8 +114,10 @@
 - [evaluating-llms-harness (`75/100`)](dist/cards/evaluating-llms-harness--3951f5327c.md)
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
 - [administering-linux (`60/100`)](dist/cards/administering-linux--035599958b.md)
+- [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--0778eb1116.md)
 - [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--54d98e81df.md)
 - [prd (`60/100`)](dist/cards/prd--4e2f52f8e6.md)
+- [rag-implementation (`60/100`)](dist/cards/rag-implementation--a35c5cdde5.md)
 - [iac-checkov (`58/100`)](dist/cards/iac-checkov--2c035a1039.md)
 - [cli-developer (`55/100`)](dist/cards/cli-developer--80492064e4.md)
 - [cpp-pro (`55/100`)](dist/cards/cpp-pro--0c6f2e50de.md)
@@ -130,17 +132,15 @@
 - [security-reviewer (`55/100`)](dist/cards/security-reviewer--f14a924987.md)
 - [test-master (`55/100`)](dist/cards/test-master--c3a18da2b7.md)
 - [Wan2.1/2.2 I2V ComfyUI (`55/100`)](dist/cards/wan2-1-2-2-i2v-comfyui--a096f09dae.md)
+- [worker-benchmarks (`55/100`)](dist/cards/worker-benchmarks--4711c5bb7d.md)
 - [evaluation (`50/100`)](dist/cards/evaluation--44795fe1db.md)
 - [huggingface-transformers (`50/100`)](dist/cards/huggingface-transformers--5fff8c380d.md)
 - [self-improvement (`50/100`)](dist/cards/self-improvement--dbe627649d.md)
+- [agent-benchmark-suite (`45/100`)](dist/cards/agent-benchmark-suite--9d8851cb09.md)
 - [docker-best-practices (`45/100`)](dist/cards/docker-best-practices--5c4f53367d.md)
 - [when-profiling-performance-use-performance-profiler (`45/100`)](dist/cards/when-profiling-performance-use-performance-profiler--38a9d8fb1e.md)
+- [agent-performance-benchmarker (`40/100`)](dist/cards/agent-performance-benchmarker--d25190c12c.md)
 - [kubernetes-architect (`40/100`)](dist/cards/kubernetes-architect--abbaa5b296.md)
-- [notion-meeting-intelligence (`35/100`)](dist/cards/notion-meeting-intelligence--019aaa3424.md)
-- [agent-evaluation (`25/100`)](dist/cards/agent-evaluation--c81c78cc99.md)
-- [analyzing-financial-statements (`25/100`)](dist/cards/analyzing-financial-statements--80ab4ed22f.md)
-- [ByteDance-Seed/mcp-universe (`10/100`)](dist/cards/bytedance-seed-mcp-universe--ecaa26d264.md)
-- [https://mcp-obsidian.org/ (`10/100`)](dist/cards/https-mcp-obsidian-org--afc31802f0.md)
 
 ### blockbench
 - [blockbench-hytale (`55/100`)](dist/cards/blockbench-hytale--38826bfa86.md)
@@ -218,6 +218,7 @@
 - [jupyter-notebook (`83/100`)](dist/cards/jupyter-notebook--855dd39b82.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e3d54110ec.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
@@ -239,7 +240,6 @@
 - [story-roleplay (`75/100`)](dist/cards/story-roleplay--d82f961258.md)
 - [terraform-azurerm-set-diff-analyzer (`75/100`)](dist/cards/terraform-azurerm-set-diff-analyzer--a8fa61b77c.md)
 - [java-concurrency (`73/100`)](dist/cards/java-concurrency--22ff835618.md)
-- [playwright (`73/100`)](dist/cards/playwright--cce2795d85.md)
 
 ### cloudflare
 - [rclone (`55/100`)](dist/cards/rclone--92e53ace5a.md)
@@ -377,6 +377,8 @@
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
 - [rule-updater (`70/100`)](dist/cards/rule-updater--8ccd937340.md)
 - [skill-writer (`70/100`)](dist/cards/skill-writer--63d6154dfc.md)
+- [trulens-instrumentation (`70/100`)](dist/cards/trulens-instrumentation--ee50898dc7.md)
+- [trulens-notebook-execution (`70/100`)](dist/cards/trulens-notebook-execution--e6e094d1ad.md)
 - [api-design-principles (`68/100`)](dist/cards/api-design-principles--405cf8e59a.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [cursor-mcp-setup (`65/100`)](dist/cards/cursor-mcp-setup--e8482ae8f2.md)
@@ -387,14 +389,13 @@
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
 - [subagent-driven-development (`65/100`)](dist/cards/subagent-driven-development--b2f9d3792b.md)
 - [terraform-skill (`65/100`)](dist/cards/terraform-skill--756c0a4bbf.md)
-- [tool-selection-rubric (`65/100`)](dist/cards/tool-selection-rubric--413d53e8b9.md)
-- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--7cb9c75e56.md)
 
 ### eval
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--a22347345f.md)
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [evaluating-llms-harness (`75/100`)](dist/cards/evaluating-llms-harness--3951f5327c.md)
 - [langsmith-observability (`75/100`)](dist/cards/langsmith-observability--b5aef725d2.md)
@@ -406,7 +407,10 @@
 - [content-research-writer (`70/100`)](dist/cards/content-research-writer--b0e2626a35.md)
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [spreadsheet (`70/100`)](dist/cards/spreadsheet--cb653911c9.md)
+- [trulens-instrumentation (`70/100`)](dist/cards/trulens-instrumentation--ee50898dc7.md)
+- [trulens-notebook-execution (`70/100`)](dist/cards/trulens-notebook-execution--e6e094d1ad.md)
 - [ui-ux-pro-max (`70/100`)](dist/cards/ui-ux-pro-max--20633323ec.md)
 - [browser (`65/100`)](dist/cards/browser--ed92b6f327.md)
 - [chrome-devtools (`65/100`)](dist/cards/chrome-devtools--b58cb2bb88.md)
@@ -417,10 +421,6 @@
 - [phoenix-observability (`65/100`)](dist/cards/phoenix-observability--42f11b32d8.md)
 - [refactor (`65/100`)](dist/cards/refactor--4f640e2f77.md)
 - [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--ff63951ece.md)
-- [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--41c758879d.md)
-- [agent-browser (`60/100`)](dist/cards/agent-browser--823d158f5b.md)
-- [agent-browser (`60/100`)](dist/cards/agent-browser--f24e57e8bd.md)
-- [dev-browser (`60/100`)](dist/cards/dev-browser--0d8d1f9239.md)
 
 ### figma
 - [kubernetes-debugging (`70/100`)](dist/cards/kubernetes-debugging--9d82fc9f76.md)
@@ -452,6 +452,7 @@
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
+- [rag-implementation (`60/100`)](dist/cards/rag-implementation--a35c5cdde5.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
 - [iac-checkov (`58/100`)](dist/cards/iac-checkov--2c035a1039.md)
 - [architecture-designer (`55/100`)](dist/cards/architecture-designer--8f983ce1d5.md)
@@ -460,6 +461,7 @@
 - [terraform-engineer (`55/100`)](dist/cards/terraform-engineer--07b80d9be4.md)
 - [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--b342272417.md)
 - [github-workflow (`45/100`)](dist/cards/github-workflow--80fb86a0a6.md)
+- [agent-performance-benchmarker (`40/100`)](dist/cards/agent-performance-benchmarker--d25190c12c.md)
 
 ### git
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -481,6 +483,7 @@
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [security-ownership-map (`70/100`)](dist/cards/security-ownership-map--e8f1fa167d.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
@@ -491,7 +494,6 @@
 - [llm-evaluation-harness (`65/100`)](dist/cards/llm-evaluation-harness--6086851fcb.md)
 - [modern-python (`65/100`)](dist/cards/modern-python--a27249b96c.md)
 - [phoenix-observability (`65/100`)](dist/cards/phoenix-observability--42f11b32d8.md)
-- [playwright-validation (`65/100`)](dist/cards/playwright-validation--7f91f934bb.md)
 
 ### github
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -510,6 +512,7 @@
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [security-ownership-map (`70/100`)](dist/cards/security-ownership-map--e8f1fa167d.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
@@ -523,7 +526,6 @@
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--7cb9c75e56.md)
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--99917f0071.md)
 - [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--ff63951ece.md)
-- [windows-wsl-interop (`65/100`)](dist/cards/windows-wsl-interop--ae0a483b12.md)
 
 ### go
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -533,6 +535,7 @@
 - [Agent Development (`85/100`)](dist/cards/agent-development--e1238b5b0f.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e3d54110ec.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
@@ -553,9 +556,8 @@
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [rule-updater (`70/100`)](dist/cards/rule-updater--8ccd937340.md)
-- [scoutqa-test (`70/100`)](dist/cards/scoutqa-test--b87aadf427.md)
-- [security-ownership-map (`70/100`)](dist/cards/security-ownership-map--e8f1fa167d.md)
 
 ### hyimporter
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
@@ -597,6 +599,7 @@
 - [hytale-custom-entities (`60/100`)](dist/cards/hytale-custom-entities--38d2d4d51f.md)
 - [hytale-events-api (`60/100`)](dist/cards/hytale-events-api--7b9b01457d.md)
 - [hytale-modding (`60/100`)](dist/cards/hytale-modding--7ecc505e60.md)
+- [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
 - [postmortem-writing (`60/100`)](dist/cards/postmortem-writing--ccbc661449.md)
 - [webapp-testing (`60/100`)](dist/cards/webapp-testing--4afd58a651.md)
 - [agent-browser (`55/100`)](dist/cards/agent-browser--3ce6e63398.md)
@@ -607,7 +610,6 @@
 - [error-pattern-safety (`55/100`)](dist/cards/error-pattern-safety--e9a06934b8.md)
 - [firefox-debug (`55/100`)](dist/cards/firefox-debug--158ef3059f.md)
 - [github-copilot-agent-tips-and-tricks (`55/100`)](dist/cards/github-copilot-agent-tips-and-tricks--be08c278ea.md)
-- [java-architect (`55/100`)](dist/cards/java-architect--59bd6f0c62.md)
 
 ### kubernetes
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
@@ -669,6 +671,7 @@
 ### llm
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--a22347345f.md)
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [mcp-management (`78/100`)](dist/cards/mcp-management--5fb019db79.md)
 - [evaluating-llms-harness (`75/100`)](dist/cards/evaluating-llms-harness--3951f5327c.md)
 - [langsmith-observability (`75/100`)](dist/cards/langsmith-observability--b5aef725d2.md)
@@ -676,6 +679,8 @@
 - [qmd (`75/100`)](dist/cards/qmd--f2d765c35d.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
 - [security-ownership-map (`70/100`)](dist/cards/security-ownership-map--e8f1fa167d.md)
+- [trulens-instrumentation (`70/100`)](dist/cards/trulens-instrumentation--ee50898dc7.md)
+- [trulens-notebook-execution (`70/100`)](dist/cards/trulens-notebook-execution--e6e094d1ad.md)
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
 - [llm-evaluation-harness (`65/100`)](dist/cards/llm-evaluation-harness--6086851fcb.md)
 - [phoenix-observability (`65/100`)](dist/cards/phoenix-observability--42f11b32d8.md)
@@ -684,19 +689,16 @@
 - [awesome-skills-database (`60/100`)](dist/cards/awesome-skills-database--07fa975aa6.md)
 - [hugging-face-cli (`60/100`)](dist/cards/hugging-face-cli--872759e503.md)
 - [hugging-face-paper-publisher (`60/100`)](dist/cards/hugging-face-paper-publisher--94fcb45911.md)
+- [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--0778eb1116.md)
 - [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--54d98e81df.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--2444f4f834.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--8d6d7ca831.md)
+- [rag-implementation (`60/100`)](dist/cards/rag-implementation--a35c5cdde5.md)
 - [senior-data-engineer (`60/100`)](dist/cards/senior-data-engineer--8877198b88.md)
+- [trulens-evaluation-workflow (`60/100`)](dist/cards/trulens-evaluation-workflow--ac41a4a1b3.md)
 - [winapp-cli (`60/100`)](dist/cards/winapp-cli--368f1b33de.md)
 - [winapp-cli (`60/100`)](dist/cards/winapp-cli--3bd19690ac.md)
 - [advanced-evaluation (`55/100`)](dist/cards/advanced-evaluation--675ccf6061.md)
-- [agent-browser (`55/100`)](dist/cards/agent-browser--a54716c5a8.md)
-- [fine-tuning-expert (`55/100`)](dist/cards/fine-tuning-expert--a5d51e0ad0.md)
-- [i18n (`55/100`)](dist/cards/i18n--e16963c714.md)
-- [javascript-refactoring (`55/100`)](dist/cards/javascript-refactoring--31a3066ab6.md)
-- [jest-react-testing (`55/100`)](dist/cards/jest-react-testing--59844493cd.md)
-- [lobster (`55/100`)](dist/cards/lobster--5d14f846ed.md)
 
 ### mcp
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -756,6 +758,7 @@
 - [security-ownership-map (`70/100`)](dist/cards/security-ownership-map--e8f1fa167d.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
+- [trulens-instrumentation (`70/100`)](dist/cards/trulens-instrumentation--ee50898dc7.md)
 - [api-design-principles (`68/100`)](dist/cards/api-design-principles--405cf8e59a.md)
 - [develop-web-game (`68/100`)](dist/cards/develop-web-game--667d6cd915.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
@@ -772,7 +775,6 @@
 - [hytale-commands (`60/100`)](dist/cards/hytale-commands--1609c0ebff.md)
 - [pyright-type-checker (`60/100`)](dist/cards/pyright-type-checker--b262476f17.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--2444f4f834.md)
-- [rag-implementation (`60/100`)](dist/cards/rag-implementation--8d6d7ca831.md)
 
 ### observability
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -799,7 +801,9 @@
 
 ### obsidian
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [obsidian-vault-ops (`65/100`)](dist/cards/obsidian-vault-ops--47bccc269b.md)
+- [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
 - [obsidian-hello-world (`55/100`)](dist/cards/obsidian-hello-world--e4e1eeb2f1.md)
 - [obsidian-performance-tuning (`55/100`)](dist/cards/obsidian-performance-tuning--c57f6bd919.md)
 - [daily-note (`45/100`)](dist/cards/daily-note--438ed2aa23.md)
@@ -809,6 +813,8 @@
 - [obsidian-markdown (`45/100`)](dist/cards/obsidian-markdown--8f7ce0e01a.md)
 - [obsidian (`40/100`)](dist/cards/obsidian--77b0432590.md)
 - [obsidian-bases (`40/100`)](dist/cards/obsidian-bases--1de7118386.md)
+- [obsidian-bases (`40/100`)](dist/cards/obsidian-bases--32d28d5522.md)
+- [obsidian-bases (`40/100`)](dist/cards/obsidian-bases--7e43d5ef0b.md)
 - [obsidian-bases (`40/100`)](dist/cards/obsidian-bases--f28452c0c9.md)
 - [obsidian-vault-context (`40/100`)](dist/cards/obsidian-vault-context--6f76db90ac.md)
 - [obsidian-developer (`35/100`)](dist/cards/obsidian-developer--8a94f4b2a3.md)
@@ -844,13 +850,13 @@
 - [playwright-mcp (`55/100`)](dist/cards/playwright-mcp--77eec759de.md)
 - [test-master (`55/100`)](dist/cards/test-master--c3a18da2b7.md)
 - [xiaohongshu-recruiter (`48/100`)](dist/cards/xiaohongshu-recruiter--a630c8ffc9.md)
+- [browser-automation (`45/100`)](dist/cards/browser-automation--c6687517d2.md)
 - [playwright-debugging (`45/100`)](dist/cards/playwright-debugging--6d6cbf7add.md)
+- [playwright-skill (`45/100`)](dist/cards/playwright-skill--2ddeb35083.md)
 - [playwright-skill (`45/100`)](dist/cards/playwright-skill--901aa08a2b.md)
 - [web-artifacts-builder (`45/100`)](dist/cards/web-artifacts-builder--b2b3567401.md)
 - [write-e2e-tests (`45/100`)](dist/cards/write-e2e-tests--11f88570ae.md)
 - [write-playwright-e2e-code (`45/100`)](dist/cards/write-playwright-e2e-code--b46512ae71.md)
-- [x-recruiter (`43/100`)](dist/cards/x-recruiter--3f14787e63.md)
-- [E2E Testing (Frontend) (`40/100`)](dist/cards/e2e-testing-frontend--44a8d7efdf.md)
 
 ### postgres
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
@@ -913,6 +919,7 @@
 - [jupyter-notebook (`83/100`)](dist/cards/jupyter-notebook--855dd39b82.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
@@ -932,10 +939,9 @@
 - [cto-advisor (`70/100`)](dist/cards/cto-advisor--1727d247f6.md)
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [rule-updater (`70/100`)](dist/cards/rule-updater--8ccd937340.md)
 - [security-ownership-map (`70/100`)](dist/cards/security-ownership-map--e8f1fa167d.md)
-- [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
-- [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 
 ### rag
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -943,6 +949,7 @@
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
 - [content-creator (`78/100`)](dist/cards/content-creator--b657ebe201.md)
@@ -956,8 +963,10 @@
 - [ml-paper-writing (`70/100`)](dist/cards/ml-paper-writing--1ab00a8515.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [rule-updater (`70/100`)](dist/cards/rule-updater--8ccd937340.md)
 - [scoutqa-test (`70/100`)](dist/cards/scoutqa-test--b87aadf427.md)
+- [trulens-instrumentation (`70/100`)](dist/cards/trulens-instrumentation--ee50898dc7.md)
 - [chrome-devtools (`65/100`)](dist/cards/chrome-devtools--b58cb2bb88.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [cursor-subagent-creator (`65/100`)](dist/cards/cursor-subagent-creator--aabd812653.md)
@@ -965,9 +974,6 @@
 - [modern-python (`65/100`)](dist/cards/modern-python--a27249b96c.md)
 - [phoenix-observability (`65/100`)](dist/cards/phoenix-observability--42f11b32d8.md)
 - [playwright-validation (`65/100`)](dist/cards/playwright-validation--7f91f934bb.md)
-- [pptx (`65/100`)](dist/cards/pptx--f1eedde963.md)
-- [python-data-polars-duckdb (`65/100`)](dist/cards/python-data-polars-duckdb--114e4a2ece.md)
-- [refactor (`65/100`)](dist/cards/refactor--4f640e2f77.md)
 
 ### reddit
 - [ByteDance-Seed/mcp-universe (`10/100`)](dist/cards/bytedance-seed-mcp-universe--ecaa26d264.md)
@@ -986,6 +992,7 @@
 ### render
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [literature-review (`83/100`)](dist/cards/literature-review--370ea3d9c3.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
@@ -1001,6 +1008,7 @@
 - [agent-browser (`60/100`)](dist/cards/agent-browser--823d158f5b.md)
 - [hugging-face-paper-publisher (`60/100`)](dist/cards/hugging-face-paper-publisher--94fcb45911.md)
 - [hytale-custom-entities (`60/100`)](dist/cards/hytale-custom-entities--38d2d4d51f.md)
+- [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
 - [pyright-type-checker (`60/100`)](dist/cards/pyright-type-checker--b262476f17.md)
 - [canvas (`55/100`)](dist/cards/canvas--1febf47cbd.md)
 - [documentation (`55/100`)](dist/cards/documentation--01f458116b.md)
@@ -1012,8 +1020,6 @@
 - [nextjs-developer (`55/100`)](dist/cards/nextjs-developer--558a404545.md)
 - [obsidian-performance-tuning (`55/100`)](dist/cards/obsidian-performance-tuning--c57f6bd919.md)
 - [python-patterns (`55/100`)](dist/cards/python-patterns--2618344d20.md)
-- [react-expert (`55/100`)](dist/cards/react-expert--cb87b34e62.md)
-- [seo-review (`55/100`)](dist/cards/seo-review--f0b473e5d6.md)
 
 ### rust
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -1028,6 +1034,7 @@
 - [pptx (`65/100`)](dist/cards/pptx--f1eedde963.md)
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--7cb9c75e56.md)
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--99917f0071.md)
+- [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
 - [ouroboros (`60/100`)](dist/cards/ouroboros--adcf029e90.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--2444f4f834.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--8d6d7ca831.md)
@@ -1045,7 +1052,6 @@
 - [repomix-explorer (`55/100`)](dist/cards/repomix-explorer--4e0fd13cef.md)
 - [rust-engineer (`55/100`)](dist/cards/rust-engineer--de140c66de.md)
 - [rust-systems-programming (`55/100`)](dist/cards/rust-systems-programming--20ce8adc94.md)
-- [secure-code-guardian (`55/100`)](dist/cards/secure-code-guardian--15975f60d0.md)
 
 ### security
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -1087,17 +1093,20 @@
 ### sql
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--a22347345f.md)
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
 - [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--45b56af64a.md)
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
+- [trulens-notebook-execution (`70/100`)](dist/cards/trulens-notebook-execution--e6e094d1ad.md)
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
 - [phoenix-observability (`65/100`)](dist/cards/phoenix-observability--42f11b32d8.md)
 - [python-data-polars-duckdb (`65/100`)](dist/cards/python-data-polars-duckdb--114e4a2ece.md)
 - [administering-linux (`60/100`)](dist/cards/administering-linux--035599958b.md)
 - [fastapi-templates (`60/100`)](dist/cards/fastapi-templates--0f1aabbbb6.md)
+- [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
 - [ouroboros (`60/100`)](dist/cards/ouroboros--adcf029e90.md)
 - [prompt-library (`60/100`)](dist/cards/prompt-library--dde0f0be9c.md)
 - [python-code-style (`60/100`)](dist/cards/python-code-style--834b920d52.md)
@@ -1112,16 +1121,15 @@
 - [database-optimizer (`55/100`)](dist/cards/database-optimizer--1a72046f2d.md)
 - [dependency-auditor (`55/100`)](dist/cards/dependency-auditor--236ba4339d.md)
 - [django-expert (`55/100`)](dist/cards/django-expert--cb4a25f780.md)
-- [fastapi-expert (`55/100`)](dist/cards/fastapi-expert--b6dd851ee2.md)
-- [fullstack-guardian (`55/100`)](dist/cards/fullstack-guardian--1947eb1f5d.md)
-- [laravel-specialist (`55/100`)](dist/cards/laravel-specialist--23c45c95b2.md)
 
 ### sqlite
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
+- [trulens-notebook-execution (`70/100`)](dist/cards/trulens-notebook-execution--e6e094d1ad.md)
 - [phoenix-observability (`65/100`)](dist/cards/phoenix-observability--42f11b32d8.md)
 - [fastapi-templates (`60/100`)](dist/cards/fastapi-templates--0f1aabbbb6.md)
 - [ouroboros (`60/100`)](dist/cards/ouroboros--adcf029e90.md)
 - [pytest-advanced (`55/100`)](dist/cards/pytest-advanced--f9df867d4e.md)
+- [worker-benchmarks (`55/100`)](dist/cards/worker-benchmarks--4711c5bb7d.md)
 - [cloudflare-deploy (`53/100`)](dist/cards/cloudflare-deploy--512c1f5b25.md)
 - [firefox-bookmarks (`50/100`)](dist/cards/firefox-bookmarks--ebee36e48d.md)
 - [prose (`50/100`)](dist/cards/prose--13a444e700.md)
@@ -1152,6 +1160,7 @@
 - [github-workflow (`45/100`)](dist/cards/github-workflow--80fb86a0a6.md)
 - [precommit-setup (`45/100`)](dist/cards/precommit-setup--3ee81d1029.md)
 - [security-secrets (`45/100`)](dist/cards/security-secrets--9f69a48a4e.md)
+- [agent-performance-benchmarker (`40/100`)](dist/cards/agent-performance-benchmarker--d25190c12c.md)
 - [productivity-helper (`40/100`)](dist/cards/productivity-helper--f826fd94a8.md)
 - [skill-installer (`38/100`)](dist/cards/skill-installer--50c0037939.md)
 - [Dictation Instructions (`35/100`)](dist/cards/dictation-instructions--b0c290912f.md)
@@ -1163,6 +1172,7 @@
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--f183038301.md)
 - [playwright (`73/100`)](dist/cards/playwright--cce2795d85.md)
 - [markdown-to-html (`70/100`)](dist/cards/markdown-to-html--d6a05a10fb.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [tmux-terminal (`70/100`)](dist/cards/tmux-terminal--a97c40eb77.md)
 - [ui-ux-pro-max (`70/100`)](dist/cards/ui-ux-pro-max--20633323ec.md)
 - [cursor-mcp-setup (`65/100`)](dist/cards/cursor-mcp-setup--e8482ae8f2.md)
@@ -1188,7 +1198,6 @@
 - [log-summarizer (`45/100`)](dist/cards/log-summarizer--da942eeb86.md)
 - [precommit-setup (`45/100`)](dist/cards/precommit-setup--3ee81d1029.md)
 - [xlsx (`45/100`)](dist/cards/xlsx--f793e68227.md)
-- [browsh (`35/100`)](dist/cards/browsh--fff0582548.md)
 
 ### terraform
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -1211,6 +1220,7 @@
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--ecce7aac29.md)
 - [Agent Development (`85/100`)](dist/cards/agent-development--e1238b5b0f.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
+- [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
 - [implementing-observability (`75/100`)](dist/cards/implementing-observability--a4e91fee37.md)
 - [langsmith-observability (`75/100`)](dist/cards/langsmith-observability--b5aef725d2.md)
@@ -1218,11 +1228,13 @@
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
 - [playwright-browser-automation (`70/100`)](dist/cards/playwright-browser-automation--629938c0e3.md)
+- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [rule-updater (`70/100`)](dist/cards/rule-updater--8ccd937340.md)
 - [scoutqa-test (`70/100`)](dist/cards/scoutqa-test--b87aadf427.md)
 - [senior-security (`70/100`)](dist/cards/senior-security--1872eba3bd.md)
 - [skill-writer (`70/100`)](dist/cards/skill-writer--63d6154dfc.md)
 - [tmux-terminal (`70/100`)](dist/cards/tmux-terminal--a97c40eb77.md)
+- [trulens-notebook-execution (`70/100`)](dist/cards/trulens-notebook-execution--e6e094d1ad.md)
 - [develop-web-game (`68/100`)](dist/cards/develop-web-game--667d6cd915.md)
 - [cicd-pipeline-setup (`65/100`)](dist/cards/cicd-pipeline-setup--bffa523188.md)
 - [cursor-subagent-creator (`65/100`)](dist/cards/cursor-subagent-creator--aabd812653.md)
@@ -1234,9 +1246,6 @@
 - [refactor (`65/100`)](dist/cards/refactor--4f640e2f77.md)
 - [skill-creator (`65/100`)](dist/cards/skill-creator--87da9c7632.md)
 - [terraform-skill (`65/100`)](dist/cards/terraform-skill--756c0a4bbf.md)
-- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--7cb9c75e56.md)
-- [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--99917f0071.md)
-- [dspy-ruby (`63/100`)](dist/cards/dspy-ruby--41c758879d.md)
 
 ### typescript
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -1249,6 +1258,7 @@
 - [dev-browser (`60/100`)](dist/cards/dev-browser--a7b77ea348.md)
 - [github-issue-triage (`60/100`)](dist/cards/github-issue-triage--60dfb77f3d.md)
 - [github-pr-triage (`60/100`)](dist/cards/github-pr-triage--927ba10b79.md)
+- [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
 - [playwright-e2e (`60/100`)](dist/cards/playwright-e2e--91aa9eacd8.md)
 - [test-driven-development (`60/100`)](dist/cards/test-driven-development--d024d3a98f.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
@@ -1268,7 +1278,6 @@
 - [playwright (`55/100`)](dist/cards/playwright--7ae3fe3fb6.md)
 - [react-expert (`55/100`)](dist/cards/react-expert--cb87b34e62.md)
 - [react-native-expert (`55/100`)](dist/cards/react-native-expert--909f24f92d.md)
-- [repomix-explorer (`55/100`)](dist/cards/repomix-explorer--4e0fd13cef.md)
 
 ### vercel
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
@@ -1286,6 +1295,7 @@
 ### warp
 - [warp-terminal-workflows (`60/100`)](dist/cards/warp-terminal-workflows--7c44da3884.md)
 - [bootstrap (`55/100`)](dist/cards/bootstrap--dfdb2e61e3.md)
+- [morph-search (`55/100`)](dist/cards/morph-search--a568aec630.md)
 - [mcp-scripts (`20/100`)](dist/cards/mcp-scripts--04b75fc17e.md)
 - [output-qc (`20/100`)](dist/cards/output-qc--602883a0ad.md)
 

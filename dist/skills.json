@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 644,
+  "count": 664,
   "roots": [
     {
       "label": "agent_playground",
@@ -223,6 +223,36 @@
         "Test triggering with real scenarios",
         "Document agent in plugin README"
       ]
+    },
+    {
+      "id": "agent-benchmark-suite--9d8851cb09",
+      "name": "agent-benchmark-suite",
+      "description": "Agent skill for benchmark-suite - invoke with $agent-benchmark-suite",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/ruvnet-agent-benchmark-suite/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/ruvnet-agent-benchmark-suite",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 8,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1779
+      },
+      "tags": [
+        "mcp",
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "eval",
+        "benchmark"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "agent-browser--3ce6e63398",
@@ -461,6 +491,37 @@
         "ci",
         "rag",
         "llm"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "agent-performance-benchmarker--d25190c12c",
+      "name": "agent-performance-benchmarker",
+      "description": "Agent skill for performance-benchmarker - invoke with $agent-performance-benchmarker",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/ruvnet-agent-performance-benchmarker/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/ruvnet-agent-performance-benchmarker",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 7,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2262
+      },
+      "tags": [
+        "mcp",
+        "ssh",
+        "go",
+        "java",
+        "gcp",
+        "ci",
+        "rag",
+        "benchmark"
       ],
       "use_when": [],
       "workflow": []
@@ -1613,6 +1674,36 @@
         "Click, type, or select using `index`",
         "Confirm using `browser_query` or `browser_snapshot`"
       ]
+    },
+    {
+      "id": "browser-automation--c6687517d2",
+      "name": "browser-automation",
+      "description": "Browser automation via HTTP server. Supports multiple concurrent sessions for multi-user testing, saved flows, and profile-based auth persistence.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/civitai-browser-automation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/civitai-browser-automation",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 531
+      },
+      "tags": [
+        "git",
+        "playwright",
+        "browser",
+        "node",
+        "go",
+        "java",
+        "testing"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "browser-cli--6a87ea2d9e",
@@ -10601,6 +10692,40 @@
       ]
     },
     {
+      "id": "llm-evaluation--0778eb1116",
+      "name": "llm-evaluation",
+      "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/sickn33-llm-evaluation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/sickn33-llm-evaluation",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 12,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1356
+      },
+      "tags": [
+        "python",
+        "go",
+        "testing",
+        "ci",
+        "rag",
+        "llm",
+        "eval",
+        "benchmark"
+      ],
+      "use_when": [
+        "The task is unrelated to llm evaluation",
+        "You need a different domain or tool outside this scope"
+      ],
+      "workflow": []
+    },
+    {
       "id": "llm-evaluation--54d98e81df",
       "name": "llm-evaluation",
       "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks.",
@@ -12129,6 +12254,36 @@
       ]
     },
     {
+      "id": "morph-search--a568aec630",
+      "name": "morph-search",
+      "description": "Fast codebase search via WarpGrep (20x faster than grep)",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/parcadei-morph-search/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/parcadei-morph-search",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 212
+      },
+      "tags": [
+        "mcp",
+        "warp",
+        "python"
+      ],
+      "use_when": [
+        "Search codebase for patterns, function names, variables",
+        "Find code across large codebases quickly",
+        "Edit files programmatically"
+      ],
+      "workflow": []
+    },
+    {
       "id": "mypy--932fb8996a",
       "name": "mypy",
       "description": "mypy - Static type checker for Python with gradual typing, strict mode, Protocol support, and framework integration",
@@ -12889,6 +13044,62 @@
       "workflow": []
     },
     {
+      "id": "obsidian-bases--32d28d5522",
+      "name": "obsidian-bases",
+      "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-obsidian-bases/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-obsidian-bases",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 18,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2191
+      },
+      "tags": [
+        "git",
+        "ci",
+        "obsidian",
+        "render",
+        "rag"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "obsidian-bases--7e43d5ef0b",
+      "name": "obsidian-bases",
+      "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/kepano-obsidian-bases/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/kepano-obsidian-bases",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 19,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 2392
+      },
+      "tags": [
+        "git",
+        "ci",
+        "obsidian",
+        "render",
+        "rag"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "obsidian-bases--f28452c0c9",
       "name": "obsidian-bases",
       "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
@@ -13059,6 +13270,48 @@
         "rag"
       ],
       "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "obsidian-markdown--815bbf3682",
+      "name": "obsidian-markdown",
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davepoon-obsidian-markdown/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davepoon-obsidian-markdown",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 36,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1093
+      },
+      "tags": [
+        "python",
+        "sql",
+        "typescript",
+        "rust",
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "obsidian",
+        "render",
+        "rag"
+      ],
+      "use_when": [
+        "Working with .md files in an Obsidian vault",
+        "Creating notes with wikilinks or internal links",
+        "Adding embeds for notes, images, audio, or PDFs",
+        "Using callouts (info boxes, warnings, tips, etc.)",
+        "Managing frontmatter/properties in YAML format",
+        "Working with tags and nested tags",
+        "Creating block references and block IDs"
+      ],
       "workflow": []
     },
     {
@@ -14410,6 +14663,37 @@
       ]
     },
     {
+      "id": "playwright-skill--2ddeb35083",
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/lackeyjb-playwright-skill/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/lackeyjb-playwright-skill",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 19,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1623
+      },
+      "tags": [
+        "playwright",
+        "browser",
+        "node",
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "llm"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "playwright-skill--901aa08a2b",
       "name": "playwright-skill",
       "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
@@ -15163,6 +15447,58 @@
       ]
     },
     {
+      "id": "prompt-engineer--b23c99addb",
+      "name": "prompt-engineer",
+      "description": "Transforms user prompts into optimized prompts using frameworks (RTF, RISEN, Chain of Thought, RODES, Chain of Density, RACE, RISE, STAR, SOAP, CLEAR, GROW)",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/sickn33-prompt-engineer/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/sickn33-prompt-engineer",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1459
+      },
+      "tags": [
+        "github",
+        "git",
+        "terminal",
+        "python",
+        "go",
+        "testing",
+        "ci",
+        "obsidian",
+        "rag",
+        "eval"
+      ],
+      "use_when": [
+        "User provides a vague or generic prompt (e.g., \"help me code Python\")",
+        "User has a complex idea but struggles to articulate it clearly",
+        "User's prompt lacks structure, context, or specific requirements",
+        "Task requires step-by-step reasoning (debugging, analysis, design)",
+        "User needs a prompt for a specific AI task but doesn't know prompting frameworks",
+        "User wants to improve an existing prompt's effectiveness",
+        "User asks variations of \"how do I ask AI to...\" or \"create a prompt for...\""
+      ],
+      "workflow": [
+        "*Objective:** Understand what the user truly wants to accomplish.",
+        "*Actions:**",
+        "Read the raw prompt provided by the user",
+        "Detect task characteristics:",
+        "**Type:** coding, writing, analysis, design, learning, planning, decision-making, creative, etc.",
+        "**Complexity:** simple (one-step), moderate (multi-step), complex (requires reasoning/design)",
+        "**Clarity:** clear intention vs. ambiguous/vague",
+        "**Domain:** technical, business, creative, academic, personal, etc.",
+        "Identify implicit requirements:",
+        "Does user need examples?"
+      ]
+    },
+    {
       "id": "prompt-engineer--dfa3c2a557",
       "name": "prompt-engineer",
       "description": "Expert in designing effective prompts for LLM-powered applications. Masters prompt structure, context management, output formatting, and prompt evaluation. Use when: prompt engineering, system prompt, few-shot, chain of thought, prompt design.",
@@ -15191,6 +15527,47 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "prompt-engineering-patterns--1119510b69",
+      "name": "prompt-engineering-patterns",
+      "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/sickn33-prompt-engineering-patterns/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/sickn33-prompt-engineering-patterns",
+      "worth_score": 83,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 4,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": true,
+        "word_count": 916
+      },
+      "tags": [
+        "python",
+        "sql",
+        "go",
+        "testing",
+        "ci",
+        "render",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "The task is unrelated to prompt engineering patterns",
+        "You need a different domain or tool outside this scope"
+      ],
+      "workflow": [
+        "Review the prompt template library for common patterns",
+        "Experiment with few-shot learning for your specific use case",
+        "Implement prompt versioning and A/B testing",
+        "Set up automated evaluation pipelines",
+        "Document your prompt engineering decisions and learnings"
+      ]
     },
     {
       "id": "prompt-engineering-patterns--a22347345f",
@@ -15853,6 +16230,32 @@
       ]
     },
     {
+      "id": "python-repl--014b41e2bb",
+      "name": "python-repl",
+      "description": "Interactive Python REPL automation with common helpers and best practices",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/gptme-python-repl/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/gptme-python-repl",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 221
+      },
+      "tags": [
+        "python",
+        "ci",
+        "rag"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "python-repl--05af0c9cbc",
       "name": "python-repl",
       "description": "Interactive Python REPL automation with common helpers and best practices",
@@ -16385,6 +16788,46 @@
         "rag",
         "llm",
         "eval"
+      ],
+      "use_when": [
+        "Building Q&A systems over proprietary documents",
+        "Creating chatbots with current, factual information",
+        "Implementing semantic search with natural language queries",
+        "Reducing hallucinations with grounded responses",
+        "Enabling LLMs to access domain-specific knowledge",
+        "Building documentation assistants",
+        "Creating research tools with source citation"
+      ],
+      "workflow": []
+    },
+    {
+      "id": "rag-implementation--a35c5cdde5",
+      "name": "rag-implementation",
+      "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/sickn33-rag-implementation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/sickn33-rag-implementation",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 19,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1199
+      },
+      "tags": [
+        "python",
+        "go",
+        "gcp",
+        "ci",
+        "docs",
+        "rag",
+        "llm",
+        "eval",
+        "benchmark"
       ],
       "use_when": [
         "Building Q&A systems over proprietary documents",
@@ -20378,6 +20821,224 @@
       "workflow": []
     },
     {
+      "id": "trulens-dataset-curation--64dde19085",
+      "name": "trulens-dataset-curation",
+      "description": "Create and curate evaluation datasets with ground truth for TruLens",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/dataset-curation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/dataset-curation",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 9,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 600
+      },
+      "tags": [
+        "python",
+        "ci",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "trulens-evaluation-setup--2830909286",
+      "name": "trulens-evaluation-setup",
+      "description": "Configure feedback functions and selectors for TruLens evaluations",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/evaluation-setup/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/evaluation-setup",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 11,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1338
+      },
+      "tags": [
+        "python",
+        "ci",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": [
+        "*Yes, my agent creates plans before executing:**",
+        "Agent outputs a plan/strategy before taking actions",
+        "Agent references its plan during execution",
+        "Logical Consistency",
+        "Plan Quality",
+        "Plan Adherence",
+        "Execution Efficiency",
+        "Tool Selection",
+        "Tool Calling",
+        "Tool Quality"
+      ]
+    },
+    {
+      "id": "trulens-evaluation-workflow--ac41a4a1b3",
+      "name": "trulens-evaluation-workflow",
+      "description": "Systematically evaluate your LLM application with TruLens",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 1,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 932
+      },
+      "tags": [
+        "go",
+        "testing",
+        "ci",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "Set up comprehensive evaluation for a new LLM app",
+        "Improve an existing app's evaluation coverage",
+        "Understand the full TruLens workflow",
+        "Know which sub-skill to use for your current task"
+      ],
+      "workflow": [
+        "Set up comprehensive evaluation for a new LLM app",
+        "Improve an existing app's evaluation coverage",
+        "Understand the full TruLens workflow",
+        "Know which sub-skill to use for your current task",
+        "*Before implementing, always ask the user these questions:**",
+        "What framework is your app built with? (LangChain, LangGraph/Deep Agents, LlamaIndex, Custom)",
+        "*For Agents, also ask:**",
+        "Does your agent do explicit planning? (determines if Plan Quality/Adherence metrics apply)",
+        "Do you want any additional evaluations? (Coherence, Conciseness, Harmlessness, custom metrics)"
+      ]
+    },
+    {
+      "id": "trulens-instrumentation--ee50898dc7",
+      "name": "trulens-instrumentation",
+      "description": "Instrument LLM apps with TruLens OTEL-based tracing - from setup to debugging and optimization",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/instrumentation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/instrumentation",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 17,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1406
+      },
+      "tags": [
+        "python",
+        "node",
+        "ci",
+        "docs",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "Setting up instrumentation for a new app",
+        "Adding custom spans to framework-wrapped apps",
+        "Improving trace readability (unclear span names, missing context)",
+        "Debugging why evaluations aren't working (missing attributes)",
+        "Optimizing what gets captured for visualization",
+        "--"
+      ],
+      "workflow": [
+        "*For LlamaIndex apps**",
+        "*For LlamaIndex query engines:**",
+        "*For LlamaIndex workflows:**"
+      ]
+    },
+    {
+      "id": "trulens-notebook-execution--e6e094d1ad",
+      "name": "trulens-notebook-execution",
+      "description": "Execute and display Jupyter notebooks for TruLens demos and quickstarts",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/notebook-execution/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/notebook-execution",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 15,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1337
+      },
+      "tags": [
+        "python",
+        "sql",
+        "sqlite",
+        "testing",
+        "ci",
+        "docs",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "Running TruLens quickstart or example notebooks",
+        "Demonstrating TruLens functionality via notebooks",
+        "Testing notebook examples end-to-end",
+        "User asks to \"run the notebook\" or \"execute the notebook\""
+      ],
+      "workflow": [
+        "```bash"
+      ]
+    },
+    {
+      "id": "trulens-running-evaluations--2c88a79197",
+      "name": "trulens-running-evaluations",
+      "description": "Execute TruLens evaluations and view results",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/running-evaluations/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/truera-trulens-evaluation-workflow/running-evaluations",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 613
+      },
+      "tags": [
+        "python",
+        "node",
+        "ci",
+        "rag",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "typescript-core--627655f6c9",
       "name": "typescript-core",
       "description": "Advanced TypeScript patterns and best practices for 2025",
@@ -21820,6 +22481,38 @@
         "**Optimize** - Cache, query optimization, asset optimization",
         "**Test & secure** - Security audit, performance testing, compatibility checks"
       ]
+    },
+    {
+      "id": "worker-benchmarks--4711c5bb7d",
+      "name": "worker-benchmarks",
+      "description": "Run comprehensive worker system benchmarks and performance analysis",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/ruvnet-worker-benchmarks/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/ruvnet-worker-benchmarks",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 388
+      },
+      "tags": [
+        "sql",
+        "sqlite",
+        "typescript",
+        "ci",
+        "benchmark"
+      ],
+      "use_when": [
+        "**Target**: p95 < 5ms",
+        "**Iterations**: 1000",
+        "**Metrics**: latency, throughput, histogram"
+      ],
+      "workflow": []
     },
     {
       "id": "workflow-versioning--c73a4b1d69",
