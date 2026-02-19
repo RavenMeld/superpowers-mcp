@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 614,
+  "count": 626,
   "roots": [
     {
       "label": "agent_playground",
@@ -194,6 +194,45 @@
         "Validate with `scripts/validate-agent.sh`",
         "Test triggering with real scenarios",
         "Document agent in plugin README"
+      ]
+    },
+    {
+      "id": "agent-browser--823d158f5b",
+      "name": "agent-browser",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form\", \"click a button\", \"take a screenshot\", \"scrape data from a page\", \"test this web app\", \"login...",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/vercel-labs-agent-browser/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/vercel-labs-agent-browser",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 21,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1724
+      },
+      "tags": [
+        "cursor",
+        "playwright",
+        "browser",
+        "chrome",
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "render",
+        "rag",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": [
+        "**Navigate**: `agent-browser open <url>`",
+        "**Snapshot**: `agent-browser snapshot -i` (get element refs like `@e1`, `@e2`)",
+        "**Interact**: Use refs to click, fill, select",
+        "**Re-snapshot**: After navigation or DOM changes, get fresh refs"
       ]
     },
     {
@@ -1515,6 +1554,34 @@
       ]
     },
     {
+      "id": "browser-extension-developer--ec8fd535b2",
+      "name": "browser-extension-developer",
+      "description": "Use this skill when developing or maintaining browser extension code in the `browser/` directory, including Chrome/Firefox/Edge compatibility, content scripts, background scripts, or i18n updates.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/yamadashy-browser-extension-developer/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/yamadashy-browser-extension-developer",
+      "worth_score": 30,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 1,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 125
+      },
+      "tags": [
+        "github",
+        "git",
+        "browser",
+        "chrome",
+        "firefox"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "browser-extension-developer--f9046aa375",
       "name": "browser-extension-developer",
       "description": "Use this skill when developing or maintaining browser extension code in the `browser/` directory, including Chrome/Firefox/Edge compatibility, content scripts, background scripts, or i18n updates.",
@@ -1541,6 +1608,47 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "browser-setup-devtools--c55f4b3904",
+      "name": "browser-setup-devtools",
+      "description": "Guide users through browser automation setup using Chrome DevTools MCP as the primary path and the OpenCode browser extension as a fallback. Use when the user asks to set up browser automation, Chrome DevTools MCP, browser MCP, browser extension, or runs the browser-setup command.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/different-ai-browser-setup-devtools/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/different-ai-browser-setup-devtools",
+      "worth_score": 35,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 303
+      },
+      "tags": [
+        "mcp",
+        "browser",
+        "chrome",
+        "go",
+        "ci",
+        "windows",
+        "linux"
+      ],
+      "use_when": [],
+      "workflow": [
+        "Ask: \"Do you have Chrome installed on this computer?\"",
+        "If no or unsure:",
+        "Offer to open the download page yourself and do it if possible.",
+        "Provide a clickable link: https://www.google.com/chrome/",
+        "Continue after installation is confirmed.",
+        "Check DevTools MCP availability:",
+        "Call `chrome-devtools_list_pages`.",
+        "If pages exist, select one with `chrome-devtools_select_page`.",
+        "If no pages, create one with `chrome-devtools_new_page` (use https://example.com) and then select it.",
+        "If DevTools MCP calls fail:"
+      ]
     },
     {
       "id": "browserbase-mcp-server-browserbase--5ff6329c66",
@@ -9621,6 +9729,48 @@
       "workflow": []
     },
     {
+      "id": "kubernetes-architect--abbaa5b296",
+      "name": "kubernetes-architect",
+      "description": "Expert Kubernetes architect specializing in cloud-native",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/sickn33-kubernetes-architect/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/sickn33-kubernetes-architect",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1172
+      },
+      "tags": [
+        "git",
+        "node",
+        "go",
+        "docker",
+        "kubernetes",
+        "aws",
+        "azure",
+        "security",
+        "testing",
+        "ci",
+        "observability",
+        "terraform",
+        "rag",
+        "benchmark"
+      ],
+      "use_when": [
+        "Designing Kubernetes platform architecture or multi-cluster strategy",
+        "Implementing GitOps workflows and progressive delivery",
+        "Planning service mesh, security, or multi-tenancy patterns",
+        "Improving reliability, cost, or developer experience in K8s"
+      ],
+      "workflow": []
+    },
+    {
       "id": "kubernetes-debugging--9d82fc9f76",
       "name": "kubernetes-debugging",
       "description": "Debug Kubernetes workloads quickly with kubectl: pods, logs, describe, events, exec, port-forward, and rollout control.",
@@ -10087,6 +10237,46 @@
         "List synonyms, abbreviations, and related terms for each concept",
         "Plan Boolean operators (AND, OR, NOT) to combine terms"
       ]
+    },
+    {
+      "id": "llm-evaluation--54d98e81df",
+      "name": "llm-evaluation",
+      "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/wshobson-llm-evaluation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/wshobson-llm-evaluation",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 14,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1796
+      },
+      "tags": [
+        "python",
+        "go",
+        "testing",
+        "ci",
+        "docs",
+        "rag",
+        "llm",
+        "eval",
+        "benchmark"
+      ],
+      "use_when": [
+        "Measuring LLM application performance systematically",
+        "Comparing different models or prompts",
+        "Detecting performance regressions before deployment",
+        "Validating improvements from prompt changes",
+        "Building confidence in production systems",
+        "Establishing baselines and tracking progress over time",
+        "Debugging unexpected model behavior"
+      ],
+      "workflow": []
     },
     {
       "id": "llm-evaluation-harness--6086851fcb",
@@ -14449,6 +14639,50 @@
       ]
     },
     {
+      "id": "prompt-engineering-patterns--a22347345f",
+      "name": "prompt-engineering-patterns",
+      "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/wshobson-prompt-engineering-patterns/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/wshobson-prompt-engineering-patterns",
+      "worth_score": 88,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 11,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": true,
+        "word_count": 1728
+      },
+      "tags": [
+        "python",
+        "sql",
+        "go",
+        "security",
+        "testing",
+        "ci",
+        "docs",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "Designing complex prompts for production LLM applications",
+        "Optimizing prompt performance and consistency",
+        "Implementing structured reasoning patterns (chain-of-thought, tree-of-thought)",
+        "Building few-shot learning systems with dynamic example selection",
+        "Creating reusable prompt templates with variable interpolation",
+        "Debugging and refining prompts that produce inconsistent outputs",
+        "Implementing system prompts for specialized AI assistants",
+        "Using structured outputs (JSON mode) for reliable parsing"
+      ],
+      "workflow": [
+        "[Your step-by-step reasoning]"
+      ]
+    },
+    {
       "id": "prompt-engineering-patterns--ecce7aac29",
       "name": "prompt-engineering-patterns",
       "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.",
@@ -14739,6 +14973,41 @@
       "workflow": []
     },
     {
+      "id": "python-code-style--834b920d52",
+      "name": "python-code-style",
+      "description": "Python code style, linting, formatting, naming conventions, and documentation standards. Use when writing new code, reviewing style, configuring linters, writing docstrings, or establishing project standards.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/wshobson-python-code-style/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/wshobson-python-code-style",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 16,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 993
+      },
+      "tags": [
+        "python",
+        "sql",
+        "go",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "Setting up linting and formatting for a new project",
+        "Writing or reviewing docstrings",
+        "Establishing team coding standards",
+        "Configuring ruff, mypy, or pyright",
+        "Reviewing code for style consistency",
+        "Creating project documentation"
+      ],
+      "workflow": []
+    },
+    {
       "id": "python-data-polars-duckdb--114e4a2ece",
       "name": "python-data-polars-duckdb",
       "description": "Practical data engineering workflows with Polars + DuckDB: fast local analytics, Parquet, and repeatable ETL patterns.",
@@ -14821,6 +15090,44 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "python-patterns--2618344d20",
+      "name": "python-patterns",
+      "description": "Pythonic 惯用法、PEP 8 标准、类型提示以及构建健壮、高效、可维护的 Python 应用程序的最佳实践。",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/affaan-m-python-patterns/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/affaan-m-python-patterns",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 34,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1891
+      },
+      "tags": [
+        "git",
+        "python",
+        "go",
+        "security",
+        "testing",
+        "ci",
+        "render",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": [
+        "```",
+        "## 并发模式",
+        "### 用于 I/O 密集型任务的线程",
+        "```python",
+        "import concurrent.futures",
+        "import threading"
+      ]
     },
     {
       "id": "python-pro--d841242523",
@@ -15059,6 +15366,44 @@
         "rag"
       ],
       "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "python-testing-patterns--14381b7909",
+      "name": "python-testing-patterns",
+      "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/sickn33-python-testing-patterns/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/sickn33-python-testing-patterns",
+      "worth_score": 35,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 154
+      },
+      "tags": [
+        "python",
+        "go",
+        "testing",
+        "ci"
+      ],
+      "use_when": [
+        "Writing unit tests for Python code",
+        "Setting up test suites and test infrastructure",
+        "Implementing test-driven development (TDD)",
+        "Creating integration tests for APIs and services",
+        "Mocking external dependencies and services",
+        "Testing async code and concurrent operations",
+        "Setting up continuous testing in CI/CD",
+        "Implementing property-based testing",
+        "Testing database operations",
+        "Debugging failing tests"
+      ],
       "workflow": []
     },
     {
@@ -15326,6 +15671,51 @@
         "**Retrieval Pipeline** - Embedding selection, query transformation, hybrid search, reranking",
         "**Evaluation & Iteration** - Metrics tracking, retrieval debugging, continuous optimization"
       ]
+    },
+    {
+      "id": "rag-implementation--2444f4f834",
+      "name": "rag-implementation",
+      "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/wshobson-rag-implementation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/wshobson-rag-implementation",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 21,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1609
+      },
+      "tags": [
+        "github",
+        "git",
+        "python",
+        "sql",
+        "postgres",
+        "node",
+        "rust",
+        "go",
+        "aws",
+        "ci",
+        "docs",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "Building Q&A systems over proprietary documents",
+        "Creating chatbots with current, factual information",
+        "Implementing semantic search with natural language queries",
+        "Reducing hallucinations with grounded responses",
+        "Enabling LLMs to access domain-specific knowledge",
+        "Building documentation assistants",
+        "Creating research tools with source citation"
+      ],
+      "workflow": []
     },
     {
       "id": "rag-implementation--8d6d7ca831",
@@ -16241,6 +16631,53 @@
       ]
     },
     {
+      "id": "rule-updater--8ccd937340",
+      "name": "rule-updater",
+      "description": "Skill for programmatically reading, updating, and creating Cursor rules based on patterns and lessons learned",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/basedhardware-rule-updater/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/basedhardware-rule-updater",
+      "worth_score": 70,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 7,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1010
+      },
+      "tags": [
+        "cursor",
+        "python",
+        "go",
+        "testing",
+        "ci",
+        "docs",
+        "rag"
+      ],
+      "use_when": [
+        "Updating existing rules with new examples or patterns",
+        "Creating new rules for emerging patterns",
+        "Identifying when rules need updating",
+        "Testing rule effectiveness",
+        "Organizing and maintaining rules"
+      ],
+      "workflow": [
+        "*Updating a rule with new pattern**:",
+        "**Identify pattern**: \"Multiple PRs show missing context issue\"",
+        "**Read rule**: Read `.cursor/rules/context-communication.mdc`",
+        "**Find section**: Find \"PR Description Requirements\" section",
+        "**Add example**: Add example from recent PR",
+        "**Enhance guidance**: Expand \"What to Include\" subsection",
+        "**Update references**: Add link to new PR if relevant",
+        "**Write rule**: Save updated rule file",
+        "**Verify**: Check syntax and links",
+        "*Creating new rule**:"
+      ]
+    },
+    {
       "id": "rust-engineer--de140c66de",
       "name": "rust-engineer",
       "description": "Use when building Rust applications requiring memory safety, systems programming, or zero-cost abstractions. Invoke for ownership patterns, lifetimes, traits, async/await with tokio.",
@@ -17040,6 +17477,46 @@
         "List the assets that drive risk (credentials, PII, integrity-critical state, availability-critical components, build artifacts).",
         "Describe realistic attacker capabilities based on exposure and intended usage."
       ]
+    },
+    {
+      "id": "self-improvement--dbe627649d",
+      "name": "self-improvement",
+      "description": "Meta-skill for analyzing PRs, issues, and user interactions to improve Cursor rules and skills automatically",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/basedhardware-self-improvement/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/basedhardware-self-improvement",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 2,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 978
+      },
+      "tags": [
+        "mcp",
+        "github",
+        "git",
+        "cursor",
+        "python",
+        "go",
+        "testing",
+        "ci",
+        "rag",
+        "benchmark"
+      ],
+      "use_when": [
+        "Analyzing closed PRs to extract lessons learned",
+        "Identifying patterns in rejected vs. accepted contributions",
+        "Learning from user corrections and feedback",
+        "Updating rules based on what worked or didn't work",
+        "Creating new rules when patterns emerge",
+        "Tracking effectiveness of existing rules"
+      ],
+      "workflow": []
     },
     {
       "id": "semgrep--681c2de3e4",
