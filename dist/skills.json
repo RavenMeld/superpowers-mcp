@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 684,
+  "count": 694,
   "roots": [
     {
       "label": "agent_playground",
@@ -2317,6 +2317,46 @@
       ]
     },
     {
+      "id": "chrome-firefox-profile-manager--cb35f16c42",
+      "name": "chrome-firefox-profile-manager",
+      "description": "Manage Chrome and Firefox automation profiles safely for repeatable browser tests and debugging sessions.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/chrome-firefox-profile-manager/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/chrome-firefox-profile-manager",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 146
+      },
+      "tags": [
+        "playwright",
+        "browser",
+        "chrome",
+        "firefox",
+        "go",
+        "ci",
+        "rag"
+      ],
+      "use_when": [
+        "You need stable browser state between automation runs.",
+        "Tests fail due to stale cookies/storage/profile drift.",
+        "You want clean profile isolation for Chrome and Firefox debugging."
+      ],
+      "workflow": [
+        "Create dedicated test profiles per browser and environment.",
+        "Start tests against isolated user-data/profile directories.",
+        "Reset profile state before critical regression runs.",
+        "Keep session fixtures explicit (cookies, localStorage, auth seeds).",
+        "Archive known-good profiles for reproducible bug repro."
+      ]
+    },
+    {
       "id": "ci-failure-triage--487c5974dc",
       "name": "ci-failure-triage",
       "description": "Diagnose CI failures and stabilize pipelines. Use when a mid-level developer needs to resolve flaky or failing builds.",
@@ -4095,6 +4135,44 @@
       ]
     },
     {
+      "id": "cross-browser-regression-matrix--1bcc6e38b8",
+      "name": "cross-browser-regression-matrix",
+      "description": "Run and compare regression results across Chromium, Firefox, and WebKit with a repeatable browser matrix.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/cross-browser-regression-matrix/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/cross-browser-regression-matrix",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 170
+      },
+      "tags": [
+        "playwright",
+        "browser",
+        "chrome",
+        "firefox",
+        "ci"
+      ],
+      "use_when": [
+        "A change must be validated on Chrome/Firefox/WebKit before release.",
+        "A bug reproduces only on one browser engine.",
+        "You need a reproducible browser compatibility gate in CI."
+      ],
+      "workflow": [
+        "Define the browser project matrix in Playwright config.",
+        "Run a focused smoke subset on all browsers for quick feedback.",
+        "Run full regression matrix for release candidates.",
+        "Diff failures by browser to isolate engine-specific issues.",
+        "Add browser-targeted assertions only when behavior genuinely differs."
+      ]
+    },
+    {
       "id": "cross-platform-safety--84d876fc7e",
       "name": "cross-platform-safety",
       "description": "Ensure commands and paths are safe across Windows + WSL + Docker (PowerShell vs bash, path translation, permissions). Use when instructions touch shell, filesystem, Docker, or OS-specific behavior.",
@@ -4699,6 +4777,42 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "cursor-rules-optimizer--4d671c05bf",
+      "name": "cursor-rules-optimizer",
+      "description": "Improve Cursor rules using observed failure patterns, repeated review comments, and workflow friction points.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/cursor-rules-optimizer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/cursor-rules-optimizer",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 166
+      },
+      "tags": [
+        "git",
+        "cursor",
+        "ci"
+      ],
+      "use_when": [
+        "Cursor suggestions repeatedly violate local standards.",
+        "PR reviews show recurring mistakes that rules should prevent.",
+        "You want a measurable loop for improving `.cursor/rules` quality."
+      ],
+      "workflow": [
+        "Collect recurring failure patterns from recent diffs/reviews.",
+        "Convert each pattern into a concrete rule with an example.",
+        "Keep rules short, testable, and scoped to repository conventions.",
+        "Validate rule impact on a small batch of representative tasks.",
+        "Keep a changelog for rule additions/removals and observed impact."
+      ]
     },
     {
       "id": "cursor-sso-integration--071860d774",
@@ -8011,6 +8125,46 @@
         "components/pricing/pricing-table.tsx",
         "e2e/navbar.spec.ts",
         "messages/en.json"
+      ]
+    },
+    {
+      "id": "git-signing-ops--be4cd2e2c1",
+      "name": "git-signing-ops",
+      "description": "Configure and verify Git commit signing (SSH or GPG) across Linux/WSL/Windows with reliable verification checks.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/git-signing-ops/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/git-signing-ops",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 166
+      },
+      "tags": [
+        "github",
+        "git",
+        "ssh",
+        "rust",
+        "wsl",
+        "windows",
+        "linux"
+      ],
+      "use_when": [
+        "You need verified commits for protected branches or org policy.",
+        "Signing works in one shell but fails in another (WSL vs Windows).",
+        "You are standardizing commit signing for multiple repos."
+      ],
+      "workflow": [
+        "Choose signing mode (SSH signing preferred for simple GitHub workflows).",
+        "Configure git signing keys and enable `commit.gpgsign`.",
+        "Test a signed commit locally.",
+        "Verify signature status in `git log --show-signature`.",
+        "Repeat verification in each shell environment you use."
       ]
     },
     {
@@ -15206,6 +15360,42 @@
       ]
     },
     {
+      "id": "playwright-flake-hunter--c724b6213b",
+      "name": "playwright-flake-hunter",
+      "description": "Stabilize flaky Playwright tests using retries, trace triage, selector hardening, and deterministic wait patterns.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-flake-hunter/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-flake-hunter",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 153
+      },
+      "tags": [
+        "playwright",
+        "firefox",
+        "ci"
+      ],
+      "use_when": [
+        "A Playwright test passes locally but fails in CI intermittently.",
+        "Retries hide failures and you need root-cause triage.",
+        "You need deterministic selectors and waits before release."
+      ],
+      "workflow": [
+        "Reproduce with retries and isolate flaky specs.",
+        "Collect trace/video/console for failing retries only.",
+        "Replace timing-based waits with event/state-based waits.",
+        "Harden selectors to role, label, and test-id conventions.",
+        "Re-run in headed/headless + Chromium/Firefox before merge."
+      ]
+    },
+    {
       "id": "playwright-mcp--77eec759de",
       "name": "playwright-mcp",
       "description": "Automate browser testing, web scraping, and UI validation using Playwright MCP server for comprehensive browser automation.",
@@ -15334,6 +15524,42 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "playwright-trace-forensics--4028d7aab9",
+      "name": "playwright-trace-forensics",
+      "description": "Perform deep Playwright failure forensics from trace artifacts, network logs, and console/runtime errors.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-trace-forensics/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-trace-forensics",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 173
+      },
+      "tags": [
+        "playwright",
+        "browser",
+        "ci"
+      ],
+      "use_when": [
+        "A CI failure needs precise proof of what happened in browser state.",
+        "You have trace artifacts but no clear diagnosis yet.",
+        "A regression only reproduces under CI timing/network conditions."
+      ],
+      "workflow": [
+        "Open the failing trace and map each action to assertion failure.",
+        "Inspect network waterfall for blocked/failed requests.",
+        "Correlate console/runtime errors with the failing step timestamp.",
+        "Classify failure type: selector drift, race, auth/session, backend error.",
+        "Produce minimal code fix plus a regression assertion."
+      ]
     },
     {
       "id": "playwright-validation--7f91f934bb",
@@ -20472,6 +20698,45 @@
       ]
     },
     {
+      "id": "ssh-multi-account-guardian--39c31e9c77",
+      "name": "ssh-multi-account-guardian",
+      "description": "Prevent account/key mixups when using multiple SSH identities (for example default GitHub + RavenMeld) across WSL and Windows.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/ssh-multi-account-guardian/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/ssh-multi-account-guardian",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 144
+      },
+      "tags": [
+        "github",
+        "git",
+        "ssh",
+        "ci",
+        "wsl",
+        "windows"
+      ],
+      "use_when": [
+        "You use multiple GitHub accounts and separate SSH keys.",
+        "Push/pull operations hit the wrong account or permission scope.",
+        "You need deterministic host alias routing across WSL and Windows."
+      ],
+      "workflow": [
+        "Generate one keypair per account/use-case.",
+        "Define explicit `Host` aliases in `~/.ssh/config`.",
+        "Pin each git remote to the intended alias.",
+        "Verify auth identity before push.",
+        "Keep key names and repo remotes clearly labeled."
+      ]
+    },
+    {
       "id": "story-roleplay--d82f961258",
       "name": "story-roleplay",
       "description": "Parse and apply character cards and world info files in multiple formats (PNG, WebP, JSON), fully compatible with SillyTavern format. Supports automatic parsing, keyword triggering, and dynamic updates.",
@@ -22511,6 +22776,45 @@
       ]
     },
     {
+      "id": "warp-session-orchestrator--6fcc37b201",
+      "name": "warp-session-orchestrator",
+      "description": "Build repeatable Warp terminal session layouts for coding, testing, deployment, and incident response workflows.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/warp-session-orchestrator/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/warp-session-orchestrator",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 156
+      },
+      "tags": [
+        "warp",
+        "terminal",
+        "go",
+        "testing",
+        "ci",
+        "docs"
+      ],
+      "use_when": [
+        "You want one-command setup of your daily terminal workflow.",
+        "You switch between dev/test/release contexts often.",
+        "You need shareable but secret-safe terminal runbooks."
+      ],
+      "workflow": [
+        "Define session goals (dev loop, test triage, release ops).",
+        "Create command blocks for each pane/tab responsibility.",
+        "Use environment guards so missing secrets fail fast.",
+        "Keep one cleanup/reset command per workflow.",
+        "Version session docs with your repository runbooks."
+      ]
+    },
+    {
       "id": "warp-terminal-workflows--7c44da3884",
       "name": "warp-terminal-workflows",
       "description": "Use Warp Terminal effectively for dev workflows: projects, saved commands/workflows, SSH sessions, and safe team sharing.",
@@ -23417,6 +23721,83 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "wsl-network-recovery--2c983c41a0",
+      "name": "wsl-network-recovery",
+      "description": "Recover WSL networking issues (DNS, proxy, localhost forwarding, firewall interactions) with a repeatable diagnostic flow.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/wsl-network-recovery/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/wsl-network-recovery",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 159
+      },
+      "tags": [
+        "github",
+        "git",
+        "go",
+        "powershell",
+        "wsl",
+        "windows"
+      ],
+      "use_when": [
+        "WSL cannot resolve hosts while Windows can.",
+        "Localhost services are unreachable across WSL and Windows.",
+        "Proxy/firewall settings intermittently break package installs or API calls."
+      ],
+      "workflow": [
+        "Verify DNS resolution and route reachability inside WSL.",
+        "Compare proxy/firewall settings between Windows and WSL.",
+        "Validate localhost forwarding direction and bound address.",
+        "Restart WSL networking stack only after capturing baseline diagnostics.",
+        "Re-run connectivity checks and record the working config."
+      ]
+    },
+    {
+      "id": "wsl-windows-path-debugger--b314cf6506",
+      "name": "wsl-windows-path-debugger",
+      "description": "Diagnose and fix WSL/Windows path translation, newline, and permission mismatches that break toolchains.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/wsl-windows-path-debugger/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/wsl-windows-path-debugger",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 163
+      },
+      "tags": [
+        "powershell",
+        "ci",
+        "wsl",
+        "windows",
+        "linux"
+      ],
+      "use_when": [
+        "Commands work in PowerShell but fail in WSL (or vice versa).",
+        "Tools cannot find files due to `/mnt/c/...` versus `C:\\...` confusion.",
+        "Scripts break on CRLF/LF or executable permission differences."
+      ],
+      "workflow": [
+        "Confirm the execution shell and absolute path assumptions.",
+        "Normalize path conversion at the boundary (`wslpath` / explicit mapping).",
+        "Check newline format and shebang compatibility.",
+        "Validate file permissions + executable bits in WSL.",
+        "Re-test from both shells with the same target file."
+      ]
     },
     {
       "id": "www-techradar-com-anthropics-official-git-mcp-server-had-some-worrying-security-flaws-this-is-what-happened-next--b27fcb8687",

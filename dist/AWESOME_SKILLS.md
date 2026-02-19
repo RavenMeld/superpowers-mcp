@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `684`
+- total_skills: `694`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -162,11 +162,14 @@
 - [netlify-deploy (`63/100`)](cards/netlify-deploy--9034b01776.md)
 - [agent-browser (`60/100`)](cards/agent-browser--823d158f5b.md)
 - [agent-browser (`60/100`)](cards/agent-browser--f24e57e8bd.md)
+- [chrome-firefox-profile-manager (`60/100`)](cards/chrome-firefox-profile-manager--cb35f16c42.md)
+- [cross-browser-regression-matrix (`60/100`)](cards/cross-browser-regression-matrix--1bcc6e38b8.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](cards/dev-browser--a7b77ea348.md)
 - [MCP Integration (`60/100`)](cards/mcp-integration--03e383b199.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--dafb020d92.md)
+- [playwright-trace-forensics (`60/100`)](cards/playwright-trace-forensics--4028d7aab9.md)
 - [testing-patterns (`60/100`)](cards/testing-patterns--eab943b042.md)
 - [web-design-reviewer (`60/100`)](cards/web-design-reviewer--c92475836b.md)
 - [webapp-testing (`60/100`)](cards/webapp-testing--4afd58a651.md)
@@ -174,15 +177,14 @@
 - [agent-browser (`55/100`)](cards/agent-browser--3ce6e63398.md)
 - [agent-browser (`55/100`)](cards/agent-browser--a54716c5a8.md)
 - [browser (`55/100`)](cards/browser--23a427f66f.md)
-- [browser-extension-builder (`55/100`)](cards/browser-extension-builder--54c2be13dd.md)
-- [firefox-debug (`55/100`)](cards/firefox-debug--158ef3059f.md)
-- [github-copilot-agent-tips-and-tricks (`55/100`)](cards/github-copilot-agent-tips-and-tricks--be08c278ea.md)
 
 ### chrome
 - [browser (`65/100`)](cards/browser--ed92b6f327.md)
 - [chrome-devtools (`65/100`)](cards/chrome-devtools--b58cb2bb88.md)
 - [agent-browser (`60/100`)](cards/agent-browser--823d158f5b.md)
 - [agent-browser (`60/100`)](cards/agent-browser--f24e57e8bd.md)
+- [chrome-firefox-profile-manager (`60/100`)](cards/chrome-firefox-profile-manager--cb35f16c42.md)
+- [cross-browser-regression-matrix (`60/100`)](cards/cross-browser-regression-matrix--1bcc6e38b8.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](cards/dev-browser--a7b77ea348.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--66aa3b503f.md)
@@ -207,8 +209,6 @@
 - [chrome-devtools (`35/100`)](cards/chrome-devtools--bcbec69c8d.md)
 - [youtube-transcribe-skill (`35/100`)](cards/youtube-transcribe-skill--2c4b3621d0.md)
 - [browser-extension-developer (`30/100`)](cards/browser-extension-developer--ec8fd535b2.md)
-- [browser-extension-developer (`30/100`)](cards/browser-extension-developer--f9046aa375.md)
-- [food-order (`25/100`)](cards/food-order--e20f7021fb.md)
 
 ### ci
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -291,6 +291,7 @@
 - [cursor-mcp-setup (`65/100`)](cards/cursor-mcp-setup--e8482ae8f2.md)
 - [cursor-subagent-creator (`65/100`)](cards/cursor-subagent-creator--aabd812653.md)
 - [agent-browser (`60/100`)](cards/agent-browser--823d158f5b.md)
+- [cursor-rules-optimizer (`60/100`)](cards/cursor-rules-optimizer--4d671c05bf.md)
 - [api-designer (`55/100`)](cards/api-designer--cf6c9ec07a.md)
 - [obsidian-hello-world (`55/100`)](cards/obsidian-hello-world--e4e1eeb2f1.md)
 - [sql-pro (`55/100`)](cards/sql-pro--8633f5607d.md)
@@ -311,7 +312,6 @@
 - [cursor-indexing-issues (`25/100`)](cards/cursor-indexing-issues--0d2cbf6e2c.md)
 - [cursor-known-pitfalls (`25/100`)](cards/cursor-known-pitfalls--ea03c9d5e3.md)
 - [cursor-local-dev-loop (`25/100`)](cards/cursor-local-dev-loop--ebdc625a9b.md)
-- [cursor-model-selection (`25/100`)](cards/cursor-model-selection--f963b16f20.md)
 
 ### devops
 - [senior-fullstack (`70/100`)](cards/senior-fullstack--8b8cef9473.md)
@@ -439,8 +439,11 @@
 
 ### firefox
 - [playwright-browser-automation (`70/100`)](cards/playwright-browser-automation--629938c0e3.md)
+- [chrome-firefox-profile-manager (`60/100`)](cards/chrome-firefox-profile-manager--cb35f16c42.md)
+- [cross-browser-regression-matrix (`60/100`)](cards/cross-browser-regression-matrix--1bcc6e38b8.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--dafb020d92.md)
+- [playwright-flake-hunter (`60/100`)](cards/playwright-flake-hunter--c724b6213b.md)
 - [conducting-browser-compatibility-tests (`58/100`)](cards/conducting-browser-compatibility-tests--76c990ea0a.md)
 - [browser-extension-builder (`55/100`)](cards/browser-extension-builder--54c2be13dd.md)
 - [firefox-debug (`55/100`)](cards/firefox-debug--158ef3059f.md)
@@ -659,9 +662,11 @@
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--99917f0071.md)
 - [admin-wsl (`60/100`)](cards/admin-wsl--1963feb76a.md)
 - [administering-linux (`60/100`)](cards/administering-linux--035599958b.md)
+- [git-signing-ops (`60/100`)](cards/git-signing-ops--be4cd2e2c1.md)
 - [pyright-type-checker (`60/100`)](cards/pyright-type-checker--b262476f17.md)
 - [python-project-bootstrap (`60/100`)](cards/python-project-bootstrap--1be93be29e.md)
 - [tmux (`60/100`)](cards/tmux--9df7a0c58b.md)
+- [wsl-windows-path-debugger (`60/100`)](cards/wsl-windows-path-debugger--b314cf6506.md)
 - [aws-beanstalk-expert (`55/100`)](cards/aws-beanstalk-expert--23b198b516.md)
 - [cli-developer (`55/100`)](cards/cli-developer--80492064e4.md)
 - [firefox-debug (`55/100`)](cards/firefox-debug--158ef3059f.md)
@@ -671,8 +676,6 @@
 - [rclone (`55/100`)](cards/rclone--92e53ace5a.md)
 - [rust-systems-programming (`55/100`)](cards/rust-systems-programming--20ce8adc94.md)
 - [agent-modes (`50/100`)](cards/agent-modes--159ae8dcf3.md)
-- [azure-devops-cli (`50/100`)](cards/azure-devops-cli--33d32dd66b.md)
-- [baoyu-url-to-markdown (`50/100`)](cards/baoyu-url-to-markdown--1d6e3247f8.md)
 
 ### llm
 - [prompt-engineering-patterns (`88/100`)](cards/prompt-engineering-patterns--a22347345f.md)
@@ -847,11 +850,15 @@
 - [playwright-validation (`65/100`)](cards/playwright-validation--7f91f934bb.md)
 - [screenshot (`65/100`)](cards/screenshot--35d6a921f7.md)
 - [agent-browser (`60/100`)](cards/agent-browser--823d158f5b.md)
+- [chrome-firefox-profile-manager (`60/100`)](cards/chrome-firefox-profile-manager--cb35f16c42.md)
+- [cross-browser-regression-matrix (`60/100`)](cards/cross-browser-regression-matrix--1bcc6e38b8.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](cards/dev-browser--a7b77ea348.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](cards/playwright-cli--dafb020d92.md)
 - [playwright-e2e (`60/100`)](cards/playwright-e2e--91aa9eacd8.md)
+- [playwright-flake-hunter (`60/100`)](cards/playwright-flake-hunter--c724b6213b.md)
+- [playwright-trace-forensics (`60/100`)](cards/playwright-trace-forensics--4028d7aab9.md)
 - [web-design-reviewer (`60/100`)](cards/web-design-reviewer--c92475836b.md)
 - [webapp-testing (`60/100`)](cards/webapp-testing--4afd58a651.md)
 - [conducting-browser-compatibility-tests (`58/100`)](cards/conducting-browser-compatibility-tests--76c990ea0a.md)
@@ -866,10 +873,6 @@
 - [xiaohongshu-recruiter (`48/100`)](cards/xiaohongshu-recruiter--a630c8ffc9.md)
 - [browser-automation (`45/100`)](cards/browser-automation--c6687517d2.md)
 - [playwright-debugging (`45/100`)](cards/playwright-debugging--6d6cbf7add.md)
-- [playwright-skill (`45/100`)](cards/playwright-skill--2ddeb35083.md)
-- [playwright-skill (`45/100`)](cards/playwright-skill--901aa08a2b.md)
-- [web-artifacts-builder (`45/100`)](cards/web-artifacts-builder--b2b3567401.md)
-- [write-e2e-tests (`45/100`)](cards/write-e2e-tests--11f88570ae.md)
 
 ### postgres
 - [render-deploy (`73/100`)](cards/render-deploy--ca3d146899.md)
@@ -915,6 +918,8 @@
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--99917f0071.md)
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
 - [admin-wsl (`60/100`)](cards/admin-wsl--1963feb76a.md)
+- [wsl-network-recovery (`60/100`)](cards/wsl-network-recovery--2c983c41a0.md)
+- [wsl-windows-path-debugger (`60/100`)](cards/wsl-windows-path-debugger--b314cf6506.md)
 - [powershell-security (`55/100`)](cards/powershell-security--b322ae5940.md)
 - [gh-cli (`50/100`)](cards/gh-cli--612e90d546.md)
 - [powershell-master (`50/100`)](cards/powershell-master--4065353fc2.md)
@@ -1048,6 +1053,7 @@
 - [pptx (`65/100`)](cards/pptx--f1eedde963.md)
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--7cb9c75e56.md)
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--99917f0071.md)
+- [git-signing-ops (`60/100`)](cards/git-signing-ops--be4cd2e2c1.md)
 - [obsidian-markdown (`60/100`)](cards/obsidian-markdown--815bbf3682.md)
 - [ouroboros (`60/100`)](cards/ouroboros--adcf029e90.md)
 - [rag-implementation (`60/100`)](cards/rag-implementation--2444f4f834.md)
@@ -1065,7 +1071,6 @@
 - [nestjs-expert (`55/100`)](cards/nestjs-expert--5d2fb2ff2f.md)
 - [repomix-explorer (`55/100`)](cards/repomix-explorer--4e0fd13cef.md)
 - [rust-engineer (`55/100`)](cards/rust-engineer--de140c66de.md)
-- [rust-systems-programming (`55/100`)](cards/rust-systems-programming--20ce8adc94.md)
 
 ### security
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -1164,6 +1169,8 @@
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
 - [admin-wsl (`60/100`)](cards/admin-wsl--1963feb76a.md)
 - [administering-linux (`60/100`)](cards/administering-linux--035599958b.md)
+- [git-signing-ops (`60/100`)](cards/git-signing-ops--be4cd2e2c1.md)
+- [ssh-multi-account-guardian (`60/100`)](cards/ssh-multi-account-guardian--39c31e9c77.md)
 - [warp-terminal-workflows (`60/100`)](cards/warp-terminal-workflows--7c44da3884.md)
 - [iac-checkov (`58/100`)](cards/iac-checkov--2c035a1039.md)
 - [aws-beanstalk-expert (`55/100`)](cards/aws-beanstalk-expert--23b198b516.md)
@@ -1195,6 +1202,7 @@
 - [uv-package-manager (`65/100`)](cards/uv-package-manager--99917f0071.md)
 - [compound-docs (`63/100`)](cards/compound-docs--c0251dffa7.md)
 - [hugging-face-cli (`60/100`)](cards/hugging-face-cli--872759e503.md)
+- [warp-session-orchestrator (`60/100`)](cards/warp-session-orchestrator--6fcc37b201.md)
 - [warp-terminal-workflows (`60/100`)](cards/warp-terminal-workflows--7c44da3884.md)
 - [bootstrap (`55/100`)](cards/bootstrap--dfdb2e61e3.md)
 - [cli-developer (`55/100`)](cards/cli-developer--80492064e4.md)
@@ -1211,7 +1219,6 @@
 - [Zellij Specialist (`50/100`)](cards/zellij-specialist--0607aa94d8.md)
 - [dcf-valuation (`45/100`)](cards/dcf-valuation--ce61190ef7.md)
 - [log-summarizer (`45/100`)](cards/log-summarizer--37c6baa2da.md)
-- [log-summarizer (`45/100`)](cards/log-summarizer--da942eeb86.md)
 
 ### terraform
 - [aws-solution-architect (`88/100`)](cards/aws-solution-architect--e1c3559c82.md)
@@ -1307,6 +1314,7 @@
 - [security-review (安全审查) (`45/100`)](cards/security-review--b40c5ae70c.md)
 
 ### warp
+- [warp-session-orchestrator (`60/100`)](cards/warp-session-orchestrator--6fcc37b201.md)
 - [warp-terminal-workflows (`60/100`)](cards/warp-terminal-workflows--7c44da3884.md)
 - [bootstrap (`55/100`)](cards/bootstrap--dfdb2e61e3.md)
 - [morph-search (`55/100`)](cards/morph-search--a568aec630.md)
@@ -1332,18 +1340,18 @@
 - [agent-browser (`60/100`)](cards/agent-browser--f24e57e8bd.md)
 - [dev-browser (`60/100`)](cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](cards/dev-browser--a7b77ea348.md)
+- [git-signing-ops (`60/100`)](cards/git-signing-ops--be4cd2e2c1.md)
 - [python-project-bootstrap (`60/100`)](cards/python-project-bootstrap--1be93be29e.md)
+- [ssh-multi-account-guardian (`60/100`)](cards/ssh-multi-account-guardian--39c31e9c77.md)
 - [tmux (`60/100`)](cards/tmux--9df7a0c58b.md)
 - [winapp-cli (`60/100`)](cards/winapp-cli--368f1b33de.md)
 - [winapp-cli (`60/100`)](cards/winapp-cli--3bd19690ac.md)
+- [wsl-network-recovery (`60/100`)](cards/wsl-network-recovery--2c983c41a0.md)
+- [wsl-windows-path-debugger (`60/100`)](cards/wsl-windows-path-debugger--b314cf6506.md)
 - [agent-browser (`55/100`)](cards/agent-browser--3ce6e63398.md)
 - [bootstrap (`55/100`)](cards/bootstrap--dfdb2e61e3.md)
 - [cli-developer (`55/100`)](cards/cli-developer--80492064e4.md)
 - [firefox-debug (`55/100`)](cards/firefox-debug--158ef3059f.md)
-- [obsidian-incident-runbook (`55/100`)](cards/obsidian-incident-runbook--fbfbbc6c08.md)
-- [obsidian-install-auth (`55/100`)](cards/obsidian-install-auth--8dde5f9565.md)
-- [obsidian-local-dev-loop (`55/100`)](cards/obsidian-local-dev-loop--3ce2f2655a.md)
-- [obsidian-prod-checklist (`55/100`)](cards/obsidian-prod-checklist--5ccb8af461.md)
 
 ### wsl
 - [content-creator (`78/100`)](cards/content-creator--b657ebe201.md)
@@ -1356,8 +1364,12 @@
 - [windows-wsl-interop (`65/100`)](cards/windows-wsl-interop--ae0a483b12.md)
 - [admin-windows (`60/100`)](cards/admin-windows--f19530b42f.md)
 - [admin-wsl (`60/100`)](cards/admin-wsl--1963feb76a.md)
+- [git-signing-ops (`60/100`)](cards/git-signing-ops--be4cd2e2c1.md)
 - [python-project-bootstrap (`60/100`)](cards/python-project-bootstrap--1be93be29e.md)
+- [ssh-multi-account-guardian (`60/100`)](cards/ssh-multi-account-guardian--39c31e9c77.md)
 - [tmux (`60/100`)](cards/tmux--9df7a0c58b.md)
+- [wsl-network-recovery (`60/100`)](cards/wsl-network-recovery--2c983c41a0.md)
+- [wsl-windows-path-debugger (`60/100`)](cards/wsl-windows-path-debugger--b314cf6506.md)
 - [every-style-editor (`55/100`)](cards/every-style-editor--1ceff4371c.md)
 - [baoyu-url-to-markdown (`50/100`)](cards/baoyu-url-to-markdown--1d6e3247f8.md)
 - [linear (`48/100`)](cards/linear--f5ebc5890f.md)
