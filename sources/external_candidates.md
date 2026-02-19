@@ -7,7 +7,7 @@ Policy:
 - External discovery is recorded here for review and later manual import (as `SKILL.md` files or as references).
 - Prefer sources that are actively maintained, documented, and security-conscious.
 
-Last updated: 2026-02-18
+Last updated: 2026-02-19
 
 ## MCP Server Catalogs (GitHub)
 - https://github.com/appcypher/awesome-mcp-servers
@@ -98,6 +98,10 @@ Last updated: 2026-02-18
   - Agent frameworks and systems (survey and discovery feed).
 - https://github.com/corca-ai/awesome-llm-security
   - LLM security resources (prompt injection, evals, defenses, red-teaming).
+
+## Claude Code Subagents / Agents
+- https://github.com/VoltAgent/awesome-claude-code-subagents
+  - Curated Claude Code subagent catalog (good source for converting high-value subagents into SKILL.md stubs).
 
 ## Python / Data Engineering (Awesome Lists)
 - https://github.com/vinta/awesome-python
