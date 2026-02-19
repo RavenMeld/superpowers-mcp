@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `664`
+- total_skills: `684`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -16,6 +16,7 @@
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e3d54110ec.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
+- [run-device-tests (`80/100`)](dist/cards/run-device-tests--c027c1a683.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [speech (`80/100`)](dist/cards/speech--8f24bf6cc3.md)
@@ -52,7 +53,6 @@
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
 - [playwright-browser-automation (`70/100`)](dist/cards/playwright-browser-automation--629938c0e3.md)
-- [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 
 ## By Tag
 ### aws
@@ -109,6 +109,7 @@
 - [polars (`50/100`)](dist/cards/polars--8ab7332b4b.md)
 - [powershell-master (`50/100`)](dist/cards/powershell-master--4065353fc2.md)
 - [kubernetes-architect (`40/100`)](dist/cards/kubernetes-architect--abbaa5b296.md)
+- [cursor-sso-integration (`25/100`)](dist/cards/cursor-sso-integration--071860d774.md)
 
 ### benchmark
 - [evaluating-llms-harness (`75/100`)](dist/cards/evaluating-llms-harness--3951f5327c.md)
@@ -164,6 +165,7 @@
 - [dev-browser (`60/100`)](dist/cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--a7b77ea348.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
+- [playwright-cli (`60/100`)](dist/cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](dist/cards/playwright-cli--dafb020d92.md)
 - [testing-patterns (`60/100`)](dist/cards/testing-patterns--eab943b042.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
@@ -175,7 +177,6 @@
 - [browser-extension-builder (`55/100`)](dist/cards/browser-extension-builder--54c2be13dd.md)
 - [firefox-debug (`55/100`)](dist/cards/firefox-debug--158ef3059f.md)
 - [github-copilot-agent-tips-and-tricks (`55/100`)](dist/cards/github-copilot-agent-tips-and-tricks--be08c278ea.md)
-- [github-issues (`55/100`)](dist/cards/github-issues--3dcbcfee8e.md)
 
 ### chrome
 - [browser (`65/100`)](dist/cards/browser--ed92b6f327.md)
@@ -184,6 +185,7 @@
 - [agent-browser (`60/100`)](dist/cards/agent-browser--f24e57e8bd.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--a7b77ea348.md)
+- [playwright-cli (`60/100`)](dist/cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](dist/cards/playwright-cli--dafb020d92.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
 - [conducting-browser-compatibility-tests (`58/100`)](dist/cards/conducting-browser-compatibility-tests--76c990ea0a.md)
@@ -192,6 +194,7 @@
 - [debugging-wizard (`55/100`)](dist/cards/debugging-wizard--0886c4cf9f.md)
 - [firefox-debug (`55/100`)](dist/cards/firefox-debug--158ef3059f.md)
 - [make-skill-template (`55/100`)](dist/cards/make-skill-template--45116c8864.md)
+- [obsidian-observability (`55/100`)](dist/cards/obsidian-observability--1204bac967.md)
 - [obsidian-performance-tuning (`55/100`)](dist/cards/obsidian-performance-tuning--c57f6bd919.md)
 - [perf-lighthouse (`55/100`)](dist/cards/perf-lighthouse--a468b831c7.md)
 - [baoyu-url-to-markdown (`50/100`)](dist/cards/baoyu-url-to-markdown--1d6e3247f8.md)
@@ -206,8 +209,6 @@
 - [browser-extension-developer (`30/100`)](dist/cards/browser-extension-developer--ec8fd535b2.md)
 - [browser-extension-developer (`30/100`)](dist/cards/browser-extension-developer--f9046aa375.md)
 - [food-order (`25/100`)](dist/cards/food-order--e20f7021fb.md)
-- [moai-platform-chrome-extension (`20/100`)](dist/cards/moai-platform-chrome-extension--2381984f4d.md)
-- [ordercli (`20/100`)](dist/cards/ordercli--37578847be.md)
 
 ### ci
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -222,6 +223,7 @@
 - [doc (`80/100`)](dist/cards/doc--bbcd83bf3f.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e3d54110ec.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
+- [run-device-tests (`80/100`)](dist/cards/run-device-tests--c027c1a683.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [speech (`80/100`)](dist/cards/speech--8f24bf6cc3.md)
@@ -239,12 +241,12 @@
 - [release-note-generation (`75/100`)](dist/cards/release-note-generation--f183038301.md)
 - [story-roleplay (`75/100`)](dist/cards/story-roleplay--d82f961258.md)
 - [terraform-azurerm-set-diff-analyzer (`75/100`)](dist/cards/terraform-azurerm-set-diff-analyzer--a8fa61b77c.md)
-- [java-concurrency (`73/100`)](dist/cards/java-concurrency--22ff835618.md)
 
 ### cloudflare
 - [rclone (`55/100`)](dist/cards/rclone--92e53ace5a.md)
 - [cloudflare-deploy (`53/100`)](dist/cards/cloudflare-deploy--512c1f5b25.md)
 - [mintlify (`50/100`)](dist/cards/mintlify--499814ca9d.md)
+- [writing-playwright-tests (`45/100`)](dist/cards/writing-playwright-tests--d80159a80c.md)
 - [ordercli (`20/100`)](dist/cards/ordercli--37578847be.md)
 
 ### comfyui
@@ -253,6 +255,7 @@
 - [Wan2.1/2.2 I2V ComfyUI (`55/100`)](dist/cards/wan2-1-2-2-i2v-comfyui--a096f09dae.md)
 - [comfy-registry (`45/100`)](dist/cards/comfy-registry--b79e2071fa.md)
 - [comfyui-workflow (`45/100`)](dist/cards/comfyui-workflow--924bee3809.md)
+- [writing-playwright-tests (`45/100`)](dist/cards/writing-playwright-tests--d80159a80c.md)
 - [comfyui-mini (`40/100`)](dist/cards/comfyui-mini--afe0cd8c44.md)
 - [comfyui-zimage (`40/100`)](dist/cards/comfyui-zimage--eb72874511.md)
 - [comfyui-cli (`35/100`)](dist/cards/comfyui-cli--4ad1e6601e.md)
@@ -291,6 +294,7 @@
 - [api-designer (`55/100`)](dist/cards/api-designer--cf6c9ec07a.md)
 - [obsidian-hello-world (`55/100`)](dist/cards/obsidian-hello-world--e4e1eeb2f1.md)
 - [sql-pro (`55/100`)](dist/cards/sql-pro--8633f5607d.md)
+- [agent-modes (`50/100`)](dist/cards/agent-modes--159ae8dcf3.md)
 - [self-improvement (`50/100`)](dist/cards/self-improvement--dbe627649d.md)
 - [peekaboo (`45/100`)](dist/cards/peekaboo--259321dd95.md)
 - [obsidian (`40/100`)](dist/cards/obsidian--77b0432590.md)
@@ -299,14 +303,15 @@
 - [frontend-ui-ux (`35/100`)](dist/cards/frontend-ui-ux--4cf3a705f5.md)
 - [cursor-ai-chat (`25/100`)](dist/cards/cursor-ai-chat--7dcd8e3e4c.md)
 - [cursor-common-errors (`25/100`)](dist/cards/cursor-common-errors--86c9cfa799.md)
+- [cursor-compliance-audit (`25/100`)](dist/cards/cursor-compliance-audit--5ddb3359f5.md)
 - [cursor-context-management (`25/100`)](dist/cards/cursor-context-management--39acd9d24b.md)
 - [cursor-debug-bundle (`25/100`)](dist/cards/cursor-debug-bundle--f2b4f56e45.md)
+- [cursor-git-integration (`25/100`)](dist/cards/cursor-git-integration--bf9fc7dcd0.md)
+- [cursor-hello-world (`25/100`)](dist/cards/cursor-hello-world--227fd3187d.md)
 - [cursor-indexing-issues (`25/100`)](dist/cards/cursor-indexing-issues--0d2cbf6e2c.md)
 - [cursor-known-pitfalls (`25/100`)](dist/cards/cursor-known-pitfalls--ea03c9d5e3.md)
 - [cursor-local-dev-loop (`25/100`)](dist/cards/cursor-local-dev-loop--ebdc625a9b.md)
 - [cursor-model-selection (`25/100`)](dist/cards/cursor-model-selection--f963b16f20.md)
-- [cursor-multi-repo (`25/100`)](dist/cards/cursor-multi-repo--8b0d61ebf4.md)
-- [frontend-design (`25/100`)](dist/cards/frontend-design--973bd957ff.md)
 
 ### devops
 - [senior-fullstack (`70/100`)](dist/cards/senior-fullstack--8b8cef9473.md)
@@ -434,6 +439,7 @@
 
 ### firefox
 - [playwright-browser-automation (`70/100`)](dist/cards/playwright-browser-automation--629938c0e3.md)
+- [playwright-cli (`60/100`)](dist/cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](dist/cards/playwright-cli--dafb020d92.md)
 - [conducting-browser-compatibility-tests (`58/100`)](dist/cards/conducting-browser-compatibility-tests--76c990ea0a.md)
 - [browser-extension-builder (`55/100`)](dist/cards/browser-extension-builder--54c2be13dd.md)
@@ -468,6 +474,7 @@
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e3d54110ec.md)
+- [run-device-tests (`80/100`)](dist/cards/run-device-tests--c027c1a683.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [evaluating-llms-harness (`75/100`)](dist/cards/evaluating-llms-harness--3951f5327c.md)
 - [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--1659c18775.md)
@@ -493,11 +500,11 @@
 - [langchain-architecture (`65/100`)](dist/cards/langchain-architecture--4a9d7cd468.md)
 - [llm-evaluation-harness (`65/100`)](dist/cards/llm-evaluation-harness--6086851fcb.md)
 - [modern-python (`65/100`)](dist/cards/modern-python--a27249b96c.md)
-- [phoenix-observability (`65/100`)](dist/cards/phoenix-observability--42f11b32d8.md)
 
 ### github
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
+- [run-device-tests (`80/100`)](dist/cards/run-device-tests--c027c1a683.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [evaluating-llms-harness (`75/100`)](dist/cards/evaluating-llms-harness--3951f5327c.md)
 - [huggingface-accelerate (`75/100`)](dist/cards/huggingface-accelerate--1659c18775.md)
@@ -525,7 +532,6 @@
 - [tool-selection-rubric (`65/100`)](dist/cards/tool-selection-rubric--413d53e8b9.md)
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--7cb9c75e56.md)
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--99917f0071.md)
-- [weights-and-biases (`65/100`)](dist/cards/weights-and-biases--ff63951ece.md)
 
 ### go
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -538,6 +544,7 @@
 - [prompt-engineering-patterns (`83/100`)](dist/cards/prompt-engineering-patterns--1119510b69.md)
 - [git-worktree (`80/100`)](dist/cards/git-worktree--e3d54110ec.md)
 - [imagegen (`80/100`)](dist/cards/imagegen--fd300907ba.md)
+- [run-device-tests (`80/100`)](dist/cards/run-device-tests--c027c1a683.md)
 - [semgrep (`80/100`)](dist/cards/semgrep--681c2de3e4.md)
 - [sora (`80/100`)](dist/cards/sora--3b582ffd83.md)
 - [sqlite-inspector (`80/100`)](dist/cards/sqlite-inspector--1ea7e91f18.md)
@@ -557,7 +564,6 @@
 - [n8n-workflow-patterns (`70/100`)](dist/cards/n8n-workflow-patterns--e60ff0c2ed.md)
 - [OpenTelemetry Instrumentation Extension (`70/100`)](dist/cards/opentelemetry-instrumentation-extension--09652c66d6.md)
 - [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
-- [rule-updater (`70/100`)](dist/cards/rule-updater--8ccd937340.md)
 
 ### hyimporter
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
@@ -659,14 +665,14 @@
 - [aws-beanstalk-expert (`55/100`)](dist/cards/aws-beanstalk-expert--23b198b516.md)
 - [cli-developer (`55/100`)](dist/cards/cli-developer--80492064e4.md)
 - [firefox-debug (`55/100`)](dist/cards/firefox-debug--158ef3059f.md)
+- [obsidian-incident-runbook (`55/100`)](dist/cards/obsidian-incident-runbook--fbfbbc6c08.md)
+- [obsidian-install-auth (`55/100`)](dist/cards/obsidian-install-auth--8dde5f9565.md)
+- [obsidian-prod-checklist (`55/100`)](dist/cards/obsidian-prod-checklist--5ccb8af461.md)
 - [rclone (`55/100`)](dist/cards/rclone--92e53ace5a.md)
 - [rust-systems-programming (`55/100`)](dist/cards/rust-systems-programming--20ce8adc94.md)
+- [agent-modes (`50/100`)](dist/cards/agent-modes--159ae8dcf3.md)
 - [azure-devops-cli (`50/100`)](dist/cards/azure-devops-cli--33d32dd66b.md)
 - [baoyu-url-to-markdown (`50/100`)](dist/cards/baoyu-url-to-markdown--1d6e3247f8.md)
-- [chrome-devtools-debugging (`50/100`)](dist/cards/chrome-devtools-debugging--75a85076fc.md)
-- [firefox-bookmarks (`50/100`)](dist/cards/firefox-bookmarks--ebee36e48d.md)
-- [gh-cli (`50/100`)](dist/cards/gh-cli--612e90d546.md)
-- [Linux Commands Reference (`50/100`)](dist/cards/linux-commands-reference--8f7aef9f43.md)
 
 ### llm
 - [prompt-engineering-patterns (`88/100`)](dist/cards/prompt-engineering-patterns--a22347345f.md)
@@ -735,6 +741,7 @@
 ### mozilla
 - [error-pattern-safety (`55/100`)](dist/cards/error-pattern-safety--e9a06934b8.md)
 - [firefox-debug (`55/100`)](dist/cards/firefox-debug--158ef3059f.md)
+- [obsidian-cost-tuning (`55/100`)](dist/cards/obsidian-cost-tuning--1de54994b7.md)
 - [obsidian-performance-tuning (`55/100`)](dist/cards/obsidian-performance-tuning--c57f6bd919.md)
 - [firefox-bookmarks (`50/100`)](dist/cards/firefox-bookmarks--ebee36e48d.md)
 - [browser-cli (`45/100`)](dist/cards/browser-cli--6a87ea2d9e.md)
@@ -789,6 +796,7 @@
 - [fullstack-guardian (`55/100`)](dist/cards/fullstack-guardian--1947eb1f5d.md)
 - [microservices-architect (`55/100`)](dist/cards/microservices-architect--445b3dc824.md)
 - [monitoring-expert (`55/100`)](dist/cards/monitoring-expert--991a1de25c.md)
+- [obsidian-observability (`55/100`)](dist/cards/obsidian-observability--1204bac967.md)
 - [spring-boot-engineer (`55/100`)](dist/cards/spring-boot-engineer--1d6773b173.md)
 - [cloudflare-deploy (`53/100`)](dist/cards/cloudflare-deploy--512c1f5b25.md)
 - [mlops-engineer (`50/100`)](dist/cards/mlops-engineer--b342272417.md)
@@ -804,8 +812,17 @@
 - [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [obsidian-vault-ops (`65/100`)](dist/cards/obsidian-vault-ops--47bccc269b.md)
 - [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
+- [obsidian-canvas-creator (`58/100`)](dist/cards/obsidian-canvas-creator--ae501278c9.md)
+- [obsidian-cost-tuning (`55/100`)](dist/cards/obsidian-cost-tuning--1de54994b7.md)
 - [obsidian-hello-world (`55/100`)](dist/cards/obsidian-hello-world--e4e1eeb2f1.md)
+- [obsidian-incident-runbook (`55/100`)](dist/cards/obsidian-incident-runbook--fbfbbc6c08.md)
+- [obsidian-install-auth (`55/100`)](dist/cards/obsidian-install-auth--8dde5f9565.md)
+- [obsidian-local-dev-loop (`55/100`)](dist/cards/obsidian-local-dev-loop--3ce2f2655a.md)
+- [obsidian-migration-deep-dive (`55/100`)](dist/cards/obsidian-migration-deep-dive--6ffaea48a4.md)
+- [obsidian-observability (`55/100`)](dist/cards/obsidian-observability--1204bac967.md)
 - [obsidian-performance-tuning (`55/100`)](dist/cards/obsidian-performance-tuning--c57f6bd919.md)
+- [obsidian-prod-checklist (`55/100`)](dist/cards/obsidian-prod-checklist--5ccb8af461.md)
+- [obsidian-sdk-patterns (`55/100`)](dist/cards/obsidian-sdk-patterns--5033c10827.md)
 - [daily-note (`45/100`)](dist/cards/daily-note--438ed2aa23.md)
 - [json-canvas (`45/100`)](dist/cards/json-canvas--5078df35ea.md)
 - [log-to-obsidian (`45/100`)](dist/cards/log-to-obsidian--e0cd514f16.md)
@@ -821,10 +838,6 @@
 - [obsidian-diary (`35/100`)](dist/cards/obsidian-diary--08ac5f7a26.md)
 - [obsidian-people (`35/100`)](dist/cards/obsidian-people--88297c060d.md)
 - [using-obsidian-api (`35/100`)](dist/cards/using-obsidian-api--c871f25c86.md)
-- [obsidian (`25/100`)](dist/cards/obsidian--85da93a62e.md)
-- [https://mcp-obsidian.org/ (`10/100`)](dist/cards/https-mcp-obsidian-org--afc31802f0.md)
-- [madroidmaq/mcp-playwright (`10/100`)](dist/cards/madroidmaq-mcp-playwright--538b13a6f1.md)
-- [MarkusPfundstein/mcp-obsidian (`10/100`)](dist/cards/markuspfundstein-mcp-obsidian--4c916b7aef.md)
 
 ### playwright
 - [playwright (`73/100`)](dist/cards/playwright--cce2795d85.md)
@@ -836,6 +849,7 @@
 - [agent-browser (`60/100`)](dist/cards/agent-browser--823d158f5b.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--a7b77ea348.md)
+- [playwright-cli (`60/100`)](dist/cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](dist/cards/playwright-cli--dafb020d92.md)
 - [playwright-e2e (`60/100`)](dist/cards/playwright-e2e--91aa9eacd8.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
@@ -856,7 +870,6 @@
 - [playwright-skill (`45/100`)](dist/cards/playwright-skill--901aa08a2b.md)
 - [web-artifacts-builder (`45/100`)](dist/cards/web-artifacts-builder--b2b3567401.md)
 - [write-e2e-tests (`45/100`)](dist/cards/write-e2e-tests--11f88570ae.md)
-- [write-playwright-e2e-code (`45/100`)](dist/cards/write-playwright-e2e-code--b46512ae71.md)
 
 ### postgres
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
@@ -892,6 +905,7 @@
 
 ### powershell
 - [generate-with-comfyui (`80/100`)](dist/cards/generate-with-comfyui--19820f6659.md)
+- [run-device-tests (`80/100`)](dist/cards/run-device-tests--c027c1a683.md)
 - [powershell-7-expert (`75/100`)](dist/cards/powershell-7-expert--35de278fc8.md)
 - [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--45b56af64a.md)
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
@@ -1018,8 +1032,8 @@
 - [jest-react-testing (`55/100`)](dist/cards/jest-react-testing--59844493cd.md)
 - [mermaid (`55/100`)](dist/cards/mermaid--3001236bcf.md)
 - [nextjs-developer (`55/100`)](dist/cards/nextjs-developer--558a404545.md)
+- [obsidian-observability (`55/100`)](dist/cards/obsidian-observability--1204bac967.md)
 - [obsidian-performance-tuning (`55/100`)](dist/cards/obsidian-performance-tuning--c57f6bd919.md)
-- [python-patterns (`55/100`)](dist/cards/python-patterns--2618344d20.md)
 
 ### rust
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -1187,6 +1201,8 @@
 - [coding-agent (`55/100`)](dist/cards/coding-agent--94dd6c46d4.md)
 - [Command Development (`55/100`)](dist/cards/command-development--627881243e.md)
 - [mermaid (`55/100`)](dist/cards/mermaid--3001236bcf.md)
+- [obsidian-install-auth (`55/100`)](dist/cards/obsidian-install-auth--8dde5f9565.md)
+- [obsidian-local-dev-loop (`55/100`)](dist/cards/obsidian-local-dev-loop--3ce2f2655a.md)
 - [himalaya (`50/100`)](dist/cards/himalaya--72d2aea79e.md)
 - [interface-design (`50/100`)](dist/cards/interface-design--cf6995fa6a.md)
 - [Linux Commands Reference (`50/100`)](dist/cards/linux-commands-reference--8f7aef9f43.md)
@@ -1196,8 +1212,6 @@
 - [dcf-valuation (`45/100`)](dist/cards/dcf-valuation--ce61190ef7.md)
 - [log-summarizer (`45/100`)](dist/cards/log-summarizer--37c6baa2da.md)
 - [log-summarizer (`45/100`)](dist/cards/log-summarizer--da942eeb86.md)
-- [precommit-setup (`45/100`)](dist/cards/precommit-setup--3ee81d1029.md)
-- [xlsx (`45/100`)](dist/cards/xlsx--f793e68227.md)
 
 ### terraform
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -1273,11 +1287,11 @@
 - [mcp-developer (`55/100`)](dist/cards/mcp-developer--e1cbbf094b.md)
 - [nestjs-expert (`55/100`)](dist/cards/nestjs-expert--5d2fb2ff2f.md)
 - [nextjs-developer (`55/100`)](dist/cards/nextjs-developer--558a404545.md)
+- [obsidian-cost-tuning (`55/100`)](dist/cards/obsidian-cost-tuning--1de54994b7.md)
 - [obsidian-hello-world (`55/100`)](dist/cards/obsidian-hello-world--e4e1eeb2f1.md)
-- [obsidian-performance-tuning (`55/100`)](dist/cards/obsidian-performance-tuning--c57f6bd919.md)
-- [playwright (`55/100`)](dist/cards/playwright--7ae3fe3fb6.md)
-- [react-expert (`55/100`)](dist/cards/react-expert--cb87b34e62.md)
-- [react-native-expert (`55/100`)](dist/cards/react-native-expert--909f24f92d.md)
+- [obsidian-install-auth (`55/100`)](dist/cards/obsidian-install-auth--8dde5f9565.md)
+- [obsidian-local-dev-loop (`55/100`)](dist/cards/obsidian-local-dev-loop--3ce2f2655a.md)
+- [obsidian-migration-deep-dive (`55/100`)](dist/cards/obsidian-migration-deep-dive--6ffaea48a4.md)
 
 ### vercel
 - [paper-2-web (`75/100`)](dist/cards/paper-2-web--c0bcf01c7e.md)
@@ -1301,6 +1315,7 @@
 
 ### windows
 - [latex-posters (`83/100`)](dist/cards/latex-posters--ee0216989f.md)
+- [run-device-tests (`80/100`)](dist/cards/run-device-tests--c027c1a683.md)
 - [powershell-7-expert (`75/100`)](dist/cards/powershell-7-expert--35de278fc8.md)
 - [bandit-security-scan (`70/100`)](dist/cards/bandit-security-scan--45b56af64a.md)
 - [docker-compose-troubleshooting (`70/100`)](dist/cards/docker-compose-troubleshooting--5de2468ab8.md)
@@ -1325,11 +1340,10 @@
 - [bootstrap (`55/100`)](dist/cards/bootstrap--dfdb2e61e3.md)
 - [cli-developer (`55/100`)](dist/cards/cli-developer--80492064e4.md)
 - [firefox-debug (`55/100`)](dist/cards/firefox-debug--158ef3059f.md)
-- [powershell-security (`55/100`)](dist/cards/powershell-security--b322ae5940.md)
-- [rust-systems-programming (`55/100`)](dist/cards/rust-systems-programming--20ce8adc94.md)
-- [chrome-devtools-debugging (`50/100`)](dist/cards/chrome-devtools-debugging--75a85076fc.md)
-- [evaluation (`50/100`)](dist/cards/evaluation--44795fe1db.md)
-- [firefox-bookmarks (`50/100`)](dist/cards/firefox-bookmarks--ebee36e48d.md)
+- [obsidian-incident-runbook (`55/100`)](dist/cards/obsidian-incident-runbook--fbfbbc6c08.md)
+- [obsidian-install-auth (`55/100`)](dist/cards/obsidian-install-auth--8dde5f9565.md)
+- [obsidian-local-dev-loop (`55/100`)](dist/cards/obsidian-local-dev-loop--3ce2f2655a.md)
+- [obsidian-prod-checklist (`55/100`)](dist/cards/obsidian-prod-checklist--5ccb8af461.md)
 
 ### wsl
 - [content-creator (`78/100`)](dist/cards/content-creator--b657ebe201.md)

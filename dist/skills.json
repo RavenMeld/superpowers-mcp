@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 664,
+  "count": 684,
   "roots": [
     {
       "label": "agent_playground",
@@ -462,6 +462,50 @@
       "workflow": [
         "Use summary-first approach to efficiently find relevant memories:",
         "```bash"
+      ]
+    },
+    {
+      "id": "agent-modes--159ae8dcf3",
+      "name": "agent-modes",
+      "description": "Guidance on choosing and using Cursor agent modes: Agent, Ask, Plan, and Debug. Use when selecting the right mode for a task or when explaining mode capabilities.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/basedhardware-agent-modes/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/basedhardware-agent-modes",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 321
+      },
+      "tags": [
+        "cursor",
+        "go",
+        "ci",
+        "windows",
+        "linux"
+      ],
+      "use_when": [
+        "Selecting the right mode for a task",
+        "Explaining mode capabilities",
+        "Switching between modes",
+        "Understanding mode-specific workflows"
+      ],
+      "workflow": [
+        "*Best for:** Complex features requiring planning",
+        "*Use when:**",
+        "Complex features with multiple approaches",
+        "Tasks touching many files/systems",
+        "Unclear requirements",
+        "Architectural decisions need review",
+        "*Example:**",
+        "\"Add user preferences system\"",
+        "\"Implement real-time notifications\"",
+        "\"Refactor data layer\""
       ]
     },
     {
@@ -4272,6 +4316,33 @@
       "workflow": []
     },
     {
+      "id": "cursor-compliance-audit--5ddb3359f5",
+      "name": "cursor-compliance-audit",
+      "description": "Execute compliance and security auditing for Cursor usage. Triggers on \"cursor compliance\",\n\"cursor audit\", \"cursor security review\", \"cursor soc2\", \"cursor gdpr\". Use when analyzing or auditing cursor compliance audit. Trigger with phrases like \"cursor compliance audit\", \"cursor audit\", \"cursor\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-cursor-compliance-audit/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-cursor-compliance-audit",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 157
+      },
+      "tags": [
+        "cursor",
+        "security",
+        "ci",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "cursor-context-management--39acd9d24b",
       "name": "cursor-context-management",
       "description": "Optimize context window usage in Cursor. Triggers on \"cursor context\",\n\"context window\", \"context limit\", \"cursor memory\", \"context management\". Use when working with cursor context management functionality. Trigger with phrases like \"cursor context management\", \"cursor management\", \"cursor\".",
@@ -4318,6 +4389,56 @@
       "tags": [
         "github",
         "git",
+        "cursor",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "cursor-git-integration--bf9fc7dcd0",
+      "name": "cursor-git-integration",
+      "description": "Manage integrate Git workflows with Cursor IDE. Triggers on \"cursor git\",\n\"git in cursor\", \"cursor version control\", \"cursor commit\", \"cursor branch\". Use when working with cursor git integration functionality. Trigger with phrases like \"cursor git integration\", \"cursor integration\", \"cursor\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-cursor-git-integration/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-cursor-git-integration",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 157
+      },
+      "tags": [
+        "git",
+        "cursor"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "cursor-hello-world--227fd3187d",
+      "name": "cursor-hello-world",
+      "description": "Create your first project with Cursor AI features. Triggers on \"cursor hello world\",\n\"first cursor project\", \"cursor getting started\", \"try cursor ai\", \"cursor basics\". Use when working with cursor hello world functionality. Trigger with phrases like \"cursor hello world\", \"cursor world\", \"cursor\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-cursor-hello-world/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-cursor-hello-world",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 164
+      },
+      "tags": [
         "cursor",
         "docs"
       ],
@@ -4500,6 +4621,60 @@
       "workflow": []
     },
     {
+      "id": "cursor-privacy-settings--10ee51dbbb",
+      "name": "cursor-privacy-settings",
+      "description": "Configure Cursor privacy and data handling settings. Triggers on \"cursor privacy\",\n\"cursor data\", \"cursor security\", \"privacy mode\", \"cursor telemetry\". Use when working with cursor privacy settings functionality. Trigger with phrases like \"cursor privacy settings\", \"cursor settings\", \"cursor\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-cursor-privacy-settings/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-cursor-privacy-settings",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 161
+      },
+      "tags": [
+        "cursor",
+        "security",
+        "ci",
+        "docs",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "cursor-prod-checklist--85d59e8a71",
+      "name": "cursor-prod-checklist",
+      "description": "Execute production readiness checklist for Cursor IDE setup. Triggers on \"cursor production\",\n\"cursor ready\", \"cursor checklist\", \"optimize cursor setup\". Use when working with cursor prod checklist functionality. Trigger with phrases like \"cursor prod checklist\", \"cursor checklist\", \"cursor\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-cursor-prod-checklist/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-cursor-prod-checklist",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 156
+      },
+      "tags": [
+        "cursor",
+        "security",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "cursor-rules-config--664729bd9e",
       "name": "cursor-rules-config",
       "description": "Configure .cursorrules for project-specific AI behavior. Triggers on \"cursorrules\",\n\".cursorrules\", \"cursor rules\", \"cursor config\", \"cursor project settings\". Use when configuring systems or services. Trigger with phrases like \"cursor rules config\", \"cursor config\", \"cursor\".",
@@ -4519,6 +4694,35 @@
       },
       "tags": [
         "cursor",
+        "ci",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "cursor-sso-integration--071860d774",
+      "name": "cursor-sso-integration",
+      "description": "Configure SSO and enterprise authentication in Cursor. Triggers on \"cursor sso\",\n\"cursor saml\", \"cursor oauth\", \"enterprise cursor auth\", \"cursor okta\". Use when working with cursor sso integration functionality. Trigger with phrases like \"cursor sso integration\", \"cursor integration\", \"cursor\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-cursor-sso-integration/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-cursor-sso-integration",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 185
+      },
+      "tags": [
+        "cursor",
+        "go",
+        "azure",
+        "security",
         "ci",
         "docs"
       ],
@@ -4574,6 +4778,33 @@
         "Be descriptive of the specialization",
         "Examples: `security-auditor`, `test-runner`, `debugger`, `verifier`"
       ]
+    },
+    {
+      "id": "cursor-upgrade-migration--081a3bf85f",
+      "name": "cursor-upgrade-migration",
+      "description": "Execute upgrade Cursor versions and migrate settings. Triggers on \"upgrade cursor\",\n\"update cursor\", \"cursor migration\", \"cursor new version\", \"cursor changelog\". Use when working with cursor upgrade migration functionality. Trigger with phrases like \"cursor upgrade migration\", \"cursor migration\", \"cursor\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-cursor-upgrade-migration/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-cursor-upgrade-migration",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 156
+      },
+      "tags": [
+        "github",
+        "git",
+        "cursor",
+        "docs"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "custom-agents--a727fb7dd1",
@@ -13128,6 +13359,82 @@
       "workflow": []
     },
     {
+      "id": "obsidian-canvas-creator--ae501278c9",
+      "name": "obsidian-canvas-creator",
+      "description": "Create Obsidian Canvas files from text content, supporting both MindMap and freeform layouts. Use this skill when users want to visualize content as an interactive canvas, create mind maps, or organize information spatially in Obsidian format.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/axtonliu-obsidian-canvas-creator/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/axtonliu-obsidian-canvas-creator",
+      "worth_score": 58,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": true,
+        "word_count": 917
+      },
+      "tags": [
+        "node",
+        "go",
+        "ci",
+        "obsidian"
+      ],
+      "use_when": [
+        "User requests to create a canvas, mind map, or visual diagram from text",
+        "User wants to organize information spatially",
+        "User mentions \"Obsidian Canvas\" or similar visualization tools",
+        "Converting structured content (articles, notes, outlines) into visual format"
+      ],
+      "workflow": [
+        "Identify main topics and hierarchical relationships",
+        "Extract key points, facts, and supporting details",
+        "Note any existing structure (headings, lists, sections)",
+        "*MindMap Layout:**",
+        "Radial structure from center",
+        "Parent-child relationships",
+        "Clear hierarchy",
+        "Good for: brainstorming, topic exploration, hierarchical content",
+        "*Freeform Layout:**",
+        "Custom positioning"
+      ]
+    },
+    {
+      "id": "obsidian-cost-tuning--1de54994b7",
+      "name": "obsidian-cost-tuning",
+      "description": "Optimize Obsidian plugin resource usage and external service costs.\nUse when managing API quotas, reducing storage usage,\nor optimizing sync and external service consumption.\nTrigger with phrases like \"obsidian resources\", \"obsidian quota\",\n\"optimize obsidian storage\", \"reduce obsidian costs\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-cost-tuning/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-cost-tuning",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1457
+      },
+      "tags": [
+        "mozilla",
+        "typescript",
+        "node",
+        "go",
+        "ci",
+        "docs",
+        "obsidian",
+        "rag"
+      ],
+      "use_when": [],
+      "workflow": [
+        "For architecture patterns, see `obsidian-reference-architecture`."
+      ]
+    },
+    {
       "id": "obsidian-developer--8a94f4b2a3",
       "name": "obsidian-developer",
       "description": "Expert guide for inspecting and automating Obsidian using the obsidian-devtools MCP server.",
@@ -13240,6 +13547,115 @@
       ]
     },
     {
+      "id": "obsidian-incident-runbook--fbfbbc6c08",
+      "name": "obsidian-incident-runbook",
+      "description": "Troubleshoot Obsidian plugin failures with systematic incident response.\nUse when plugins crash, data is corrupted, or users report critical issues\nwith your Obsidian plugin.\nTrigger with phrases like \"obsidian crash\", \"obsidian plugin broken\",\n\"obsidian incident\", \"debug obsidian failure\", \"obsidian emergency\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-incident-runbook/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-incident-runbook",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 14,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1098
+      },
+      "tags": [
+        "github",
+        "git",
+        "go",
+        "java",
+        "ci",
+        "docs",
+        "obsidian",
+        "windows",
+        "linux",
+        "rag"
+      ],
+      "use_when": [],
+      "workflow": [
+        "#### P1: Data Loss Prevention",
+        "```bash",
+        "#!/bin/bash"
+      ]
+    },
+    {
+      "id": "obsidian-install-auth--8dde5f9565",
+      "name": "obsidian-install-auth",
+      "description": "Set up Obsidian plugin development environment with Node.js and TypeScript.\nUse when starting a new plugin project, configuring the dev environment,\nor initializing Obsidian plugin development.\nTrigger with phrases like \"obsidian setup\", \"obsidian plugin dev\",\n\"create obsidian plugin\", \"obsidian development environment\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-install-auth/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-install-auth",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 7,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 443
+      },
+      "tags": [
+        "github",
+        "git",
+        "terminal",
+        "typescript",
+        "node",
+        "ci",
+        "docs",
+        "obsidian",
+        "windows",
+        "linux"
+      ],
+      "use_when": [],
+      "workflow": [
+        "After successful setup, proceed to `obsidian-hello-world` for your first plugin feature."
+      ]
+    },
+    {
+      "id": "obsidian-local-dev-loop--3ce2f2655a",
+      "name": "obsidian-local-dev-loop",
+      "description": "Configure Obsidian plugin development with hot-reload and fast iteration.\nUse when setting up development workflow, configuring test vaults,\nor establishing a rapid development cycle.\nTrigger with phrases like \"obsidian dev loop\", \"obsidian hot reload\",\n\"obsidian development workflow\", \"develop obsidian plugin\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-local-dev-loop/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-local-dev-loop",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 9,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 637
+      },
+      "tags": [
+        "github",
+        "git",
+        "terminal",
+        "typescript",
+        "node",
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "docs",
+        "obsidian",
+        "windows"
+      ],
+      "use_when": [],
+      "workflow": [
+        "See `obsidian-sdk-patterns` for production-ready code patterns."
+      ]
+    },
+    {
       "id": "obsidian-markdown--0b4f6175c5",
       "name": "obsidian-markdown",
       "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
@@ -13348,6 +13764,75 @@
       "workflow": []
     },
     {
+      "id": "obsidian-migration-deep-dive--6ffaea48a4",
+      "name": "obsidian-migration-deep-dive",
+      "description": "Execute major Obsidian plugin rewrites and migration strategies.\nUse when migrating to or from Obsidian, performing major plugin rewrites,\nor re-platforming existing note systems to Obsidian.\nTrigger with phrases like \"migrate to obsidian\", \"obsidian migration\",\n\"convert notes to obsidian\", \"obsidian replatform\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-migration-deep-dive/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-migration-deep-dive",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 7,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1751
+      },
+      "tags": [
+        "github",
+        "git",
+        "typescript",
+        "node",
+        "go",
+        "ci",
+        "obsidian"
+      ],
+      "use_when": [],
+      "workflow": [
+        "Review migrated content",
+        "Check orphaned links report",
+        "Test in Obsidian",
+        "Remove _migration folder when satisfied"
+      ]
+    },
+    {
+      "id": "obsidian-observability--1204bac967",
+      "name": "obsidian-observability",
+      "description": "Set up comprehensive logging and monitoring for Obsidian plugins.\nUse when implementing debug logging, tracking plugin performance,\nor setting up error reporting for your Obsidian plugin.\nTrigger with phrases like \"obsidian logging\", \"obsidian monitoring\",\n\"obsidian debug\", \"track obsidian plugin\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-observability/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-observability",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1710
+      },
+      "tags": [
+        "chrome",
+        "typescript",
+        "node",
+        "ci",
+        "docs",
+        "obsidian",
+        "observability",
+        "render",
+        "llm"
+      ],
+      "use_when": [],
+      "workflow": [
+        "For incident response, see `obsidian-incident-runbook`."
+      ]
+    },
+    {
       "id": "obsidian-people--88297c060d",
       "name": "obsidian-people",
       "description": "This skill scans your Obsidian vault (specifically the `People/` directory) for Markdown files representing people. It parses the YAML frontmatter of each file to extract and display key metadata: - **Name**: From the `name` field or filename. - **Aliases**: From the `aliases` or `alias` field. - **Tags**: From the `tags` or `tag` field.",
@@ -13413,6 +13898,70 @@
         "export class EfficientFileProcessor {",
         "private vault: Vault;",
         "private cache: Map<string, { content: string; mtime: number }> = new Map();"
+      ]
+    },
+    {
+      "id": "obsidian-prod-checklist--5ccb8af461",
+      "name": "obsidian-prod-checklist",
+      "description": "Pre-release plugin verification checklist for Obsidian community plugins.\nUse when preparing to release, reviewing before submission,\nor validating plugin quality before publishing.\nTrigger with phrases like \"obsidian release checklist\", \"publish obsidian plugin\",\n\"obsidian plugin submission\", \"obsidian prod ready\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-prod-checklist/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-prod-checklist",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 11,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1157
+      },
+      "tags": [
+        "github",
+        "git",
+        "typescript",
+        "node",
+        "testing",
+        "ci",
+        "docs",
+        "obsidian",
+        "windows",
+        "linux"
+      ],
+      "use_when": [],
+      "workflow": [
+        "For version upgrades, see `obsidian-upgrade-migration`."
+      ]
+    },
+    {
+      "id": "obsidian-sdk-patterns--5033c10827",
+      "name": "obsidian-sdk-patterns",
+      "description": "Apply production-ready Obsidian plugin patterns for TypeScript.\nUse when implementing complex features, refactoring plugins,\nor establishing coding standards for Obsidian development.\nTrigger with phrases like \"obsidian patterns\", \"obsidian best practices\",\n\"obsidian code patterns\", \"idiomatic obsidian plugin\".",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-sdk-patterns/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/jeremylongshore-obsidian-sdk-patterns",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 7,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 962
+      },
+      "tags": [
+        "typescript",
+        "node",
+        "docs",
+        "obsidian"
+      ],
+      "use_when": [],
+      "workflow": [
+        "Apply patterns in `obsidian-core-workflow-a` for vault operations."
       ]
     },
     {
@@ -14449,6 +14998,41 @@
         "Run a minimal smoke test (fast, deterministic assertions).",
         "If failing, re-run headed with traces and screenshots enabled.",
         "Capture evidence (trace + console + screenshot) and fix the root cause."
+      ]
+    },
+    {
+      "id": "playwright-cli--66aa3b503f",
+      "name": "playwright-cli",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/microsoft-playwright-cli/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/microsoft-playwright-cli",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 18,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 734
+      },
+      "tags": [
+        "playwright",
+        "browser",
+        "chrome",
+        "firefox",
+        "go",
+        "testing",
+        "ci",
+        "rag",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": [
+        "**Request mocking** [references/request-mocking.md](references/request-mocking.md)",
+        "**Running Playwright code** [references/running-code.md](references/running-code.md)"
       ]
     },
     {
@@ -17753,6 +18337,45 @@
         "**Write rule**: Save updated rule file",
         "**Verify**: Check syntax and links",
         "*Creating new rule**:"
+      ]
+    },
+    {
+      "id": "run-device-tests--c027c1a683",
+      "name": "run-device-tests",
+      "description": "Build and run .NET MAUI device tests locally with category filtering. Supports iOS, MacCatalyst, Android on macOS; Android, Windows on Windows. Use TestFilter to run specific test categories.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/dotnet-run-device-tests/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/dotnet-run-device-tests",
+      "worth_score": 80,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 7,
+        "has_scripts": true,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1339
+      },
+      "tags": [
+        "github",
+        "git",
+        "go",
+        "powershell",
+        "ci",
+        "windows"
+      ],
+      "use_when": [
+        "User wants to run device tests locally",
+        "User wants to verify iOS/MacCatalyst/Android/Windows compatibility",
+        "User wants to test on a specific iOS version (e.g., iOS 26)",
+        "User asks \"run device tests for Controls/Core/Essentials/Graphics\"",
+        "User asks \"test on iOS simulator\" or \"test on Android emulator\"",
+        "User asks \"run device tests on MacCatalyst\"",
+        "User wants to run only specific test categories (e.g., \"run Button tests\")"
+      ],
+      "workflow": [
+        "```bash"
       ]
     },
     {
@@ -22672,6 +23295,41 @@
         "\"Commit\" - step",
         "*Every plan MUST start with this header:**"
       ]
+    },
+    {
+      "id": "writing-playwright-tests--d80159a80c",
+      "name": "writing-playwright-tests",
+      "description": "Writes Playwright e2e tests for ComfyUI_frontend. Use when creating, modifying, or debugging browser tests. Triggers on: playwright, e2e test, browser test, spec file.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/comfy-org-writing-playwright-tests/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/comfy-org-writing-playwright-tests",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 6,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 868
+      },
+      "tags": [
+        "playwright",
+        "browser",
+        "comfyui",
+        "typescript",
+        "node",
+        "go",
+        "testing",
+        "ci",
+        "linux",
+        "cloudflare",
+        "render",
+        "rag"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "writing-playwright-tests--f4eefb3614",
