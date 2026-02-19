@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 626,
+  "count": 644,
   "roots": [
     {
       "label": "agent_playground",
@@ -154,6 +154,34 @@
       ]
     },
     {
+      "id": "advanced-evaluation--675ccf6061",
+      "name": "advanced-evaluation",
+      "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/muratcankoylan-advanced-evaluation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/muratcankoylan-advanced-evaluation",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 14,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 2007
+      },
+      "tags": [
+        "go",
+        "ci",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "agent-development--e1238b5b0f",
       "name": "Agent Development",
       "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins.",
@@ -194,6 +222,47 @@
         "Validate with `scripts/validate-agent.sh`",
         "Test triggering with real scenarios",
         "Document agent in plugin README"
+      ]
+    },
+    {
+      "id": "agent-browser--3ce6e63398",
+      "name": "agent-browser",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/code-yeongyu-agent-browser/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/code-yeongyu-agent-browser",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 28,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1486
+      },
+      "tags": [
+        "github",
+        "git",
+        "playwright",
+        "browser",
+        "chrome",
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "windows",
+        "vercel",
+        "rag",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": [
+        "Navigate: `agent-browser open <url>`",
+        "Snapshot: `agent-browser snapshot -i` (returns elements with refs like `@e1`, `@e2`)",
+        "Interact using refs from the snapshot",
+        "Re-snapshot after navigation or significant DOM changes"
       ]
     },
     {
@@ -306,6 +375,35 @@
         "Interact using refs from the snapshot",
         "Re-snapshot after navigation or significant DOM changes"
       ]
+    },
+    {
+      "id": "agent-evaluation--c81c78cc99",
+      "name": "agent-evaluation",
+      "description": "Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-agent-evaluation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-agent-evaluation",
+      "worth_score": 25,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 238
+      },
+      "tags": [
+        "go",
+        "testing",
+        "ci",
+        "llm",
+        "eval",
+        "benchmark"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "agent-memory--ee25813c18",
@@ -1419,6 +1517,34 @@
         "Multiple reasonable interpretations exist",
         "Trade-offs haven't been discussed",
         "User seems unsure about the approach"
+      ]
+    },
+    {
+      "id": "browser--23a427f66f",
+      "name": "browser",
+      "description": "Web browser automation with AI-optimized snapshots for claude-flow agents",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/ruvnet-browser/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/ruvnet-browser",
+      "worth_score": 55,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 10,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 739
+      },
+      "tags": [
+        "mcp",
+        "browser",
+        "go"
+      ],
+      "use_when": [],
+      "workflow": [
+        "```bash"
       ]
     },
     {
@@ -3564,6 +3690,33 @@
       ]
     },
     {
+      "id": "context-window-management--ef837ec2c7",
+      "name": "context-window-management",
+      "description": "Strategies for managing LLM context windows including summarization, trimming, routing, and avoiding context rot Use when: context window, token limit, context management, context engineering, long context.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-context-window-management/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-context-window-management",
+      "worth_score": 20,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 145
+      },
+      "tags": [
+        "ci",
+        "windows",
+        "rag",
+        "llm"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "corca-ai-awesome-llm-security--970ba9bab9",
       "name": "corca-ai/awesome-llm-security",
       "description": "LLM security resources (prompt injection, evals, defenses, red-teaming).",
@@ -4961,6 +5114,47 @@
       ]
     },
     {
+      "id": "dev-browser--a7b77ea348",
+      "name": "dev-browser",
+      "description": "Browser automation with persistent page state. Use when users ask to navigate websites, fill forms, take screenshots, extract web data, test web apps, or automate browser workflows. Trigger phrases include \"go to [url]\", \"click on\", \"fill out the form\", \"take a screenshot\", \"scrape\", \"automate\", \"test the website\", \"log into\", or any browser interaction request.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/code-yeongyu-dev-browser/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/code-yeongyu-dev-browser",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 10,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 911
+      },
+      "tags": [
+        "github",
+        "git",
+        "playwright",
+        "browser",
+        "chrome",
+        "typescript",
+        "go",
+        "java",
+        "ci",
+        "docs",
+        "windows",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": [
+        "**Write a script** to perform one action",
+        "**Run it** and observe the output",
+        "**Evaluate** - did it work? What's the current state?",
+        "**Decide** - is the task complete or do we need another script?",
+        "**Repeat** until task is done"
+      ]
+    },
+    {
       "id": "develop-web-game--667d6cd915",
       "name": "develop-web-game",
       "description": "Use when Codex is building or iterating on a web game (HTML/JS) and needs a reliable development + testing loop: implement small changes, run a Playwright-based test script with short input bursts and intentional pauses, inspect screenshots/text, and review console errors with render_game_to_text.",
@@ -6148,6 +6342,91 @@
         "Implementing circuit breakers or exponential backoff",
         "Adding debug logging for recovery attempts"
       ],
+      "workflow": []
+    },
+    {
+      "id": "evaluating-llms-harness--3951f5327c",
+      "name": "evaluating-llms-harness",
+      "description": "Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag). Use when benchmarking model quality, comparing models, reporting academic results, or tracking training progress. Industry standard used by EleutherAI, HuggingFace, and major labs. Supports HuggingFace, vLLM, APIs.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-evaluating-llms-harness/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-evaluating-llms-harness",
+      "worth_score": 75,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 35,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1308
+      },
+      "tags": [
+        "github",
+        "git",
+        "python",
+        "ci",
+        "docs",
+        "llm",
+        "eval",
+        "benchmark"
+      ],
+      "use_when": [
+        "*Use lm-evaluation-harness when:**",
+        "Benchmarking models for academic papers",
+        "Comparing model quality across standard tasks",
+        "Tracking training progress",
+        "Reporting standardized metrics (everyone uses same prompts)",
+        "Need reproducible evaluation",
+        "*Use alternatives instead:**",
+        "**HELM** (Stanford): Broader evaluation (fairness, efficiency, calibration)",
+        "**AlpacaEval**: Instruction-following evaluation with LLM judges",
+        "**MT-Bench**: Conversational multi-turn evaluation"
+      ],
+      "workflow": [
+        "[ ] Step 1: Choose benchmark suite",
+        "[ ] Step 2: Configure model",
+        "[ ] Step 3: Run evaluation",
+        "[ ] Step 4: Analyze results",
+        "*Step 1: Choose benchmark suite**",
+        "*Core reasoning benchmarks**:",
+        "**MMLU** (Massive Multitask Language Understanding) - 57 subjects, multiple choice",
+        "**GSM8K** - Grade school math word problems",
+        "**HellaSwag** - Common sense reasoning",
+        "**TruthfulQA** - Truthfulness and factuality"
+      ]
+    },
+    {
+      "id": "evaluation--44795fe1db",
+      "name": "evaluation",
+      "description": "This skill should be used when the user asks to \"evaluate agent performance\", \"build test framework\", \"measure agent quality\", \"create evaluation rubrics\", or mentions LLM-as-judge, multi-dimensional evaluation, agent testing, or quality gates for agent pipelines.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/muratcankoylan-evaluation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/muratcankoylan-evaluation",
+      "worth_score": 50,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 2,
+        "has_scripts": true,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1303
+      },
+      "tags": [
+        "python",
+        "go",
+        "testing",
+        "ci",
+        "windows",
+        "rag",
+        "llm",
+        "eval",
+        "benchmark"
+      ],
+      "use_when": [],
       "workflow": []
     },
     {
@@ -9904,6 +10183,89 @@
       ]
     },
     {
+      "id": "langfuse--f580f879fb",
+      "name": "langfuse",
+      "description": "Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production. Use when: langfuse, llm observability, llm tracing, prompt management, llm evaluation.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-langfuse/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-langfuse",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 588
+      },
+      "tags": [
+        "python",
+        "typescript",
+        "java",
+        "testing",
+        "ci",
+        "observability",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
+      "id": "langsmith-observability--b5aef725d2",
+      "name": "langsmith-observability",
+      "description": "LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-langsmith-observability/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-langsmith-observability",
+      "worth_score": 75,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 22,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1001
+      },
+      "tags": [
+        "github",
+        "git",
+        "python",
+        "go",
+        "testing",
+        "ci",
+        "docs",
+        "observability",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "*Use LangSmith when:**",
+        "Debugging LLM application issues (prompts, chains, agents)",
+        "Evaluating model outputs systematically against datasets",
+        "Monitoring production LLM systems",
+        "Building regression testing for AI features",
+        "Analyzing latency, token usage, and costs",
+        "Collaborating on prompt engineering",
+        "*Key features:**",
+        "**Tracing**: Capture inputs, outputs, latency for all LLM calls",
+        "**Evaluation**: Systematic testing with built-in and custom evaluators"
+      ],
+      "workflow": [
+        "```python",
+        "def sanitize_inputs(inputs: dict) -> dict:",
+        "if \"password\" in inputs:",
+        "inputs[\"password\"] = \"***\"",
+        "return inputs",
+        "@traceable(process_inputs=sanitize_inputs)"
+      ]
+    },
+    {
       "id": "laravel-specialist--23c45c95b2",
       "name": "laravel-specialist",
       "description": "Use when building Laravel 10+ applications requiring Eloquent ORM, API resources, or queue systems. Invoke for Laravel models, Livewire components, Sanctum authentication, Horizon queues.",
@@ -13593,6 +13955,90 @@
       ]
     },
     {
+      "id": "phoenix-evals--e66b862bdf",
+      "name": "phoenix-evals",
+      "description": "Build and run evaluators for AI/LLM applications using Phoenix.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/arize-ai-phoenix-evals/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/arize-ai-phoenix-evals",
+      "worth_score": 35,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": true,
+        "code_fence_count": 0,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 307
+      },
+      "tags": [
+        "python",
+        "typescript",
+        "go",
+        "ci",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": [
+        "*Starting Fresh:**",
+        "*Building Evaluator:**",
+        "*RAG Systems:**",
+        "*Production:**"
+      ]
+    },
+    {
+      "id": "phoenix-observability--42f11b32d8",
+      "name": "phoenix-observability",
+      "description": "Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-phoenix-observability/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-phoenix-observability",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 24,
+        "has_scripts": false,
+        "has_references": true,
+        "has_assets": false,
+        "word_count": 1122
+      },
+      "tags": [
+        "github",
+        "git",
+        "python",
+        "sql",
+        "sqlite",
+        "postgres",
+        "go",
+        "docker",
+        "testing",
+        "ci",
+        "docs",
+        "observability",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [
+        "*Use Phoenix when:**",
+        "Debugging LLM application issues with detailed traces",
+        "Running systematic evaluations on datasets",
+        "Monitoring production LLM systems in real-time",
+        "Building experiment pipelines for prompt/model comparison",
+        "Self-hosted observability without vendor lock-in",
+        "*Key features:**",
+        "**Tracing**: OpenTelemetry-based trace collection for any LLM framework",
+        "**Evaluation**: LLM-as-judge evaluators for quality assessment",
+        "**Datasets**: Versioned test sets for regression testing"
+      ],
+      "workflow": []
+    },
+    {
       "id": "php-pro--6e61f9243c",
       "name": "php-pro",
       "description": "Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Symfony frameworks. Invoke for strict typing, PHPStan level 9, async patterns with Swoole, PSR standards.",
@@ -13964,6 +14410,37 @@
       ]
     },
     {
+      "id": "playwright-skill--901aa08a2b",
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-playwright-skill/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-playwright-skill",
+      "worth_score": 45,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 19,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 1623
+      },
+      "tags": [
+        "playwright",
+        "browser",
+        "node",
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "llm"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "playwright-testing--8edd208817",
       "name": "playwright-testing",
       "description": "Write end-to-end browser tests using Playwright.",
@@ -13989,6 +14466,53 @@
       ],
       "use_when": [],
       "workflow": []
+    },
+    {
+      "id": "playwright-validation--7f91f934bb",
+      "name": "playwright-validation",
+      "description": "Use when validating UI changes in a branch require Playwright E2E testing. Reviews branch changes, validates UI with Playwright MCP, and adds missing test cases.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/open-metadata-playwright-validation/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/open-metadata-playwright-validation",
+      "worth_score": 65,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 4,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 658
+      },
+      "tags": [
+        "mcp",
+        "git",
+        "playwright",
+        "browser",
+        "typescript",
+        "testing",
+        "ci",
+        "rag"
+      ],
+      "use_when": [
+        "After completing UI feature development",
+        "Before creating a PR for UI changes",
+        "When reviewing UI-related branches",
+        "To verify existing Playwright tests cover all scenarios"
+      ],
+      "workflow": [
+        "**Identify changed files vs main:**",
+        "**Focus on UI component changes:**",
+        "**Check for existing Playwright tests:**",
+        "**Read the changed component files** to understand the UI modifications",
+        "**Locate relevant test files:**",
+        "Check `playwright/e2e/Pages/` for page-level tests",
+        "Check `playwright/e2e/Features/` for feature-specific tests",
+        "Use Glob/Grep to find tests related to the feature",
+        "**Analyze test coverage:**",
+        "Read the existing test file(s)"
+      ]
     },
     {
       "id": "plugin-structure--2091f0f6ca",
@@ -14639,6 +15163,36 @@
       ]
     },
     {
+      "id": "prompt-engineer--dfa3c2a557",
+      "name": "prompt-engineer",
+      "description": "Expert in designing effective prompts for LLM-powered applications. Masters prompt structure, context management, output formatting, and prompt evaluation. Use when: prompt engineering, system prompt, few-shot, chain of thought, prompt design.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-prompt-engineer/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-prompt-engineer",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 357
+      },
+      "tags": [
+        "go",
+        "java",
+        "testing",
+        "ci",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
+    },
+    {
       "id": "prompt-engineering-patterns--a22347345f",
       "name": "prompt-engineering-patterns",
       "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.",
@@ -15041,6 +15595,59 @@
         "Use DuckDB for SQL over files (Parquet/CSV) and joins/aggregations.",
         "Persist intermediate results to Parquet (columnar, compressible, portable).",
         "Validate with small invariants (row counts, null rates, schema checks)."
+      ]
+    },
+    {
+      "id": "python-expert--d56ea3af3a",
+      "name": "python-expert",
+      "description": "Senior Python developer expertise for writing clean, efficient, and well-documented code.\nUse when: writing Python code, optimizing Python scripts, reviewing Python code for best practices,\ndebugging Python issues, implementing type hints, or when user mentions Python, PEP 8, or needs help\nwith Python data structures and algorithms.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/shubhamsaboo-python-expert/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/shubhamsaboo-python-expert",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 2,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 670
+      },
+      "tags": [
+        "python",
+        "sql",
+        "go",
+        "security",
+        "testing",
+        "ci",
+        "docs",
+        "rag"
+      ],
+      "use_when": [
+        "**Review [AGENTS.md](AGENTS.md)** for a complete compilation of all rules with examples",
+        "**Reference specific rules** from `rules/` directory for deep dives",
+        "**Follow priority order**: Correctness → Type Safety → Performance → Style",
+        "*Correctness (CRITICAL)**",
+        "[Avoid Mutable Default Arguments](rules/correctness-mutable-defaults.md)",
+        "[Proper Error Handling](rules/correctness-error-handling.md)",
+        "*Type Safety (HIGH)**",
+        "[Use Type Hints](rules/type-hints.md)",
+        "[Use Dataclasses](rules/type-dataclasses.md)",
+        "*Performance (HIGH)**"
+      ],
+      "workflow": [
+        "Understand the problem completely",
+        "Choose appropriate data structures",
+        "Plan function interfaces and types",
+        "Consider edge cases early",
+        "Type hints for all function signatures",
+        "Return type annotations",
+        "Generic types using `TypeVar` when needed",
+        "Import types from `typing` module",
+        "Handle all edge cases",
+        "Use proper error handling with specific exceptions"
       ]
     },
     {
@@ -15671,6 +16278,34 @@
         "**Retrieval Pipeline** - Embedding selection, query transformation, hybrid search, reranking",
         "**Evaluation & Iteration** - Metrics tracking, retrieval debugging, continuous optimization"
       ]
+    },
+    {
+      "id": "rag-engineer--9f64ccfdf8",
+      "name": "rag-engineer",
+      "description": "Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, vector search, embeddings, semantic search, document retrieval.",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/davila7-rag-engineer/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/davila7-rag-engineer",
+      "worth_score": 40,
+      "features": {
+        "has_description": true,
+        "has_use_when": false,
+        "has_workflow": false,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 371
+      },
+      "tags": [
+        "java",
+        "ci",
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "use_when": [],
+      "workflow": []
     },
     {
       "id": "rag-implementation--2444f4f834",
@@ -20930,6 +21565,52 @@
       "root_label": "codex_skills",
       "source_path": "/home/wolvend/.codex/skills/winapp-cli/SKILL.md",
       "rel_hint": "/home/wolvend/.codex/skills/winapp-cli",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": false,
+        "code_fence_count": 8,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 950
+      },
+      "tags": [
+        "github",
+        "git",
+        "node",
+        "rust",
+        "go",
+        "azure",
+        "testing",
+        "ci",
+        "docs",
+        "windows",
+        "devops",
+        "llm"
+      ],
+      "use_when": [
+        "Initialize a Windows app project with SDK setup, manifests, and certificates",
+        "Create MSIX packages from application directories",
+        "Generate or manage AppxManifest.xml files",
+        "Create and install development certificates for signing",
+        "Add package identity for debugging Windows APIs",
+        "Sign MSIX packages or executables",
+        "Access Windows SDK build tools from any framework",
+        "Build Windows apps using cross-platform frameworks (Electron, Rust, Tauri, Qt)",
+        "Set up CI/CD pipelines for Windows app deployment",
+        "Access Windows APIs that require package identity (notifications, Windows AI, shell integration)"
+      ],
+      "workflow": []
+    },
+    {
+      "id": "winapp-cli--3bd19690ac",
+      "name": "winapp-cli",
+      "description": "Windows App Development CLI (winapp) for building, packaging, and deploying Windows applications. Use when asked to initialize Windows app projects, create MSIX packages, generate AppxManifest.xml, manage development certificates, add package identity for debugging, sign packages, or access Windows SDK build tools. Supports .NET, C++, Electron, Rust, Tauri, and cross-platform frameworks targeti...",
+      "root_label": "agents_skills",
+      "source_path": "/home/wolvend/.agents/skills/github-winapp-cli/SKILL.md",
+      "rel_hint": "/home/wolvend/.agents/skills/github-winapp-cli",
       "worth_score": 60,
       "features": {
         "has_description": true,
