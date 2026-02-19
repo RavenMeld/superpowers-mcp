@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "count": 694,
+  "count": 704,
   "roots": [
     {
       "label": "agent_playground",
@@ -9252,6 +9252,42 @@
       "workflow": []
     },
     {
+      "id": "hyimporter-height-budget-enforcer--167d7c8bb4",
+      "name": "hyimporter-height-budget-enforcer",
+      "description": "Enforce strict world-height budgets in HyImporter outputs to avoid invalid imports and in-game clipping.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hyimporter-height-budget-enforcer/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hyimporter-height-budget-enforcer",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 148
+      },
+      "tags": [
+        "hyimporter",
+        "python",
+        "ci"
+      ],
+      "use_when": [
+        "Terrain exceeds target world Y limits.",
+        "Imports succeed but gameplay shows clipping or missing regions.",
+        "You need hard guarantees for min/max elevation bounds."
+      ],
+      "workflow": [
+        "Define allowed min/max Y envelope for target world.",
+        "Scan generated tiles for out-of-range samples.",
+        "Apply offset/clamp policy and re-export affected tiles.",
+        "Re-validate bounds and generate compliance report.",
+        "Block import when any tile violates budget."
+      ]
+    },
+    {
       "id": "hyimporter-hytale-terrain-pipeline--291774c4e1",
       "name": "hyimporter-hytale-terrain-pipeline",
       "description": "Use HyImporter to convert wow.export map packages into seam-safe OBJ tiles and async-pastable `.schematic` tiles for Hytale.\nIncludes WSL/Windows path conventions and validation steps.",
@@ -9290,6 +9326,43 @@
         "Create `config.yaml` and set `project.map_name`, `paths.input_root`, `paths.output_root`.",
         "Run the build (WSL bash or Windows PowerShell wrapper).",
         "Use the generated runbook (`runbook/hytale_import_runbook.md`) to paste into Hytale."
+      ]
+    },
+    {
+      "id": "hyimporter-seam-debugger--e871072014",
+      "name": "hyimporter-seam-debugger",
+      "description": "Diagnose and fix HyImporter tile seam mismatches in terrain outputs before Hytale import.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hyimporter-seam-debugger/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hyimporter-seam-debugger",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 146
+      },
+      "tags": [
+        "hytale",
+        "hyimporter",
+        "python",
+        "ci"
+      ],
+      "use_when": [
+        "Adjacent terrain tiles show visible seam gaps/steps.",
+        "Tile borders disagree after build parameter changes.",
+        "You need deterministic seam verification before import."
+      ],
+      "workflow": [
+        "Identify problematic tile coordinates and neighbor set.",
+        "Compare border vertex/height values across tile edges.",
+        "Re-check build parameters that affect interpolation/sampling.",
+        "Rebuild only affected tiles with fixed settings.",
+        "Validate seam continuity before bulk export."
       ]
     },
     {
@@ -9551,6 +9624,41 @@
       ]
     },
     {
+      "id": "hytale-asset-pipeline--99268ec256",
+      "name": "hytale-asset-pipeline",
+      "description": "Build a repeatable Hytale asset pipeline from modeling tools to validated, pack-ready game assets.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hytale-asset-pipeline/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hytale-asset-pipeline",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 134
+      },
+      "tags": [
+        "hytale",
+        "ci"
+      ],
+      "use_when": [
+        "You are producing custom Hytale models/textures/animations.",
+        "You need consistent export and validation standards.",
+        "Assets work locally but fail in packaged builds."
+      ],
+      "workflow": [
+        "Model with naming and scale conventions.",
+        "Export with deterministic format settings.",
+        "Validate geometry/material/animation compatibility.",
+        "Assemble assets into a pack with manifest metadata.",
+        "Test pack load and runtime behavior in a minimal scene."
+      ]
+    },
+    {
       "id": "hytale-commands--1609c0ebff",
       "name": "hytale-commands",
       "description": "Create custom commands for Hytale server plugins with arguments, permissions, and execution handling. Use when asked to \"create a command\", \"add slash command\", \"make admin command\", \"register commands\", or \"command with arguments\".",
@@ -9687,6 +9795,43 @@
         "Implementing async event handlers"
       ],
       "workflow": []
+    },
+    {
+      "id": "hytale-mod-ci--8289e6f049",
+      "name": "hytale-mod-ci",
+      "description": "Add CI checks for Hytale mods: lint, build, package validation, and release gates.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hytale-mod-ci/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/hytale-mod-ci",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 153
+      },
+      "tags": [
+        "git",
+        "hytale",
+        "rust",
+        "ci"
+      ],
+      "use_when": [
+        "You want automated quality gates for Hytale mods.",
+        "Manual mod packaging is error-prone and inconsistent.",
+        "You need confidence before publishing mod updates."
+      ],
+      "workflow": [
+        "Run lint and static checks on every pull request.",
+        "Build mod package in a clean CI environment.",
+        "Validate produced artifact structure and metadata.",
+        "Execute smoke integration checks on sample content.",
+        "Gate release tags on successful CI + changelog presence."
+      ]
     },
     {
       "id": "hytale-modding--7ecc505e60",
@@ -11193,6 +11338,44 @@
       ]
     },
     {
+      "id": "llm-prompt-regression-suite--ae79af38a2",
+      "name": "llm-prompt-regression-suite",
+      "description": "Run prompt regression tests with golden cases, drift thresholds, and failure triage to keep LLM behavior stable.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/llm-prompt-regression-suite/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/llm-prompt-regression-suite",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 145
+      },
+      "tags": [
+        "python",
+        "go",
+        "llm",
+        "eval",
+        "benchmark"
+      ],
+      "use_when": [
+        "Prompt updates cause inconsistent output quality.",
+        "You need before/after evidence for prompt changes.",
+        "Model upgrades require behavior drift checks."
+      ],
+      "workflow": [
+        "Curate representative golden prompts and expected traits.",
+        "Score outputs with deterministic rubric checks.",
+        "Compare new runs against baseline thresholds.",
+        "Classify failures by prompt design, model drift, or data shift.",
+        "Gate prompt releases on regression score floors."
+      ]
+    },
+    {
       "id": "lmstudio-mcp-setup--6f9f732344",
       "name": "lmstudio-mcp-setup",
       "description": "Configure MCP servers in LM Studio (MCP host support), including where to edit mcp.json and common gotchas.",
@@ -11734,6 +11917,42 @@
         "**Explore**: `mcp-cli <server>` → see tools with parameters",
         "**Inspect**: `mcp-cli <server>/<tool>` → get full JSON input schema",
         "**Execute**: `mcp-cli <server>/<tool> '<json>'` → run with arguments"
+      ]
+    },
+    {
+      "id": "mcp-contract-test-harness--4a3edb3012",
+      "name": "mcp-contract-test-harness",
+      "description": "Validate MCP tools against contract expectations: schema compliance, deterministic error codes, and retry behavior.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/mcp-contract-test-harness/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/mcp-contract-test-harness",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 148
+      },
+      "tags": [
+        "mcp",
+        "python",
+        "ci"
+      ],
+      "use_when": [
+        "You maintain MCP servers/tools with multiple clients.",
+        "Tool calls fail due to schema drift or error-shape mismatch.",
+        "You need regression tests for tool interface contracts."
+      ],
+      "workflow": [
+        "Define contract cases for success and known failures.",
+        "Validate argument schema and output shape per tool.",
+        "Verify stable error codes/messages for common failures.",
+        "Check retry/idempotency behavior for transient faults.",
+        "Run harness in CI on contract-sensitive changes."
       ]
     },
     {
@@ -13773,6 +13992,41 @@
       ]
     },
     {
+      "id": "obsidian-link-integrity-auditor--7ea474a0c7",
+      "name": "obsidian-link-integrity-auditor",
+      "description": "Audit and repair Obsidian wikilinks, embeds, and backlinks after large vault refactors.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/obsidian-link-integrity-auditor/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/obsidian-link-integrity-auditor",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 140
+      },
+      "tags": [
+        "git",
+        "obsidian"
+      ],
+      "use_when": [
+        "You renamed or moved many notes in a vault.",
+        "Wikilinks or embeds are breaking after refactors.",
+        "You need confidence before publishing/exporting notes."
+      ],
+      "workflow": [
+        "Build an inventory of all markdown links and embeds.",
+        "Detect broken targets and orphaned backlinks.",
+        "Apply deterministic replacements for moved notes.",
+        "Re-scan until broken-link count reaches zero.",
+        "Record fix summary for future vault migrations."
+      ]
+    },
+    {
       "id": "obsidian-local-dev-loop--3ce2f2655a",
       "name": "obsidian-local-dev-loop",
       "description": "Configure Obsidian plugin development with hot-reload and fast iteration.\nUse when setting up development workflow, configuring test vaults,\nor establishing a rapid development cycle.\nTrigger with phrases like \"obsidian dev loop\", \"obsidian hot reload\",\n\"obsidian development workflow\", \"develop obsidian plugin\".",
@@ -14052,6 +14306,42 @@
         "export class EfficientFileProcessor {",
         "private vault: Vault;",
         "private cache: Map<string, { content: string; mtime: number }> = new Map();"
+      ]
+    },
+    {
+      "id": "obsidian-plugin-release-pipeline--fe2f48fedf",
+      "name": "obsidian-plugin-release-pipeline",
+      "description": "Release Obsidian plugins safely with versioning, changelog generation, packaging checks, and reproducible publish steps.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/obsidian-plugin-release-pipeline/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/obsidian-plugin-release-pipeline",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 148
+      },
+      "tags": [
+        "git",
+        "ci",
+        "obsidian"
+      ],
+      "use_when": [
+        "You are preparing an Obsidian plugin release.",
+        "You need a repeatable version/changelog/package workflow.",
+        "A release failed and needs deterministic rerun steps."
+      ],
+      "workflow": [
+        "Verify working tree cleanliness and test status.",
+        "Bump version in manifest and package metadata.",
+        "Generate release notes from merged changes.",
+        "Build distributable artifacts and verify checksums.",
+        "Publish only after post-build smoke checks pass."
       ]
     },
     {
@@ -15116,6 +15406,43 @@
       ]
     },
     {
+      "id": "playwright-auth-state-manager--ea381bbdf5",
+      "name": "playwright-auth-state-manager",
+      "description": "Manage Playwright authentication state safely and deterministically across local runs and CI.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-auth-state-manager/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-auth-state-manager",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 144
+      },
+      "tags": [
+        "playwright",
+        "go",
+        "ci",
+        "rag"
+      ],
+      "use_when": [
+        "Tests require authenticated sessions.",
+        "Login steps are flaky or too slow in every test.",
+        "CI failures stem from expired or polluted auth state."
+      ],
+      "workflow": [
+        "Create dedicated auth setup project/spec.",
+        "Persist storage state into scoped, non-secret artifacts.",
+        "Reuse auth state only for matching test domains/roles.",
+        "Refresh auth state on expiration signals.",
+        "Keep logout/cleanup checks in teardown paths."
+      ]
+    },
+    {
       "id": "playwright-browser-automation--629938c0e3",
       "name": "playwright-browser-automation",
       "description": "Practical Playwright workflows for web automation and smoke testing: running tests, headed debugging, traces, screenshots, and CI-safe defaults.",
@@ -15434,6 +15761,41 @@
         "Verify interactive elements have labels",
         "Check heading hierarchy",
         "Verify form labels associated"
+      ]
+    },
+    {
+      "id": "playwright-network-chaos-suite--47ec63065b",
+      "name": "playwright-network-chaos-suite",
+      "description": "Stress Playwright E2E flows with network latency, failures, and offline scenarios to harden client behavior.",
+      "root_label": "agent_playground",
+      "source_path": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-network-chaos-suite/SKILL.md",
+      "rel_hint": "/home/wolvend/codex/agent_playground/projects/awesome-skills-database/skillpacks/ravenmeld/playwright-network-chaos-suite",
+      "worth_score": 60,
+      "features": {
+        "has_description": true,
+        "has_use_when": true,
+        "has_workflow": true,
+        "code_fence_count": 3,
+        "has_scripts": false,
+        "has_references": false,
+        "has_assets": false,
+        "word_count": 135
+      },
+      "tags": [
+        "playwright",
+        "testing"
+      ],
+      "use_when": [
+        "UI behavior breaks under slow/unstable network.",
+        "Retries and fallback UX are untested.",
+        "You need resilience gates before release."
+      ],
+      "workflow": [
+        "Identify critical user journeys for resilience testing.",
+        "Inject latency, timeout, and intermittent failure scenarios.",
+        "Validate fallback UI states and retry controls.",
+        "Verify telemetry/error reporting under degraded conditions.",
+        "Promote fixes into standard regression suite."
       ]
     },
     {

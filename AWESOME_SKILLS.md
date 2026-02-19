@@ -1,6 +1,6 @@
 # Awesome SKILLS Database (Generated)
 
-- total_skills: `694`
+- total_skills: `704`
 
 ## Top (Worth Using)
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
@@ -117,6 +117,7 @@
 - [administering-linux (`60/100`)](dist/cards/administering-linux--035599958b.md)
 - [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--0778eb1116.md)
 - [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--54d98e81df.md)
+- [llm-prompt-regression-suite (`60/100`)](dist/cards/llm-prompt-regression-suite--ae79af38a2.md)
 - [prd (`60/100`)](dist/cards/prd--4e2f52f8e6.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--a35c5cdde5.md)
 - [iac-checkov (`58/100`)](dist/cards/iac-checkov--2c035a1039.md)
@@ -141,7 +142,6 @@
 - [docker-best-practices (`45/100`)](dist/cards/docker-best-practices--5c4f53367d.md)
 - [when-profiling-performance-use-performance-profiler (`45/100`)](dist/cards/when-profiling-performance-use-performance-profiler--38a9d8fb1e.md)
 - [agent-performance-benchmarker (`40/100`)](dist/cards/agent-performance-benchmarker--d25190c12c.md)
-- [kubernetes-architect (`40/100`)](dist/cards/kubernetes-architect--abbaa5b296.md)
 
 ### blockbench
 - [blockbench-hytale (`55/100`)](dist/cards/blockbench-hytale--38826bfa86.md)
@@ -570,13 +570,18 @@
 
 ### hyimporter
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
+- [hyimporter-height-budget-enforcer (`60/100`)](dist/cards/hyimporter-height-budget-enforcer--167d7c8bb4.md)
+- [hyimporter-seam-debugger (`60/100`)](dist/cards/hyimporter-seam-debugger--e871072014.md)
 
 ### hytale
 - [hyimporter-hytale-terrain-pipeline (`70/100`)](dist/cards/hyimporter-hytale-terrain-pipeline--291774c4e1.md)
+- [hyimporter-seam-debugger (`60/100`)](dist/cards/hyimporter-seam-debugger--e871072014.md)
+- [hytale-asset-pipeline (`60/100`)](dist/cards/hytale-asset-pipeline--99268ec256.md)
 - [hytale-commands (`60/100`)](dist/cards/hytale-commands--1609c0ebff.md)
 - [hytale-custom-assets (`60/100`)](dist/cards/hytale-custom-assets--bcbca48599.md)
 - [hytale-custom-entities (`60/100`)](dist/cards/hytale-custom-entities--38d2d4d51f.md)
 - [hytale-events-api (`60/100`)](dist/cards/hytale-events-api--7b9b01457d.md)
+- [hytale-mod-ci (`60/100`)](dist/cards/hytale-mod-ci--8289e6f049.md)
 - [hytale-modding (`60/100`)](dist/cards/hytale-modding--7ecc505e60.md)
 - [blockbench-hytale (`55/100`)](dist/cards/blockbench-hytale--38826bfa86.md)
 - [hylab-core-runner (`40/100`)](dist/cards/hylab-core-runner--f4b2a7acf6.md)
@@ -700,6 +705,7 @@
 - [hugging-face-paper-publisher (`60/100`)](dist/cards/hugging-face-paper-publisher--94fcb45911.md)
 - [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--0778eb1116.md)
 - [llm-evaluation (`60/100`)](dist/cards/llm-evaluation--54d98e81df.md)
+- [llm-prompt-regression-suite (`60/100`)](dist/cards/llm-prompt-regression-suite--ae79af38a2.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--2444f4f834.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--8d6d7ca831.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--a35c5cdde5.md)
@@ -707,7 +713,6 @@
 - [trulens-evaluation-workflow (`60/100`)](dist/cards/trulens-evaluation-workflow--ac41a4a1b3.md)
 - [winapp-cli (`60/100`)](dist/cards/winapp-cli--368f1b33de.md)
 - [winapp-cli (`60/100`)](dist/cards/winapp-cli--3bd19690ac.md)
-- [advanced-evaluation (`55/100`)](dist/cards/advanced-evaluation--675ccf6061.md)
 
 ### mcp
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
@@ -735,11 +740,11 @@
 - [codebase-orientation (`60/100`)](dist/cards/codebase-orientation--6af8ea9c7d.md)
 - [codebase-orientation (`60/100`)](dist/cards/codebase-orientation--b4d1d2ecef.md)
 - [MCP Integration (`60/100`)](dist/cards/mcp-integration--03e383b199.md)
+- [mcp-contract-test-harness (`60/100`)](dist/cards/mcp-contract-test-harness--4a3edb3012.md)
 - [ouroboros (`60/100`)](dist/cards/ouroboros--adcf029e90.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
 - [agent-browser (`55/100`)](dist/cards/agent-browser--a54716c5a8.md)
 - [atlassian-mcp (`55/100`)](dist/cards/atlassian-mcp--159d33223e.md)
-- [blockbench-hytale (`55/100`)](dist/cards/blockbench-hytale--38826bfa86.md)
 
 ### mozilla
 - [error-pattern-safety (`55/100`)](dist/cards/error-pattern-safety--e9a06934b8.md)
@@ -814,7 +819,9 @@
 - [obsidian-skill (`88/100`)](dist/cards/obsidian-skill--9ff25aae8e.md)
 - [prompt-engineer (`70/100`)](dist/cards/prompt-engineer--b23c99addb.md)
 - [obsidian-vault-ops (`65/100`)](dist/cards/obsidian-vault-ops--47bccc269b.md)
+- [obsidian-link-integrity-auditor (`60/100`)](dist/cards/obsidian-link-integrity-auditor--7ea474a0c7.md)
 - [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
+- [obsidian-plugin-release-pipeline (`60/100`)](dist/cards/obsidian-plugin-release-pipeline--fe2f48fedf.md)
 - [obsidian-canvas-creator (`58/100`)](dist/cards/obsidian-canvas-creator--ae501278c9.md)
 - [obsidian-cost-tuning (`55/100`)](dist/cards/obsidian-cost-tuning--1de54994b7.md)
 - [obsidian-hello-world (`55/100`)](dist/cards/obsidian-hello-world--e4e1eeb2f1.md)
@@ -839,8 +846,6 @@
 - [obsidian-vault-context (`40/100`)](dist/cards/obsidian-vault-context--6f76db90ac.md)
 - [obsidian-developer (`35/100`)](dist/cards/obsidian-developer--8a94f4b2a3.md)
 - [obsidian-diary (`35/100`)](dist/cards/obsidian-diary--08ac5f7a26.md)
-- [obsidian-people (`35/100`)](dist/cards/obsidian-people--88297c060d.md)
-- [using-obsidian-api (`35/100`)](dist/cards/using-obsidian-api--c871f25c86.md)
 
 ### playwright
 - [playwright (`73/100`)](dist/cards/playwright--cce2795d85.md)
@@ -854,10 +859,12 @@
 - [cross-browser-regression-matrix (`60/100`)](dist/cards/cross-browser-regression-matrix--1bcc6e38b8.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--0d8d1f9239.md)
 - [dev-browser (`60/100`)](dist/cards/dev-browser--a7b77ea348.md)
+- [playwright-auth-state-manager (`60/100`)](dist/cards/playwright-auth-state-manager--ea381bbdf5.md)
 - [playwright-cli (`60/100`)](dist/cards/playwright-cli--66aa3b503f.md)
 - [playwright-cli (`60/100`)](dist/cards/playwright-cli--dafb020d92.md)
 - [playwright-e2e (`60/100`)](dist/cards/playwright-e2e--91aa9eacd8.md)
 - [playwright-flake-hunter (`60/100`)](dist/cards/playwright-flake-hunter--c724b6213b.md)
+- [playwright-network-chaos-suite (`60/100`)](dist/cards/playwright-network-chaos-suite--47ec63065b.md)
 - [playwright-trace-forensics (`60/100`)](dist/cards/playwright-trace-forensics--4028d7aab9.md)
 - [web-design-reviewer (`60/100`)](dist/cards/web-design-reviewer--c92475836b.md)
 - [webapp-testing (`60/100`)](dist/cards/webapp-testing--4afd58a651.md)
@@ -871,8 +878,6 @@
 - [playwright-mcp (`55/100`)](dist/cards/playwright-mcp--77eec759de.md)
 - [test-master (`55/100`)](dist/cards/test-master--c3a18da2b7.md)
 - [xiaohongshu-recruiter (`48/100`)](dist/cards/xiaohongshu-recruiter--a630c8ffc9.md)
-- [browser-automation (`45/100`)](dist/cards/browser-automation--c6687517d2.md)
-- [playwright-debugging (`45/100`)](dist/cards/playwright-debugging--6d6cbf7add.md)
 
 ### postgres
 - [render-deploy (`73/100`)](dist/cards/render-deploy--ca3d146899.md)
@@ -1054,6 +1059,7 @@
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--7cb9c75e56.md)
 - [uv-package-manager (`65/100`)](dist/cards/uv-package-manager--99917f0071.md)
 - [git-signing-ops (`60/100`)](dist/cards/git-signing-ops--be4cd2e2c1.md)
+- [hytale-mod-ci (`60/100`)](dist/cards/hytale-mod-ci--8289e6f049.md)
 - [obsidian-markdown (`60/100`)](dist/cards/obsidian-markdown--815bbf3682.md)
 - [ouroboros (`60/100`)](dist/cards/ouroboros--adcf029e90.md)
 - [rag-implementation (`60/100`)](dist/cards/rag-implementation--2444f4f834.md)
@@ -1070,7 +1076,6 @@
 - [n8n-node-configuration (`55/100`)](dist/cards/n8n-node-configuration--a86922cd31.md)
 - [nestjs-expert (`55/100`)](dist/cards/nestjs-expert--5d2fb2ff2f.md)
 - [repomix-explorer (`55/100`)](dist/cards/repomix-explorer--4e0fd13cef.md)
-- [rust-engineer (`55/100`)](dist/cards/rust-engineer--de140c66de.md)
 
 ### security
 - [aws-solution-architect (`88/100`)](dist/cards/aws-solution-architect--e1c3559c82.md)
