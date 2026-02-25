@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "aliases": [
+    {
+      "phrase": "fix flaky test",
+      "skill": "systematic-debugging",
+      "phase": "debug"
+    },
+    {
+      "phrase": "debug flaky test",
+      "skill": "systematic-debugging",
+      "phase": "debug"
+    },
+    {
+      "phrase": "debug flaky playwright test",
+      "skill": "systematic-debugging",
+      "phase": "debug"
+    },
+    {
+      "phrase": "flaky playwright test",
+      "skill": "systematic-debugging",
+      "phase": "debug"
+    },
+    {
+      "phrase": "debug failing test",
+      "skill": "systematic-debugging",
+      "phase": "debug"
+    },
+    {
+      "phrase": "write spec",
+      "skill": "writing-plans",
+      "phase": "plan"
+    },
+    {
+      "phrase": "implementation plan",
+      "skill": "writing-plans",
+      "phase": "plan"
+    },
+    {
+      "phrase": "review this pr",
+      "skill": "requesting-code-review",
+      "phase": "review"
+    },
+    {
+      "phrase": "code review",
+      "skill": "requesting-code-review",
+      "phase": "review"
+    },
+    {
+      "phrase": "run playwright automation",
+      "skill": "playwright-browser-automation",
+      "phase": null
+    },
+    {
+      "phrase": "triage ci failure",
+      "skill": "ci-failure-triage",
+      "phase": "debug"
+    }
+  ]
+}

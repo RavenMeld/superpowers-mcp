@@ -6,8 +6,8 @@ from pathlib import Path
 from typing import Any
 
 from .frontmatter import parse_frontmatter
-from .scoring import SkillFeatures, worth_using_score
-from .util import normalize_path, redact_obvious_secrets, sha1_hex, slugify
+from .scoring import SkillFeatures, quality_score, worth_using_score
+from .util import normalize_path, redact_obvious_secrets, stable_skill_id
 
 
 _H1 = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
@@ -24,6 +24,7 @@ class SkillRecord:
     source_path: str
     rel_hint: str
     worth_score: int
+    quality_score: int
     features: SkillFeatures
     tags: list[str]
     use_when: list[str]
@@ -235,10 +236,11 @@ def build_skill_record(root_label: str, skill_md: Path) -> tuple[SkillRecord, st
         word_count=word_count,
     )
     worth_score = worth_using_score(features)
+    qscore = quality_score(root_label=root_label, worth_score=worth_score, features=features)
 
     # Stable-ish id based on (name + normalized source path).
     src_norm = normalize_path(skill_md)
-    sid = f"{slugify(name)}--{sha1_hex(src_norm)[:10]}"
+    sid = stable_skill_id(name=name, key=src_norm)
 
     tags = _infer_tags(name, description, body)
 
@@ -250,6 +252,7 @@ def build_skill_record(root_label: str, skill_md: Path) -> tuple[SkillRecord, st
         source_path=str(skill_md),
         rel_hint=str(skill_md.parent),
         worth_score=worth_score,
+        quality_score=qscore,
         features=features,
         tags=tags,
         use_when=[redact_obvious_secrets(x) for x in use_when],
@@ -270,6 +273,7 @@ def render_card_markdown(rec: SkillRecord) -> str:
     lines.append("## Quick Facts")
     lines.append(f"- id: `{rec.id}`")
     lines.append(f"- worth_using_score: `{rec.worth_score}/100`")
+    lines.append(f"- quality_score: `{rec.quality_score}/100`")
     if rec.tags:
         lines.append(f"- tags: `{', '.join(rec.tags)}`")
     lines.append(f"- source: `{rec.root_label}`")

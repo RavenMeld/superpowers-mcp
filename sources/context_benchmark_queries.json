@@ -1,0 +1,44 @@
+{
+  "queries": [
+    {
+      "query": "debug flaky playwright test",
+      "expects_any": ["systematic-debugging", "test-driven-development", "playwright-browser-automation"]
+    },
+    {
+      "query": "write implementation plan for feature",
+      "expects_any": ["writing-plans"]
+    },
+    {
+      "query": "review this pr",
+      "expects_any": ["requesting-code-review", "receiving-code-review"]
+    },
+    {
+      "query": "create isolated branch for feature work",
+      "expects_any": ["using-git-worktrees"]
+    },
+    {
+      "query": "finish branch and decide merge",
+      "expects_any": ["finishing-a-development-branch"]
+    },
+    {
+      "query": "run playwright automation",
+      "expects_any": ["playwright-browser-automation", "playwright-flake-hunter"]
+    },
+    {
+      "query": "kubernetes debugging pod issues",
+      "expects_any": ["kubernetes-debugging"]
+    },
+    {
+      "query": "improve prompt quality with regression checks",
+      "expects_any": ["llm-prompt-regression-suite"]
+    },
+    {
+      "query": "set up mcp server contract tests",
+      "expects_any": ["mcp-contract-test-harness", "mcp-security-hygiene"]
+    },
+    {
+      "query": "triage CI failure",
+      "expects_any": ["ci-failure-triage", "systematic-debugging"]
+    }
+  ]
+}

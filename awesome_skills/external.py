@@ -5,8 +5,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from .condense import SkillRecord
-from .scoring import SkillFeatures, worth_using_score
-from .util import redact_obvious_secrets, sha1_hex, slugify
+from .scoring import SkillFeatures, quality_score, worth_using_score
+from .util import redact_obvious_secrets, stable_skill_id
 
 
 @dataclass(frozen=True)
@@ -151,8 +151,9 @@ def build_external_records(candidates_md: Path) -> tuple[list[SkillRecord], dict
             word_count=word_count,
         )
         worth = worth_using_score(features)
+        qscore = quality_score(root_label="external", worth_score=worth, features=features)
 
-        sid = f"{slugify(name)}--{sha1_hex(c.url)[:10]}"
+        sid = stable_skill_id(name=name, key=c.url)
         tags = _infer_tags(body_for_signals)
 
         rec = SkillRecord(
@@ -163,6 +164,7 @@ def build_external_records(candidates_md: Path) -> tuple[list[SkillRecord], dict
             source_path=c.url,
             rel_hint=str(candidates_md),
             worth_score=worth,
+            quality_score=qscore,
             features=features,
             tags=tags,
             use_when=[redact_obvious_secrets(x) for x in use_when],
@@ -185,6 +187,8 @@ def _render_external_card(rec: SkillRecord, section: str, url: str, notes: list[
     lines.append("## Quick Facts")
     lines.append(f"- id: `{rec.id}`")
     lines.append(f"- kind: `external`")
+    lines.append(f"- worth_using_score: `{rec.worth_score}/100`")
+    lines.append(f"- quality_score: `{rec.quality_score}/100`")
     if section:
         lines.append(f"- section: `{section}`")
     if rec.tags:

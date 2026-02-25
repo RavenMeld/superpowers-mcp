@@ -21,6 +21,21 @@ def sha1_hex(text: str) -> str:
     return hashlib.sha1(text.encode("utf-8"), usedforsecurity=False).hexdigest()
 
 
+def stable_skill_id(name: str, key: str, slug_max: int = 80, hash_len: int = 10) -> str:
+    """
+    Stable, filename-safe skill id.
+
+    Keeps ids deterministic while bounding slug length to avoid OS filename limits
+    when writing `<id>.md` card files.
+    """
+    slug = slugify(name)
+    if len(slug) > slug_max:
+        slug = slug[:slug_max].rstrip("-")
+    if not slug:
+        slug = "skill"
+    return f"{slug}--{sha1_hex(key)[:hash_len]}"
+
+
 def normalize_path(p: str | Path) -> str:
     # Normalize for hashing/ids; keep it stable on this host.
     return os.path.normpath(os.path.abspath(str(p)))
@@ -120,4 +135,3 @@ def infer_roots(raw_roots: Iterable[str | Path]) -> list[Root]:
         label = slugify(str(p)).replace("-", "_")
         roots.append(Root(label=label, path=p))
     return roots
-
