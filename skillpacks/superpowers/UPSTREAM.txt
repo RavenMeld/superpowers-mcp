@@ -1,4 +1,6 @@
 source_repo: git@github.com:obra/superpowers.git
 source_commit: e16d611eee14ac4c3253b4bf4c55a98d905c2e64
-synced_at_utc: 2026-02-25T21:26:23Z
+source_ref: main
+synced_at_utc: 2026-02-25T21:44:58Z
 sync_tool: scripts/sync_superpowers_skillpack.sh
+sync_mode: local

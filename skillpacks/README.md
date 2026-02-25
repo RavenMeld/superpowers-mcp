@@ -20,7 +20,11 @@ Sync command:
 
 ```bash
 bash scripts/sync_superpowers_skillpack.sh
+SYNC_MODE=local bash scripts/sync_superpowers_skillpack.sh
+SYNC_MODE=remote TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/sync_superpowers_skillpack.sh
 ```
+
+`SYNC_MODE=auto` (default) prefers local git snapshot sync when a source repo is available, then falls back to remote GitHub archive sync.
 
 Optional drift check against a target upstream ref:
 

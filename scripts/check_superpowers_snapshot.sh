@@ -28,7 +28,8 @@ if [[ -z "${LOCAL_COMMIT}" ]]; then
 fi
 
 API_URL="https://api.github.com/repos/${TARGET_REPO}/commits/${TARGET_REF}"
-API_BODY="$(curl -sS "${API_URL}" || true)"
+ATOM_URL="https://github.com/${TARGET_REPO}/commits/${TARGET_REF}.atom"
+API_BODY="$(curl -fsSL "${API_URL}" 2>/dev/null || true)"
 
 REMOTE_COMMIT="$(
   python - "${API_BODY}" <<'PY'
@@ -52,10 +53,28 @@ PY
 )"
 
 if [[ -z "${REMOTE_COMMIT}" ]]; then
+  ATOM_BODY="$(curl -fsSL "${ATOM_URL}" 2>/dev/null || true)"
+  REMOTE_COMMIT="$(
+    python - "${ATOM_BODY}" <<'PY'
+import re
+import sys
+
+raw = sys.argv[1]
+match = re.search(r"Grit::Commit/([0-9a-fA-F]{40})", raw)
+if match:
+    print(match.group(1).lower())
+else:
+    print("")
+PY
+  )"
+fi
+
+if [[ -z "${REMOTE_COMMIT}" ]]; then
   safe_api_url="$(printf "%s" "${API_URL}" | sed 's/"/\\"/g')"
+  safe_atom_url="$(printf "%s" "${ATOM_URL}" | sed 's/"/\\"/g')"
   safe_local_commit="$(printf "%s" "${LOCAL_COMMIT}" | sed 's/"/\\"/g')"
   safe_local_repo="$(printf "%s" "${LOCAL_SOURCE_REPO}" | sed 's/"/\\"/g')"
-  echo "{\"ok\":false,\"code\":\"REMOTE_COMMIT_UNAVAILABLE\",\"target_repo\":\"${TARGET_REPO}\",\"target_ref\":\"${TARGET_REF}\",\"api_url\":\"${safe_api_url}\",\"local_commit\":\"${safe_local_commit}\",\"local_source_repo\":\"${safe_local_repo}\"}"
+  echo "{\"ok\":false,\"code\":\"REMOTE_COMMIT_UNAVAILABLE\",\"target_repo\":\"${TARGET_REPO}\",\"target_ref\":\"${TARGET_REF}\",\"api_url\":\"${safe_api_url}\",\"atom_url\":\"${safe_atom_url}\",\"local_commit\":\"${safe_local_commit}\",\"local_source_repo\":\"${safe_local_repo}\"}"
   exit 2
 fi
 

@@ -23,6 +23,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - Integrate context-aware ranking as an additive path (`context-search`) rather than replacing existing search behavior.
 - Add backward compatibility for older SQLite DBs that do not have `skills.quality_score` by falling back to `worth_score` in query projections.
 - Cache parsed compatibility alias rules by file path + stat metadata to reduce per-query overhead in context parsing.
+- Extend superpowers sync script with explicit `SYNC_MODE=auto|local|remote` so we can target `erophames/superpowers-mcp` directly when needed.
 
 ## Progress
 - [x] Diffed worktree and main files; identified divergence risks.
@@ -32,6 +33,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - [x] Added bounded stable IDs in `awesome_skills/util.py`, and wired usage in `condense.py` + `external.py`.
 - [x] Added compatibility artifacts, scripts, and vendored superpowers pack.
 - [x] Added superpowers snapshot drift check script for upstream compatibility monitoring.
+- [x] Extended superpowers sync script for local/remote mode selection and target repo/ref controls.
 - [x] Updated README and `skillpacks/README.md`.
 - [x] Integrated MCP context-search tool + `strategy=auto|classic|context` in MCP search tool.
 - [x] Added schema-compat fallback in `awesome_skills/db.py` so search works with legacy DB files.
@@ -47,7 +49,9 @@ Port the validated superpowers compatibility + context-aware search work from th
 5. `python scripts/bench_context_search.py --db /tmp/as_ctx_main/awesome_skills.sqlite --queries sources/context_benchmark_queries.json --alias-json sources/compat_aliases.json --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8`
 6. `python -m awesome_skills.mcp_server --skills-json dist/skills.json --db dist/awesome_skills.sqlite --self-test`
 7. `TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh`
-8. Clean temp validation:
+8. `bash scripts/sync_superpowers_skillpack.sh`
+9. `SYNC_MODE=remote TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/sync_superpowers_skillpack.sh`
+10. Clean temp validation:
    - `python -m awesome_skills build --root . --out /tmp/as_ctx_final_<id>`
    - `python scripts/bench_context_search.py --db /tmp/as_ctx_final_<id>/awesome_skills.sqlite --queries sources/context_benchmark_queries.json --alias-json sources/compat_aliases.json --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8`
    - `python -m awesome_skills.mcp_server --skills-json /tmp/as_ctx_final_<id>/skills.json --db /tmp/as_ctx_final_<id>/awesome_skills.sqlite --self-test`
@@ -71,6 +75,10 @@ Port the validated superpowers compatibility + context-aware search work from th
   - `self_test ok` (confirms legacy-schema fallback path works on this local DB)
 - `TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh` ⚠️
   - `REMOTE_COMMIT_UNAVAILABLE` in this environment (network/DNS to `api.github.com` unavailable), but script returns structured JSON and explicit status code.
+- `bash scripts/sync_superpowers_skillpack.sh` ✅
+  - local-mode sync succeeded from local superpowers repo snapshot.
+- `SYNC_MODE=remote TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/sync_superpowers_skillpack.sh` ⚠️
+  - failed with explicit archive-download error in this environment (`codeload.github.com` DNS unavailable).
 - Clean temp validation on `/tmp/as_ctx_final_663113` ✅
   - build: `Indexed 1082 skills`
   - benchmark: `hit@1=1.0000`, `hit@3=1.0000`, `p95=29.702ms`, `thresholds=PASS`
