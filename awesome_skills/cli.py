@@ -8,6 +8,7 @@ from pathlib import Path
 from .bench import run_benchmark
 from .curate import curate_artifacts
 from .condense import build_skill_record
+from .context import parse_query_context
 from .db import build_db, context_search_db, list_top_worth, search_db
 from .discover import discover_skill_mds
 from .external import build_external_records
@@ -166,6 +167,91 @@ def cmd_search(args: argparse.Namespace) -> int:
     if not _ensure_db(db_path):
         return 2
     alias_json = None if args.no_alias_collapse else Path(args.alias_json).expanduser().resolve()
+    strategy = str(args.strategy or "classic").strip().lower()
+    if strategy not in {"auto", "classic", "context"}:
+        print(f"[ERROR] invalid --strategy={strategy}; expected auto|classic|context", file=sys.stderr)
+        return 2
+
+    context_alias_json = Path(args.context_alias_json).expanduser().resolve()
+    query_context: dict | None = None
+    mode_used = "classic"
+    use_context = strategy == "context"
+    if strategy == "auto":
+        qc = parse_query_context(args.query, alias_json=context_alias_json)
+        query_context = qc.to_json()
+        use_context = bool(qc.phase or qc.tools or qc.alias_hits)
+
+    if use_context:
+        context, ctx_results, alternatives = context_search_db(
+            db_path,
+            args.query,
+            limit=args.limit,
+            alias_json=context_alias_json,
+        )
+        mode_used = "context"
+        if args.json:
+            print(
+                json.dumps(
+                    {
+                        "mode_used": mode_used,
+                        "query": args.query,
+                        "context": context,
+                        "results": [
+                            {
+                                "id": r.id,
+                                "name": r.name,
+                                "description": r.description,
+                                "worth_score": r.worth_score,
+                                "quality_score": r.quality_score,
+                                "combined_score": r.score,
+                                "confidence": r.confidence,
+                                "why_selected": r.why_selected,
+                                "source_kind": r.source_kind,
+                                "kind": r.kind,
+                                "phases": r.phases,
+                                "tools": r.tools,
+                                "match_terms": r.match_terms,
+                                "score_breakdown": r.score_breakdown,
+                            }
+                            for r in ctx_results
+                        ],
+                        "alternatives": [
+                            {
+                                "id": r.id,
+                                "name": r.name,
+                                "combined_score": r.score,
+                                "why_selected": r.why_selected,
+                            }
+                            for r in alternatives
+                        ],
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            )
+            return 0
+
+        print(f"mode: {mode_used}")
+        print(f"context.phase: {context.get('phase')!r}  strong={bool(context.get('strong_phase'))}")
+        if context.get("tools"):
+            print(f"context.tools: {', '.join(context['tools'])}")
+        if context.get("alias_hits"):
+            aliases = ", ".join(h.get("skill", "") for h in context["alias_hits"] if isinstance(h, dict))
+            if aliases:
+                print(f"context.alias_hits: {aliases}")
+        print("")
+        for i, r in enumerate(ctx_results, start=1):
+            terms = f" (match: {', '.join(r.match_terms)})" if r.match_terms else ""
+            print(
+                f"{i}. {r.name}  [score={r.score:.3f}, confidence={r.confidence:.3f}, worth={r.worth_score}/100, quality={r.quality_score}/100]{terms}"
+            )
+            print(f"   id: {r.id}")
+            print(f"   why: {r.why_selected}")
+            if r.description:
+                print(f"   {r.description}")
+            print("")
+        return 0
+
     results = search_db(
         db_path,
         args.query,
@@ -176,18 +262,23 @@ def cmd_search(args: argparse.Namespace) -> int:
     if args.json:
         print(
             json.dumps(
-                [
-                    {
-                        "id": r.id,
-                        "name": r.name,
-                        "description": r.description,
-                        "worth_score": r.worth_score,
-                        "quality_score": r.quality_score,
-                        "combined_score": r.combined_score,
-                        "match_terms": r.match_terms,
-                    }
-                    for r in results
-                ],
+                {
+                    "mode_used": mode_used,
+                    "query": args.query,
+                    "context": query_context,
+                    "results": [
+                        {
+                            "id": r.id,
+                            "name": r.name,
+                            "description": r.description,
+                            "worth_score": r.worth_score,
+                            "quality_score": r.quality_score,
+                            "combined_score": r.combined_score,
+                            "match_terms": r.match_terms,
+                        }
+                        for r in results
+                    ],
+                },
                 ensure_ascii=False,
                 indent=2,
             )
@@ -610,6 +701,17 @@ def build_parser() -> argparse.ArgumentParser:
     ps.add_argument("--db", default="dist/awesome_skills.sqlite", help="Path to SQLite DB.")
     ps.add_argument("--alias-json", default="dist/name_aliases.json", help="Alias mapping for canonical collapse.")
     ps.add_argument("--no-alias-collapse", action="store_true", help="Disable alias-based dedupe of search results.")
+    ps.add_argument(
+        "--strategy",
+        default="classic",
+        choices=("auto", "classic", "context"),
+        help="Search strategy (default: classic). auto routes to context mode for strong phase/tool/alias queries.",
+    )
+    ps.add_argument(
+        "--context-alias-json",
+        default="sources/compat_aliases.json",
+        help="Phrase alias rules used by --strategy context/auto.",
+    )
     ps.add_argument("--limit", type=int, default=10, help="Max results.")
     ps.add_argument("--json", action="store_true", help="JSON output.")
     ps.set_defaults(func=cmd_search)

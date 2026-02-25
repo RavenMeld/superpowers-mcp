@@ -57,6 +57,7 @@ python -m awesome_skills search "write a professional email"
 python -m awesome_skills search "playwright e2e test"
 python -m awesome_skills search "playwright e2e test" --alias-json dist/name_aliases.json
 python -m awesome_skills search "playwright e2e test" --no-alias-collapse
+python -m awesome_skills search "debug flaky playwright test" --strategy auto --json
 python -m awesome_skills context-search "debug flaky playwright test"
 python -m awesome_skills context-search "write implementation plan for feature" --json
 ```

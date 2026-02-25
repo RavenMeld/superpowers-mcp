@@ -24,6 +24,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - Add backward compatibility for older SQLite DBs that do not have `skills.quality_score` by falling back to `worth_score` in query projections.
 - Cache parsed compatibility alias rules by file path + stat metadata to reduce per-query overhead in context parsing.
 - Extend superpowers sync script with explicit `SYNC_MODE=auto|local|remote` so we can target `erophames/superpowers-mcp` directly when needed.
+- Keep CLI behavior backward compatible by default (`search --strategy classic`) while exposing context parity via `search --strategy auto|context`.
 
 ## Progress
 - [x] Diffed worktree and main files; identified divergence risks.
@@ -38,6 +39,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - [x] Integrated MCP context-search tool + `strategy=auto|classic|context` in MCP search tool.
 - [x] Added schema-compat fallback in `awesome_skills/db.py` so search works with legacy DB files.
 - [x] Added alias-rule cache in `awesome_skills/context.py` to speed repeated context queries.
+- [x] Added `search --strategy auto|classic|context` in CLI with context-aware routing parity.
 - [x] Run validation commands.
 - [x] Record final verification results.
 
@@ -56,6 +58,9 @@ Port the validated superpowers compatibility + context-aware search work from th
    - `python scripts/bench_context_search.py --db /tmp/as_ctx_final_<id>/awesome_skills.sqlite --queries sources/context_benchmark_queries.json --alias-json sources/compat_aliases.json --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8`
    - `python -m awesome_skills.mcp_server --skills-json /tmp/as_ctx_final_<id>/skills.json --db /tmp/as_ctx_final_<id>/awesome_skills.sqlite --self-test`
    - `python -m awesome_skills verify --skills-json /tmp/as_ctx_final_<id>/skills.json --cards-dir /tmp/as_ctx_final_<id>/cards --readme README.md --mcp-server awesome_skills/mcp_server.py --json`
+11. CLI strategy parity checks:
+   - `python -m awesome_skills search "playwright e2e test" --db dist/awesome_skills.sqlite --limit 3`
+   - `python -m awesome_skills search "debug flaky playwright test" --db dist/awesome_skills.sqlite --strategy auto --limit 3 --json`
 
 ## Validation Results
 - `python -m py_compile awesome_skills/*.py scripts/bench_context_search.py` ✅
@@ -84,6 +89,9 @@ Port the validated superpowers compatibility + context-aware search work from th
   - benchmark: `hit@1=1.0000`, `hit@3=1.0000`, `p95=29.702ms`, `thresholds=PASS`
   - self-test: `self_test ok`
   - verify: `ok=true`, `error_count=0` (warnings only)
+- CLI strategy parity checks ✅
+  - `search --strategy classic` returns expected ranked list format.
+  - `search --strategy auto --json` routes to context mode and returns context + alternatives payload.
 - `python -m ruff check awesome_skills scripts/bench_context_search.py` ⚠️
   - unavailable in this environment (`No module named ruff`)
 - MCP checks:
