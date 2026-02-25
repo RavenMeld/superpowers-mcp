@@ -63,6 +63,7 @@ The server registers skills through all three MCP primitives:
 | `list_skills` | List all available skills with descriptions and file lists |
 | `use_skill` | Load a skill by name -- returns the full skill content as instructions to follow |
 | `get_skill_file` | Load a supporting file from a skill (reference docs, prompt templates, scripts) |
+| `search_awesome_skills` | (Optional) Proxy context-aware skill search via Awesome Skills Context Engine (`awesome_skills`) |
 
 ### Prompts
 
@@ -107,6 +108,7 @@ Once connected, ask your AI assistant:
 - "Use the brainstorming skill to help me design a caching layer."
 - "Load the TDD skill and follow it to implement this feature."
 - "Read the anti-patterns file from the test-driven-development skill."
+- "Search awesome skills for this task: debug flaky playwright test." (calls `search_awesome_skills` when bridge is enabled)
 
 ## Configuration
 
@@ -115,6 +117,30 @@ Once connected, ask your AI assistant:
 | Variable | Description |
 |----------|-------------|
 | `SUPERPOWERS_SKILLS_DIR` | Override the skills directory path directly |
+| `AWESOME_SKILLS_ENABLE_BRIDGE` | Set to `1`/`true` to expose `search_awesome_skills` |
+| `AWESOME_SKILLS_PYTHON` | Python executable for bridge mode (default: `python`) |
+| `AWESOME_SKILLS_DB_PATH` | Default `awesome_skills` SQLite DB path for bridge searches |
+| `AWESOME_SKILLS_CONTEXT_ALIAS_JSON` | Default phrase alias JSON path for context routing |
+| `AWESOME_SKILLS_BRIDGE_COMMAND_JSON` | Optional full command override as JSON array, e.g. `["python","-m","awesome_skills"]` |
+| `AWESOME_SKILLS_BRIDGE_TIMEOUT_MS` | Bridge command timeout in ms (default: `15000`) |
+
+### Awesome Skills Context Engine Bridge (Optional)
+
+Enable the bridge and run the server:
+
+```bash
+export AWESOME_SKILLS_ENABLE_BRIDGE=1
+export AWESOME_SKILLS_DB_PATH=/absolute/path/to/awesome_skills.sqlite
+node build/index.js
+```
+
+If `awesome_skills` is not on your default Python path, override the command:
+
+```bash
+export AWESOME_SKILLS_ENABLE_BRIDGE=1
+export AWESOME_SKILLS_BRIDGE_COMMAND_JSON='["/usr/bin/python3","-m","awesome_skills"]'
+node build/index.js
+```
 
 ### Skill Discovery Order
 
@@ -155,7 +181,7 @@ src/
   skills/
     types.ts                Skill, SkillFile, SkillMetadata interfaces
     discovery.ts            Directory scanning, YAML frontmatter parsing, version resolution
-  tools/register.ts         list_skills, use_skill, get_skill_file
+  tools/register.ts         list_skills, use_skill, get_skill_file, search_awesome_skills (optional)
   prompts/register.ts       One MCP prompt per skill
   resources/register.ts     Static resources per file + resource template for dynamic access
 ```

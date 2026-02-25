@@ -3,16 +3,27 @@ import { z } from "zod";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { Skill } from "../skills/types.js";
+import {
+    resolveAwesomeSkillsBridgeConfig,
+    runAwesomeSkillsSearch,
+    type AwesomeSkillsStrategy,
+} from "./awesomeSkillsBridge.js";
+
+export interface RegisterToolsOptions {
+    env?: NodeJS.ProcessEnv;
+}
 
 export function registerTools(
     server: McpServer,
     skills: Skill[],
-    skillsDir?: string
+    skillsDir?: string,
+    options: RegisterToolsOptions = {}
 ): void {
     const skillMap = new Map<string, Skill>();
     for (const skill of skills) {
         skillMap.set(skill.directoryName, skill);
     }
+    const bridgeConfig = resolveAwesomeSkillsBridgeConfig(options.env ?? process.env);
 
     server.tool(
         "list_skills",
@@ -115,6 +126,75 @@ export function registerTools(
                         {
                             type: "text" as const,
                             text: `Error reading file '${fileName}' from skill '${skillName}'.`,
+                        },
+                    ],
+                    isError: true,
+                };
+            }
+        }
+    );
+
+    if (!bridgeConfig.enabled) {
+        return;
+    }
+
+    server.tool(
+        "search_awesome_skills",
+        "Search Awesome Skills Context Engine and return context-aware skill recommendations.",
+        {
+            query: z.string().min(1).describe("Natural language query (task, goal, or problem statement)."),
+            limit: z.number().int().min(1).max(50).optional().describe("Max results (default: 8)."),
+            strategy: z
+                .enum(["auto", "classic", "context"])
+                .optional()
+                .describe("Search strategy for awesome_skills (default: auto)."),
+            db_path: z.string().optional().describe("Optional path to awesome_skills SQLite DB."),
+            context_alias_json: z
+                .string()
+                .optional()
+                .describe("Optional phrase alias JSON for context routing boosts."),
+        },
+        async ({ query, limit, strategy, db_path: dbPath, context_alias_json: contextAliasJson }) => {
+            const safeLimit = Math.max(1, Math.min(50, limit ?? 8));
+            const safeStrategy: AwesomeSkillsStrategy = strategy ?? "auto";
+
+            try {
+                const result = await runAwesomeSkillsSearch(bridgeConfig, {
+                    query,
+                    limit: safeLimit,
+                    strategy: safeStrategy,
+                    dbPath,
+                    contextAliasJson,
+                });
+                return {
+                    content: [
+                        {
+                            type: "text" as const,
+                            text: JSON.stringify(
+                                {
+                                    bridge: {
+                                        command: result.command,
+                                        timeout_ms: bridgeConfig.timeoutMs,
+                                    },
+                                    result: result.payload,
+                                },
+                                null,
+                                2
+                            ),
+                        },
+                    ],
+                };
+            } catch (error) {
+                const message = error instanceof Error ? error.message : "Unknown bridge error.";
+                return {
+                    content: [
+                        {
+                            type: "text" as const,
+                            text: [
+                                `Awesome Skills bridge failed: ${message}`,
+                                "Set AWESOME_SKILLS_ENABLE_BRIDGE=1 and ensure awesome_skills is installed.",
+                                "Optional: set AWESOME_SKILLS_BRIDGE_COMMAND_JSON to override the command.",
+                            ].join("\n"),
                         },
                     ],
                     isError: true,

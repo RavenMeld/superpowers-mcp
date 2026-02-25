@@ -4,6 +4,9 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
 import { registerTools } from "./register.js";
 import type { Skill } from "../skills/types.js";
+import { mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 
 function makeTestSkills(): Skill[] {
     return [
@@ -122,5 +125,73 @@ describe("registerTools", () => {
         expect(result.isError).toBe(true);
         const text = (result.content as Array<{ type: string; text: string }>)[0].text;
         expect(text).toContain("skills directory not available");
+    });
+});
+
+describe("registerTools awesome skills bridge", () => {
+    it("should register and execute search_awesome_skills when bridge is enabled", async () => {
+        const testRoot = join(tmpdir(), `superpowers-mcp-bridge-${Date.now()}`);
+        mkdirSync(testRoot, { recursive: true });
+        const mockBridgePath = join(testRoot, "mock-bridge.mjs");
+        writeFileSync(
+            mockBridgePath,
+            `#!/usr/bin/env node
+const args = process.argv.slice(2);
+const query = args[1] ?? "";
+const getArg = (flag) => {
+  const idx = args.indexOf(flag);
+  return idx >= 0 && idx + 1 < args.length ? args[idx + 1] : undefined;
+};
+const strategy = getArg("--strategy") ?? "auto";
+const limit = Number(getArg("--limit") ?? "8");
+process.stdout.write(JSON.stringify({
+  mode_used: strategy === "classic" ? "classic" : "context",
+  query,
+  limit,
+  results: [{ id: "demo-skill", name: "demo-skill" }]
+}));`,
+            "utf-8"
+        );
+
+        const server = new McpServer({ name: "test-bridge", version: "0.0.1" });
+        registerTools(server, makeTestSkills(), undefined, {
+            env: {
+                AWESOME_SKILLS_ENABLE_BRIDGE: "1",
+                AWESOME_SKILLS_BRIDGE_COMMAND_JSON: JSON.stringify(["node", mockBridgePath]),
+            },
+        });
+
+        const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
+        const client = new Client({ name: "test-client", version: "0.0.1" }, { capabilities: {} });
+        await server.connect(serverTransport);
+        await client.connect(clientTransport);
+
+        try {
+            const listed = await client.listTools();
+            const toolNames = listed.tools.map((t) => t.name);
+            expect(toolNames).toContain("search_awesome_skills");
+
+            const call = await client.callTool({
+                name: "search_awesome_skills",
+                arguments: {
+                    query: "plan a feature",
+                    strategy: "auto",
+                    limit: 3,
+                },
+            });
+
+            expect(call.isError).toBeFalsy();
+            const text = (call.content as Array<{ type: string; text: string }>)[0].text;
+            const payload = JSON.parse(text) as {
+                bridge: { command: string[]; timeout_ms: number };
+                result: { query: string; limit: number; mode_used: string };
+            };
+            expect(payload.bridge.command[0]).toBe("node");
+            expect(payload.result.query).toBe("plan a feature");
+            expect(payload.result.limit).toBe(3);
+            expect(payload.result.mode_used).toBe("context");
+        } finally {
+            rmSync(testRoot, { recursive: true, force: true });
+        }
     });
 });
