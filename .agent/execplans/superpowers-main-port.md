@@ -25,6 +25,8 @@ Port the validated superpowers compatibility + context-aware search work from th
 - Cache parsed compatibility alias rules by file path + stat metadata to reduce per-query overhead in context parsing.
 - Extend superpowers sync script with explicit `SYNC_MODE=auto|local|remote` so we can target `erophames/superpowers-mcp` directly when needed.
 - Keep CLI behavior backward compatible by default (`search --strategy classic`) while exposing context parity via `search --strategy auto|context`.
+- Ensure all modules imported by CLI are tracked in git (`bench.py`, `curate.py`, `invent.py`) for clean-checkout portability.
+- Ensure committed `scoring.py` exports `quality_score` required by `condense.py`/`db.py`.
 
 ## Progress
 - [x] Diffed worktree and main files; identified divergence risks.
@@ -40,6 +42,8 @@ Port the validated superpowers compatibility + context-aware search work from th
 - [x] Added schema-compat fallback in `awesome_skills/db.py` so search works with legacy DB files.
 - [x] Added alias-rule cache in `awesome_skills/context.py` to speed repeated context queries.
 - [x] Added `search --strategy auto|classic|context` in CLI with context-aware routing parity.
+- [x] Added missing tracked runtime modules (`bench.py`, `curate.py`, `invent.py`, `scripts/awesome_skills_mcp_server.py`).
+- [x] Added missing `quality_score` function to committed `awesome_skills/scoring.py`.
 - [x] Run validation commands.
 - [x] Record final verification results.
 
@@ -61,6 +65,10 @@ Port the validated superpowers compatibility + context-aware search work from th
 11. CLI strategy parity checks:
    - `python -m awesome_skills search "playwright e2e test" --db dist/awesome_skills.sqlite --limit 3`
    - `python -m awesome_skills search "debug flaky playwright test" --db dist/awesome_skills.sqlite --strategy auto --limit 3 --json`
+12. Clean worktree cherry-pick validation:
+   - `git worktree add -b cp-superpowers-stack /tmp/as_cp_test 28ad6dc`
+   - `git -C /tmp/as_cp_test cherry-pick f541779 adfe377 cba0d38 6cf0bf8 4052adf f75a389 d4e7aa3 562c811 3a395e8`
+   - run smoke/build/self-test/verify on `/tmp/as_cp_test` and `/tmp/as_cp_test_out`
 
 ## Validation Results
 - `python -m py_compile awesome_skills/*.py scripts/bench_context_search.py` ✅
@@ -92,6 +100,12 @@ Port the validated superpowers compatibility + context-aware search work from th
 - CLI strategy parity checks ✅
   - `search --strategy classic` returns expected ranked list format.
   - `search --strategy auto --json` routes to context mode and returns context + alternatives payload.
+- Clean worktree cherry-pick validation ✅
+  - applied commit stack onto `28ad6dc` in `/tmp/as_cp_test` with no conflicts.
+  - smoke checks: both context and MCP smoke scripts passed.
+  - build/bench: `hit@1=1.0000`, `hit@3=1.0000`, `p95=9.794ms`.
+  - self-test: `self_test ok`.
+  - verify: `ok=true`, `error_count=0` (warnings only).
 - `python -m ruff check awesome_skills scripts/bench_context_search.py` ⚠️
   - unavailable in this environment (`No module named ruff`)
 - MCP checks:
