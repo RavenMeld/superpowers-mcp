@@ -47,6 +47,11 @@ Port the validated superpowers compatibility + context-aware search work from th
 5. `python scripts/bench_context_search.py --db /tmp/as_ctx_main/awesome_skills.sqlite --queries sources/context_benchmark_queries.json --alias-json sources/compat_aliases.json --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8`
 6. `python -m awesome_skills.mcp_server --skills-json dist/skills.json --db dist/awesome_skills.sqlite --self-test`
 7. `TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh`
+8. Clean temp validation:
+   - `python -m awesome_skills build --root . --out /tmp/as_ctx_final_<id>`
+   - `python scripts/bench_context_search.py --db /tmp/as_ctx_final_<id>/awesome_skills.sqlite --queries sources/context_benchmark_queries.json --alias-json sources/compat_aliases.json --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8`
+   - `python -m awesome_skills.mcp_server --skills-json /tmp/as_ctx_final_<id>/skills.json --db /tmp/as_ctx_final_<id>/awesome_skills.sqlite --self-test`
+   - `python -m awesome_skills verify --skills-json /tmp/as_ctx_final_<id>/skills.json --cards-dir /tmp/as_ctx_final_<id>/cards --readme README.md --mcp-server awesome_skills/mcp_server.py --json`
 
 ## Validation Results
 - `python -m py_compile awesome_skills/*.py scripts/bench_context_search.py` ✅
@@ -66,6 +71,11 @@ Port the validated superpowers compatibility + context-aware search work from th
   - `self_test ok` (confirms legacy-schema fallback path works on this local DB)
 - `TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh` ⚠️
   - `REMOTE_COMMIT_UNAVAILABLE` in this environment (network/DNS to `api.github.com` unavailable), but script returns structured JSON and explicit status code.
+- Clean temp validation on `/tmp/as_ctx_final_663113` ✅
+  - build: `Indexed 1082 skills`
+  - benchmark: `hit@1=1.0000`, `hit@3=1.0000`, `p95=29.702ms`, `thresholds=PASS`
+  - self-test: `self_test ok`
+  - verify: `ok=true`, `error_count=0` (warnings only)
 - `python -m ruff check awesome_skills scripts/bench_context_search.py` ⚠️
   - unavailable in this environment (`No module named ruff`)
 - MCP checks:
