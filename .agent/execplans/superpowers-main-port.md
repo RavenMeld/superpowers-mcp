@@ -21,6 +21,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - Keep alias-collapse behavior for `search`; use separate phrase aliases for `context-search`.
 - Integrate context-aware ranking as an additive path (`context-search`) rather than replacing existing search behavior.
 - Add backward compatibility for older SQLite DBs that do not have `skills.quality_score` by falling back to `worth_score` in query projections.
+- Cache parsed compatibility alias rules by file path + stat metadata to reduce per-query overhead in context parsing.
 
 ## Progress
 - [x] Diffed worktree and main files; identified divergence risks.
@@ -32,6 +33,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - [x] Updated README and `skillpacks/README.md`.
 - [x] Integrated MCP context-search tool + `strategy=auto|classic|context` in MCP search tool.
 - [x] Added schema-compat fallback in `awesome_skills/db.py` so search works with legacy DB files.
+- [x] Added alias-rule cache in `awesome_skills/context.py` to speed repeated context queries.
 - [x] Run validation commands.
 - [x] Record final verification results.
 
@@ -55,7 +57,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - `python scripts/bench_context_search.py ... --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8` ✅
   - `hit@1: 0.7000` (dirty local corpus snapshot)
   - `hit@3: 1.0000`
-  - `latency_ms: p50=26.829 p95=37.925 max=37.925`
+  - `latency_ms: p50=21.170 p95=33.028 max=33.028`
   - `thresholds: PASS`
 - `python -m awesome_skills.mcp_server --skills-json dist/skills.json --db dist/awesome_skills.sqlite --self-test` ✅
   - `self_test ok` (confirms legacy-schema fallback path works on this local DB)

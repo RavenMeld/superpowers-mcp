@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -98,18 +99,20 @@ def _term_in_text(term: str, normalized: str, tokens: set[str]) -> bool:
     return term in tokens
 
 
-def _load_alias_rules(alias_json: Path | None) -> list[dict[str, Any]]:
-    if not alias_json:
-        return []
-    if not alias_json.exists():
-        return []
+@lru_cache(maxsize=16)
+def _load_alias_rules_cached(
+    alias_path: str,
+    mtime_ns: int,
+    size_bytes: int,
+) -> tuple[tuple[str, str, str | None], ...]:
+    _ = (mtime_ns, size_bytes)  # part of cache key for change invalidation.
     try:
-        data = json.loads(alias_json.read_text(encoding="utf-8", errors="replace"))
+        data = json.loads(Path(alias_path).read_text(encoding="utf-8", errors="replace"))
     except json.JSONDecodeError:
-        return []
+        return ()
 
     rules = data.get("aliases", []) if isinstance(data, dict) else []
-    out: list[dict[str, Any]] = []
+    out: list[tuple[str, str, str | None]] = []
     for rule in rules:
         if not isinstance(rule, dict):
             continue
@@ -117,8 +120,21 @@ def _load_alias_rules(alias_json: Path | None) -> list[dict[str, Any]]:
         skill = str(rule.get("skill") or "").strip().lower()
         phase = str(rule.get("phase") or "").strip().lower() or None
         if phrase and skill:
-            out.append({"phrase": phrase, "skill": skill, "phase": phase})
-    return out
+            out.append((phrase, skill, phase))
+    return tuple(out)
+
+
+def _load_alias_rules(alias_json: Path | None) -> list[tuple[str, str, str | None]]:
+    if not alias_json:
+        return []
+    path = alias_json.expanduser().resolve()
+    if not path.exists():
+        return []
+    try:
+        st = path.stat()
+    except OSError:
+        return []
+    return list(_load_alias_rules_cached(str(path), int(st.st_mtime_ns), int(st.st_size)))
 
 
 def parse_query_context(query: str, alias_json: Path | None = None) -> QueryContext:
@@ -146,10 +162,10 @@ def parse_query_context(query: str, alias_json: Path | None = None) -> QueryCont
             tools.append(tool)
 
     alias_hits: list[AliasHit] = []
-    for rule in _load_alias_rules(alias_json):
-        if rule["phrase"] in normalized:
+    for phrase, skill, phase in _load_alias_rules(alias_json):
+        if phrase in normalized:
             alias_hits.append(
-                AliasHit(phrase=rule["phrase"], skill=rule["skill"], phase=rule["phase"])
+                AliasHit(phrase=phrase, skill=skill, phase=phase)
             )
 
     alias_phases = [h.phase for h in alias_hits if h.phase]
