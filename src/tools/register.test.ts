@@ -153,11 +153,27 @@ process.stdout.write(JSON.stringify({
             "utf-8"
         );
 
+        const bridgeCommand =
+            process.platform === "win32"
+                ? ["node", mockBridgePath]
+                : [
+                      "bash",
+                      "-lc",
+                      [
+                          "query=\"$1\"",
+                          "strategy=\"$3\"",
+                          "limit=\"$5\"",
+                          "mode=\"context\"",
+                          "if [ \"$strategy\" = \"classic\" ]; then mode=\"classic\"; fi",
+                          "printf '{\"mode_used\":\"%s\",\"query\":\"%s\",\"limit\":%s,\"results\":[{\"id\":\"demo-skill\",\"name\":\"demo-skill\"}]}' \"$mode\" \"$query\" \"$limit\"",
+                      ].join("; "),
+                  ];
+
         const server = new McpServer({ name: "test-bridge", version: "0.0.1" });
         registerTools(server, makeTestSkills(), undefined, {
             env: {
                 AWESOME_SKILLS_ENABLE_BRIDGE: "1",
-                AWESOME_SKILLS_BRIDGE_COMMAND_JSON: JSON.stringify(["node", mockBridgePath]),
+                AWESOME_SKILLS_BRIDGE_COMMAND_JSON: JSON.stringify(bridgeCommand),
             },
         });
 
@@ -186,7 +202,8 @@ process.stdout.write(JSON.stringify({
                 bridge: { command: string[]; timeout_ms: number };
                 result: { query: string; limit: number; mode_used: string };
             };
-            expect(payload.bridge.command[0]).toBe("node");
+            const expectedCommandHead = process.platform === "win32" ? "node" : "bash";
+            expect(payload.bridge.command[0]).toBe(expectedCommandHead);
             expect(payload.result.query).toBe("plan a feature");
             expect(payload.result.limit).toBe(3);
             expect(payload.result.mode_used).toBe("context");
