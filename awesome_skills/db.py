@@ -220,13 +220,29 @@ def _load_alias_map(alias_json: Path | None) -> dict[str, str]:
 
 def _fetch_skill_row(conn: sqlite3.Connection, skill_id: str) -> tuple[str, str, int, int] | None:
     cur = conn.cursor()
-    row = cur.execute(
-        "SELECT name, description, worth_score, quality_score FROM skills WHERE id = ?;",
-        (skill_id,),
-    ).fetchone()
+    if _skills_has_quality_score(conn):
+        row = cur.execute(
+            "SELECT name, description, worth_score, quality_score FROM skills WHERE id = ?;",
+            (skill_id,),
+        ).fetchone()
+    else:
+        row = cur.execute(
+            "SELECT name, description, worth_score, worth_score AS quality_score FROM skills WHERE id = ?;",
+            (skill_id,),
+        ).fetchone()
     if row is None:
         return None
     return (str(row["name"]), str(row["description"]), int(row["worth_score"]), int(row["quality_score"]))
+
+
+def _skills_has_quality_score(conn: sqlite3.Connection) -> bool:
+    cur = conn.cursor()
+    rows = cur.execute("PRAGMA table_info(skills);").fetchall()
+    for row in rows:
+        # PRAGMA table_info returns: cid, name, type, notnull, dflt_value, pk
+        if str(row["name"]) == "quality_score":
+            return True
+    return False
 
 
 def _merge_terms(a: list[str], b: list[str], max_terms: int = 8) -> list[str]:
@@ -327,15 +343,21 @@ def search_db(
     conn = _connect(db_path)
     try:
         cur = conn.cursor()
+        has_quality_score = _skills_has_quality_score(conn)
+        quality_select = (
+            "s.quality_score AS quality_score"
+            if has_quality_score
+            else "s.worth_score AS quality_score"
+        )
         # Pull a larger candidate set then rerank in Python.
         cand_limit = max(50, limit * 10)
-        sql = """
+        sql = f"""
         SELECT
           s.id AS id,
           s.name AS name,
           s.description AS description,
           s.worth_score AS worth_score,
-          s.quality_score AS quality_score,
+          {quality_select},
           bm25(skills_fts) AS rank
         FROM skills_fts
         JOIN skills s ON s.id = skills_fts.id
@@ -408,15 +430,21 @@ def context_search_db(
     conn = _connect(db_path)
     try:
         cur = conn.cursor()
+        has_quality_score = _skills_has_quality_score(conn)
+        quality_select = (
+            "s.quality_score AS quality_score"
+            if has_quality_score
+            else "s.worth_score AS quality_score"
+        )
         cand_limit = max(80, limit * 20)
 
-        sql_fts = """
+        sql_fts = f"""
         SELECT
           s.id AS id,
           s.name AS name,
           s.description AS description,
           s.worth_score AS worth_score,
-          s.quality_score AS quality_score,
+          {quality_select},
           s.root_label AS root_label,
           s.source_path AS source_path,
           s.tags AS tags,
@@ -439,9 +467,11 @@ def context_search_db(
 
         if not rows:
             rows = cur.execute(
-                """
+                f"""
                 SELECT
-                  id, name, description, worth_score, quality_score, root_label, source_path,
+                  id, name, description, worth_score,
+                  {"quality_score" if has_quality_score else "worth_score AS quality_score"},
+                  root_label, source_path,
                   tags, use_when, workflow, 999.0 AS rank
                 FROM skills
                 ORDER BY quality_score DESC, worth_score DESC, name ASC

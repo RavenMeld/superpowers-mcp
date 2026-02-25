@@ -20,6 +20,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - Preserve schema version and quality-score-based ranking in the existing `search` path.
 - Keep alias-collapse behavior for `search`; use separate phrase aliases for `context-search`.
 - Integrate context-aware ranking as an additive path (`context-search`) rather than replacing existing search behavior.
+- Add backward compatibility for older SQLite DBs that do not have `skills.quality_score` by falling back to `worth_score` in query projections.
 
 ## Progress
 - [x] Diffed worktree and main files; identified divergence risks.
@@ -30,6 +31,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - [x] Added compatibility artifacts, scripts, and vendored superpowers pack.
 - [x] Updated README and `skillpacks/README.md`.
 - [x] Integrated MCP context-search tool + `strategy=auto|classic|context` in MCP search tool.
+- [x] Added schema-compat fallback in `awesome_skills/db.py` so search works with legacy DB files.
 - [x] Run validation commands.
 - [x] Record final verification results.
 
@@ -39,6 +41,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 3. `bash scripts/smoke_test.sh`
 4. `python -m awesome_skills build --root . --out /tmp/as_ctx_main`
 5. `python scripts/bench_context_search.py --db /tmp/as_ctx_main/awesome_skills.sqlite --queries sources/context_benchmark_queries.json --alias-json sources/compat_aliases.json --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8`
+6. `python -m awesome_skills.mcp_server --skills-json dist/skills.json --db dist/awesome_skills.sqlite --self-test`
 
 ## Validation Results
 - `python -m py_compile awesome_skills/*.py scripts/bench_context_search.py` ✅
@@ -50,10 +53,12 @@ Port the validated superpowers compatibility + context-aware search work from th
 - `python -m awesome_skills build --root . --out /tmp/as_ctx_main` ✅
   - `Indexed 1061 skills into /tmp/as_ctx_main`
 - `python scripts/bench_context_search.py ... --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8` ✅
-  - `hit@1: 1.0000`
+  - `hit@1: 0.7000` (dirty local corpus snapshot)
   - `hit@3: 1.0000`
-  - `latency_ms: p50=19.383 p95=30.095 max=30.095`
+  - `latency_ms: p50=26.829 p95=37.925 max=37.925`
   - `thresholds: PASS`
+- `python -m awesome_skills.mcp_server --skills-json dist/skills.json --db dist/awesome_skills.sqlite --self-test` ✅
+  - `self_test ok` (confirms legacy-schema fallback path works on this local DB)
 - `python -m ruff check awesome_skills scripts/bench_context_search.py` ⚠️
   - unavailable in this environment (`No module named ruff`)
 - MCP checks:
