@@ -1,6 +1,8 @@
-# Awesome SKILLS Database
+# Awesome Skills Context Engine
 
 A deterministic, local-first database of `SKILL.md` files.
+
+Compatibility note: Python module and MCP tool identifiers remain `awesome_skills*`.
 
 It:
 - discovers skills across one or more roots

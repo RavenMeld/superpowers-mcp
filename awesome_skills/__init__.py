@@ -1,2 +1,1 @@
-"""Awesome SKILLS Database (local-first skill index + search)."""
-
+"""Awesome Skills Context Engine (local-first skill index + search)."""

@@ -1,11 +1,10 @@
 [project]
-name = "awesome-skills"
+name = "awesome-skills-context-engine"
 version = "0.1.0"
-description = "Local-first database + search for SKILL.md files (condensed cards + SQLite FTS)."
+description = "Context-aware, local-first skill index + search for SKILL.md files."
 requires-python = ">=3.11"
 readme = "README.md"
 license = { text = "UNLICENSED" }
 
 [tool.ruff]
 line-length = 100
-

@@ -16,7 +16,8 @@ try:
     from mcp.types import TextContent, Tool, ToolAnnotations
 except ImportError as e:  # pragma: no cover - runtime dependency guard
     raise SystemExit(
-        "The MCP SDK is required to run awesome_skills MCP server. "
+        "The MCP SDK is required to run Awesome Skills Context Engine MCP server "
+        "(package `awesome_skills`). "
         "Install with: pip install mcp"
     ) from e
 
@@ -337,7 +338,7 @@ class AwesomeSkillsMCPServer:
         roots = allowed_write_roots if allowed_write_roots is not None else _default_write_roots()
         self.allowed_write_roots = self._normalize_write_roots(roots)
         self.require_write_confirm = bool(require_write_confirm)
-        self.server = Server("awesome-skills")
+        self.server = Server("awesome-skills-context-engine")
         self._setup_handlers()
 
     @staticmethod

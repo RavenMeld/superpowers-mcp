@@ -1,4 +1,4 @@
-# Awesome SKILLS Database (Generated)
+# Awesome Skills Context Engine (Generated)
 
 - total_skills: `704`
 

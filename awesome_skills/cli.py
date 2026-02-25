@@ -135,7 +135,7 @@ def _write_index_md(out_dir: Path, records) -> None:
     top = sorted(records, key=lambda r: (-r.worth_score, r.name.lower(), r.id))[:50]
 
     lines: list[str] = []
-    lines.append("# Awesome SKILLS Database (Generated)")
+    lines.append("# Awesome Skills Context Engine (Generated)")
     lines.append("")
     lines.append(f"- total_skills: `{len(records)}`")
     lines.append("")
