@@ -31,6 +31,13 @@ To sync a vendored superpowers snapshot into this repo:
 bash scripts/sync_superpowers_skillpack.sh
 ```
 
+To check whether the vendored snapshot matches a target upstream branch:
+
+```bash
+bash scripts/check_superpowers_snapshot.sh
+TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh
+```
+
 To build a database from *only* this repo (portable, no absolute `~/.codex/...` paths):
 
 ```bash

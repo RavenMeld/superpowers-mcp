@@ -13,6 +13,7 @@ Port the validated superpowers compatibility + context-aware search work from th
   - `scripts/context_search_smoke.sh`
   - `scripts/bench_context_search.py`
   - `scripts/sync_superpowers_skillpack.sh`
+  - `scripts/check_superpowers_snapshot.sh`
   - `skillpacks/superpowers/*`
 - Update docs with compatibility workflow.
 
@@ -30,6 +31,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 - [x] Added `context-search` CLI command in `awesome_skills/cli.py`.
 - [x] Added bounded stable IDs in `awesome_skills/util.py`, and wired usage in `condense.py` + `external.py`.
 - [x] Added compatibility artifacts, scripts, and vendored superpowers pack.
+- [x] Added superpowers snapshot drift check script for upstream compatibility monitoring.
 - [x] Updated README and `skillpacks/README.md`.
 - [x] Integrated MCP context-search tool + `strategy=auto|classic|context` in MCP search tool.
 - [x] Added schema-compat fallback in `awesome_skills/db.py` so search works with legacy DB files.
@@ -44,6 +46,7 @@ Port the validated superpowers compatibility + context-aware search work from th
 4. `python -m awesome_skills build --root . --out /tmp/as_ctx_main`
 5. `python scripts/bench_context_search.py --db /tmp/as_ctx_main/awesome_skills.sqlite --queries sources/context_benchmark_queries.json --alias-json sources/compat_aliases.json --max-p95-ms 120 --min-hit-at-1 0.5 --min-hit-at-3 0.8`
 6. `python -m awesome_skills.mcp_server --skills-json dist/skills.json --db dist/awesome_skills.sqlite --self-test`
+7. `TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh`
 
 ## Validation Results
 - `python -m py_compile awesome_skills/*.py scripts/bench_context_search.py` ✅
@@ -61,6 +64,8 @@ Port the validated superpowers compatibility + context-aware search work from th
   - `thresholds: PASS`
 - `python -m awesome_skills.mcp_server --skills-json dist/skills.json --db dist/awesome_skills.sqlite --self-test` ✅
   - `self_test ok` (confirms legacy-schema fallback path works on this local DB)
+- `TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh` ⚠️
+  - `REMOTE_COMMIT_UNAVAILABLE` in this environment (network/DNS to `api.github.com` unavailable), but script returns structured JSON and explicit status code.
 - `python -m ruff check awesome_skills scripts/bench_context_search.py` ⚠️
   - unavailable in this environment (`No module named ruff`)
 - MCP checks:

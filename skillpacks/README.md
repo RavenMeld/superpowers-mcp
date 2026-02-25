@@ -22,5 +22,12 @@ Sync command:
 bash scripts/sync_superpowers_skillpack.sh
 ```
 
+Optional drift check against a target upstream ref:
+
+```bash
+bash scripts/check_superpowers_snapshot.sh
+TARGET_REPO=erophames/superpowers-mcp TARGET_REF=main bash scripts/check_superpowers_snapshot.sh
+```
+
 The sync uses `git archive` from the source repository `HEAD` commit, so uncommitted
 working-tree changes in the source repo are not imported.
