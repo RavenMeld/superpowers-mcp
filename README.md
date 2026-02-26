@@ -125,6 +125,9 @@ Once connected, ask your AI assistant:
 | `AWESOME_SKILLS_CONTEXT_ALIAS_JSON` | Default phrase alias JSON path for context routing |
 | `AWESOME_SKILLS_BRIDGE_COMMAND_JSON` | Optional full command override as JSON array, e.g. `["python","-m","awesome_skills"]` |
 | `AWESOME_SKILLS_BRIDGE_TIMEOUT_MS` | Bridge command timeout in ms (default: `15000`) |
+| `AWESOME_SKILLS_BRIDGE_CACHE_ENABLED` | Set to `0`/`false` to disable bridge result caching (enabled by default) |
+| `AWESOME_SKILLS_BRIDGE_CACHE_TTL_MS` | Cache TTL in ms for identical requests (default: `30000`) |
+| `AWESOME_SKILLS_BRIDGE_CACHE_MAX_ENTRIES` | Maximum cached request entries before FIFO eviction (default: `128`) |
 
 ### Awesome Skills Context Engine Bridge (Optional)
 
@@ -149,6 +152,8 @@ Bridge fallback behavior:
 - Requested `auto`: tries `auto -> context -> classic`
 - Requested `context`: tries `context -> classic`
 - Requested `classic`: tries `classic` only
+- Identical concurrent requests are coalesced into a single bridge execution
+- Successful identical requests are served from a short-lived in-memory cache
 
 The bridge requires JSON output with at least a `results` array; additional fields are preserved.
 

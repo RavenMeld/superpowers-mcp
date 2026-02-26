@@ -10,6 +10,9 @@ export interface AwesomeSkillsBridgeConfig {
     enabled: boolean;
     command: string[];
     timeoutMs: number;
+    cacheEnabled: boolean;
+    cacheTtlMs: number;
+    cacheMaxEntries: number;
     defaultDbPath?: string;
     defaultContextAliasJson?: string;
     configError?: string;
@@ -77,12 +80,36 @@ const AwesomeSkillsBridgeResultSchema = z
 
 export type AwesomeSkillsBridgePayload = z.infer<typeof AwesomeSkillsBridgeResultSchema>;
 
+interface AwesomeSkillsCacheEntry {
+    value: AwesomeSkillsSearchResult;
+    expiresAt: number;
+}
+
+const awesomeSkillsCache = new Map<string, AwesomeSkillsCacheEntry>();
+const awesomeSkillsInFlight = new Map<string, Promise<AwesomeSkillsSearchResult>>();
+const awesomeSkillsRunnerIds = new WeakMap<AwesomeSkillsBridgeRunner, number>();
+let awesomeSkillsRunnerIdCounter = 0;
+
 function isTruthy(input: string | undefined): boolean {
     if (!input) {
         return false;
     }
     const normalized = input.trim().toLowerCase();
     return normalized === "1" || normalized === "true" || normalized === "yes" || normalized === "on";
+}
+
+function parseBooleanWithDefault(input: string | undefined, fallback: boolean): boolean {
+    if (!input) {
+        return fallback;
+    }
+    const normalized = input.trim().toLowerCase();
+    if (normalized === "1" || normalized === "true" || normalized === "yes" || normalized === "on") {
+        return true;
+    }
+    if (normalized === "0" || normalized === "false" || normalized === "no" || normalized === "off") {
+        return false;
+    }
+    return fallback;
 }
 
 function parseTimeoutMs(input: string | undefined): number {
@@ -98,6 +125,23 @@ function parseTimeoutMs(input: string | undefined): number {
     }
     if (parsed > 120_000) {
         return 120_000;
+    }
+    return parsed;
+}
+
+function parseBoundedInt(input: string | undefined, fallback: number, min: number, max: number): number {
+    if (!input) {
+        return fallback;
+    }
+    const parsed = Number.parseInt(input, 10);
+    if (!Number.isFinite(parsed) || Number.isNaN(parsed)) {
+        return fallback;
+    }
+    if (parsed < min) {
+        return min;
+    }
+    if (parsed > max) {
+        return max;
     }
     return parsed;
 }
@@ -124,6 +168,9 @@ export function resolveAwesomeSkillsBridgeConfig(
 ): AwesomeSkillsBridgeConfig {
     const enabled = isTruthy(env.AWESOME_SKILLS_ENABLE_BRIDGE);
     const timeoutMs = parseTimeoutMs(env.AWESOME_SKILLS_BRIDGE_TIMEOUT_MS);
+    const cacheEnabled = parseBooleanWithDefault(env.AWESOME_SKILLS_BRIDGE_CACHE_ENABLED, true);
+    const cacheTtlMs = parseBoundedInt(env.AWESOME_SKILLS_BRIDGE_CACHE_TTL_MS, 30_000, 100, 600_000);
+    const cacheMaxEntries = parseBoundedInt(env.AWESOME_SKILLS_BRIDGE_CACHE_MAX_ENTRIES, 128, 1, 1_000);
     const defaultDbPath = env.AWESOME_SKILLS_DB_PATH;
     const defaultContextAliasJson = env.AWESOME_SKILLS_CONTEXT_ALIAS_JSON;
 
@@ -135,6 +182,9 @@ export function resolveAwesomeSkillsBridgeConfig(
             enabled,
             command,
             timeoutMs,
+            cacheEnabled,
+            cacheTtlMs,
+            cacheMaxEntries,
             defaultDbPath,
             defaultContextAliasJson,
         };
@@ -144,6 +194,9 @@ export function resolveAwesomeSkillsBridgeConfig(
             enabled,
             command: [],
             timeoutMs,
+            cacheEnabled,
+            cacheTtlMs,
+            cacheMaxEntries,
             defaultDbPath,
             defaultContextAliasJson,
             configError: message,
@@ -167,34 +220,34 @@ export async function runAwesomeSkillsSearch(
 
     const dbPath = request.dbPath ?? config.defaultDbPath;
     const contextAliasJson = request.contextAliasJson ?? config.defaultContextAliasJson;
-
-    const attempts: AwesomeSkillsSearchAttempt[] = [];
-    const strategyPlan = buildStrategyPlan(request.strategy);
     const runner = config.runner ?? defaultBridgeRunner;
+    const cacheKey = buildCacheKey(config, request, dbPath, contextAliasJson, runner);
 
-    for (const strategy of strategyPlan) {
-        const command = buildBridgeCommand(config.command, request.query, request.limit, strategy, dbPath, contextAliasJson);
-        const attempt: AwesomeSkillsSearchAttempt = { strategy, command };
-        attempts.push(attempt);
-
-        try {
-            const [execCommand, ...execArgs] = command;
-            const { stdout } = await runner(execCommand, execArgs, { timeoutMs: config.timeoutMs });
-            const payload = parseBridgePayload(stdout);
-            return { payload, command, strategyUsed: strategy, attempts };
-        } catch (error) {
-            const bridgeError = normalizeBridgeError(error);
-            attempt.error = `${bridgeError.code}: ${bridgeError.message}`;
+    if (config.cacheEnabled) {
+        const cached = readCachedResult(cacheKey, Date.now());
+        if (cached) {
+            return cached;
         }
     }
 
-    const planText = strategyPlan.join(" -> ");
-    const lastError = attempts.at(-1)?.error ?? "BRIDGE_EXEC: Unknown bridge error.";
-    throw new AwesomeSkillsBridgeError(
-        "BRIDGE_STRATEGY_FAILURE",
-        `All bridge strategies failed (${planText}). Last error: ${lastError}`,
-        { attempts }
-    );
+    const inFlight = awesomeSkillsInFlight.get(cacheKey);
+    if (inFlight) {
+        return inFlight;
+    }
+
+    const runPromise = executeSearchWithFallback(config, request, dbPath, contextAliasJson, runner)
+        .then((result) => {
+            if (config.cacheEnabled) {
+                writeCachedResult(cacheKey, result, config.cacheTtlMs, config.cacheMaxEntries, Date.now());
+            }
+            return result;
+        })
+        .finally(() => {
+            awesomeSkillsInFlight.delete(cacheKey);
+        });
+
+    awesomeSkillsInFlight.set(cacheKey, runPromise);
+    return runPromise;
 }
 
 function buildStrategyPlan(requested: AwesomeSkillsStrategy): AwesomeSkillsStrategy[] {
@@ -233,6 +286,114 @@ function buildBridgeCommand(
         command.push("--context-alias-json", contextAliasJson);
     }
     return command;
+}
+
+async function executeSearchWithFallback(
+    config: AwesomeSkillsBridgeConfig,
+    request: AwesomeSkillsSearchRequest,
+    dbPath: string | undefined,
+    contextAliasJson: string | undefined,
+    runner: AwesomeSkillsBridgeRunner
+): Promise<AwesomeSkillsSearchResult> {
+    const attempts: AwesomeSkillsSearchAttempt[] = [];
+    const strategyPlan = buildStrategyPlan(request.strategy);
+
+    for (const strategy of strategyPlan) {
+        const command = buildBridgeCommand(config.command, request.query, request.limit, strategy, dbPath, contextAliasJson);
+        const attempt: AwesomeSkillsSearchAttempt = { strategy, command };
+        attempts.push(attempt);
+
+        try {
+            const [execCommand, ...execArgs] = command;
+            const { stdout } = await runner(execCommand, execArgs, { timeoutMs: config.timeoutMs });
+            const payload = parseBridgePayload(stdout);
+            return { payload, command, strategyUsed: strategy, attempts };
+        } catch (error) {
+            const bridgeError = normalizeBridgeError(error);
+            attempt.error = `${bridgeError.code}: ${bridgeError.message}`;
+        }
+    }
+
+    const planText = strategyPlan.join(" -> ");
+    const lastError = attempts.at(-1)?.error ?? "BRIDGE_EXEC: Unknown bridge error.";
+    throw new AwesomeSkillsBridgeError(
+        "BRIDGE_STRATEGY_FAILURE",
+        `All bridge strategies failed (${planText}). Last error: ${lastError}`,
+        { attempts }
+    );
+}
+
+function buildCacheKey(
+    config: AwesomeSkillsBridgeConfig,
+    request: AwesomeSkillsSearchRequest,
+    dbPath: string | undefined,
+    contextAliasJson: string | undefined,
+    runner: AwesomeSkillsBridgeRunner
+): string {
+    return JSON.stringify({
+        command: config.command,
+        timeoutMs: config.timeoutMs,
+        query: request.query,
+        limit: request.limit,
+        strategy: request.strategy,
+        dbPath: dbPath ?? null,
+        contextAliasJson: contextAliasJson ?? null,
+        runner: getRunnerId(runner),
+    });
+}
+
+function getRunnerId(runner: AwesomeSkillsBridgeRunner): number {
+    const existing = awesomeSkillsRunnerIds.get(runner);
+    if (typeof existing === "number") {
+        return existing;
+    }
+    awesomeSkillsRunnerIdCounter += 1;
+    awesomeSkillsRunnerIds.set(runner, awesomeSkillsRunnerIdCounter);
+    return awesomeSkillsRunnerIdCounter;
+}
+
+function readCachedResult(cacheKey: string, now: number): AwesomeSkillsSearchResult | undefined {
+    const entry = awesomeSkillsCache.get(cacheKey);
+    if (!entry) {
+        return undefined;
+    }
+    if (entry.expiresAt <= now) {
+        awesomeSkillsCache.delete(cacheKey);
+        return undefined;
+    }
+    return entry.value;
+}
+
+function writeCachedResult(
+    cacheKey: string,
+    result: AwesomeSkillsSearchResult,
+    ttlMs: number,
+    maxEntries: number,
+    now: number
+): void {
+    pruneExpiredCacheEntries(now);
+    if (awesomeSkillsCache.has(cacheKey)) {
+        awesomeSkillsCache.delete(cacheKey);
+    }
+    while (awesomeSkillsCache.size >= maxEntries) {
+        const oldestKey = awesomeSkillsCache.keys().next().value;
+        if (!oldestKey) {
+            break;
+        }
+        awesomeSkillsCache.delete(oldestKey);
+    }
+    awesomeSkillsCache.set(cacheKey, {
+        value: result,
+        expiresAt: now + ttlMs,
+    });
+}
+
+function pruneExpiredCacheEntries(now: number): void {
+    for (const [key, entry] of awesomeSkillsCache) {
+        if (entry.expiresAt <= now) {
+            awesomeSkillsCache.delete(key);
+        }
+    }
 }
 
 function parseBridgePayload(stdout: string): AwesomeSkillsBridgePayload {

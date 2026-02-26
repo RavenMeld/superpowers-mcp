@@ -12,6 +12,9 @@ function makeConfig(command: string[], runner?: AwesomeSkillsBridgeRunner): Awes
         enabled: true,
         command,
         timeoutMs: 10_000,
+        cacheEnabled: true,
+        cacheTtlMs: 30_000,
+        cacheMaxEntries: 128,
         runner,
     };
 }
@@ -123,5 +126,96 @@ describe("awesomeSkillsBridge", () => {
 
         expect(result.strategyUsed).toBe("classic");
         expect(result.payload.results).toHaveLength(1);
+    });
+
+    it("returns cached result for identical repeated requests", async () => {
+        let callCount = 0;
+        const runner: AwesomeSkillsBridgeRunner = async () => {
+            callCount += 1;
+            return {
+                stdout: JSON.stringify({
+                    mode_used: "classic",
+                    count: 1,
+                    results: [{ id: "cache-demo", name: "cache-demo" }],
+                }),
+            };
+        };
+
+        const config = makeConfig(["python", "-m", "awesome_skills"], runner);
+        const request = {
+            query: "cache warmup query",
+            limit: 3,
+            strategy: "classic" as const,
+        };
+
+        const first = await runAwesomeSkillsSearch(config, request);
+        const second = await runAwesomeSkillsSearch(config, request);
+
+        expect(callCount).toBe(1);
+        expect(first.payload.results).toHaveLength(1);
+        expect(second.payload.results).toHaveLength(1);
+    });
+
+    it("coalesces concurrent identical requests into one bridge execution", async () => {
+        let callCount = 0;
+        const runner: AwesomeSkillsBridgeRunner = async () => {
+            callCount += 1;
+            await new Promise((resolve) => setTimeout(resolve, 30));
+            return {
+                stdout: JSON.stringify({
+                    mode_used: "classic",
+                    count: 1,
+                    results: [{ id: "dedupe-demo", name: "dedupe-demo" }],
+                }),
+            };
+        };
+
+        const config = makeConfig(["python", "-m", "awesome_skills"], runner);
+        const request = {
+            query: "coalesce query",
+            limit: 5,
+            strategy: "classic" as const,
+        };
+
+        const [resultA, resultB] = await Promise.all([
+            runAwesomeSkillsSearch(config, request),
+            runAwesomeSkillsSearch(config, request),
+        ]);
+
+        expect(callCount).toBe(1);
+        expect(resultA.payload.results).toHaveLength(1);
+        expect(resultB.payload.results).toHaveLength(1);
+    });
+
+    it("expires cached entries when TTL elapses", async () => {
+        let callCount = 0;
+        const runner: AwesomeSkillsBridgeRunner = async () => {
+            callCount += 1;
+            return {
+                stdout: JSON.stringify({
+                    mode_used: "classic",
+                    count: 1,
+                    results: [{ id: `ttl-demo-${callCount}`, name: "ttl-demo" }],
+                }),
+            };
+        };
+
+        const config: AwesomeSkillsBridgeConfig = {
+            ...makeConfig(["python", "-m", "awesome_skills"], runner),
+            cacheTtlMs: 100,
+        };
+        const request = {
+            query: "ttl query",
+            limit: 2,
+            strategy: "classic" as const,
+        };
+
+        const first = await runAwesomeSkillsSearch(config, request);
+        await new Promise((resolve) => setTimeout(resolve, 150));
+        const second = await runAwesomeSkillsSearch(config, request);
+
+        expect(callCount).toBe(2);
+        expect(first.payload.results[0]?.id).toBe("ttl-demo-1");
+        expect(second.payload.results[0]?.id).toBe("ttl-demo-2");
     });
 });
