@@ -48,6 +48,7 @@ Improve `search_awesome_skills` latency and load profile by adding:
 - Added bridge performance telemetry flags in tool output:
   - `bridge.cache_hit`
   - `bridge.coalesced`
+- Added README smoke-test recipe for validating cache and coalescing behavior from MCP clients.
 - Verified tool contract + bridge tests:
   - `XDG_CONFIG_HOME=/tmp npm test -- src/tools/awesomeSkillsBridge.test.ts src/tools/register.test.ts` -> pass (`23 tests`)
   - `XDG_CONFIG_HOME=/tmp npm test` -> pass (`78 tests`)

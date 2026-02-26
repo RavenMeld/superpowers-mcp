@@ -158,6 +158,18 @@ Bridge fallback behavior:
 
 The bridge requires JSON output with at least a `results` array; additional fields are preserved.
 
+### Bridge Smoke Test (Cache + Coalescing)
+
+From any MCP client that can call `search_awesome_skills`:
+
+1. Call `search_awesome_skills` once with a fixed `query`, `strategy`, and `limit`.
+2. Repeat the same call immediately.
+3. Verify:
+   - First response: `bridge.cache_hit=false`
+   - Second response: `bridge.cache_hit=true`
+
+To validate coalescing, trigger the same request concurrently from two callers and verify one response includes `bridge.coalesced=true`.
+
 ### Skill Discovery Order
 
 1. `SUPERPOWERS_SKILLS_DIR` environment variable
