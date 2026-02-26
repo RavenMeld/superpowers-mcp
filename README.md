@@ -142,6 +142,14 @@ export AWESOME_SKILLS_BRIDGE_COMMAND_JSON='["/usr/bin/python3","-m","awesome_ski
 node build/index.js
 ```
 
+Bridge fallback behavior:
+
+- Requested `auto`: tries `auto -> context -> classic`
+- Requested `context`: tries `context -> classic`
+- Requested `classic`: tries `classic` only
+
+The bridge requires JSON output with at least a `results` array; additional fields are preserved.
+
 ### Skill Discovery Order
 
 1. `SUPERPOWERS_SKILLS_DIR` environment variable
@@ -164,7 +172,7 @@ npm test
 |--------|-------------|
 | `npm run build` | Compile TypeScript |
 | `npm run dev` | Watch mode compilation |
-| `npm test` | Run all 58 tests |
+| `npm test` | Run all tests |
 | `npm run test:watch` | Watch mode tests |
 | `npm start` | Run the server |
 
@@ -187,7 +195,7 @@ src/
 ```
 ### Tests
 
-[![Node.js CI](https://github.com/erophames/superpowers-mcp/actions/workflows/node.js.yml/badge.svg)](https://github.com/erophames/superpowers-mcp/actions/workflows/node.js.yml)[![Node.js CI](https://github.com/erophames/superpowers-mcp/actions/workflows/node.js.yml/badge.svg)](https://github.com/erophames/superpowers-mcp/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/erophames/superpowers-mcp/actions/workflows/node.js.yml/badge.svg)](https://github.com/erophames/superpowers-mcp/actions/workflows/node.js.yml)
 
 ## License
 

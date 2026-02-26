@@ -1,5 +1,6 @@
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { z } from "zod";
 
 const execFileAsync = promisify(execFile);
 
@@ -12,6 +13,7 @@ export interface AwesomeSkillsBridgeConfig {
     defaultDbPath?: string;
     defaultContextAliasJson?: string;
     configError?: string;
+    runner?: AwesomeSkillsBridgeRunner;
 }
 
 export interface AwesomeSkillsSearchRequest {
@@ -23,9 +25,36 @@ export interface AwesomeSkillsSearchRequest {
 }
 
 export interface AwesomeSkillsSearchResult {
-    payload: unknown;
+    payload: AwesomeSkillsBridgePayload;
     command: string[];
+    strategyUsed: AwesomeSkillsStrategy;
+    attempts: AwesomeSkillsSearchAttempt[];
 }
+
+export interface AwesomeSkillsSearchAttempt {
+    strategy: AwesomeSkillsStrategy;
+    command: string[];
+    error?: string;
+}
+
+export type AwesomeSkillsBridgeRunner = (
+    command: string,
+    args: string[],
+    options: { timeoutMs: number }
+) => Promise<{ stdout: string }>;
+
+const AwesomeSkillsBridgeResultSchema = z
+    .object({
+        mode_used: z.enum(["auto", "classic", "context"]).optional(),
+        query: z.string().optional(),
+        count: z.number().int().nonnegative().optional(),
+        context: z.record(z.string(), z.unknown()).nullable().optional(),
+        results: z.array(z.record(z.string(), z.unknown())),
+        alternatives: z.array(z.record(z.string(), z.unknown())).optional(),
+    })
+    .passthrough();
+
+export type AwesomeSkillsBridgePayload = z.infer<typeof AwesomeSkillsBridgeResultSchema>;
 
 function isTruthy(input: string | undefined): boolean {
     if (!input) {
@@ -118,14 +147,57 @@ export async function runAwesomeSkillsSearch(
     const dbPath = request.dbPath ?? config.defaultDbPath;
     const contextAliasJson = request.contextAliasJson ?? config.defaultContextAliasJson;
 
+    const attempts: AwesomeSkillsSearchAttempt[] = [];
+    const strategyPlan = buildStrategyPlan(request.strategy);
+    const runner = config.runner ?? defaultBridgeRunner;
+
+    for (const strategy of strategyPlan) {
+        const command = buildBridgeCommand(config.command, request.query, request.limit, strategy, dbPath, contextAliasJson);
+        const attempt: AwesomeSkillsSearchAttempt = { strategy, command };
+        attempts.push(attempt);
+
+        try {
+            const [execCommand, ...execArgs] = command;
+            const { stdout } = await runner(execCommand, execArgs, { timeoutMs: config.timeoutMs });
+            const payload = parseBridgePayload(stdout);
+            return { payload, command, strategyUsed: strategy, attempts };
+        } catch (error) {
+            const message = error instanceof Error ? error.message : "Unknown bridge error.";
+            attempt.error = message;
+        }
+    }
+
+    const planText = strategyPlan.join(" -> ");
+    const lastError = attempts.at(-1)?.error ?? "Unknown bridge error.";
+    throw new Error(`All bridge strategies failed (${planText}). Last error: ${lastError}`);
+}
+
+function buildStrategyPlan(requested: AwesomeSkillsStrategy): AwesomeSkillsStrategy[] {
+    if (requested === "classic") {
+        return ["classic"];
+    }
+    if (requested === "context") {
+        return ["context", "classic"];
+    }
+    return ["auto", "context", "classic"];
+}
+
+function buildBridgeCommand(
+    baseCommand: string[],
+    query: string,
+    limit: number,
+    strategy: AwesomeSkillsStrategy,
+    dbPath?: string,
+    contextAliasJson?: string
+): string[] {
     const command = [
-        ...config.command,
+        ...baseCommand,
         "search",
-        request.query,
+        query,
         "--strategy",
-        request.strategy,
+        strategy,
         "--limit",
-        String(request.limit),
+        String(limit),
         "--json",
     ];
 
@@ -135,25 +207,41 @@ export async function runAwesomeSkillsSearch(
     if (contextAliasJson) {
         command.push("--context-alias-json", contextAliasJson);
     }
+    return command;
+}
 
-    const [execCommand, ...execArgs] = command;
-    const { stdout } = await execFileAsync(execCommand, execArgs, {
-        encoding: "utf8",
-        timeout: config.timeoutMs,
-        maxBuffer: 4 * 1024 * 1024,
-    });
-
+function parseBridgePayload(stdout: string): AwesomeSkillsBridgePayload {
     const text = stdout.trim();
     if (!text) {
         throw new Error("Bridge command returned empty output.");
     }
 
-    let payload: unknown;
+    let jsonPayload: unknown;
     try {
-        payload = JSON.parse(text);
+        jsonPayload = JSON.parse(text);
     } catch {
         throw new Error(`Bridge command did not return valid JSON. Output: ${text.slice(0, 300)}`);
     }
 
-    return { payload, command };
+    const parsed = AwesomeSkillsBridgeResultSchema.safeParse(jsonPayload);
+    if (!parsed.success) {
+        const firstIssue = parsed.error.issues[0];
+        const path = firstIssue?.path.join(".") || "<root>";
+        const detail = firstIssue ? `${path}: ${firstIssue.message}` : "Unknown schema error.";
+        throw new Error(`Bridge response schema mismatch: ${detail}`);
+    }
+    return parsed.data;
+}
+
+async function defaultBridgeRunner(
+    command: string,
+    args: string[],
+    options: { timeoutMs: number }
+): Promise<{ stdout: string }> {
+    const { stdout } = await execFileAsync(command, args, {
+        encoding: "utf8",
+        timeout: options.timeoutMs,
+        maxBuffer: 4 * 1024 * 1024,
+    });
+    return { stdout };
 }

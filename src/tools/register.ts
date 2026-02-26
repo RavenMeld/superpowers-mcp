@@ -175,6 +175,8 @@ export function registerTools(
                                     bridge: {
                                         command: result.command,
                                         timeout_ms: bridgeConfig.timeoutMs,
+                                        strategy_used: result.strategyUsed,
+                                        attempts: result.attempts,
                                     },
                                     result: result.payload,
                                 },
