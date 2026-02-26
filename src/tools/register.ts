@@ -178,6 +178,8 @@ export function registerTools(
                                         timeout_ms: bridgeConfig.timeoutMs,
                                         strategy_used: result.strategyUsed,
                                         attempts: result.attempts,
+                                        cache_hit: result.cacheHit,
+                                        coalesced: result.coalesced,
                                     },
                                     result: result.payload,
                                 },

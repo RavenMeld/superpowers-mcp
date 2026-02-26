@@ -199,11 +199,18 @@ process.stdout.write(JSON.stringify({
             expect(call.isError).toBeFalsy();
             const text = (call.content as Array<{ type: string; text: string }>)[0].text;
             const payload = JSON.parse(text) as {
-                bridge: { command: string[]; timeout_ms: number };
+                bridge: {
+                    command: string[];
+                    timeout_ms: number;
+                    cache_hit: boolean;
+                    coalesced: boolean;
+                };
                 result: { query: string; limit: number; mode_used: string };
             };
             const expectedCommandHead = process.platform === "win32" ? "node" : "bash";
             expect(payload.bridge.command[0]).toBe(expectedCommandHead);
+            expect(payload.bridge.cache_hit).toBe(false);
+            expect(payload.bridge.coalesced).toBe(false);
             expect(payload.result.query).toBe("plan a feature");
             expect(payload.result.limit).toBe(3);
             expect(payload.result.mode_used).toBe("context");

@@ -32,6 +32,15 @@ export interface AwesomeSkillsSearchResult {
     command: string[];
     strategyUsed: AwesomeSkillsStrategy;
     attempts: AwesomeSkillsSearchAttempt[];
+    cacheHit: boolean;
+    coalesced: boolean;
+}
+
+interface AwesomeSkillsExecutionResult {
+    payload: AwesomeSkillsBridgePayload;
+    command: string[];
+    strategyUsed: AwesomeSkillsStrategy;
+    attempts: AwesomeSkillsSearchAttempt[];
 }
 
 export interface AwesomeSkillsSearchAttempt {
@@ -226,21 +235,34 @@ export async function runAwesomeSkillsSearch(
     if (config.cacheEnabled) {
         const cached = readCachedResult(cacheKey, Date.now());
         if (cached) {
-            return cached;
+            return {
+                ...cached,
+                cacheHit: true,
+                coalesced: false,
+            };
         }
     }
 
     const inFlight = awesomeSkillsInFlight.get(cacheKey);
     if (inFlight) {
-        return inFlight;
+        return inFlight.then((result) => ({
+            ...result,
+            cacheHit: false,
+            coalesced: true,
+        }));
     }
 
     const runPromise = executeSearchWithFallback(config, request, dbPath, contextAliasJson, runner)
         .then((result) => {
+            const normalizedResult: AwesomeSkillsSearchResult = {
+                ...result,
+                cacheHit: false,
+                coalesced: false,
+            };
             if (config.cacheEnabled) {
-                writeCachedResult(cacheKey, result, config.cacheTtlMs, config.cacheMaxEntries, Date.now());
+                writeCachedResult(cacheKey, normalizedResult, config.cacheTtlMs, config.cacheMaxEntries, Date.now());
             }
-            return result;
+            return normalizedResult;
         })
         .finally(() => {
             awesomeSkillsInFlight.delete(cacheKey);
@@ -294,7 +316,7 @@ async function executeSearchWithFallback(
     dbPath: string | undefined,
     contextAliasJson: string | undefined,
     runner: AwesomeSkillsBridgeRunner
-): Promise<AwesomeSkillsSearchResult> {
+): Promise<AwesomeSkillsExecutionResult> {
     const attempts: AwesomeSkillsSearchAttempt[] = [];
     const strategyPlan = buildStrategyPlan(request.strategy);
 

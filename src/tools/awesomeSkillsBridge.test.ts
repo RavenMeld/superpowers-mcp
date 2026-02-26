@@ -51,6 +51,8 @@ describe("awesomeSkillsBridge", () => {
         expect(result.attempts.map((a) => a.strategy)).toEqual(["auto", "context"]);
         expect(result.attempts[0].error).toBeTruthy();
         expect(result.attempts[1].error).toBeUndefined();
+        expect(result.cacheHit).toBe(false);
+        expect(result.coalesced).toBe(false);
     });
 
     it("uses classic only when classic strategy is requested", async () => {
@@ -75,6 +77,8 @@ describe("awesomeSkillsBridge", () => {
         expect(result.strategyUsed).toBe("classic");
         expect(result.attempts.map((a) => a.strategy)).toEqual(["classic"]);
         expect(result.payload.results).toHaveLength(1);
+        expect(result.cacheHit).toBe(false);
+        expect(result.coalesced).toBe(false);
     });
 
     it("fails with deterministic error when all strategies return schema-invalid payloads", async () => {
@@ -175,6 +179,8 @@ describe("awesomeSkillsBridge", () => {
 
         expect(result.strategyUsed).toBe("classic");
         expect(result.payload.results).toHaveLength(1);
+        expect(result.cacheHit).toBe(false);
+        expect(result.coalesced).toBe(false);
     });
 
     it("returns cached result for identical repeated requests", async () => {
@@ -203,6 +209,10 @@ describe("awesomeSkillsBridge", () => {
         expect(callCount).toBe(1);
         expect(first.payload.results).toHaveLength(1);
         expect(second.payload.results).toHaveLength(1);
+        expect(first.cacheHit).toBe(false);
+        expect(first.coalesced).toBe(false);
+        expect(second.cacheHit).toBe(true);
+        expect(second.coalesced).toBe(false);
     });
 
     it("coalesces concurrent identical requests into one bridge execution", async () => {
@@ -234,6 +244,9 @@ describe("awesomeSkillsBridge", () => {
         expect(callCount).toBe(1);
         expect(resultA.payload.results).toHaveLength(1);
         expect(resultB.payload.results).toHaveLength(1);
+        expect([resultA.coalesced, resultB.coalesced].sort()).toEqual([false, true]);
+        expect(resultA.cacheHit).toBe(false);
+        expect(resultB.cacheHit).toBe(false);
     });
 
     it("coalesces concurrent identical requests even when cache is disabled", async () => {
@@ -266,6 +279,9 @@ describe("awesomeSkillsBridge", () => {
         expect(callCount).toBe(1);
         expect(resultA.payload.results).toHaveLength(1);
         expect(resultB.payload.results).toHaveLength(1);
+        expect([resultA.coalesced, resultB.coalesced].sort()).toEqual([false, true]);
+        expect(resultA.cacheHit).toBe(false);
+        expect(resultB.cacheHit).toBe(false);
     });
 
     it("expires cached entries when TTL elapses", async () => {
@@ -298,6 +314,8 @@ describe("awesomeSkillsBridge", () => {
         expect(callCount).toBe(2);
         expect(first.payload.results[0]?.id).toBe("ttl-demo-1");
         expect(second.payload.results[0]?.id).toBe("ttl-demo-2");
+        expect(first.cacheHit).toBe(false);
+        expect(second.cacheHit).toBe(false);
     });
 
     it("evicts oldest cached entries when max size is exceeded", async () => {
