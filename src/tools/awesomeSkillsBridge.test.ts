@@ -108,6 +108,55 @@ describe("awesomeSkillsBridge", () => {
         expect(config.configError).toContain("must be a non-empty JSON array");
     });
 
+    it("uses stable cache defaults in resolved config", () => {
+        const config = resolveAwesomeSkillsBridgeConfig({
+            AWESOME_SKILLS_ENABLE_BRIDGE: "1",
+        });
+
+        expect(config.cacheEnabled).toBe(true);
+        expect(config.cacheTtlMs).toBe(30_000);
+        expect(config.cacheMaxEntries).toBe(128);
+    });
+
+    it("clamps cache config values to supported bounds", () => {
+        const config = resolveAwesomeSkillsBridgeConfig({
+            AWESOME_SKILLS_ENABLE_BRIDGE: "1",
+            AWESOME_SKILLS_BRIDGE_CACHE_TTL_MS: "1",
+            AWESOME_SKILLS_BRIDGE_CACHE_MAX_ENTRIES: "100000",
+        });
+
+        expect(config.cacheTtlMs).toBe(100);
+        expect(config.cacheMaxEntries).toBe(1_000);
+    });
+
+    it("disables cache when AWESOME_SKILLS_BRIDGE_CACHE_ENABLED is false", async () => {
+        let callCount = 0;
+        const runner: AwesomeSkillsBridgeRunner = async () => {
+            callCount += 1;
+            return {
+                stdout: JSON.stringify({
+                    mode_used: "classic",
+                    count: 1,
+                    results: [{ id: "cache-off-demo", name: "cache-off-demo" }],
+                }),
+            };
+        };
+
+        const config = makeConfig(["python", "-m", "awesome_skills"], runner);
+        config.cacheEnabled = false;
+
+        const request = {
+            query: "cache disabled query",
+            limit: 2,
+            strategy: "classic" as const,
+        };
+
+        await runAwesomeSkillsSearch(config, request);
+        await runAwesomeSkillsSearch(config, request);
+
+        expect(callCount).toBe(2);
+    });
+
     it("uses default runner path when custom runner is absent", async () => {
         const config = resolveAwesomeSkillsBridgeConfig({
             AWESOME_SKILLS_ENABLE_BRIDGE: "1",
