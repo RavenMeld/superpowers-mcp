@@ -236,6 +236,38 @@ describe("awesomeSkillsBridge", () => {
         expect(resultB.payload.results).toHaveLength(1);
     });
 
+    it("coalesces concurrent identical requests even when cache is disabled", async () => {
+        let callCount = 0;
+        const runner: AwesomeSkillsBridgeRunner = async () => {
+            callCount += 1;
+            await new Promise((resolve) => setTimeout(resolve, 30));
+            return {
+                stdout: JSON.stringify({
+                    mode_used: "classic",
+                    count: 1,
+                    results: [{ id: "dedupe-no-cache-demo", name: "dedupe-no-cache-demo" }],
+                }),
+            };
+        };
+
+        const config = makeConfig(["python", "-m", "awesome_skills"], runner);
+        config.cacheEnabled = false;
+        const request = {
+            query: "coalesce no cache query",
+            limit: 5,
+            strategy: "classic" as const,
+        };
+
+        const [resultA, resultB] = await Promise.all([
+            runAwesomeSkillsSearch(config, request),
+            runAwesomeSkillsSearch(config, request),
+        ]);
+
+        expect(callCount).toBe(1);
+        expect(resultA.payload.results).toHaveLength(1);
+        expect(resultB.payload.results).toHaveLength(1);
+    });
+
     it("expires cached entries when TTL elapses", async () => {
         let callCount = 0;
         const runner: AwesomeSkillsBridgeRunner = async () => {
@@ -266,5 +298,33 @@ describe("awesomeSkillsBridge", () => {
         expect(callCount).toBe(2);
         expect(first.payload.results[0]?.id).toBe("ttl-demo-1");
         expect(second.payload.results[0]?.id).toBe("ttl-demo-2");
+    });
+
+    it("evicts oldest cached entries when max size is exceeded", async () => {
+        let callCount = 0;
+        const runner: AwesomeSkillsBridgeRunner = async (_command, args) => {
+            callCount += 1;
+            const query = args[1] ?? "unknown";
+            return {
+                stdout: JSON.stringify({
+                    mode_used: "classic",
+                    count: 1,
+                    results: [{ id: `evict-demo-${query}-${callCount}`, name: query }],
+                }),
+            };
+        };
+
+        const config: AwesomeSkillsBridgeConfig = {
+            ...makeConfig(["python", "-m", "awesome_skills"], runner),
+            cacheMaxEntries: 2,
+            cacheTtlMs: 60_000,
+        };
+
+        await runAwesomeSkillsSearch(config, { query: "one", limit: 1, strategy: "classic" });
+        await runAwesomeSkillsSearch(config, { query: "two", limit: 1, strategy: "classic" });
+        await runAwesomeSkillsSearch(config, { query: "three", limit: 1, strategy: "classic" });
+        await runAwesomeSkillsSearch(config, { query: "one", limit: 1, strategy: "classic" });
+
+        expect(callCount).toBe(4);
     });
 });
