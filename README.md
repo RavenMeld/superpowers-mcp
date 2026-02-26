@@ -154,6 +154,7 @@ Bridge fallback behavior:
 - Requested `classic`: tries `classic` only
 - Identical concurrent requests are coalesced into a single bridge execution
 - Successful identical requests are served from a short-lived in-memory cache
+- Cache keys normalize query whitespace to improve hit rate for equivalent prompts
 - Bridge responses include `bridge.cache_hit` and `bridge.coalesced` telemetry flags
 
 The bridge requires JSON output with at least a `results` array; additional fields are preserved.

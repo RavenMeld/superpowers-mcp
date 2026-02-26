@@ -355,13 +355,17 @@ function buildCacheKey(
     return JSON.stringify({
         command: config.command,
         timeoutMs: config.timeoutMs,
-        query: request.query,
+        query: normalizeCacheQuery(request.query),
         limit: request.limit,
         strategy: request.strategy,
         dbPath: dbPath ?? null,
         contextAliasJson: contextAliasJson ?? null,
         runner: getRunnerId(runner),
     });
+}
+
+function normalizeCacheQuery(query: string): string {
+    return query.trim().replace(/\s+/g, " ");
 }
 
 function getRunnerId(runner: AwesomeSkillsBridgeRunner): number {

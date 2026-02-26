@@ -215,6 +215,36 @@ describe("awesomeSkillsBridge", () => {
         expect(second.coalesced).toBe(false);
     });
 
+    it("reuses cache for whitespace-equivalent queries", async () => {
+        let callCount = 0;
+        const runner: AwesomeSkillsBridgeRunner = async () => {
+            callCount += 1;
+            return {
+                stdout: JSON.stringify({
+                    mode_used: "classic",
+                    count: 1,
+                    results: [{ id: "query-normalize-demo", name: "query-normalize-demo" }],
+                }),
+            };
+        };
+
+        const config = makeConfig(["python", "-m", "awesome_skills"], runner);
+        const first = await runAwesomeSkillsSearch(config, {
+            query: "plan   a   feature",
+            limit: 3,
+            strategy: "classic",
+        });
+        const second = await runAwesomeSkillsSearch(config, {
+            query: "  plan a feature  ",
+            limit: 3,
+            strategy: "classic",
+        });
+
+        expect(callCount).toBe(1);
+        expect(first.cacheHit).toBe(false);
+        expect(second.cacheHit).toBe(true);
+    });
+
     it("coalesces concurrent identical requests into one bridge execution", async () => {
         let callCount = 0;
         const runner: AwesomeSkillsBridgeRunner = async () => {
