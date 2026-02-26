@@ -53,6 +53,13 @@ Improve `search_awesome_skills` latency and load profile by adding:
   - `XDG_CONFIG_HOME=/tmp npm test -- src/tools/awesomeSkillsBridge.test.ts src/tools/register.test.ts` -> pass (`23 tests`)
   - `XDG_CONFIG_HOME=/tmp npm test` -> pass (`78 tests`)
   - `npm run build` -> pass (`tsc`)
+- Strengthened MCP tool integration test (`register.test.ts`) to assert:
+  - repeated identical tool calls produce `bridge.cache_hit=true` on second call
+  - concurrent identical tool calls produce one `bridge.coalesced=true` response
+- Validation rerun after integration-test hardening:
+  - `XDG_CONFIG_HOME=/tmp npm test -- src/tools/register.test.ts` -> pass (`10 tests`)
+  - `XDG_CONFIG_HOME=/tmp npm test` -> pass (`78 tests`)
+  - `npm run build` -> pass (`tsc`)
 
 ## Repro Steps
 1. `cd /home/wolvend/codex/agent_playground/worktrees/superpowers-mcp-main-merge`

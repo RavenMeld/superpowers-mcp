@@ -144,12 +144,15 @@ const getArg = (flag) => {
 };
 const strategy = getArg("--strategy") ?? "auto";
 const limit = Number(getArg("--limit") ?? "8");
+if (query.includes("coalesce")) {
+  await new Promise((resolve) => setTimeout(resolve, 60));
+}
 process.stdout.write(JSON.stringify({
   mode_used: strategy === "classic" ? "classic" : "context",
   query,
   limit,
   results: [{ id: "demo-skill", name: "demo-skill" }]
-}));`,
+}), () => {});`,
             "utf-8"
         );
 
@@ -165,6 +168,7 @@ process.stdout.write(JSON.stringify({
                           "limit=\"$5\"",
                           "mode=\"context\"",
                           "if [ \"$strategy\" = \"classic\" ]; then mode=\"classic\"; fi",
+                          "if [[ \"$query\" == *coalesce* ]]; then sleep 0.06; fi",
                           "printf '{\"mode_used\":\"%s\",\"query\":\"%s\",\"limit\":%s,\"results\":[{\"id\":\"demo-skill\",\"name\":\"demo-skill\"}]}' \"$mode\" \"$query\" \"$limit\"",
                       ].join("; "),
                   ];
@@ -214,6 +218,61 @@ process.stdout.write(JSON.stringify({
             expect(payload.result.query).toBe("plan a feature");
             expect(payload.result.limit).toBe(3);
             expect(payload.result.mode_used).toBe("context");
+
+            const callRepeat = await client.callTool({
+                name: "search_awesome_skills",
+                arguments: {
+                    query: "plan a feature",
+                    strategy: "auto",
+                    limit: 3,
+                },
+            });
+            expect(callRepeat.isError).toBeFalsy();
+            const repeatText = (callRepeat.content as Array<{ type: string; text: string }>)[0].text;
+            const repeatPayload = JSON.parse(repeatText) as {
+                bridge: {
+                    cache_hit: boolean;
+                    coalesced: boolean;
+                };
+            };
+            expect(repeatPayload.bridge.cache_hit).toBe(true);
+            expect(repeatPayload.bridge.coalesced).toBe(false);
+
+            const [parallelA, parallelB] = await Promise.all([
+                client.callTool({
+                    name: "search_awesome_skills",
+                    arguments: {
+                        query: "coalesce smoke check",
+                        strategy: "auto",
+                        limit: 3,
+                    },
+                }),
+                client.callTool({
+                    name: "search_awesome_skills",
+                    arguments: {
+                        query: "coalesce smoke check",
+                        strategy: "auto",
+                        limit: 3,
+                    },
+                }),
+            ]);
+
+            const parallelPayloadA = JSON.parse(
+                (parallelA.content as Array<{ type: string; text: string }>)[0].text
+            ) as {
+                bridge: { cache_hit: boolean; coalesced: boolean };
+            };
+            const parallelPayloadB = JSON.parse(
+                (parallelB.content as Array<{ type: string; text: string }>)[0].text
+            ) as {
+                bridge: { cache_hit: boolean; coalesced: boolean };
+            };
+            expect(parallelPayloadA.bridge.cache_hit).toBe(false);
+            expect(parallelPayloadB.bridge.cache_hit).toBe(false);
+            expect([parallelPayloadA.bridge.coalesced, parallelPayloadB.bridge.coalesced].sort()).toEqual([
+                false,
+                true,
+            ]);
         } finally {
             rmSync(testRoot, { recursive: true, force: true });
         }
