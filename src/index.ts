@@ -13,7 +13,7 @@ async function main(): Promise<void> {
         await runSetup();
     }
 
-    await checkAndApplyUpdates();
+    await checkAndApplyUpdates({ env: process.env });
 
     const skillsDir = getSkillsDir();
     let effectiveSkillsDir = skillsDir;

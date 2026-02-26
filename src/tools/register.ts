@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { Skill } from "../skills/types.js";
 import {
+    AwesomeSkillsBridgeError,
     resolveAwesomeSkillsBridgeConfig,
     runAwesomeSkillsSearch,
     type AwesomeSkillsStrategy,
@@ -188,15 +189,32 @@ export function registerTools(
                 };
             } catch (error) {
                 const message = error instanceof Error ? error.message : "Unknown bridge error.";
+                const code =
+                    error instanceof AwesomeSkillsBridgeError ? error.code : "BRIDGE_UNKNOWN";
+                const details =
+                    error instanceof AwesomeSkillsBridgeError ? error.details : undefined;
                 return {
                     content: [
                         {
                             type: "text" as const,
-                            text: [
-                                `Awesome Skills bridge failed: ${message}`,
-                                "Set AWESOME_SKILLS_ENABLE_BRIDGE=1 and ensure awesome_skills is installed.",
-                                "Optional: set AWESOME_SKILLS_BRIDGE_COMMAND_JSON to override the command.",
-                            ].join("\n"),
+                            text: JSON.stringify(
+                                {
+                                    error: {
+                                        code,
+                                        message,
+                                        hints: [
+                                            "Set AWESOME_SKILLS_ENABLE_BRIDGE=1 and ensure awesome_skills is installed.",
+                                            "Optional: set AWESOME_SKILLS_BRIDGE_COMMAND_JSON to override the command.",
+                                        ],
+                                    },
+                                    bridge: {
+                                        timeout_ms: bridgeConfig.timeoutMs,
+                                        ...(details ? { details } : {}),
+                                    },
+                                },
+                                null,
+                                2
+                            ),
                         },
                     ],
                     isError: true,

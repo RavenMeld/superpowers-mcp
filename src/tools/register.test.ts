@@ -211,4 +211,37 @@ process.stdout.write(JSON.stringify({
             rmSync(testRoot, { recursive: true, force: true });
         }
     });
+
+    it("should return structured bridge error codes when bridge configuration is invalid", async () => {
+        const server = new McpServer({ name: "test-bridge-error", version: "0.0.1" });
+        registerTools(server, makeTestSkills(), undefined, {
+            env: {
+                AWESOME_SKILLS_ENABLE_BRIDGE: "1",
+                AWESOME_SKILLS_BRIDGE_COMMAND_JSON: '{"invalid":"shape"}',
+            },
+        });
+
+        const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
+        const client = new Client({ name: "test-client", version: "0.0.1" }, { capabilities: {} });
+        await server.connect(serverTransport);
+        await client.connect(clientTransport);
+
+        const call = await client.callTool({
+            name: "search_awesome_skills",
+            arguments: {
+                query: "debug flaky tests",
+            },
+        });
+
+        expect(call.isError).toBe(true);
+        const text = (call.content as Array<{ type: string; text: string }>)[0].text;
+        const payload = JSON.parse(text) as {
+            error: { code: string; message: string; hints: string[] };
+            bridge: { timeout_ms: number };
+        };
+        expect(payload.error.code).toBe("BRIDGE_CONFIG");
+        expect(payload.error.message).toContain("non-empty JSON array");
+        expect(Array.isArray(payload.error.hints)).toBe(true);
+        expect(payload.bridge.timeout_ms).toBeGreaterThan(0);
+    });
 });

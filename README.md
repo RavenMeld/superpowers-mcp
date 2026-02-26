@@ -117,6 +117,8 @@ Once connected, ask your AI assistant:
 | Variable | Description |
 |----------|-------------|
 | `SUPERPOWERS_SKILLS_DIR` | Override the skills directory path directly |
+| `SUPERPOWERS_CONFIG_DIR` | Override config storage directory for persisted settings (`conf` cwd override) |
+| `SUPERPOWERS_ENABLE_AUTO_UPDATE` | Set to `1`/`true` to enable daily git update checks/pulls (disabled by default) |
 | `AWESOME_SKILLS_ENABLE_BRIDGE` | Set to `1`/`true` to expose `search_awesome_skills` |
 | `AWESOME_SKILLS_PYTHON` | Python executable for bridge mode (default: `python`) |
 | `AWESOME_SKILLS_DB_PATH` | Default `awesome_skills` SQLite DB path for bridge searches |
@@ -158,7 +160,13 @@ The bridge requires JSON output with at least a `results` array; additional fiel
 
 ### Auto-Updates
 
-When skills are sourced from a git repository, the server checks for updates once per day on startup and pulls new changes automatically.
+Auto-update is opt-in. Enable it explicitly:
+
+```bash
+export SUPERPOWERS_ENABLE_AUTO_UPDATE=1
+```
+
+When enabled and skills are sourced from a git repository, the server checks for updates once per day on startup and pulls new changes automatically.
 
 ## Development
 

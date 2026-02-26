@@ -37,6 +37,27 @@ export interface AwesomeSkillsSearchAttempt {
     error?: string;
 }
 
+export type AwesomeSkillsBridgeErrorCode =
+    | "BRIDGE_DISABLED"
+    | "BRIDGE_CONFIG"
+    | "BRIDGE_EXEC"
+    | "BRIDGE_EMPTY_OUTPUT"
+    | "BRIDGE_INVALID_JSON"
+    | "BRIDGE_SCHEMA_MISMATCH"
+    | "BRIDGE_STRATEGY_FAILURE";
+
+export class AwesomeSkillsBridgeError extends Error {
+    readonly code: AwesomeSkillsBridgeErrorCode;
+    readonly details?: Record<string, unknown>;
+
+    constructor(code: AwesomeSkillsBridgeErrorCode, message: string, details?: Record<string, unknown>) {
+        super(message);
+        this.name = "AwesomeSkillsBridgeError";
+        this.code = code;
+        this.details = details;
+    }
+}
+
 export type AwesomeSkillsBridgeRunner = (
     command: string,
     args: string[],
@@ -135,13 +156,13 @@ export async function runAwesomeSkillsSearch(
     request: AwesomeSkillsSearchRequest
 ): Promise<AwesomeSkillsSearchResult> {
     if (!config.enabled) {
-        throw new Error("Awesome Skills bridge is disabled.");
+        throw new AwesomeSkillsBridgeError("BRIDGE_DISABLED", "Awesome Skills bridge is disabled.");
     }
     if (config.configError) {
-        throw new Error(config.configError);
+        throw new AwesomeSkillsBridgeError("BRIDGE_CONFIG", config.configError);
     }
     if (config.command.length === 0) {
-        throw new Error("No bridge command configured.");
+        throw new AwesomeSkillsBridgeError("BRIDGE_CONFIG", "No bridge command configured.");
     }
 
     const dbPath = request.dbPath ?? config.defaultDbPath;
@@ -162,14 +183,18 @@ export async function runAwesomeSkillsSearch(
             const payload = parseBridgePayload(stdout);
             return { payload, command, strategyUsed: strategy, attempts };
         } catch (error) {
-            const message = error instanceof Error ? error.message : "Unknown bridge error.";
-            attempt.error = message;
+            const bridgeError = normalizeBridgeError(error);
+            attempt.error = `${bridgeError.code}: ${bridgeError.message}`;
         }
     }
 
     const planText = strategyPlan.join(" -> ");
-    const lastError = attempts.at(-1)?.error ?? "Unknown bridge error.";
-    throw new Error(`All bridge strategies failed (${planText}). Last error: ${lastError}`);
+    const lastError = attempts.at(-1)?.error ?? "BRIDGE_EXEC: Unknown bridge error.";
+    throw new AwesomeSkillsBridgeError(
+        "BRIDGE_STRATEGY_FAILURE",
+        `All bridge strategies failed (${planText}). Last error: ${lastError}`,
+        { attempts }
+    );
 }
 
 function buildStrategyPlan(requested: AwesomeSkillsStrategy): AwesomeSkillsStrategy[] {
@@ -213,14 +238,17 @@ function buildBridgeCommand(
 function parseBridgePayload(stdout: string): AwesomeSkillsBridgePayload {
     const text = stdout.trim();
     if (!text) {
-        throw new Error("Bridge command returned empty output.");
+        throw new AwesomeSkillsBridgeError("BRIDGE_EMPTY_OUTPUT", "Bridge command returned empty output.");
     }
 
     let jsonPayload: unknown;
     try {
         jsonPayload = JSON.parse(text);
     } catch {
-        throw new Error(`Bridge command did not return valid JSON. Output: ${text.slice(0, 300)}`);
+        throw new AwesomeSkillsBridgeError(
+            "BRIDGE_INVALID_JSON",
+            `Bridge command did not return valid JSON. Output: ${text.slice(0, 300)}`
+        );
     }
 
     const parsed = AwesomeSkillsBridgeResultSchema.safeParse(jsonPayload);
@@ -228,9 +256,19 @@ function parseBridgePayload(stdout: string): AwesomeSkillsBridgePayload {
         const firstIssue = parsed.error.issues[0];
         const path = firstIssue?.path.join(".") || "<root>";
         const detail = firstIssue ? `${path}: ${firstIssue.message}` : "Unknown schema error.";
-        throw new Error(`Bridge response schema mismatch: ${detail}`);
+        throw new AwesomeSkillsBridgeError("BRIDGE_SCHEMA_MISMATCH", `Bridge response schema mismatch: ${detail}`);
     }
     return parsed.data;
+}
+
+function normalizeBridgeError(error: unknown): AwesomeSkillsBridgeError {
+    if (error instanceof AwesomeSkillsBridgeError) {
+        return error;
+    }
+    if (error instanceof Error) {
+        return new AwesomeSkillsBridgeError("BRIDGE_EXEC", error.message);
+    }
+    return new AwesomeSkillsBridgeError("BRIDGE_EXEC", "Unknown bridge execution error.");
 }
 
 async function defaultBridgeRunner(

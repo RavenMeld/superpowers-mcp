@@ -1,5 +1,13 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { getConfig, setConfig, getSkillsDir, setSkillsDir, getLastUpdateCheck, setLastUpdateCheck } from './config.js';
+import {
+    getConfig,
+    setConfig,
+    getSkillsDir,
+    setSkillsDir,
+    getLastUpdateCheck,
+    setLastUpdateCheck,
+    resolveConfigDirOverride,
+} from './config.js';
 
 const { mockStore, mockSet, mockGet } = vi.hoisted(() => {
     const mockStore = new Map();
@@ -50,5 +58,16 @@ describe('config', () => {
     it('should set partial config', () => {
         setConfig({ useLocalSkills: true });
         expect(mockSet).toHaveBeenCalledWith({ useLocalSkills: true });
+    });
+
+    it('should resolve config dir override when provided', () => {
+        const resolved = resolveConfigDirOverride({
+            SUPERPOWERS_CONFIG_DIR: '/tmp/superpowers-mcp-custom',
+        } as NodeJS.ProcessEnv);
+        expect(resolved).toContain('/tmp/superpowers-mcp-custom');
+    });
+
+    it('should return undefined config dir override when missing', () => {
+        expect(resolveConfigDirOverride({} as NodeJS.ProcessEnv)).toBeUndefined();
     });
 });

@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+    AwesomeSkillsBridgeError,
     resolveAwesomeSkillsBridgeConfig,
     runAwesomeSkillsSearch,
     type AwesomeSkillsBridgeConfig,
@@ -78,13 +79,20 @@ describe("awesomeSkillsBridge", () => {
             stdout: JSON.stringify({ mode_used: "context" }),
         });
 
-        await expect(
-            runAwesomeSkillsSearch(makeConfig(["python", "-m", "awesome_skills"], runner), {
+        try {
+            await runAwesomeSkillsSearch(makeConfig(["python", "-m", "awesome_skills"], runner), {
                 query: "test query",
                 limit: 2,
                 strategy: "auto",
-            })
-        ).rejects.toThrow("All bridge strategies failed");
+            });
+            throw new Error("expected failure");
+        } catch (error) {
+            expect(error).toBeInstanceOf(AwesomeSkillsBridgeError);
+            const bridgeError = error as AwesomeSkillsBridgeError;
+            expect(bridgeError.code).toBe("BRIDGE_STRATEGY_FAILURE");
+            expect(bridgeError.message).toContain("All bridge strategies failed");
+            expect(Array.isArray(bridgeError.details?.attempts)).toBe(true);
+        }
     });
 
     it("reports configuration errors for invalid command JSON", () => {
